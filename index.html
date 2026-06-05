@@ -3,21 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Baglio San Michele • Sicilian Slow Living</title>
-    <meta name="description" content="Baglio San Michele è un luogo dedicato al Sicilian Slow Living: una dimora storica in Sicilia pensata per chi cerca stabilità, bellezza e una vita radicata nella tradizione e nella comunità.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.borgoideale.com">
-
-    <meta property="og:title" content="Baglio San Michele • Sicilian Slow Living">
-    <meta property="og:description" content="Un presidio di vita lenta e autentica in Sicilia. Un luogo dove le famiglie possono crescere con stabilità, bellezza e senso di appartenenza.">
-    <meta property="og:image" content="https://www.borgoideale.com/assets/logo-500-oro.jpg">
-    <meta property="og:url" content="https://www.borgoideale.com">
-    <meta property="og:type" content="website">
-
+    <meta name="description" content="Baglio San Michele è un luogo dedicato al Sicilian Slow Living: una comunità intenzionale radicata nella tradizione e nella cultura siciliana.">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-
     <style>
         body {
             font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
@@ -25,26 +14,28 @@
             background-color: #000000;
             color: #E5E5E5;
         }
-
         .heading {
             font-family: 'Julius Sans One', Georgia, serif;
             font-weight: 400;
             letter-spacing: 0.5px;
         }
-
         .gold {
-            color: #D4AF37; /* Nuovo oro più caldo e vicino al logo */
+            color: #D4AF37;
         }
-
         .gold-button {
             background-color: #D4AF37;
             color: #000000;
             transition: all 0.3s ease;
         }
-        
         .gold-button:hover {
             background-color: #E8C872;
             transform: translateY(-1px);
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)), url('assets/atmosfera-benvenuti.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
     </style>
 </head>
@@ -57,139 +48,97 @@
                 <div>
                     <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
                 </div>
-
                 <div class="hidden md:flex items-center gap-x-9 text-sm tracking-wider">
-                    <a href="#concept" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                    <a href="#progetto" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                    <a href="#atmosfera" class="hover:text-[#D4AF37] transition-colors">L’Atmosfera</a>
+                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
                 </div>
-
-                <a href="#contatti" 
-                   class="px-6 py-2.5 text-sm tracking-wider border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-all rounded-full">
-                    Richiedi informazioni
-                </a>
             </div>
         </div>
     </nav>
 
-    <!-- HERO -->
-    <header class="min-h-[100dvh] flex items-center pt-20">
+    <!-- HERO con sfondo -->
+    <header class="hero-bg min-h-[100dvh] flex items-center pt-20">
         <div class="max-w-5xl mx-auto px-8 text-center">
-            <div class="flex justify-center mb-10">
-                <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-40 md:h-56 w-auto">
+            <div class="flex justify-center mb-8">
+                <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-28 w-auto">
             </div>
             
-            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-3 text-[#D4AF37]">
+            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4 text-[#D4AF37]">
                 Una comunità intenzionale
             </h1>
-            
-            <!-- Sottotitolo in bianco, stesso font, dimensione più piccola -->
-            <p class="heading text-xl md:text-2xl text-white tracking-wide mb-8">
+            <p class="heading text-2xl md:text-3xl text-white tracking-wide mb-10">
                 radicata nella tradizione e nella cultura siciliana
             </p>
 
-            <a href="#contatti" 
+            <a href="#anteprime" 
                class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">
-                Richiedi informazioni
+                Scopri il progetto
             </a>
         </div>
     </header>
 
-    <!-- IL CONCEPT -->
-    <section id="concept" class="max-w-4xl mx-auto px-8 py-20 border-t border-white/10">
-        <div class="max-w-3xl mx-auto text-center">
-            <span class="text-[#D4AF37] text-xs tracking-[4px] uppercase">IL NOSTRO ORIZZONTE</span>
-            <h2 class="heading text-5xl tracking-[0.5px] mt-4 mb-8">Il Concept</h2>
-            
-            <div class="text-[#CFCFCF] text-lg leading-relaxed space-y-6">
-                <p>Il Sicilian Slow Living è un modo di abitare radicato nella tradizione 
-                siciliana e nella fede cristiana, dove il tempo viene riconsegnato 
-                alla presenza, alla cura e alla bellezza.</p>
-                
-                <p>Baglio San Michele nasce come luogo in cui le famiglie possano 
-                crescere con serenità, in un contesto di stabilità e reciprocità.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- IL PROGETTO -->
-    <section id="progetto" class="max-w-6xl mx-auto px-8 py-16 border-t border-white/10">
-        <div class="text-center mb-12">
-            <span class="text-[#D4AF37] text-xs tracking-[4px] uppercase">IL PERCORSO</span>
-            <h2 class="heading text-5xl tracking-[0.5px] mt-4">Il Progetto</h2>
-        </div>
-
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-[#111111] border border-white/10 p-8 rounded-3xl">
-                <div class="text-[#D4AF37] text-sm tracking-wider mb-2">FASE 1</div>
-                <h3 class="heading text-3xl mb-4">Il Restauro</h3>
-                <p class="text-[#B0B0B0]">Recupero di una masseria storica del XVI secolo 
-                e sua trasformazione in residenze di qualità pensate per durare.</p>
-            </div>
-
-            <div class="bg-[#111111] border border-white/10 p-8 rounded-3xl">
-                <div class="text-[#D4AF37] text-sm tracking-wider mb-2">FASE 2</div>
-                <h3 class="heading text-3xl mb-4">L’Espansione</h3>
-                <p class="text-[#B0B0B0]">Realizzazione di nuove abitazioni rurali in pietra iblea, 
-                integrate con rispetto nel paesaggio e nella tradizione locale.</p>
-            </div>
-
-            <div class="bg-[#111111] border border-white/10 p-8 rounded-3xl">
-                <div class="text-[#D4AF37] text-sm tracking-wider mb-2">FASE 3</div>
-                <h3 class="heading text-3xl mb-4">La Replicabilità</h3>
-                <p class="text-[#B0B0B0]">Sviluppo di un modello di borghi ispirati agli stessi 
-                principi di lentezza, comunità e radicamento autentico.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- L’ATMOSFERA -->
-    <section id="atmosfera" class="max-w-6xl mx-auto px-8 py-16 border-t border-white/10">
-        <div class="text-center mb-10">
-            <span class="text-[#D4AF37] text-xs tracking-[4px] uppercase">IL SENTIRE</span>
-            <h2 class="heading text-5xl tracking-[0.5px] mt-4">L’Atmosfera</h2>
-        </div>
-
-        <div class="gallery flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scroll-smooth">
-            
-            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-cucina.png" alt="Momenti di vita quotidiana" class="w-full h-full object-cover">
-            </div>
-            
-            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-cena.png" alt="Cena comunitaria" class="w-full h-full object-cover">
-            </div>
-            
-            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-lavoro.png" alt="Attività e mestieri" class="w-full h-full object-cover">
-            </div>
-            
-            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-accoglienza.png" alt="Accoglienza e radicamento" class="w-full h-full object-cover">
-            </div>
-
-            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-casa.png" alt="Interni della dimora" class="w-full h-full object-cover">
-            </div>
-        </div>
-        
-        <p class="text-center text-sm text-[#888] mt-4">Scorri orizzontalmente per vedere più momenti</p>
-    </section>
-
-    <!-- RICHIEDI INFORMAZIONI -->
-    <section id="contatti" class="max-w-3xl mx-auto px-8 py-20 text-center border-t border-white/10">
-        <h2 class="heading text-5xl tracking-[0.5px] mb-6 text-[#D4AF37]">Richiedi informazioni</h2>
-        <p class="max-w-md mx-auto text-[#B0B0B0] mb-10">
-            Se questo progetto risuona con la tua idea di vita, 
-            ti invitiamo a contattarci in modo riservato.
+    <!-- INTRODUZIONE -->
+    <section class="max-w-4xl mx-auto px-8 py-16 text-center">
+        <p class="text-xl leading-relaxed">
+            Baglio San Michele è un progetto nato dalla volontà di dare vita a una comunità intenzionale, 
+            capace di coniugare il recupero di una dimora storica con la costruzione di legami autentici tra le persone. 
+            Qui la vita quotidiana si fonda su valori cristiani, sulla riscoperta dei mestieri, 
+            sulla mutua assistenza e su una relazione responsabile con la terra.
         </p>
-
-        <a href="mailto:info@borgoideale.com" 
-           class="inline-block gold-button px-10 py-4 rounded-full font-medium text-lg tracking-wider">
-            Richiedi informazioni
-        </a>
     </section>
 
+    <!-- ANTEPRIME DELLE PAGINE -->
+    <section id="anteprime" class="max-w-6xl mx-auto px-8 pb-20">
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <!-- Il Concept -->
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Il Concept</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    In un tempo in cui tutto sembra accelerato e provvisorio, crediamo che sia possibile costruire 
+                    qualcosa di stabile e significativo. Il Sicilian Slow Living non è una moda, ma un orientamento 
+                    di vita che unisce tradizione, fede e responsabilità verso le generazioni future.
+                </p>
+                <a href="il-concept.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
+            </div>
+
+            <!-- Il Progetto -->
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Il Progetto</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    Un percorso concreto e graduale, articolato in tre fasi: il restauro della masseria storica, 
+                    l’espansione con nuove abitazioni e la definizione di un modello che possa essere replicato altrove.
+                </p>
+                <a href="il-progetto.html" class="text-[#D4AF37] hover:underline font-medium">Scopri le fasi →</a>
+            </div>
+
+            <!-- Un modello diverso -->
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Un modello diverso</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    Molti progetti di rigenerazione di borghi si sono concentrati sul turismo o su formule temporanee. 
+                    Baglio San Michele propone un approccio differente, orientato alla stabilità abitativa, 
+                    alla comunità e al lungo periodo.
+                </p>
+                <a href="un-modello-diverso.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
+            </div>
+
+            <!-- Vivere qui -->
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Vivere qui</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    Artigianato, scuola dei mestieri, mutua assistenza tra famiglie, permacultura e autonomia energetica: 
+                    ecco come si vive concretamente a Baglio San Michele.
+                </p>
+                <a href="vivere-qui.html" class="text-[#D4AF37] hover:underline font-medium">Scopri come si vive →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
         © Baglio San Michele • Sicilian Slow Living
     </footer>
