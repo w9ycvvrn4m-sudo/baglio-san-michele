@@ -4,31 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO -->
     <title>Baglio San Michele • Sicilian Slow Living</title>
     <meta name="description" content="Baglio San Michele è un luogo dedicato al Sicilian Slow Living: una dimora storica in Sicilia pensata per chi cerca stabilità, bellezza e una vita radicata nella tradizione e nella comunità.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.borgoideale.com">
 
-    <!-- Open Graph -->
     <meta property="og:title" content="Baglio San Michele • Sicilian Slow Living">
     <meta property="og:description" content="Un presidio di vita lenta e autentica in Sicilia. Un luogo dove le famiglie possono crescere con stabilità, bellezza e senso di appartenenza.">
     <meta property="og:image" content="https://www.borgoideale.com/assets/logo-500-oro.jpg">
     <meta property="og:url" content="https://www.borgoideale.com">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="it_IT">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Baglio San Michele • Sicilian Slow Living">
-    <meta name="twitter:description" content="Un luogo di Sicilian Slow Living in Sicilia. Stabilità, bellezza e comunità.">
-    <meta name="twitter:image" content="https://www.borgoideale.com/assets/logo-500-oro.jpg">
-
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <style>
         body {
@@ -42,10 +30,6 @@
             font-family: 'Julius Sans One', Georgia, serif;
             font-weight: 400;
             letter-spacing: 0.5px;
-        }
-
-        .gold {
-            color: #C9A227;
         }
 
         .gold-button {
@@ -66,7 +50,6 @@
     <nav class="fixed top-0 left-0 right-0 z-50 bg-[#0A0A0A]/95 backdrop-blur-md border-b border-white/10">
         <div class="max-w-6xl mx-auto px-8">
             <div class="flex items-center justify-between h-20">
-                <!-- Logo -->
                 <div>
                     <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
                 </div>
@@ -92,14 +75,11 @@
                 <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-32 w-auto">
             </div>
             
-            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-6">
-                Un luogo dove il tempo<br>ritrova il suo ritmo.
+            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">
+                Una comunità intenzionale
             </h1>
-            
-            <p class="max-w-lg mx-auto text-xl text-[#B8B8B8] mb-10">
-                Baglio San Michele è un presidio di Sicilian Slow Living: 
-                una dimora storica restituita alla vita per chi cerca 
-                stabilità, bellezza e senso di appartenenza.
+            <p class="text-2xl text-[#C9A227] tracking-wide mb-8">
+                radicata nella tradizione e nella cultura siciliana
             </p>
 
             <a href="#contatti" 
@@ -157,21 +137,38 @@
         </div>
     </section>
 
-    <!-- L’ATMOSFERA -->
+    <!-- L’ATMOSFERA - GALLERY SCORREVOLE -->
     <section id="atmosfera" class="max-w-6xl mx-auto px-8 py-16 border-t border-white/10">
-        <div class="text-center mb-12">
+        <div class="text-center mb-10">
             <span class="text-[#C9A227] text-xs tracking-[4px] uppercase">IL SENTIRE</span>
             <h2 class="heading text-5xl tracking-[0.5px] mt-4">L’Atmosfera</h2>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-6">
-            <div class="overflow-hidden rounded-3xl aspect-[16/10]">
-                <img src="assets/cucina-ricette.png" alt="Momenti condivisi" class="w-full h-full object-cover">
+        <!-- Gallery scorrevole (5 immagini) -->
+        <div class="gallery flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scroll-smooth">
+            
+            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-cucina.png" alt="Momenti di vita quotidiana" class="w-full h-full object-cover">
             </div>
-            <div class="overflow-hidden rounded-3xl aspect-[16/10]">
-                <img src="assets/serata-estiva-bbq.png" alt="Serate in compagnia" class="w-full h-full object-cover">
+            
+            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-cena.png" alt="Cena comunitaria" class="w-full h-full object-cover">
+            </div>
+            
+            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-lavoro.png" alt="Attività e mestieri" class="w-full h-full object-cover">
+            </div>
+            
+            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-accoglienza.png" alt="Accoglienza e radicamento" class="w-full h-full object-cover">
+            </div>
+
+            <div class="min-w-[320px] md:min-w-[420px] flex-shrink-0 snap-center overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-casa.png" alt="Interni della dimora" class="w-full h-full object-cover">
             </div>
         </div>
+        
+        <p class="text-center text-sm text-[#888] mt-4">Scorri orizzontalmente per vedere più momenti</p>
     </section>
 
     <!-- RICHIEDI INFORMAZIONI -->
