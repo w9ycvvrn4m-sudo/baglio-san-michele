@@ -1,0 +1,20 @@
+{
+  "name": "baglio-san-michele",
+  "version": "1.0.0",
+  "description": "Baglio San Michele - Sicilian Slow Living website",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "sicilian",
+    "slow-living",
+    "baglio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.14"
+  }
+}
