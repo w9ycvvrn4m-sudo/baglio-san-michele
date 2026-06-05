@@ -21,12 +21,12 @@
         .gold {
             color: #D4AF37;
         }
-        .form-input {
+        .form-input, .form-select, .form-textarea {
             background-color: #111111;
             border: 1px solid #333333;
             color: #E5E5E5;
         }
-        .form-input:focus {
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
             border-color: #D4AF37;
             outline: none;
             box-shadow: 0 0 0 1px #D4AF37;
@@ -64,53 +64,106 @@
     </header>
 
     <!-- CONTENUTO -->
-    <section class="max-w-4xl mx-auto px-8 py-14">
-        <div class="max-w-2xl mx-auto text-center">
-            <p class="text-xl leading-relaxed mb-10">
+    <section class="max-w-3xl mx-auto px-8 py-14">
+        <div class="max-w-2xl mx-auto text-center mb-10">
+            <p class="text-xl leading-relaxed">
                 Se questo progetto risuona con la tua visione di vita e desideri approfondire, 
-                ti invitiamo a metterti in contatto con noi.<br><br>
-                Siamo disponibili a un primo colloquio conoscitivo, in cui potremo presentarti 
-                con maggiore dettaglio il progetto e rispondere alle tue domande.<br><br>
-                Le informazioni che ci fornirai saranno trattate con la massima riservatezza.
+                ti invitiamo a metterti in contatto con noi. Siamo disponibili a un primo colloquio conoscitivo.
             </p>
         </div>
 
-        <!-- FORM -->
-        <div class="max-w-xl mx-auto mt-8">
-            <form action="#" method="POST" class="space-y-6">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <label class="block text-sm mb-2 text-[#B0B0B0]">Nome e Cognome</label>
-                        <input type="text" name="nome" required 
-                               class="form-input w-full px-4 py-3 rounded-xl">
-                    </div>
-                    <div>
-                        <label class="block text-sm mb-2 text-[#B0B0B0]">Email</label>
-                        <input type="email" name="email" required 
-                               class="form-input w-full px-4 py-3 rounded-xl">
-                    </div>
-                </div>
+        <!-- FORM MIGLIORATO -->
+        <form action="#" method="POST" class="max-w-2xl mx-auto space-y-8">
 
+            <!-- Dati personali -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                    <label class="block text-sm mb-2 text-[#B0B0B0]">Telefono (opzionale)</label>
-                    <input type="tel" name="telefono" 
-                           class="form-input w-full px-4 py-3 rounded-xl">
+                    <label class="block text-sm mb-2 text-[#B0B0B0]">Nome e Cognome *</label>
+                    <input type="text" name="nome" required class="form-input w-full px-4 py-3 rounded-xl">
                 </div>
-
                 <div>
-                    <label class="block text-sm mb-2 text-[#B0B0B0]">Messaggio</label>
-                    <textarea name="messaggio" rows="6" required 
-                              class="form-input w-full px-4 py-3 rounded-xl resize-y"></textarea>
+                    <label class="block text-sm mb-2 text-[#B0B0B0]">Email *</label>
+                    <input type="email" name="email" required class="form-input w-full px-4 py-3 rounded-xl">
                 </div>
+            </div>
 
-                <div class="pt-4">
-                    <button type="submit" 
-                            class="gold-button w-full md:w-auto px-10 py-4 rounded-full font-medium text-lg tracking-wider">
-                        Invia la richiesta
-                    </button>
+            <div>
+                <label class="block text-sm mb-2 text-[#B0B0B0]">Telefono</label>
+                <input type="tel" name="telefono" class="form-input w-full px-4 py-3 rounded-xl">
+            </div>
+
+            <!-- Interessi principali (Checkbox) -->
+            <div>
+                <label class="block text-sm mb-3 text-[#B0B0B0]">Quali sono i tuoi principali interessi? *</label>
+                <div class="space-y-2">
+                    <label class="flex items-center gap-x-3">
+                        <input type="checkbox" name="interessi[]" value="Vivere stabilmente nel Borgo" class="accent-[#D4AF37]">
+                        <span>Vivere stabilmente nel Borgo</span>
+                    </label>
+                    <label class="flex items-center gap-x-3">
+                        <input type="checkbox" name="interessi[]" value="Partecipare attivamente al progetto" class="accent-[#D4AF37]">
+                        <span>Partecipare attivamente al progetto (lavoro, competenze, idee)</span>
+                    </label>
+                    <label class="flex items-center gap-x-3">
+                        <input type="checkbox" name="interessi[]" value="Sostenere il progetto" class="accent-[#D4AF37]">
+                        <span>Sostenere economicamente o in altro modo il progetto</span>
+                    </label>
+                    <label class="flex items-center gap-x-3">
+                        <input type="checkbox" name="interessi[]" value="Altro" class="accent-[#D4AF37]">
+                        <span>Altro</span>
+                    </label>
                 </div>
-            </form>
-        </div>
+            </div>
+
+            <!-- Situazione familiare -->
+            <div>
+                <label class="block text-sm mb-2 text-[#B0B0B0]">Situazione familiare *</label>
+                <select name="famiglia" id="famiglia" required class="form-select w-full px-4 py-3 rounded-xl">
+                    <option value="">Seleziona...</option>
+                    <option value="Single">Single</option>
+                    <option value="Coppia">Coppia (senza figli)</option>
+                    <option value="Famiglia con figli">Famiglia con figli</option>
+                </select>
+            </div>
+
+            <!-- Numero componenti (compare solo se sceglie Famiglia con figli) -->
+            <div id="campo-componenti" class="hidden">
+                <label class="block text-sm mb-2 text-[#B0B0B0]">Di quanti componenti è composto il nucleo familiare?</label>
+                <input type="number" name="componenti" min="1" class="form-input w-full px-4 py-3 rounded-xl">
+            </div>
+
+            <!-- Competenze / Professione -->
+            <div>
+                <label class="block text-sm mb-2 text-[#B0B0B0]">Hai competenze o un lavoro utile al Borgo?</label>
+                <select name="professione" class="form-select w-full px-4 py-3 rounded-xl">
+                    <option value="">Seleziona...</option>
+                    <option value="Agricoltore / Orticoltore">Agricoltore / Orticoltore</option>
+                    <option value="Allevatore">Allevatore</option>
+                    <option value="Artigiano / Falegname / Muratore">Artigiano / Falegname / Muratore</option>
+                    <option value="Educatore / Insegnante">Educatore / Insegnante</option>
+                    <option value="Professionista">Professionista (medico, avvocato, commercialista...)</option>
+                    <option value="Altro">Altro</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-sm mb-2 text-[#B0B0B0]">Specifica meglio il tuo lavoro o le tue competenze (opzionale)</label>
+                <input type="text" name="dettaglio_lavoro" class="form-input w-full px-4 py-3 rounded-xl" placeholder="Es. Falegname specializzato in mobili rustici">
+            </div>
+
+            <!-- Messaggio -->
+            <div>
+                <label class="block text-sm mb-2 text-[#B0B0B0]">Messaggio *</label>
+                <textarea name="messaggio" rows="6" required class="form-textarea w-full px-4 py-3 rounded-xl resize-y"></textarea>
+            </div>
+
+            <div class="pt-2">
+                <button type="submit" 
+                        class="gold-button w-full md:w-auto px-10 py-4 rounded-full font-medium text-lg tracking-wider">
+                    Invia la richiesta
+                </button>
+            </div>
+        </form>
     </section>
 
     <!-- IMMAGINE -->
@@ -124,6 +177,20 @@
     <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
         © Baglio San Michele • Sicilian Slow Living
     </footer>
+
+    <script>
+        // Mostra/Nasconde il campo "Numero componenti" in base alla selezione
+        const famigliaSelect = document.getElementById('famiglia');
+        const campoComponenti = document.getElementById('campo-componenti');
+
+        famigliaSelect.addEventListener('change', function() {
+            if (this.value === 'Famiglia con figli') {
+                campoComponenti.classList.remove('hidden');
+            } else {
+                campoComponenti.classList.add('hidden');
+            }
+        });
+    </script>
 
 </body>
 </html>
