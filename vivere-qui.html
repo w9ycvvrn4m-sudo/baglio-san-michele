@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivere qui • Baglio San Michele</title>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #000000;
+            color: #E5E5E5;
+        }
+        .heading {
+            font-family: 'Julius Sans One', Georgia, serif;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+        .gold {
+            color: #D4AF37;
+        }
+        .section-divider {
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body class="bg-black text-[#E5E5E5]">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="flex items-center justify-between h-20">
+                <div>
+                    <a href="index.html">
+                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center gap-x-9 text-sm tracking-wider">
+                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="text-[#D4AF37]">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO / TITOLO -->
+    <header class="pt-20 pb-12 border-b border-white/10">
+        <div class="max-w-4xl mx-auto px-8 text-center">
+            <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL NOSTRO VIVERE</span>
+            <h1 class="heading text-5xl md:text-6xl tracking-[0.5px] mt-4">Vivere qui</h1>
+        </div>
+    </header>
+
+    <!-- INTRODUZIONE -->
+    <section class="max-w-4xl mx-auto px-8 py-14">
+        <p class="text-xl leading-relaxed text-center">
+            Vivere a Baglio San Michele significa scegliere un ritmo più umano e consapevole. 
+            Qui i gesti quotidiani tornano a essere centrali e carichi di significato.
+        </p>
+    </section>
+
+    <!-- SEZIONE 1: Artigianato e Scuola dei mestieri -->
+    <section class="max-w-6xl mx-auto px-8 pb-16 section-divider pt-10">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <h2 class="heading text-4xl mb-6">Artigianato e Scuola dei mestieri</h2>
+                <p class="text-[#CFCFCF] text-lg leading-relaxed">
+                    L’artigianato e la scuola dei mestieri occupano un ruolo centrale nella vita della comunità. 
+                    Non si tratta solo di produrre oggetti, ma di formare persone, trasmettere competenze concrete 
+                    e creare legami tra generazioni diverse. Il lavoro manuale è inteso come strumento di 
+                    educazione, autonomia e dignità.
+                </p>
+            </div>
+            <div class="overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-lavoro.png" alt="Artigianato e mestieri" class="w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE 2: Mutua assistenza e Convivialità -->
+    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="order-2 md:order-1 overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-casa.png" alt="Mutua assistenza e convivialità" class="w-full h-auto object-cover">
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="heading text-4xl mb-6">Mutua assistenza e Convivialità</h2>
+                <p class="text-[#CFCFCF] text-lg leading-relaxed">
+                    La mutua assistenza tra le famiglie è una realtà vissuta ogni giorno. 
+                    Ci si sostiene nei momenti di difficoltà come nelle occasioni di festa, 
+                    creando una rete di relazioni solide e affidabili. La convivialità non è solo 
+                    un momento di svago, ma un modo per rafforzare il senso di appartenenza e di cura reciproca.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE 3: Permacultura e Autonomia -->
+    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <h2 class="heading text-4xl mb-6">Permacultura e Autonomia</h2>
+                <p class="text-[#CFCFCF] text-lg leading-relaxed">
+                    La cura della terra avviene secondo principi di permacultura, con l’obiettivo 
+                    di sviluppare nel tempo una maggiore autonomia energetica e alimentare. 
+                    Questo non è solo un aspetto tecnico, ma un’espressione di responsabilità 
+                    verso il territorio e verso le generazioni future.
+                </p>
+            </div>
+            <div class="overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-orto.png" alt="Permacultura e autonomia" class="w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE 4: Dimensione spirituale -->
+    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="order-2 md:order-1 overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-chiesa.png" alt="Dimensione spirituale" class="w-full h-auto object-cover">
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="heading text-4xl mb-6">Dimensione spirituale</h2>
+                <p class="text-[#CFCFCF] text-lg leading-relaxed">
+                    La dimensione spirituale attraversa tutti gli aspetti della vita comunitaria. 
+                    Non come un’attività separata, ma come orizzonte che dà senso al lavoro, 
+                    all’educazione dei figli e alla vita condivisa. Le feste, le celebrazioni 
+                    e i momenti di raccoglimento fanno parte del tessuto quotidiano.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEZIONE 5: Vita familiare -->
+    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <h2 class="heading text-4xl mb-6">Vita familiare ed educazione</h2>
+                <p class="text-[#CFCFCF] text-lg leading-relaxed">
+                    I bambini e i ragazzi crescono in un ambiente in cui l’educazione non è delegata 
+                    esclusivamente alla scuola, ma è accompagnata dalla vita quotidiana, dal contatto 
+                    con la natura e dalla presenza di adulti che trasmettono valori e competenze. 
+                    La famiglia è al centro del progetto comunitario.
+                </p>
+            </div>
+            <div class="overflow-hidden rounded-3xl">
+                <img src="assets/atmosfera-cucina.png" alt="Vita familiare" class="w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
+        © Baglio San Michele • Sicilian Slow Living
+    </footer>
+
+</body>
+</html>
