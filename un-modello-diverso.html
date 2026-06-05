@@ -25,25 +25,43 @@
 </head>
 <body class="bg-black text-[#E5E5E5]">
 
-    <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
-        <div class="max-w-6xl mx-auto px-8">
-            <div class="flex items-center justify-between h-20">
-                <div>
-                    <a href="index.html">
-                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                    </a>
-                </div>
-                <div class="hidden md:flex items-center gap-x-9 text-sm tracking-wider">
-                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="text-[#D4AF37]">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
-                </div>
+<!-- NAVBAR con Menu Mobile -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex items-center justify-between h-20">
+            
+            <!-- Logo -->
+            <div>
+                <a href="index.html">
+                    <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
+                </a>
             </div>
+
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
+                <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
+                <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+            </div>
+
+            <!-- Hamburger Button (solo mobile) -->
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
+                ☰
+            </button>
         </div>
-    </nav>
+
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-4 pb-6 text-sm tracking-wider">
+            <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
+            <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
+            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
+            <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
+            <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
+        </div>
+    </div>
+</nav>
 
     <!-- HERO / TITOLO -->
     <header class="pt-20 pb-12 border-b border-white/10">
@@ -79,6 +97,14 @@
     <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
         © Baglio San Michele • Sicilian Slow Living
     </footer>
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
 
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        mobileMenu.classList.toggle('flex');
+    });
+</script>
 </body>
 </html>
