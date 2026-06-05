@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Baglio San Michele (già Masseria Torre Mastro) – Il primo nucleo di una comunità intenzionale tradizionale radicata nella Tradizione cristiana e nella cultura siciliana. Sicilian Slow Living a Puntarazzi-Donnafugata, nel cuore della Sicilia iblea. Residenza stabile per famiglie, autonomia e bellezza.">
+    <meta name="keywords" content="Baglio San Michele, Borgo Ideale, comunità intenzionale Sicilia, Sicilian Slow Living, Masseria Torre Mastro, rigenerazione rurale Ragusa, residenza stabile famiglie, pietra iblea, Tradizione cristiana Sicilia">
+    <title>Baglio San Michele | Borgo Ideale — Comunità Intenzionale Tradizionale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap');
+        
+        :root {
+            --color-crema: #F8F4ED;
+            --color-pietra: #E8DFD0;
+            --color-terracotta: #8B5E3C;
+            --color-ulivo: #4A5D3A;
+            --color-blu: #2C3E50;
+            --color-oro: #C9A227;
+        }
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .heading-serif {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        .section-header {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-header:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 2px;
+            background-color: var(--color-terracotta);
+        }
+
+        .nav-link {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link:hover {
+            color: var(--color-terracotta);
+            transform: translateY(-1px);
+        }
+
+        .hero-bg {
+            background-image: linear-gradient(rgba(44, 62, 80, 0.45), rgba(44, 62, 80, 0.35)), url('https://picsum.photos/id/1016/2000/1200');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .card {
+            transition: transform 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
+                       box-shadow 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+        
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
+        }
+
+        .phase-card {
+            border-left: 5px solid var(--color-terracotta);
+        }
+
+        .slow-living {
+            background: linear-gradient(135deg, #F8F4ED 0%, #E8DFD0 100%);
+        }
+
+        .value-pill {
+            background-color: var(--color-pietra);
+            color: var(--color-blu);
+            transition: all 0.3s ease;
+        }
+
+        .value-pill:hover {
+            background-color: var(--color-terracotta);
+            color: white;
+        }
+
+        .timeline-item {
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background-color: var(--color-ulivo);
+        }
+        
+        .timeline-dot {
+            width: 32px;
+            height: 32px;
+            background-color: var(--color-terracotta);
+            border: 4px solid white;
+            box-shadow: 0 0 0 3px var(--color-ulivo);
+        }
+
+        .elegant-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--color-terracotta), transparent);
+        }
+
+        .project-stat {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .footer-bg {
+            background-color: #2C3E50;
+        }
+
+        .sicilian-pattern {
+            background-image: url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill-rule=%22evenodd%22%3E%3Cpath fill=%22%23E8DFD0%22 fill-opacity=%22008%22 d=%22M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-10V8h-2v16h-4v2h4v4h2v-4h4v-2h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 6v-4H4v4H0v2h4v4h2V8h4V6H6z%22/%3E%3C/g%3E%3C/svg%27');
+            background-size: 60px 60px;
+        }
+
+        .modal {
+            animation: fadeInScale 0.3s ease forwards;
+        }
+
+        @keyframes fadeInScale {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .nav-scrolled {
+            background-color: rgba(248, 244, 237, 0.95);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05);
+        }
+    </style>
+</head>
+<body class="bg-[#F8F4ED] text-[#2C3E50] antialiased">
+    <!-- NAVBAR -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#F8F4ED]/95 backdrop-blur-md border-b border-[#E8DFD0]">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-x-4">
+                    <div class="w-11 h-11 bg-[#8B5E3C] rounded-full flex items-center justify-center shadow-inner">
+                        <i class="fa-solid fa-home text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <div class="font-serif text-2xl tracking-tighter text-[#2C3E50]">BAGLIO SAN MICHELE</div>
+                        <div class="text-[10px] text-[#8B5E3C] -mt-1 tracking-[2px] font-medium">BORGO IDEALE</div>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center gap-x-9 text-sm font-medium">
+                    <a href="#visione" class="nav-link text-[#2C3E50] hover:text-[#8B5E3C]">La Visione</a>
+                    <a href="#progetto" class="nav-link text-[#2C3E50] hover:text-[#8B5E3C]">Il Progetto</a>
+                    <a href="#luogo" class="nav-link text-[#2C3E50] hover:text-[#8B5E3C]">Il Luogo</a>
+                    <a href="#comunita" class="nav-link text-[#2C3E50] hover:text-[#8B5E3C]">La Comunità</a>
+                    <a href="#contatti" class="nav-link text-[#2C3E50] hover:text-[#8B5E3C]">Contatti</a>
+                </div>
+
+                <div class="flex items-center gap-x-4">
+                    <button onclick="document.getElementById('contatti').scrollIntoView({ behavior: 'smooth' })" 
+                            class="hidden md:block px-6 py-2.5 text-sm font-semibold border border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C] hover:text-white transition-colors rounded-full">
+                        Richiedi colloquio
+                    </button>
+                    
+                    <!-- Mobile menu -->
+                    <button id="mobile-menu-btn" class="md:hidden w-10 h-10 flex items-center justify-center text-[#8B5E3C]">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-bg h-[100dvh] min-h-[680px] flex items-center pt-20 relative">
+        <div class="max-w-5xl mx-auto px-8 text-center text-white relative z-10">
+            <div class="inline-flex items-center gap-x-2 bg-white/10 backdrop-blur-md px-5 py-1.5 rounded-full mb-6 border border-white/20">
+                <div class="w-2 h-2 bg-[#C9A227] rounded-full animate-pulse"></div>
+                <span class="text-xs tracking-[2px] font-medium uppercase">Puntarazzi-Donnafugata • Sicilia Iblea</span>
+            </div>
+            
+            <h1 class="heading-serif text-6xl md:text-7xl leading-[0.95] tracking-tighter mb-6">
+                Riconquistare insieme<br>il destino delle nostre<br>famiglie e della nostra terra
+            </h1>
+            
+            <p class="max-w-xl mx-auto text-xl md:text-2xl text-white/90 font-light tracking-tight mb-10">
+                Il primo nucleo di una <span class="font-medium">comunità intenzionale tradizionale</span><br>
+                radicata nella fede cristiana e nella cultura siciliana.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button onclick="document.getElementById('progetto').scrollIntoView({ behavior: 'smooth' })" 
+                        class="group px-9 py-4 bg-white text-[#2C3E50] font-semibold rounded-full flex items-center justify-center gap-x-3 hover:bg-[#F8F4ED] transition-all active:scale-[0.985]">
+                    <span>Scopri il progetto</span>
+                    <i class="fa-solid fa-arrow-right group-hover:translate-x-0.5 transition"></i>
+                </button>
+                
+                <button onclick="document.getElementById('contatti').scrollIntoView({ behavior: 'smooth' })" 
+                        class="px-9 py-4 border-2 border-white/70 hover:bg-white/10 text-white font-semibold rounded-full flex items-center justify-center gap-x-3 transition-all">
+                    <span>Parla con noi</span>
+                </button>
+            </div>
+            
+            <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center text-xs tracking-widest opacity-75">
+                <span>SCROLL</span>
+                <i class="fa-solid fa-chevron-down mt-1"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- TRUST BAR -->
+    <div class="border-b border-[#E8DFD0] bg-white py-5">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="flex flex-wrap justify-center items-center gap-x-10 gap-y-4 text-sm text-[#4A5D3A]">
+                <div class="flex items-center gap-x-2">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span class="font-medium">Comunità chiusa e selettiva</span>
+                </div>
+                <div class="flex items-center gap-x-2">
+                    <i class="fa-solid fa-home"></i>
+                    <span class="font-medium">Residenza stabile, non turismo</span>
+                </div>
+                <div class="flex items-center gap-x-2">
+                    <i class="fa-solid fa-cross"></i>
+                    <span class="font-medium">Radici cristiane e siciliane</span>
+                </div>
+                <div class="flex items-center gap-x-2">
+                    <i class="fa-solid fa-seedling"></i>
+                    <span class="font-medium">Autosufficienza e Slow Living</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LA VISIONE -->
+    <section id="visione" class="max-w-5xl mx-auto px-8 pt-20 pb-16">
+        <div class="text-center mb-12">
+            <span class="uppercase tracking-[3px] text-xs font-semibold text-[#8B5E3C]">IL NOSTRO ORIZZONTE</span>
+            <h2 class="heading-serif text-5xl tracking-tighter mt-3">La Visione</h2>
+        </div>
+        
+        <div class="prose prose-lg max-w-3xl mx-auto text-[#2C3E50]">
+            <p class="text-xl leading-relaxed">Il progetto del Borgo Ideale nasce dalla convinzione che, in un’epoca di disgregazione, sia possibile — e necessario — ricostruire e rigenerare luoghi di vita autentica, radicati nella Tradizione.</p>
+            
+            <p>Non si tratta di ritirarsi dal mondo, né di creare un villaggio amish, ma di creare <strong>presìdi di normalità</strong> da cui ripartire. Il Baglio San Michele vuole essere uno di questi avamposti: un luogo dove la Tradizione non è folklore, ma stile di vita concreto.</p>
+            
+            <div class="my-8 p-8 bg-white border border-[#E8DFD0] rounded-3xl">
+                <p class="italic text-lg">"Dove le famiglie possono crescere in un contesto di stabilità, bellezza e comunità. Dove i genitori possono guardare con serenità al futuro dei figli, lasciando loro una casa e i mezzi per vivere dignitosamente. Dove il tempo è scandito dal canto degli uccelli, dal suono delle campane, dal rumore dei trattori nei campi e dalle voci amiche dei vicini."</p>
+            </div>
+            
+            <p>Il progetto si fonda sul concetto di <strong>Sicilian Slow Living</strong>: un modo di abitare lento, autentico e radicato, che unisce il recupero del patrimonio ibleo con standard abitativi moderni e una comunità intenzionale ma non settaria.</p>
+        </div>
+    </section>
+
+    <!-- IL PROGETTO - 3 FASI -->
+    <section id="progetto" class="bg-white py-16 border-y border-[#E8DFD0]">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="uppercase tracking-[3px] text-xs font-semibold text-[#8B5E3C]">IL MODELLO</span>
+                    <h2 class="heading-serif text-5xl tracking-tighter">Il Progetto in tre fasi</h2>
+                </div>
+                <p class="max-w-md text-[#4A5D3A] mt-4 md:mt-0">Un esperimento sociale replicabile, orientato alla residenza stabile e all’autonomia familiare.</p>
+            </div>
+
+            <!-- Fasi -->
+            <div class="grid md:grid-cols-3 gap-6">
+                
+                <!-- Fase 1 -->
+                <div class="phase-card bg-[#F8F4ED] p-8 rounded-3xl card">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <span class="text-xs font-mono tracking-widest bg-[#8B5E3C] text-white px-3 py-1 rounded">FASE 1 • 2026-2028</span>
+                        </div>
+                        <i class="fa-solid fa-tools text-3xl text-[#8B5E3C]"></i>
+                    </div>
+                    <h3 class="font-serif text-3xl tracking-tight mb-4">Restauro della Masseria</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Recupero integrale della masseria fortificata del XVI secolo (2.200 m²)</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Realizzazione di <strong>14 appartamenti residenziali di qualità</strong></span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Destinati a famiglie selezionate aderenti al Regolamento interno</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Preservazione dell’identità storica e inserimento di standard moderni</span></li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-[#E8DFD0]">
+                        <div class="text-xs uppercase tracking-widest text-[#8B5E3C]">Obiettivo</div>
+                        <div class="font-medium">Primo nucleo abitativo stabile</div>
+                    </div>
+                </div>
+
+                <!-- Fase 2 -->
+                <div class="phase-card bg-[#F8F4ED] p-8 rounded-3xl card">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <span class="text-xs font-mono tracking-widest bg-[#4A5D3A] text-white px-3 py-1 rounded">FASE 2 • POST-2028</span>
+                        </div>
+                        <i class="fa-solid fa-home text-3xl text-[#4A5D3A]"></i>
+                    </div>
+                    <h3 class="font-serif text-3xl tracking-tight mb-4">Espansione rurale</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Costruzione di <strong>20 nuovi immobili rurali</strong> in pietra iblea</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Realizzati sulle terre della masseria (circa 23 ettari)</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Integrazione perfetta nel paesaggio e nella tradizione costruttiva locale</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Ampliamento della capacità residenziale e delle attività produttive</span></li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-[#E8DFD0]">
+                        <div class="text-xs uppercase tracking-widest text-[#4A5D3A]">Obiettivo</div>
+                        <div class="font-medium">Comunità ampliata e autosufficiente</div>
+                    </div>
+                </div>
+
+                <!-- Fase 3 -->
+                <div class="phase-card bg-[#F8F4ED] p-8 rounded-3xl card">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <span class="text-xs font-mono tracking-widest bg-[#C9A227] text-white px-3 py-1 rounded">FASE 3</span>
+                        </div>
+                        <i class="fa-solid fa-globe text-3xl text-[#C9A227]"></i>
+                    </div>
+                    <h3 class="font-serif text-3xl tracking-tight mb-4">Network di Borghi</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Creazione di un <strong>network replicabile</strong> di Borghi ispirati al modello pilota</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Diffusione in Sicilia e studio di una dimensione mediterranea</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Modello esportabile di rigenerazione autentica e radicata</span></li>
+                        <li class="flex gap-3"><i class="fa-solid fa-check text-[#4A5D3A] mt-1"></i> <span>Partenariati con imprese e artigiani locali per ogni nuovo insediamento</span></li>
+                    </ul>
+                    <div class="mt-8 pt-6 border-t border-[#E8DFD0]">
+                        <div class="text-xs uppercase tracking-widest text-[#C9A227]">Obiettivo</div>
+                        <div class="font-medium">Modello scalabile e generativo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SICILIAN SLOW LIVING -->
+    <section class="slow-living py-16">
+        <div class="max-w-5xl mx-auto px-8">
+            <div class="grid md:grid-cols-12 gap-x-12 items-center">
+                <div class="md:col-span-7">
+                    <span class="uppercase tracking-[3px] text-xs font-semibold text-[#8B5E3C]">FILOSOFIA FONDANTE</span>
+                    <h2 class="heading-serif text-5xl tracking-tighter mt-2 mb-6">Sicilian Slow Living</h2>
+                    
+                    <div class="space-y-5 text-[#2C3E50]">
+                        <p>Lo slow living non è una tendenza passeggera né un semplice invito al relax rurale. È una filosofia esistenziale profonda, radicata nella Tradizione cristiana e nella cultura siciliana, che contrappone al tempo accelerato della modernità urbana un ritmo intenzionale, fatto di presenza, cura e armonia con i cicli naturali.</p>
+                        
+                        <p>Nel contesto del Baglio San Michele, il <strong>Sicilian Slow Living</strong> diventa il tessuto connettivo che unisce restauro architettonico, sovranità alimentare, formazione professionale e coesione comunitaria.</p>
+                    </div>
+                </div>
+                
+                <div class="md:col-span-5 mt-10 md:mt-0">
+                    <div class="bg-white p-8 rounded-3xl border border-[#E8DFD0]">
+                        <h4 class="font-semibold mb-4 flex items-center gap-x-2">
+                            <i class="fa-solid fa-heart text-[#8B5E3C]"></i> 
+                            <span>Valori cardine</span>
+                        </h4>
+                        <div class="grid grid-cols-2 gap-3 text-sm">
+                            <div class="value-pill px-4 py-3 rounded-2xl text-center">Presenza</div>
+                            <div class="value-pill px-4 py-3 rounded-2xl text-center">Cura</div>
+                            <div class="value-pill px-4 py-3 rounded-2xl text-center">Armonia</div>
+                            <div class="value-pill px-4 py-3 rounded-2xl text-center">Bellezza</div>
+                            <div class="value-pill px-4 py-3 rounded-2xl text-center">Stabilità</div>
+                            <div class="value-pill px-4 py-3 rounded-2xl text-center">Appartenenza</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IL LUOGO -->
+    <section id="luogo" class="max-w-6xl mx-auto px-8 py-20">
+        <div class="text-center mb-12">
+            <span class="uppercase tracking-[3px] text-xs font-semibold text-[#8B5E3C]">IL CUORE DEL PROGETTO</span>
+            <h2 class="heading-serif text-5xl tracking-tighter mt-3">Il Baglio San Michele</h2>
+            <p class="mt-3 text-[#4A5D3A]">Già Masseria Torre Mastro • Contrada Torre Mastro, Puntarazzi-Donnafugata (RG)</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+            <div>
+                <div class="prose prose-lg">
+                    <p>Una masseria fortificata del XVI secolo situata nel cuore della Sicilia iblea: <strong>2.200 m² di edifici storici + 23 ettari di terreno fertile con vista mare</strong>.</p>
+                    
+                    <p>L’idea è semplice ma rivoluzionaria: trasformare questo bene storico nel primo nucleo di una comunità intenzionale tradizionale, abitata stabilmente da famiglie che scelgono di vivere secondo valori cristiani, autonomia e tradizione siciliana.</p>
+                    
+                    <p>Non si tratta di un semplice agriturismo o di un villaggio turistico. Si tratta di un borgo vero, dove le persone abitano stabilmente, lavorano la terra, si formano reciprocamente e crescono i propri figli in un contesto di senso e appartenenza.</p>
+                </div>
+
+                <div class="mt-8 flex flex-wrap gap-3">
+                    <div class="inline-flex items-center gap-x-2 bg-[#F8F4ED] px-5 h-11 rounded-2xl text-sm">
+                        <i class="fa-solid fa-map-marker-alt text-[#8B5E3C]"></i>
+                        <span>Val di Noto • UNESCO</span>
+                    </div>
+                    <div class="inline-flex items-center gap-x-2 bg-[#F8F4ED] px-5 h-11 rounded-2xl text-sm">
+                        <i class="fa-solid fa-mountain text-[#8B5E3C]"></i>
+                        <span>23 ettari di terra fertile</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Planimetria -->
+            <div class="bg-white p-6 rounded-3xl border border-[#E8DFD0] shadow-sm">
+                <div class="flex justify-between items-center mb-4 px-2">
+                    <div>
+                        <div class="font-semibold">Planimetria del Baglio</div>
+                        <div class="text-xs text-[#4A5D3A]">Piano Terra e Primo Piano</div>
+                    </div>
+                    <button onclick="showPlanimetriaModal()" 
+                            class="text-xs flex items-center gap-x-1.5 px-4 h-9 border border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C] hover:text-white transition rounded-full">
+                        <i class="fa-solid fa-expand-arrows-alt"></i>
+                        <span>Apri in grande</span>
+                    </button>
+                </div>
+                
+                <div class="aspect-[16/10] bg-[#E8DFD0] rounded-2xl overflow-hidden border border-[#D4C9B8] flex items-center justify-center relative">
+                    <img src="/home/workdir/attachments/Planimetria-Torre-Mastro.jpg" 
+                         alt="Planimetria Baglio San Michele - Piano Terra e Primo Piano" 
+                         class="max-h-full w-auto object-contain"
+                         onerror="this.style.display='none'; this.parentElement.innerHTML = '<div class=\'text-center p-8\'><i class=\'fa-solid fa-image text-4xl text-[#8B5E3C]/40\'></i><p class=\'mt-3 text-sm text-[#4A5D3A]\'>Inserire qui l\'immagine Planimetria-Torre-Mastro.jpg</p></div>'">
+                    
+                    <div class="absolute bottom-4 right-4 bg-white/90 text-[10px] px-3 py-1 rounded font-mono tracking-widest">CONTRADA TORRE MASTRO • RAGUSA</div>
+                </div>
+                <p class="text-[10px] text-center mt-3 text-[#4A5D3A]">14 appartamenti nel corpo storico + spazi comuni (cappella, androne, cantina, biblioteca)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVITÀ DEL MODELLO -->
+    <section class="max-w-5xl mx-auto px-8 pb-16">
+        <div class="text-center mb-10">
+            <h2 class="heading-serif text-4xl tracking-tighter">La novità del modello</h2>
+            <p class="text-[#4A5D3A] mt-2">Ciò che rende unico questo progetto è la combinazione di elementi raramente uniti in un’unica operazione.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div class="bg-white p-7 rounded-3xl border border-[#E8DFD0]">
+                <i class="fa-solid fa-landmark text-2xl text-[#8B5E3C] mb-4"></i>
+                <h4 class="font-semibold mb-2">Recupero storico di qualità</h4>
+                <p class="text-sm">14 appartamenti nel baglio fortificato del XVI secolo, con standard elevati e rispetto dell’autenticità iblea.</p>
+            </div>
+            <div class="bg-white p-7 rounded-3xl border border-[#E8DFD0]">
+                <i class="fa-solid fa-home text-2xl text-[#4A5D3A] mb-4"></i>
+                <h4 class="font-semibold mb-2">Espansione in pietra iblea</h4>
+                <p class="text-sm">20 nuove abitazioni rurali costruite con tecniche e materiali tradizionali del territorio.</p>
+            </div>
+            <div class="bg-white p-7 rounded-3xl border border-[#E8DFD0]">
+                <i class="fa-solid fa-heart text-2xl text-[#C9A227] mb-4"></i>
+                <h4 class="font-semibold mb-2">Identità chiara e forte</h4>
+                <p class="text-sm">Posizionamento deciso sul Sicilian Slow Living, radicato nella fede cristiana e nella tradizione siciliana.</p>
+            </div>
+            <div class="bg-white p-7 rounded-3xl border border-[#E8DFD0]">
+                <i class="fa-solid fa-users text-2xl text-[#8B5E3C] mb-4"></i>
+                <h4 class="font-semibold mb-2">Comunità intenzionale leggera</h4>
+                <p class="text-sm">Aperta e non ideologica, ma coesa attorno a valori condivisi di stabilità familiare e reciprocità.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONFRONTO E UNICITÀ -->
+    <section class="bg-[#2C3E50] text-white py-16">
+        <div class="max-w-5xl mx-auto px-8">
+            <div class="text-center mb-10">
+                <span class="text-[#C9A227] text-xs tracking-[3px] uppercase">PERCHÉ QUESTO PROGETTO È DIVERSO</span>
+                <h2 class="heading-serif text-4xl tracking-tighter mt-2">Un modello che si distingue</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-x-12 text-sm">
+                <div>
+                    <h4 class="font-semibold text-[#C9A227] mb-4">La maggior parte dei progetti di rigenerazione in Sicilia</h4>
+                    <ul class="space-y-2.5 text-white/80">
+                        <li class="flex gap-3"><span class="text-red-400">•</span> Focus su turismo, affitti brevi o residenzialità temporanea</li>
+                        <li class="flex gap-3"><span class="text-red-400">•</span> Dipendenza da fondi pubblici (PNRR “Attrattività Borghi”)</li>
+                        <li class="flex gap-3"><span class="text-red-400">•</span> Identità generica (“esperienza siciliana”)</li>
+                        <li class="flex gap-3"><span class="text-red-400">•</span> Scarsa creazione di comunità stabili e intergenerazionali</li>
+                        <li class="flex gap-3"><span class="text-red-400">•</span> Spesso seconde case o nomadi digitali</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-[#C9A227] mb-4">Il Baglio San Michele</h4>
+                    <ul class="space-y-2.5">
+                        <li class="flex gap-3"><span class="text-emerald-400">•</span> Residenza stabile e permanente per famiglie selezionate</li>
+                        <li class="flex gap-3"><span class="text-emerald-400">•</span> Modello privato, autosostenibile (anche se può beneficiare di incentivi)</li>
+                        <li class="flex gap-3"><span class="text-emerald-400">•</span> Identità forte e coerente: Sicilian Slow Living + fede cristiana</li>
+                        <li class="flex gap-3"><span class="text-emerald-400">•</span> Meccanismi di coesione: Regolamento, scuola del Borgo, cappella, supporto intergenerazionale</li>
+                        <li class="flex gap-3"><span class="text-emerald-400">•</span> Governance ispirata alle universitates rurali siciliane (Capitolo dei Savi)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LA COMUNITÀ E GOVERNANCE -->
+    <section id="comunita" class="max-w-5xl mx-auto px-8 py-20">
+        <div class="text-center mb-12">
+            <span class="uppercase tracking-[3px] text-xs font-semibold text-[#8B5E3C]">IL CUORE VIVO DEL BORGO</span>
+            <h2 class="heading-serif text-5xl tracking-tighter mt-3">La Comunità</h2>
+        </div>
+
+        <div class="grid md:grid-cols-5 gap-8">
+            <div class="md:col-span-3">
+                <div class="prose prose-lg">
+                    <p>Il Baglio San Michele non è solo un luogo fisico. È una <strong>comunità intenzionale leggera</strong>, radicata nella tradizione siciliana ma aperta e non settaria, dove le famiglie scelgono di vivere secondo valori condivisi di fede, stabilità e reciprocità.</p>
+                    
+                    <p>La governance è ispirata alle antiche <em>universitates</em> rurali siciliane e ai capitoli monastici benedettini. Il <strong>Capitolo dei Savi</strong> — composto da 9 membri eletti tra agricoltori, artigiani, tecnici e famiglie — garantisce buon governo, rotazione delle cariche e fedeltà ai principi di trasparenza e bene comune.</p>
+                </div>
+            </div>
+            
+            <div class="md:col-span-2 bg-[#F8F4ED] p-8 rounded-3xl">
+                <h4 class="font-semibold mb-5 flex items-center gap-x-2">
+                    <i class="fa-solid fa-users-cog"></i> 
+                    <span>Composizione del Capitolo dei Savi</span>
+                </h4>
+                <ul class="text-sm space-y-3">
+                    <li class="flex justify-between"><span>3 Savi agricoli / zootecnici</span> <span class="text-[#8B5E3C]">•</span></li>
+                    <li class="flex justify-between"><span>3 Savi artigianali / manifatturieri</span> <span class="text-[#8B5E3C]">•</span></li>
+                    <li class="flex justify-between"><span>1 Savio tecnico-energetico</span> <span class="text-[#8B5E3C]">•</span></li>
+                    <li class="flex justify-between"><span>1 Savio spirituale (con potere di veto)</span> <span class="text-[#8B5E3C]">•</span></li>
+                    <li class="flex justify-between"><span>1 Savio di comunità</span> <span class="text-[#8B5E3C]">•</span></li>
+                </ul>
+                <p class="text-xs mt-6 text-[#4A5D3A]">Ispirato alla Regola di San Benedetto (“ora et labora”) e alle Costituzioni comunali medievali.</p>
+            </div>
+        </div>
+        
+        <div class="mt-10 text-center">
+            <div class="inline-block bg-white border border-[#E8DFD0] rounded-2xl px-8 py-4 text-sm">
+                Ogni famiglia aderisce a un <strong>Regolamento interno</strong> volto a preservare coesione, reciprocità e identità comunitaria.
+            </div>
+        </div>
+    </section>
+
+    <!-- ATTIVITÀ E AUTOSUFFICIENZA -->
+    <section class="border-t border-[#E8DFD0] py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-8">
+            <div class="text-center mb-10">
+                <h2 class="heading-serif text-4xl tracking-tighter">Attività del Borgo</h2>
+                <p class="text-[#4A5D3A]">Autosufficienza alimentare, zootecnica e artigianale come fondamento di resistenza e dignità.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-sm">
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Agricoltura biodinamica</strong><br>Uliveti, vigneti, orti</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Allevamento tradizionale</strong><br>Pollame, capre, suini, pecore</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Trasformazione artigianale</strong><br>Pane, formaggi, salumi, conserve</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Mestieri e formazione</strong><br>Scuola del Borgo, trasmissione intergenerazionale</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Sovranità energetica</strong><br>Impianti OSE e gestione autonoma</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Vita spirituale</strong><br>Cappella con funzioni quotidiane</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Supporto comunitario</strong><br>Accudimento bambini/anziani, mutualità</div>
+                <div class="p-5 border border-[#E8DFD0] rounded-2xl"><strong>Artigianato ibleo</strong><br>Pietra, legno, ceramica, tessitura</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANALISI MERCATO & OPPORTUNITÀ -->
+    <section class="max-w-5xl mx-auto px-8 py-16">
+        <div class="bg-[#F8F4ED] rounded-3xl p-10 md:p-14">
+            <div class="grid md:grid-cols-12 gap-x-10">
+                <div class="md:col-span-5">
+                    <span class="text-xs tracking-[2px] uppercase text-[#8B5E3C]">DATI 2025-2026</span>
+                    <h3 class="heading-serif text-4xl tracking-tighter mt-2">Un mercato maturo<br>per questo modello</h3>
+                </div>
+                <div class="md:col-span-7 mt-8 md:mt-0 text-sm leading-relaxed">
+                    <p>Il mercato immobiliare rurale nelle aree iblee mostra una domanda crescente di proprietà autentiche e contesti comunitari stabili. Famiglie italiane ed europee cercano alternative al degrado urbano e alla precarietà.</p>
+                    
+                    <div class="mt-6 grid grid-cols-2 gap-6 text-xs">
+                        <div>
+                            <div class="font-mono text-lg text-[#8B5E3C]">+6-8%</div>
+                            <div class="text-[#4A5D3A]">aumento compravendite residenziali in Sicilia</div>
+                        </div>
+                        <div>
+                            <div class="font-mono text-lg text-[#8B5E3C]">€2.000-3.500/m²</div>
+                            <div class="text-[#4A5D3A]">nuove costruzioni rurali di pregio</div>
+                        </div>
+                    </div>
+                    
+                    <p class="mt-6 text-xs text-[#4A5D3A]">Il modello “comunità chiusa selettiva + privacy familiare + vita condivisa” è ancora raro in Sicilia e risponde a una nicchia emergente di acquirenti che cercano non solo una casa, ma un ecosistema di senso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATTI / PARTNERSHIP -->
+    <section id="contatti" class="bg-[#2C3E50] text-white py-16">
+        <div class="max-w-4xl mx-auto px-8 text-center">
+            <h2 class="heading-serif text-4xl tracking-tighter mb-3">Iniziamo a costruire insieme</h2>
+            <p class="text-white/80 max-w-md mx-auto">Il progetto è aperto al dialogo con il territorio: imprese, artigiani, istituzioni e famiglie che condividono questa visione.</p>
+            
+            <div class="mt-10 grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                <a href="#" class="group block border border-white/30 hover:border-white/60 transition p-7 rounded-3xl text-left">
+                    <div class="flex justify-between">
+                        <div>
+                            <div class="font-semibold">Per famiglie interessate</div>
+                            <div class="text-sm text-white/70 mt-1">Informazioni su disponibilità e Regolamento</div>
+                        </div>
+                        <i class="fa-solid fa-user-group text-xl group-hover:text-[#C9A227] transition"></i>
+                    </div>
+                </a>
+                
+                <a href="#" class="group block border border-white/30 hover:border-white/60 transition p-7 rounded-3xl text-left">
+                    <div class="flex justify-between">
+                        <div>
+                            <div class="font-semibold">Per partnership e imprese locali</div>
+                            <div class="text-sm text-white/70 mt-1">Proposta di Consorzio Ragusano</div>
+                        </div>
+                        <i class="fa-solid fa-handshake text-xl group-hover:text-[#C9A227] transition"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="mt-12 text-sm">
+                <div class="font-mono tracking-widest text-xs mb-1 text-white/60">BORGO IDEALE</div>
+                <div class="font-medium">Dott. Pietro Siffi — Intentional Community Planner</div>
+                <div class="mt-4 text-white/80 text-sm">
+                    Via Giuseppe Simili 63 • 95129 Catania<br>
+                    T +39 340 1439981 • <a href="mailto:info@borgoideale.com" class="underline hover:no-underline">info@borgoideale.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#1F2A36] text-white/60 text-xs py-8">
+        <div class="max-w-6xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-y-4">
+            <div>© 2026 Baglio San Michele — Borgo Ideale. Tutti i diritti riservati.</div>
+            <div class="flex gap-x-6">
+                <a href="#" class="hover:text-white transition">Privacy</a>
+                <a href="#" class="hover:text-white transition">Regolamento della Comunità</a>
+                <a href="#" class="hover:text-white transition">Documenti</a>
+            </div>
+            <div class="text-[10px]">Progetto pilota • Masseria Torre Mastro, Ragusa</div>
+        </div>
+    </footer>
+
+    <!-- PLANIMETRIA MODAL -->
+    <div id="planimetria-modal" onclick="hidePlanimetriaModal()" class="hidden fixed inset-0 bg-black/70 z-[100] flex items-center justify-center p-4">
+        <div onclick="event.stopImmediatePropagation()" class="modal bg-white max-w-[1100px] w-full rounded-3xl overflow-hidden shadow-2xl">
+            <div class="flex items-center justify-between px-8 py-5 border-b">
+                <div>
+                    <div class="font-semibold">Planimetria completa — Baglio San Michele</div>
+                    <div class="text-xs text-[#4A5D3A]">Contrada Torre Mastro • Ragusa</div>
+                </div>
+                <button onclick="hidePlanimetriaModal()" class="text-2xl leading-none text-[#8B5E3C] hover:text-black">×</button>
+            </div>
+            <div class="p-8 bg-[#F8F4ED]">
+                <img src="/home/workdir/attachments/Planimetria-Torre-Mastro.jpg" 
+                     alt="Planimetria dettagliata Baglio San Michele" 
+                     class="w-full h-auto rounded-xl border border-[#D4C9B8]"
+                     onerror="this.parentElement.innerHTML = '<div class=\'p-12 text-center\'><i class=\'fa-solid fa-image fa-3x text-[#8B5E3C]/30\'></i><p class=\'mt-4\'>Caricare l\'immagine Planimetria-Torre-Mastro.jpg nella cartella corretta</p></div>'">
+            </div>
+            <div class="px-8 py-4 bg-white text-xs text-[#4A5D3A] flex justify-between items-center">
+                <div>Piano Terra (14 appartamenti + spazi comuni) • Primo Piano (corpo centrale)</div>
+                <button onclick="hidePlanimetriaModal()" class="px-5 py-1.5 text-xs border border-[#8B5E3C] rounded-full hover:bg-[#8B5E3C] hover:text-white">Chiudi</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tailwind script
+        function initializeTailwind() {
+            document.documentElement.style.setProperty('--accent', '#8B5E3C');
+        }
+        
+        // Navbar scroll effect
+        function initNavbar() {
+            const navbar = document.getElementById('navbar');
+            let lastScroll = 0;
+            
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 80) {
+                    navbar.classList.add('nav-scrolled');
+                } else {
+                    navbar.classList.remove('nav-scrolled');
+                }
+            });
+        }
+        
+        // Mobile menu
+        function initMobileMenu() {
+            const btn = document.getElementById('mobile-menu-btn');
+            if (!btn) return;
+            
+            btn.addEventListener('click', () => {
+                const menu = document.createElement('div');
+                menu.className = 'fixed inset-0 bg-black/60 z-[200] md:hidden';
+                menu.innerHTML = `
+                    <div class="bg-white w-72 h-full p-8 text-lg">
+                        <div class="flex justify-between mb-8">
+                            <div class="font-serif text-xl">BAGLIO SAN MICHELE</div>
+                            <button class="text-3xl">×</button>
+                        </div>
+                        <div class="flex flex-col gap-y-5 text-[#2C3E50]">
+                            <a href="#visione" class="py-1">La Visione</a>
+                            <a href="#progetto" class="py-1">Il Progetto</a>
+                            <a href="#luogo" class="py-1">Il Luogo</a>
+                            <a href="#comunita" class="py-1">La Comunità</a>
+                            <a href="#contatti" class="py-1">Contatti</a>
+                            <div class="pt-4 border-t">
+                                <button onclick="document.getElementById('contatti').scrollIntoView({behavior:'smooth'}); this.closest('.fixed').remove()" 
+                                        class="w-full py-3 bg-[#8B5E3C] text-white rounded-full text-sm font-semibold">Richiedi colloquio</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(menu);
+                menu.querySelector('button').onclick = () => menu.remove();
+                menu.onclick = (e) => { if (e.target === menu) menu.remove(); };
+            });
+        }
+        
+        // Smooth scroll for all anchor links
+        function initSmoothScroll() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        }
+        
+        // Planimetria modal
+        function showPlanimetriaModal() {
+            document.getElementById('planimetria-modal').classList.remove('hidden');
+            document.getElementById('planimetria-modal').classList.add('flex');
+        }
+        
+        function hidePlanimetriaModal() {
+            const modal = document.getElementById('planimetria-modal');
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+        }
+        
+        // Keyboard escape for modal
+        function initKeyboardControls() {
+            document.addEventListener('keydown', function(e) {
+                if (e.key === "Escape") {
+                    const modal = document.getElementById('planimetria-modal');
+                    if (!modal.classList.contains('hidden')) {
+                        hidePlanimetriaModal();
+                    }
+                }
+            });
+        }
+        
+        // Initialize everything
+        function initializeWebsite() {
+            initializeTailwind();
+            initNavbar();
+            initMobileMenu();
+            initSmoothScroll();
+            initKeyboardControls();
+            
+            // Optional: subtle animation on cards
+            const cards = document.querySelectorAll('.card');
+            cards.forEach((card, i) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    card.style.transition = 'all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)';
+                    card.style.transitionDelay = (i * 80) + 'ms';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, 300);
+            });
+            
+            console.log('%c[Baglio San Michele] Sito web avanzato inizializzato correttamente.', 'color:#4A5D3A');
+        }
+        
+        window.onload = initializeWebsite;
+    </script>
+</body>
+</html>
