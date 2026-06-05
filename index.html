@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baglio San Michele • Sicilian Slow Living</title>
-    <meta name="description" content="Baglio San Michele è un luogo dedicato al Sicilian Slow Living: una comunità intenzionale radicata nella tradizione e nella cultura siciliana.">
+    <title>Baglio San Michele • Comunità Intenzionale e Sicilian Slow Living</title>
+    <meta name="description" content="Baglio San Michele è una comunità intenzionale in Sicilia fondata sul Sicilian Slow Living. Un progetto di vita stabile, radicata nella tradizione, nei valori cristiani e nella mutua assistenza tra famiglie.">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -41,51 +41,29 @@
 </head>
 <body class="bg-black text-[#E5E5E5]">
 
-   <!-- NAVBAR con Menu Mobile -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
-    <div class="max-w-6xl mx-auto px-6">
-        <div class="flex items-center justify-between h-20">
-            
-            <!-- Logo -->
-            <div>
-                <a href="index.html">
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="flex items-center justify-between h-20">
+                <div>
                     <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                </a>
+                </div>
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                </div>
             </div>
-
-            <!-- Menu Desktop -->
-            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
-            </div>
-
-            <!-- Hamburger Button (solo mobile) -->
-            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
-                ☰
-            </button>
         </div>
+    </nav>
 
-        <!-- Menu Mobile -->
-        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-4 pb-6 text-sm tracking-wider">
-            <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
-            <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
-            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-            <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
-            <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
-        </div>
-    </div>
-</nav>
-
-    <!-- HERO con sfondo e logo ingrandito -->
+    <!-- HERO -->
     <header class="hero-bg min-h-[100dvh] flex items-center pt-20">
         <div class="max-w-5xl mx-auto px-8 text-center">
-            
-            <!-- LOGO INGRANDITO -->
             <div class="flex justify-center mb-8">
-                <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-44 md:h-56 w-auto">
+                <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-36 md:h-44 w-auto">
             </div>
             
             <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4 text-[#D4AF37]">
@@ -112,62 +90,52 @@
         </p>
     </section>
 
-    <!-- ANTEPRIME DELLE PAGINE CON IMMAGINI -->
+    <!-- ANTEPRIME DELLE PAGINE -->
     <section id="anteprime" class="max-w-6xl mx-auto px-8 pb-20">
+        
+        <h2 class="heading text-3xl mb-10 text-center">Scopri il progetto</h2>
+
         <div class="grid md:grid-cols-2 gap-8">
             
             <!-- Il Concept -->
-            <div class="bg-[#111111] rounded-3xl border border-white/10 overflow-hidden flex flex-col">
-                <img src="assets/atmosfera-borgo.png" alt="Il Concept" class="w-full h-48 object-cover">
-                <div class="p-8 flex-1 flex flex-col">
-                    <h3 class="heading text-3xl mb-4">Il Concept</h3>
-                    <p class="text-[#CFCFCF] mb-6 flex-1">
-                        In un tempo in cui tutto sembra accelerato e provvisorio, crediamo che sia possibile costruire 
-                        qualcosa di stabile e significativo. Il Sicilian Slow Living non è una moda, ma un orientamento 
-                        di vita che unisce tradizione, fede e responsabilità verso le generazioni future.
-                    </p>
-                    <a href="il-concept.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
-                </div>
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Il Concept</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    Scopri il Sicilian Slow Living: un orientamento di vita che unisce la tradizione siciliana, 
+                    i valori cristiani e la costruzione di legami autentici. Un modo di abitare radicato, lento e responsabile.
+                </p>
+                <a href="il-concept.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
             </div>
 
             <!-- Il Progetto -->
-            <div class="bg-[#111111] rounded-3xl border border-white/10 overflow-hidden flex flex-col">
-                <img src="assets/atmosfera-borgo-2.png" alt="Il Progetto" class="w-full h-48 object-cover">
-                <div class="p-8 flex-1 flex flex-col">
-                    <h3 class="heading text-3xl mb-4">Il Progetto</h3>
-                    <p class="text-[#CFCFCF] mb-6 flex-1">
-                        Un percorso concreto e graduale, articolato in tre fasi: il restauro della masseria storica, 
-                        l’espansione con nuove abitazioni e la definizione di un modello che possa essere replicato altrove.
-                    </p>
-                    <a href="il-progetto.html" class="text-[#D4AF37] hover:underline font-medium">Scopri le fasi →</a>
-                </div>
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Il Progetto</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    Un percorso concreto in tre fasi: il restauro di una masseria storica, 
+                    l’espansione con nuove abitazioni e lo sviluppo di un modello di comunità replicabile nel tempo.
+                </p>
+                <a href="il-progetto.html" class="text-[#D4AF37] hover:underline font-medium">Scopri le fasi →</a>
             </div>
 
             <!-- Un modello diverso -->
-            <div class="bg-[#111111] rounded-3xl border border-white/10 overflow-hidden flex flex-col">
-                <img src="assets/atmosfera-sagra.png" alt="Un modello diverso" class="w-full h-48 object-cover">
-                <div class="p-8 flex-1 flex flex-col">
-                    <h3 class="heading text-3xl mb-4">Un modello diverso</h3>
-                    <p class="text-[#CFCFCF] mb-6 flex-1">
-                        Molti progetti di rigenerazione di borghi si sono concentrati sul turismo o su formule temporanee. 
-                        Baglio San Michele propone un approccio differente, orientato alla stabilità abitativa, 
-                        alla comunità e al lungo periodo.
-                    </p>
-                    <a href="un-modello-diverso.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
-                </div>
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Un modello diverso</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    A differenza di molti progetti di rigenerazione basati sul turismo o su formule temporanee 
+                    come le “case a 1 euro”, Baglio San Michele propone un modello orientato alla stabilità abitativa, 
+                    alla vita comunitaria e al lungo periodo.
+                </p>
+                <a href="un-modello-diverso.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
             </div>
 
             <!-- Vivere qui -->
-            <div class="bg-[#111111] rounded-3xl border border-white/10 overflow-hidden flex flex-col">
-                <img src="assets/atmosfera-cucina.png" alt="Vivere qui" class="w-full h-48 object-cover">
-                <div class="p-8 flex-1 flex flex-col">
-                    <h3 class="heading text-3xl mb-4">Vivere qui</h3>
-                    <p class="text-[#CFCFCF] mb-6 flex-1">
-                        Artigianato, scuola dei mestieri, mutua assistenza tra famiglie, permacultura e autonomia energetica: 
-                        ecco come si vive concretamente a Baglio San Michele.
-                    </p>
-                    <a href="vivere-qui.html" class="text-[#D4AF37] hover:underline font-medium">Scopri come si vive →</a>
-                </div>
+            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+                <h3 class="heading text-3xl mb-4">Vivere qui</h3>
+                <p class="text-[#CFCFCF] mb-6">
+                    Artigianato, scuola dei mestieri, mutua assistenza tra famiglie e cura della terra: 
+                    scopri come questi elementi diventano parte della vita quotidiana in una comunità intenzionale.
+                </p>
+                <a href="vivere-qui.html" class="text-[#D4AF37] hover:underline font-medium">Scopri come si vive →</a>
             </div>
         </div>
     </section>
@@ -176,14 +144,6 @@
     <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
         © Baglio San Michele • Sicilian Slow Living
     </footer>
-<script>
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
 
-    menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-        mobileMenu.classList.toggle('flex');
-    });
-</script>
 </body>
 </html>
