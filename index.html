@@ -22,7 +22,7 @@
         body {
             font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
                          "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #000000;   /* NERO TOTALE */
+            background-color: #000000;
             color: #E5E5E5;
         }
 
@@ -32,14 +32,18 @@
             letter-spacing: 0.5px;
         }
 
+        .gold {
+            color: #D4AF37; /* Nuovo oro più caldo e vicino al logo */
+        }
+
         .gold-button {
-            background-color: #C9A227;
+            background-color: #D4AF37;
             color: #000000;
             transition: all 0.3s ease;
         }
         
         .gold-button:hover {
-            background-color: #D4AF37;
+            background-color: #E8C872;
             transform: translateY(-1px);
         }
     </style>
@@ -55,13 +59,13 @@
                 </div>
 
                 <div class="hidden md:flex items-center gap-x-9 text-sm tracking-wider">
-                    <a href="#concept" class="hover:text-[#C9A227] transition-colors">Il Concept</a>
-                    <a href="#progetto" class="hover:text-[#C9A227] transition-colors">Il Progetto</a>
-                    <a href="#atmosfera" class="hover:text-[#C9A227] transition-colors">L’Atmosfera</a>
+                    <a href="#concept" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                    <a href="#progetto" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                    <a href="#atmosfera" class="hover:text-[#D4AF37] transition-colors">L’Atmosfera</a>
                 </div>
 
                 <a href="#contatti" 
-                   class="px-6 py-2.5 text-sm tracking-wider border border-[#C9A227] text-[#C9A227] hover:bg-[#C9A227] hover:text-black transition-all rounded-full">
+                   class="px-6 py-2.5 text-sm tracking-wider border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-all rounded-full">
                     Richiedi informazioni
                 </a>
             </div>
@@ -75,10 +79,12 @@
                 <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-40 md:h-56 w-auto">
             </div>
             
-            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">
+            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-3 text-[#D4AF37]">
                 Una comunità intenzionale
             </h1>
-            <p class="text-2xl text-[#C9A227] tracking-wide mb-8">
+            
+            <!-- Sottotitolo in bianco, stesso font, dimensione più piccola -->
+            <p class="heading text-xl md:text-2xl text-white tracking-wide mb-8">
                 radicata nella tradizione e nella cultura siciliana
             </p>
 
@@ -92,7 +98,7 @@
     <!-- IL CONCEPT -->
     <section id="concept" class="max-w-4xl mx-auto px-8 py-20 border-t border-white/10">
         <div class="max-w-3xl mx-auto text-center">
-            <span class="text-[#C9A227] text-xs tracking-[4px] uppercase">IL NOSTRO ORIZZONTE</span>
+            <span class="text-[#D4AF37] text-xs tracking-[4px] uppercase">IL NOSTRO ORIZZONTE</span>
             <h2 class="heading text-5xl tracking-[0.5px] mt-4 mb-8">Il Concept</h2>
             
             <div class="text-[#CFCFCF] text-lg leading-relaxed space-y-6">
@@ -109,27 +115,27 @@
     <!-- IL PROGETTO -->
     <section id="progetto" class="max-w-6xl mx-auto px-8 py-16 border-t border-white/10">
         <div class="text-center mb-12">
-            <span class="text-[#C9A227] text-xs tracking-[4px] uppercase">IL PERCORSO</span>
+            <span class="text-[#D4AF37] text-xs tracking-[4px] uppercase">IL PERCORSO</span>
             <h2 class="heading text-5xl tracking-[0.5px] mt-4">Il Progetto</h2>
         </div>
 
         <div class="grid md:grid-cols-3 gap-6">
             <div class="bg-[#111111] border border-white/10 p-8 rounded-3xl">
-                <div class="text-[#C9A227] text-sm tracking-wider mb-2">FASE 1</div>
+                <div class="text-[#D4AF37] text-sm tracking-wider mb-2">FASE 1</div>
                 <h3 class="heading text-3xl mb-4">Il Restauro</h3>
                 <p class="text-[#B0B0B0]">Recupero di una masseria storica del XVI secolo 
                 e sua trasformazione in residenze di qualità pensate per durare.</p>
             </div>
 
             <div class="bg-[#111111] border border-white/10 p-8 rounded-3xl">
-                <div class="text-[#C9A227] text-sm tracking-wider mb-2">FASE 2</div>
+                <div class="text-[#D4AF37] text-sm tracking-wider mb-2">FASE 2</div>
                 <h3 class="heading text-3xl mb-4">L’Espansione</h3>
                 <p class="text-[#B0B0B0]">Realizzazione di nuove abitazioni rurali in pietra iblea, 
                 integrate con rispetto nel paesaggio e nella tradizione locale.</p>
             </div>
 
             <div class="bg-[#111111] border border-white/10 p-8 rounded-3xl">
-                <div class="text-[#C9A227] text-sm tracking-wider mb-2">FASE 3</div>
+                <div class="text-[#D4AF37] text-sm tracking-wider mb-2">FASE 3</div>
                 <h3 class="heading text-3xl mb-4">La Replicabilità</h3>
                 <p class="text-[#B0B0B0]">Sviluppo di un modello di borghi ispirati agli stessi 
                 principi di lentezza, comunità e radicamento autentico.</p>
@@ -140,7 +146,7 @@
     <!-- L’ATMOSFERA -->
     <section id="atmosfera" class="max-w-6xl mx-auto px-8 py-16 border-t border-white/10">
         <div class="text-center mb-10">
-            <span class="text-[#C9A227] text-xs tracking-[4px] uppercase">IL SENTIRE</span>
+            <span class="text-[#D4AF37] text-xs tracking-[4px] uppercase">IL SENTIRE</span>
             <h2 class="heading text-5xl tracking-[0.5px] mt-4">L’Atmosfera</h2>
         </div>
 
@@ -172,7 +178,7 @@
 
     <!-- RICHIEDI INFORMAZIONI -->
     <section id="contatti" class="max-w-3xl mx-auto px-8 py-20 text-center border-t border-white/10">
-        <h2 class="heading text-5xl tracking-[0.5px] mb-6">Richiedi informazioni</h2>
+        <h2 class="heading text-5xl tracking-[0.5px] mb-6 text-[#D4AF37]">Richiedi informazioni</h2>
         <p class="max-w-md mx-auto text-[#B0B0B0] mb-10">
             Se questo progetto risuona con la tua idea di vita, 
             ti invitiamo a contattarci in modo riservato.
