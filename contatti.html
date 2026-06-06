@@ -35,43 +35,39 @@
 </head>
 <body class="bg-black text-[#E5E5E5]">
 
-   <!-- NAVBAR con Menu Mobile -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
-    <div class="max-w-6xl mx-auto px-6">
-        <div class="flex items-center justify-between h-20">
-            
-            <!-- Logo -->
-            <div>
-                <a href="index.html">
-                    <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                </a>
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <div>
+                    <a href="index.html">
+                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
+                </div>
+
+                <!-- Menu Desktop -->
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
+                    <a href="contatti.html" class="text-[#D4AF37]">Contatti</a>
+                </div>
+
+                <!-- Hamburger -->
+                <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">☰</button>
             </div>
 
-            <!-- Menu Desktop -->
-            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+            <!-- Menu Mobile -->
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
+                <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
+                <a href="contatti.html" class="block py-2 text-[#D4AF37]">Contatti</a>
             </div>
-
-            <!-- Hamburger Button (solo mobile) -->
-            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
-                ☰
-            </button>
         </div>
-
-        <!-- Menu Mobile -->
-        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-4 pb-6 text-sm tracking-wider">
-            <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
-            <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
-            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-            <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
-            <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
-        </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- HERO / TITOLO -->
     <header class="pt-20 pb-12 border-b border-white/10">
@@ -81,17 +77,22 @@
         </div>
     </header>
 
-    <!-- CONTENUTO -->
-    <section class="max-w-3xl mx-auto px-8 py-14">
-        <div class="max-w-2xl mx-auto text-center mb-10">
+    <!-- INTRODUZIONE -->
+    <section class="max-w-3xl mx-auto px-8 py-12">
+        <div class="max-w-2xl mx-auto text-center">
             <p class="text-xl leading-relaxed">
                 Se questo progetto risuona con la tua visione di vita e desideri approfondire, 
-                ti invitiamo a metterti in contatto con noi. Siamo disponibili a un primo colloquio conoscitivo.
+                ti invitiamo a metterti in contatto con noi.<br><br>
+                Siamo disponibili a un primo colloquio conoscitivo, in cui potremo presentarti 
+                con maggiore dettaglio il progetto e rispondere alle tue domande.<br><br>
+                Le informazioni che ci fornirai saranno trattate con la massima riservatezza.
             </p>
         </div>
+    </section>
 
-        <!-- FORM MIGLIORATO -->
-        <form action="#" method="POST" class="max-w-2xl mx-auto space-y-8">
+    <!-- FORM -->
+    <section class="max-w-3xl mx-auto px-8 pb-16">
+        <form action="#" method="POST" class="space-y-8">
 
             <!-- Dati personali -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -110,10 +111,10 @@
                 <input type="tel" name="telefono" class="form-input w-full px-4 py-3 rounded-xl">
             </div>
 
-            <!-- Interessi principali (Checkbox) -->
+            <!-- Interessi (Checkbox) -->
             <div>
                 <label class="block text-sm mb-3 text-[#B0B0B0]">Quali sono i tuoi principali interessi? *</label>
-                <div class="space-y-2">
+                <div class="space-y-2 text-base">
                     <label class="flex items-center gap-x-3">
                         <input type="checkbox" name="interessi[]" value="Vivere stabilmente nel Borgo" class="accent-[#D4AF37]">
                         <span>Vivere stabilmente nel Borgo</span>
@@ -144,10 +145,10 @@
                 </select>
             </div>
 
-            <!-- Numero componenti (compare solo se sceglie Famiglia con figli) -->
+            <!-- Numero componenti (condizionale) -->
             <div id="campo-componenti" class="hidden">
                 <label class="block text-sm mb-2 text-[#B0B0B0]">Di quanti componenti è composto il nucleo familiare?</label>
-                <input type="number" name="componenti" min="1" class="form-input w-full px-4 py-3 rounded-xl">
+                <input type="number" name="componenti" min="2" class="form-input w-full px-4 py-3 rounded-xl">
             </div>
 
             <!-- Competenze / Professione -->
@@ -197,26 +198,30 @@
     </footer>
 
     <script>
-        // Mostra/Nasconde il campo "Numero componenti" in base alla selezione
+        // Mostra/Nasconde il campo "Numero componenti"
         const famigliaSelect = document.getElementById('famiglia');
         const campoComponenti = document.getElementById('campo-componenti');
 
-        famigliaSelect.addEventListener('change', function() {
-            if (this.value === 'Famiglia con figli') {
-                campoComponenti.classList.remove('hidden');
-            } else {
-                campoComponenti.classList.add('hidden');
-            }
-        });
-    </script>
-<script>
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
+        if (famigliaSelect && campoComponenti) {
+            famigliaSelect.addEventListener('change', function() {
+                if (this.value === 'Famiglia con figli') {
+                    campoComponenti.classList.remove('hidden');
+                } else {
+                    campoComponenti.classList.add('hidden');
+                }
+            });
+        }
 
-    menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-        mobileMenu.classList.toggle('flex');
-    });
-</script>
+        // Menu mobile
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            });
+        }
+    </script>
 </body>
 </html>
