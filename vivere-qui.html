@@ -7,39 +7,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
-        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
-        .gold { color: #D4AF37; }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; color: #c8872f; }
+        .text-secondary { color: #4a4a4a; }
     </style>
 </head>
-<body class="bg-black text-[#E5E5E5]">
+<body class="bg-white text-[#1f1f1f]">
 
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
+                <div><a href="index.html"><img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="text-[#D4AF37]">Vivere qui</a>
-                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                    <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="text-[#c8872f]">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
                 </div>
-                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
-                <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
-                <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-                <a href="vivere-qui.html" class="block py-2 text-[#D4AF37]">Vivere qui</a>
-                <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 text-[#c8872f]">Vivere qui</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
     </nav>
 
-    <header class="pt-20 pb-12 border-b border-white/10">
+    <header class="pt-20 pb-12 border-b border-gray-200">
         <div class="max-w-4xl mx-auto px-8 text-center">
-            <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL NOSTRO VIVERE</span>
+            <span class="text-[#c8872f] text-sm tracking-[3px] uppercase">IL NOSTRO VIVERE</span>
             <h1 class="heading text-5xl md:text-6xl tracking-[0.5px] mt-4">Vivere qui</h1>
         </div>
     </header>
@@ -51,13 +51,24 @@
     <section class="max-w-5xl mx-auto px-8 pb-16">
         <h2 class="heading text-4xl mb-8">Per chi è pensato</h2>
         <div class="grid md:grid-cols-2 gap-x-10 gap-y-8 text-lg">
-            <div><strong class="text-[#D4AF37]">Famiglie con figli</strong><br>Genitori che vogliono un contesto educativo ricco di valori, natura e ritmi più umani.</div>
-            <div><strong class="text-[#D4AF37]">Professionisti in smart working</strong><br>Persone che cercano una base stabile, immersa nella natura e nelle relazioni.</div>
-            <div><strong class="text-[#D4AF37]">Artigiani e agricoltori</strong><br>Chi desidera apprendere o trasmettere mestieri tradizionali.</div>
-            <div><strong class="text-[#D4AF37]">Anziani autosufficienti</strong><br>Persone che cercano dignità, utilità sociale e prossimità alla comunità.</div>
+            <div><strong class="text-[#c8872f]">Famiglie con figli</strong><br>Genitori che vogliono un contesto educativo ricco di valori, natura e ritmi più umani.</div>
+            <div><strong class="text-[#c8872f]">Professionisti in smart working</strong><br>Persone che cercano una base stabile, immersa nella natura e nelle relazioni.</div>
+            <div><strong class="text-[#c8872f]">Artigiani e agricoltori</strong><br>Chi desidera apprendere o trasmettere mestieri tradizionali.</div>
+            <div><strong class="text-[#c8872f]">Anziani autosufficienti</strong><br>Persone che cercano dignità, utilità sociale e prossimità alla comunità.</div>
         </div>
     </section>
 
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
+    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-gray-200">
+        <h2 class="heading text-4xl mb-8">Cosa cercano</h2>
+        <div class="grid md:grid-cols-2 gap-x-10 gap-y-8 text-lg">
+            <div><strong class="text-[#c8872f]">Educazione dei figli</strong><br>Un contesto con adulti di riferimento, natura e ritmi più regolari.</div>
+            <div><strong class="text-[#c8872f]">Stabilità e sicurezza</strong><br>Un ambiente prevedibile e protetto, lontano dallo stress urbano.</div>
+            <div><strong class="text-[#c8872f]">Relazioni autentiche</strong><br>Una comunità piccola dove le persone si conoscono e si aiutano.</div>
+            <div><strong class="text-[#c8872f]">Trasmissione di valori</strong><br>La possibilità di trasmettere fede, responsabilità e radicamento.</div>
+            <div><strong class="text-[#c8872f]">Meno stress, più tempo</strong><br>Ritmi più umani e maggiore qualità della vita familiare.</div>
+        </div>
+    </section>
+
+    <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 </body>
 </html>
