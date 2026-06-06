@@ -7,20 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
-                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #000000;
-            color: #E5E5E5;
-        }
-        .heading {
-            font-family: 'Julius Sans One', Georgia, serif;
-            font-weight: 400;
-            letter-spacing: 0.5px;
-        }
-        .gold {
-            color: #D4AF37;
-        }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
+        .gold { color: #D4AF37; }
     </style>
 </head>
 <body class="bg-black text-[#E5E5E5]">
@@ -29,13 +18,7 @@
     <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div>
-                    <a href="index.html">
-                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                    </a>
-                </div>
-
-                <!-- Menu Desktop -->
+                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
                     <a href="il-concept.html" class="text-[#D4AF37]">Il Concept</a>
                     <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
@@ -43,12 +26,8 @@
                     <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
                     <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
                 </div>
-
-                <!-- Hamburger -->
-                <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">☰</button>
+                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
             </div>
-
-            <!-- Menu Mobile -->
             <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
                 <a href="il-concept.html" class="block py-2 text-[#D4AF37]">Il Concept</a>
                 <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
@@ -59,7 +38,6 @@
         </div>
     </nav>
 
-    <!-- HERO / TITOLO -->
     <header class="pt-20 pb-12 border-b border-white/10">
         <div class="max-w-4xl mx-auto px-8 text-center">
             <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL NOSTRO ORIZZONTE</span>
@@ -70,134 +48,44 @@
     <!-- CHI SIAMO -->
     <section class="max-w-4xl mx-auto px-8 py-16">
         <h2 class="heading text-4xl mb-8">Chi siamo</h2>
-        
         <div class="prose prose-invert max-w-none text-lg leading-relaxed">
-            <p>Siamo famiglie e professionisti che hanno scelto di mettere radici in Sicilia, in provincia di Ragusa, 
-            per rigenerare un antico baglio fortificato come <strong>comunità intenzionale stabile</strong>, 
-            ispirata al Sicilian Slow Living.</p>
-            
-            <p class="mt-6">La nostra visione è chiara: <strong>casa, lavoro, relazioni e paesaggio</strong> non sono ambiti separati, 
-            ma un unico ecosistema da curare e far prosperare insieme.</p>
-            
-            <p class="mt-6">Procediamo con metodo: <strong>piccoli passi</strong>, standard elevati, responsabilità condivisa e trasparenza economica. 
-            Crediamo che solo attraverso un percorso graduale e rigoroso si possa costruire qualcosa di duraturo e autentico.</p>
-            
-            <p class="mt-6">La nostra identità si riconosce in una <strong>dimensione spirituale esplicita e serena</strong>, vissuta nella quotidianità, 
-            e in un rapporto vivo con la tradizione: non come un retaggio da conservare passivamente, ma come una fiamma da tenere accesa e da trasmettere.</p>
-            
-            <p class="mt-6">Siamo <strong>piccoli per scelta</strong>. L’ingresso nel progetto avviene per tappe — candidatura, colloquio, visita, periodo di prova e ingresso formale — 
-            perché la selezione è reciproca e deve avvenire con piena consapevolezza da entrambe le parti.</p>
+            <p>Siamo famiglie e professionisti che hanno scelto di mettere radici in Sicilia, in provincia di Ragusa, per rigenerare un antico baglio fortificato come <strong>comunità intenzionale stabile</strong>, ispirata al Sicilian Slow Living.</p>
+            <p class="mt-6">La nostra visione è che <strong>casa, lavoro, relazioni e paesaggio</strong> formino un unico ecosistema da curare insieme.</p>
+            <p class="mt-6">Procediamo per <strong>piccoli passi</strong>, con standard elevati, responsabilità condivisa e trasparenza economica. La nostra identità si riconosce in una <strong>dimensione spirituale esplicita e serena</strong> e in un rapporto vivo con la tradizione.</p>
+            <p class="mt-6">Siamo <strong>piccoli per scelta</strong>. L’ingresso avviene per tappe: candidatura, colloquio, visita, periodo di prova e ingresso formale. La selezione è reciproca.</p>
         </div>
     </section>
 
-    <!-- I NOSTRI AMBITI -->
+    <!-- AMBITI -->
     <section class="max-w-5xl mx-auto px-8 pb-16">
         <h2 class="heading text-4xl mb-8">I nostri ambiti</h2>
-        
-        <div class="grid md:grid-cols-2 gap-x-10 gap-y-8 text-lg">
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Architettura e cantieri</h3>
-                <p class="text-[#CFCFCF]">Restauro filologico, materiali locali, criteri bioclimatici.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Terra e allevamenti</h3>
-                <p class="text-[#CFCFCF]">Orto, frutteto, apicoltura, benessere animale, gestione integrata di acqua e suolo.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Economia e governance</h3>
-                <p class="text-[#CFCFCF]">Patti chiari, fondi comuni, rendicontazione periodica.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Artigianato e filiere</h3>
-                <p class="text-[#CFCFCF]">Lavoro del legno, della pietra, filiere tessili e trasformazioni alimentari.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Comunità ed educazione</h3>
-                <p class="text-[#CFCFCF]">Processi decisionali partecipati, cura intergenerazionale, attività per bambini e anziani.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Lavoro da remoto</h3>
-                <p class="text-[#CFCFCF]">Connettività di qualità e spazi dedicati allo studio e al coworking rurale.</p>
-            </div>
+        <div class="grid md:grid-cols-2 gap-x-10 gap-y-6 text-lg">
+            <div><strong class="text-[#D4AF37]">Architettura e cantieri</strong><br><span class="text-[#CFCFCF]">Restauro filologico, materiali locali, criteri bioclimatici.</span></div>
+            <div><strong class="text-[#D4AF37]">Terra e allevamenti</strong><br><span class="text-[#CFCFCF]">Orto, frutteto, apicoltura, benessere animale, gestione acqua e suolo.</span></div>
+            <div><strong class="text-[#D4AF37]">Economia e governance</strong><br><span class="text-[#CFCFCF]">Patti chiari, fondi comuni, rendicontazione periodica.</span></div>
+            <div><strong class="text-[#D4AF37]">Artigianato e filiere</strong><br><span class="text-[#CFCFCF]">Lavoro del legno, della pietra, filiere tessili e alimentari.</span></div>
+            <div><strong class="text-[#D4AF37]">Comunità ed educazione</strong><br><span class="text-[#CFCFCF]">Processi decisionali partecipati, cura intergenerazionale.</span></div>
+            <div><strong class="text-[#D4AF37]">Lavoro da remoto</strong><br><span class="text-[#CFCFCF]">Spazi di coworking e connettività di qualità.</span></div>
         </div>
     </section>
 
     <!-- MANIFESTO -->
     <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
-        <h2 class="heading text-4xl mb-10">Manifesto del Sicilian Slow Living</h2>
-        
-        <p class="text-xl mb-10 max-w-3xl">
-            Il Sicilian Slow Living non è un’estetica. È una pratica: rimettere in ordine casa, lavoro, terra e legami secondo un ritmo umano.
-        </p>
-
-        <div class="space-y-10">
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">1. Radici</h3>
-                <p class="text-[#CFCFCF]">Conoscere il luogo, usare materiali e saperi locali, onorare ciò che c’era prima di noi.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">2. Tempo giusto</h3>
-                <p class="text-[#CFCFCF]">La lentezza come misura: coltivare, cucinare, riparare, studiare, pregare, riposare.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">3. Comunità adulta</h3>
-                <p class="text-[#CFCFCF]">Libertà con responsabilità, regole chiare, decisioni partecipate, conflitti gestiti.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">4. Casa e paesaggio</h3>
-                <p class="text-[#CFCFCF]">Spazi privati essenziali; spazi comuni belli e curati. Pietra, legno, ombra, vento.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">5. Lavoro con senso</h3>
-                <p class="text-[#CFCFCF]">Pari dignità tra mestieri della terra, dell’ingegno e del pensiero. Il profitto è un mezzo.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">6. Ecologia concreta</h3>
-                <p class="text-[#CFCFCF]">Acqua rispettata, suolo vivo, energia misurata. Riparare e condividere prima di comprare e possedere.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">7. Apertura selettiva</h3>
-                <p class="text-[#CFCFCF]">Ospitalità sì; turismo estrattivo no. Scambi veri con chi porta tempo, cura, competenza.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">8. Educazione diffusa</h3>
-                <p class="text-[#CFCFCF]">Bambini tra campi e botteghe, libri e persone. L’apprendimento come fatto comunitario.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">9. Economia della fiducia</h3>
-                <p class="text-[#CFCFCF]">Parola data e contratti chiari. Prezzi equi dentro; valore riconosciuto fuori. Anti-speculazione.</p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">10. Continuità</h3>
-                <p class="text-[#CFCFCF]">Pensare in decenni: manutenzione, ricambio, eredità. Lasciare il baglio meglio di come lo abbiamo trovato.</p>
-            </div>
-        </div>
-
-        <div class="mt-12 pt-10 border-t border-white/10">
-            <h3 class="heading text-2xl mb-6">Impegni reciproci</h3>
-            <ul class="space-y-3 text-lg">
-                <li><strong>Cura:</strong> ciascuno contribuisce con lavoro, competenze o risorse, in modo proporzionato.</li>
-                <li><strong>Presenza:</strong> la vita comune si regge sulla partecipazione attiva, non sulla delega.</li>
-                <li><strong>Verità:</strong> parlare con chiarezza, soprattutto quando è scomodo.</li>
-            </ul>
+        <h2 class="heading text-4xl mb-8">Manifesto del Sicilian Slow Living</h2>
+        <div class="space-y-8 text-lg">
+            <div><strong class="text-[#D4AF37]">1. Radici</strong> — Conoscere il luogo e usare materiali e saperi locali.</div>
+            <div><strong class="text-[#D4AF37]">2. Tempo giusto</strong> — Coltivare, cucinare, riparare, studiare, pregare, riposare.</div>
+            <div><strong class="text-[#D4AF37]">3. Comunità adulta</strong> — Libertà con responsabilità, regole chiare, decisioni partecipate.</div>
+            <div><strong class="text-[#D4AF37]">4. Casa e paesaggio</strong> — Spazi privati essenziali e spazi comuni curati.</div>
+            <div><strong class="text-[#D4AF37]">5. Lavoro con senso</strong> — Pari dignità tra mestieri della terra, dell’ingegno e del pensiero.</div>
+            <div><strong class="text-[#D4AF37]">6. Ecologia concreta</strong> — Acqua, suolo ed energia gestiti con responsabilità.</div>
+            <div><strong class="text-[#D4AF37]">7. Apertura selettiva</strong> — Ospitalità sì, turismo estrattivo no.</div>
+            <div><strong class="text-[#D4AF37]">8. Educazione diffusa</strong> — Apprendimento come fatto comunitario.</div>
+            <div><strong class="text-[#D4AF37]">9. Economia della fiducia</strong> — Parola data, contratti chiari, anti-speculazione.</div>
+            <div><strong class="text-[#D4AF37]">10. Continuità</strong> — Pensare in decenni e lasciare il luogo migliore di come lo abbiamo trovato.</div>
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
-        © Baglio San Michele • Sicilian Slow Living
-    </footer>
-
-    <script>
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        
-        if (menuBtn && mobileMenu) {
-            menuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            });
-        }
-    </script>
+    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 </body>
 </html>
