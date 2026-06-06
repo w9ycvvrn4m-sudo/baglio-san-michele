@@ -29,36 +29,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
-        body {
-            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
-                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #ffffff;
-            color: #1f1f1f;
-        }
-        .heading {
-            font-family: 'Julius Sans One', Georgia, serif;
-            font-weight: 400;
-            letter-spacing: 0.5px;
-            color: #c8872f;
-        }
-        .gold-button {
-            background-color: #c8872f;
-            color: white;
-            transition: all 0.3s ease;
-        }
-        .gold-button:hover {
-            background-color: #a86f24;
-            transform: translateY(-1px);
-        }
-        .text-secondary {
-            color: #4a4a4a;
-        }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; color: #c8872f; }
+        .gold-button { background-color: #c8872f; color: white; transition: all 0.3s ease; }
+        .gold-button:hover { background-color: #a86f24; transform: translateY(-1px); }
+        .text-secondary { color: #4a4a4a; }
+        .hero-bg { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('assets/atmosfera-benvenuti.png'); background-size: cover; background-position: center 35%; }
     </style>
 </head>
 <body>
 
     <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
                 <div>
@@ -71,6 +53,7 @@
                     <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
                     <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
                     <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                    <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
                     <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
                 </div>
                 <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
@@ -80,37 +63,24 @@
                 <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
                 <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
                 <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
+                <a href="investimento-etico.html" class="block py-2 text-[#c8872f]">Investimento etico</a>
                 <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
     </nav>
 
     <!-- HERO -->
-<header class="min-h-[100dvh] flex items-center pt-20 relative overflow-hidden">
-    <!-- Immagine di sfondo -->
-    <div class="absolute inset-0 bg-cover bg-center" 
-         style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('assets/atmosfera-benvenuti.png'); 
-                background-position: center 30%;">
-    </div>
-
-    <div class="max-w-5xl mx-auto px-8 text-center text-white relative z-10">
-        <div class="flex justify-center mb-8">
-            <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-36 md:h-44 w-auto">
+    <header class="hero-bg min-h-[100dvh] flex items-center pt-20">
+        <div class="max-w-5xl mx-auto px-8 text-center text-white relative z-10">
+            <div class="flex justify-center mb-8">
+                <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-36 md:h-44 w-auto">
+            </div>
+            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">Una comunità intenzionale</h1>
+            <p class="text-2xl md:text-3xl tracking-wide mb-10 text-white/90">radicata nella tradizione e nella cultura siciliana</p>
+            <a href="#anteprime" class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">Scopri il progetto</a>
         </div>
-        
-        <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">
-            Una comunità intenzionale
-        </h1>
-        <p class="text-2xl md:text-3xl tracking-wide mb-10 text-white/90">
-            radicata nella tradizione e nella cultura siciliana
-        </p>
+    </header>
 
-        <a href="#anteprime" 
-           class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">
-            Scopri il progetto
-        </a>
-    </div>
-</header>
     <!-- INTRO -->
     <section class="max-w-4xl mx-auto px-8 py-16 text-center">
         <p class="text-xl leading-relaxed text-secondary">Siamo famiglie e professionisti che hanno scelto di mettere radici in Sicilia per rigenerare un antico baglio come comunità intenzionale stabile, ispirata al Sicilian Slow Living.</p>
@@ -119,30 +89,47 @@
     <!-- ANTEPRIME -->
     <section id="anteprime" class="max-w-6xl mx-auto px-8 pb-20">
         <h2 class="heading text-3xl mb-10 text-center">Scopri il progetto</h2>
+
         <div class="grid md:grid-cols-2 gap-8">
+            
+            <!-- Il Concept -->
             <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <img src="assets/atmosfera-borgo.png" alt="Il Concept" class="w-full h-48 object-cover rounded-2xl mb-6">
                 <h3 class="heading text-3xl mb-4">Il Concept</h3>
-                <p class="text-secondary mb-6">Scopri la nostra visione: una comunità intenzionale in cui casa, lavoro, relazioni e paesaggio formano un unico ecosistema, guidato da piccoli passi e standard elevati.</p>
+                <p class="text-secondary mb-6">Scopri la nostra visione: una comunità intenzionale in cui casa, lavoro, relazioni e paesaggio formano un unico ecosistema.</p>
                 <a href="il-concept.html" class="text-[#c8872f] hover:underline font-medium">Approfondisci →</a>
             </div>
+
+            <!-- Il Progetto -->
             <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <img src="assets/atmosfera-casa.png" alt="Il Progetto" class="w-full h-48 object-cover rounded-2xl mb-6">
                 <h3 class="heading text-3xl mb-4">Il Progetto</h3>
-                <p class="text-secondary mb-6">Un percorso concreto: 14 appartamenti da ristrutturare nel baglio storico e 20 case coloniche di prossima costruzione - di diverse tipologie e personalizzabili - per una residenza stabile tutto l’anno.</p>
+                <p class="text-secondary mb-6">Un percorso concreto: 14 appartamenti già restaurati nel baglio storico e 20 case coloniche di prossima costruzione per una residenza stabile.</p>
                 <a href="il-progetto.html" class="text-[#c8872f] hover:underline font-medium">Scopri le fasi →</a>
             </div>
+
+            <!-- Un modello diverso -->
             <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <img src="assets/atmosfera-sagra.png" alt="Un modello diverso" class="w-full h-48 object-cover rounded-2xl mb-6">
                 <h3 class="heading text-3xl mb-4">Un modello diverso</h3>
-                <p class="text-secondary mb-6">A differenza di molti progetti basati sul turismo o su formule temporanee, Baglio San Michele si fonda su residenza stabile, selezione attenta e responsabilità condivisa.</p>
+                <p class="text-secondary mb-6">A differenza di molti progetti basati sul turismo o su formule temporanee, Baglio San Michele si fonda su residenza stabile e responsabilità condivisa.</p>
                 <a href="un-modello-diverso.html" class="text-[#c8872f] hover:underline font-medium">Approfondisci →</a>
             </div>
+
+            <!-- Vivere qui -->
             <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <img src="assets/atmosfera-cucina.png" alt="Vivere qui" class="w-full h-48 object-cover rounded-2xl mb-6">
                 <h3 class="heading text-3xl mb-4">Vivere qui</h3>
-                <p class="text-secondary mb-6">Artigianato, scuola dei mestieri, mutua assistenza e cura della terra: scopri come questi elementi diventano parte della vita quotidiana in una comunità intenzionale.</p>
+                <p class="text-secondary mb-6">Artigianato, scuola dei mestieri, mutua assistenza e cura della terra: scopri come questi elementi diventano parte della vita quotidiana.</p>
                 <a href="vivere-qui.html" class="text-[#c8872f] hover:underline font-medium">Scopri come si vive →</a>
+            </div>
+
+            <!-- Investimento etico -->
+            <div class="bg-white p-8 rounded-3xl border border-gray-200 md:col-span-2">
+                <img src="assets/atmosfera-architetto.png" alt="Investimento etico" class="w-full h-48 object-cover rounded-2xl mb-6">
+                <h3 class="heading text-3xl mb-4">Investimento etico</h3>
+                <p class="text-secondary mb-6">Un investimento etico e di lungo periodo. Scopri perché l’indole intenzionale della comunità e i prezzi concorrenziali delle unità abitative generano valore reale in un contesto di incertezza economica.</p>
+                <a href="investimento-etico.html" class="text-[#c8872f] hover:underline font-medium">Approfondisci →</a>
             </div>
         </div>
     </section>
