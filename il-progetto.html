@@ -7,74 +7,81 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
-        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
-        .gold { color: #D4AF37; }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; color: #c8872f; }
+        .gold { color: #c8872f; }
+        .text-secondary { color: #4a4a4a; }
     </style>
 </head>
-<body class="bg-black text-[#E5E5E5]">
+<body class="bg-white text-[#1f1f1f]">
 
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
+                <div><a href="index.html"><img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                    <a href="il-progetto.html" class="text-[#D4AF37]">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                    <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="text-[#c8872f]">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
                 </div>
-                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
-                <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
-                <a href="il-progetto.html" class="block py-2 text-[#D4AF37]">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-                <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
-                <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 text-[#c8872f]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
     </nav>
 
-    <header class="pt-20 pb-12 border-b border-white/10">
+    <header class="pt-20 pb-12 border-b border-gray-200">
         <div class="max-w-4xl mx-auto px-8 text-center">
-            <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL PERCORSO</span>
+            <span class="text-[#c8872f] text-sm tracking-[3px] uppercase">IL PERCORSO</span>
             <h1 class="heading text-5xl md:text-6xl tracking-[0.5px] mt-4">Il Progetto</h1>
         </div>
     </header>
 
     <section class="max-w-4xl mx-auto px-8 py-14">
         <p class="text-xl">Baglio San Michele è una masseria fortificata in Sicilia, in provincia di Ragusa, rigenerata come <strong>comunità intenzionale</strong> radicata nel Sicilian Slow Living.</p>
-        <p class="mt-4 text-[#CFCFCF]">Non è un resort né un albergo diffuso: è un luogo da abitare tutto l’anno.</p>
+        <p class="mt-4 text-secondary">Non è un resort, né un albergo diffuso: è un luogo da abitare tutto l’anno.</p>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-8 pb-12">
+        <div class="overflow-hidden rounded-3xl">
+            <img src="assets/atmosfera-borgo-2.png" alt="Il Progetto - Baglio San Michele" class="w-full h-auto object-cover">
+        </div>
     </section>
 
     <section class="max-w-5xl mx-auto px-8 pb-16">
         <h2 class="heading text-4xl mb-8">Le fasi del progetto</h2>
         <div class="space-y-10">
             <div>
-                <span class="text-sm font-semibold px-3 py-1 bg-[#D4AF37] text-black rounded">FASE 1</span>
+                <span class="text-sm font-semibold px-3 py-1 bg-[#c8872f] text-white rounded">FASE 1</span>
                 <h3 class="heading text-3xl mt-3 mb-3">Il Restauro</h3>
-                <p class="text-[#CFCFCF]">14 appartamenti già restaurati nel baglio storico, con spazi comuni per la vita comunitaria e la formazione pratica.</p>
+                <p class="text-secondary">14 appartamenti già restaurati nel baglio storico, con spazi comuni per la vita comunitaria e la formazione pratica.</p>
             </div>
             <div>
-                <span class="text-sm font-semibold px-3 py-1 bg-[#D4AF37] text-black rounded">FASE 2</span>
+                <span class="text-sm font-semibold px-3 py-1 bg-[#c8872f] text-white rounded">FASE 2</span>
                 <h3 class="heading text-3xl mt-3 mb-3">L’Espansione</h3>
-                <p class="text-[#CFCFCF]">20 case coloniche in pietra iblea di prossima costruzione, pensate per la residenza stabile e la vita all’aperto.</p>
+                <p class="text-secondary">20 case coloniche in pietra iblea di prossima costruzione, pensate per la residenza stabile e la vita all’aperto.</p>
             </div>
         </div>
     </section>
 
-    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
+    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-gray-200">
         <h2 class="heading text-4xl mb-8">Come funziona</h2>
         <div class="grid md:grid-cols-2 gap-x-10 gap-y-8 text-lg">
-            <div><strong class="text-[#D4AF37]">Privacy e condivisione</strong><br>Ogni nucleo ha un’abitazione privata. Spazi e attività comuni sono gestiti insieme.</div>
-            <div><strong class="text-[#D4AF37]">Governance</strong><br>Regole chiare, organi definiti e clausole anti-speculative a tutela del bene comune.</div>
-            <div><strong class="text-[#D4AF37]">Economia mista</strong><br>Contributi dei membri, micro-filiere interne e formazione permanente.</div>
-            <div><strong class="text-[#D4AF37]">Supporto intergenerazionale</strong><br>Bambini e anziani al centro, con forte trasmissione di saperi.</div>
+            <div><strong class="text-[#c8872f]">Privacy e condivisione</strong><br>Ogni nucleo ha un’abitazione privata. Spazi e attività comuni sono gestiti insieme.</div>
+            <div><strong class="text-[#c8872f]">Governance</strong><br>Regole chiare, organi definiti e clausole anti-speculative a tutela del bene comune.</div>
+            <div><strong class="text-[#c8872f]">Economia mista</strong><br>Contributi dei membri, micro-filiere interne e formazione permanente.</div>
+            <div><strong class="text-[#c8872f]">Supporto intergenerazionale</strong><br>Bambini e anziani al centro, con forte trasmissione di saperi rurali e artigianali.</div>
         </div>
     </section>
 
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
+    <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 </body>
 </html>
