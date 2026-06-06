@@ -8,89 +8,165 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
-        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
-        .gold-button { background-color: #D4AF37; color: #000000; transition: all 0.3s ease; }
-        .gold-button:hover { background-color: #E8C872; transform: translateY(-1px); }
-        .hero-bg { background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)), url('assets/atmosfera-benvenuti.png'); background-size: cover; background-position: center; background-attachment: fixed; }
+        body {
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1f1f1f;
+        }
+        .heading {
+            font-family: 'Julius Sans One', Georgia, serif;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            color: #c8872f;
+        }
+        .gold-button {
+            background-color: #c8872f;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .gold-button:hover {
+            background-color: #a86f24;
+            transform: translateY(-1px);
+        }
+        .section-title {
+            color: #c8872f;
+        }
+        .text-secondary {
+            color: #4a4a4a;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('assets/atmosfera-benvenuti.png');
+            background-size: cover;
+            background-position: center 35%;
+        }
     </style>
 </head>
-<body class="bg-black text-[#E5E5E5]">
+<body>
 
     <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
-                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                <div>
+                    <a href="index.html">
+                        <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
                 </div>
-                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+
+                <!-- Menu Desktop -->
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                    <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
+                </div>
+
+                <!-- Hamburger -->
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
+                    ☰
+                </button>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
-                <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
-                <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-                <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
-                <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
+
+            <!-- Menu Mobile -->
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
     </nav>
 
     <!-- HERO -->
     <header class="hero-bg min-h-[100dvh] flex items-center pt-20">
-        <div class="max-w-5xl mx-auto px-8 text-center">
+        <div class="max-w-5xl mx-auto px-8 text-center text-white relative z-10">
             <div class="flex justify-center mb-8">
                 <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-36 md:h-44 w-auto">
             </div>
-            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4 text-[#D4AF37]">Una comunità intenzionale</h1>
-            <p class="heading text-2xl md:text-3xl text-white tracking-wide mb-10">radicata nella tradizione e nella cultura siciliana</p>
-            <a href="#anteprime" class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">Scopri il progetto</a>
+            
+            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">
+                Una comunità intenzionale
+            </h1>
+            <p class="text-2xl md:text-3xl tracking-wide mb-10 text-white/90">
+                radicata nella tradizione e nella cultura siciliana
+            </p>
+
+            <a href="#anteprime" 
+               class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">
+                Scopri il progetto
+            </a>
         </div>
     </header>
 
-    <!-- INTRO -->
+    <!-- INTRODUZIONE -->
     <section class="max-w-4xl mx-auto px-8 py-16 text-center">
-        <p class="text-xl leading-relaxed">Siamo famiglie e professionisti che hanno scelto di mettere radici in Sicilia per rigenerare un antico baglio come comunità intenzionale stabile, ispirata al Sicilian Slow Living.</p>
+        <p class="text-xl leading-relaxed text-secondary">
+            Siamo famiglie e professionisti che hanno scelto di mettere radici in Sicilia per rigenerare un antico baglio 
+            come comunità intenzionale stabile, ispirata al Sicilian Slow Living.
+        </p>
     </section>
 
     <!-- ANTEPRIME -->
     <section id="anteprime" class="max-w-6xl mx-auto px-8 pb-20">
         <h2 class="heading text-3xl mb-10 text-center">Scopri il progetto</h2>
+
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+            
+            <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <h3 class="heading text-3xl mb-4">Il Concept</h3>
-                <p class="text-[#CFCFCF] mb-6">Scopri la nostra visione: una comunità intenzionale in cui casa, lavoro, relazioni e paesaggio formano un unico ecosistema.</p>
-                <a href="il-concept.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
+                <p class="text-secondary mb-6">
+                    Scopri la nostra visione: una comunità intenzionale in cui casa, lavoro, relazioni e paesaggio 
+                    formano un unico ecosistema, guidato da piccoli passi e standard elevati.
+                </p>
+                <a href="il-concept.html" class="text-[#c8872f] hover:underline font-medium">Approfondisci →</a>
             </div>
-            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <h3 class="heading text-3xl mb-4">Il Progetto</h3>
-                <p class="text-[#CFCFCF] mb-6">Un percorso concreto: 14 appartamenti già restaurati e 20 case coloniche di prossima costruzione per una residenza stabile.</p>
-                <a href="il-progetto.html" class="text-[#D4AF37] hover:underline font-medium">Scopri le fasi →</a>
+                <p class="text-secondary mb-6">
+                    Un percorso concreto: 14 appartamenti già restaurati nel baglio storico e 
+                    20 case coloniche di prossima costruzione per una residenza stabile tutto l’anno.
+                </p>
+                <a href="il-progetto.html" class="text-[#c8872f] hover:underline font-medium">Scopri le fasi →</a>
             </div>
-            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <h3 class="heading text-3xl mb-4">Un modello diverso</h3>
-                <p class="text-[#CFCFCF] mb-6">Residenza stabile, selezione attenta e responsabilità condivisa. Un approccio differente rispetto a molti progetti di rigenerazione.</p>
-                <a href="un-modello-diverso.html" class="text-[#D4AF37] hover:underline font-medium">Approfondisci →</a>
+                <p class="text-secondary mb-6">
+                    A differenza di molti progetti basati sul turismo o su formule temporanee, 
+                    Baglio San Michele si fonda su residenza stabile, selezione attenta e responsabilità condivisa.
+                </p>
+                <a href="un-modello-diverso.html" class="text-[#c8872f] hover:underline font-medium">Approfondisci →</a>
             </div>
-            <div class="bg-[#111111] p-8 rounded-3xl border border-white/10">
+
+            <div class="bg-white p-8 rounded-3xl border border-gray-200">
                 <h3 class="heading text-3xl mb-4">Vivere qui</h3>
-                <p class="text-[#CFCFCF] mb-6">Artigianato, scuola dei mestieri, mutua assistenza e cura della terra: la vita quotidiana in una comunità intenzionale.</p>
-                <a href="vivere-qui.html" class="text-[#D4AF37] hover:underline font-medium">Scopri come si vive →</a>
+                <p class="text-secondary mb-6">
+                    Artigianato, scuola dei mestieri, mutua assistenza e cura della terra: 
+                    scopri come questi elementi diventano parte della vita quotidiana in una comunità intenzionale.
+                </p>
+                <a href="vivere-qui.html" class="text-[#c8872f] hover:underline font-medium">Scopri come si vive →</a>
             </div>
         </div>
     </section>
 
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
+    <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">
+        © Baglio San Michele • Sicilian Slow Living
+    </footer>
 
     <script>
-        const btn = document.getElementById('menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        if (btn && menu) btn.addEventListener('click', () => { menu.classList.toggle('hidden'); menu.classList.toggle('flex'); });
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            });
+        }
     </script>
 </body>
 </html>
