@@ -7,35 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
-                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #000000;
-            color: #E5E5E5;
-        }
-        .heading {
-            font-family: 'Julius Sans One', Georgia, serif;
-            font-weight: 400;
-            letter-spacing: 0.5px;
-        }
-        .gold {
-            color: #D4AF37;
-        }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
+        .gold { color: #D4AF37; }
     </style>
 </head>
 <body class="bg-black text-[#E5E5E5]">
 
-    <!-- NAVBAR -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div>
-                    <a href="index.html">
-                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                    </a>
-                </div>
-
-                <!-- Menu Desktop -->
+                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
                     <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
                     <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
@@ -43,12 +25,8 @@
                     <a href="vivere-qui.html" class="text-[#D4AF37]">Vivere qui</a>
                     <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
                 </div>
-
-                <!-- Hamburger -->
-                <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">☰</button>
+                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
             </div>
-
-            <!-- Menu Mobile -->
             <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
                 <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
                 <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
@@ -59,7 +37,6 @@
         </div>
     </nav>
 
-    <!-- HERO / TITOLO -->
     <header class="pt-20 pb-12 border-b border-white/10">
         <div class="max-w-4xl mx-auto px-8 text-center">
             <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL NOSTRO VIVERE</span>
@@ -67,163 +44,20 @@
         </div>
     </header>
 
-    <!-- INTRODUZIONE -->
     <section class="max-w-4xl mx-auto px-8 py-14">
-        <p class="text-xl leading-relaxed">
-            Vivere a Baglio San Michele significa scegliere un ritmo più umano e consapevole, 
-            all’interno di una comunità intenzionale stabile. Non si tratta solo di abitare un luogo, 
-            ma di partecipare attivamente alla sua vita quotidiana.
-        </p>
+        <p class="text-xl">Vivere a Baglio San Michele significa scegliere un ritmo più umano e consapevole all’interno di una comunità intenzionale stabile.</p>
     </section>
 
-    <!-- PER CHI È PENSATO -->
     <section class="max-w-5xl mx-auto px-8 pb-16">
         <h2 class="heading text-4xl mb-8">Per chi è pensato</h2>
-
-        <p class="text-lg mb-8 max-w-3xl">
-            Il progetto è rivolto principalmente a <strong>famiglie italiane con figli</strong> 
-            (o che desiderano averne) e a persone che cercano un cambiamento di vita profondo, 
-            non solo una casa più grande.
-        </p>
-
-        <div class="grid md:grid-cols-2 gap-x-12 gap-y-8 text-lg">
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Famiglie con figli</h3>
-                <p class="text-[#CFCFCF]">
-                    Genitori che desiderano un contesto educativo ricco di adulti di riferimento, 
-                    natura, ritmi regolari e apprendistati pratici.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Professionisti in smart working</h3>
-                <p class="text-[#CFCFCF]">
-                    Persone che cercano una base stabile, immersa nella natura e nelle relazioni, 
-                    senza rinunciare alla propria attività lavorativa.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Artigiani e agricoltori</h3>
-                <p class="text-[#CFCFCF]">
-                    Chi desidera apprendere o trasmettere mestieri tradizionali e partecipare 
-                    attivamente alla vita produttiva del luogo.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Anziani autosufficienti</h3>
-                <p class="text-[#CFCFCF]">
-                    Persone che cercano dignità, utilità sociale e prossimità a una comunità 
-                    che valorizza il confronto intergenerazionale.
-                </p>
-            </div>
+        <div class="grid md:grid-cols-2 gap-x-10 gap-y-8 text-lg">
+            <div><strong class="text-[#D4AF37]">Famiglie con figli</strong><br>Genitori che vogliono un contesto educativo ricco di valori, natura e ritmi più umani.</div>
+            <div><strong class="text-[#D4AF37]">Professionisti in smart working</strong><br>Persone che cercano una base stabile, immersa nella natura e nelle relazioni.</div>
+            <div><strong class="text-[#D4AF37]">Artigiani e agricoltori</strong><br>Chi desidera apprendere o trasmettere mestieri tradizionali.</div>
+            <div><strong class="text-[#D4AF37]">Anziani autosufficienti</strong><br>Persone che cercano dignità, utilità sociale e prossimità alla comunità.</div>
         </div>
     </section>
 
-    <!-- COSA CERCHIAMO -->
-    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
-        <h2 class="heading text-4xl mb-10">Cosa cercano le persone che si avvicinano al progetto</h2>
-
-        <div class="grid md:grid-cols-2 gap-x-12 gap-y-10 text-lg">
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Educazione dei figli</h3>
-                <p class="text-[#CFCFCF]">
-                    Un contesto in cui i bambini possano crescere con adulti di riferimento, 
-                    a contatto con la natura e con ritmi più regolari.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Stabilità e sicurezza</h3>
-                <p class="text-[#CFCFCF]">
-                    Un ambiente prevedibile e protetto, lontano dal degrado e dallo stress 
-                    delle grandi città.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Relazioni autentiche</h3>
-                <p class="text-[#CFCFCF]">
-                    Una comunità piccola, dove le persone si conoscono e si aiutano 
-                    realmente nel quotidiano.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Trasmissione di valori</h3>
-                <p class="text-[#CFCFCF]">
-                    La possibilità di trasmettere ai figli fede, responsabilità, 
-                    senso di appartenenza e radicamento.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-3">Meno stress, più tempo di qualità</h3>
-                <p class="text-[#CFCFCF]">
-                    Ritmi più umani e la possibilità di dedicare più tempo alla famiglia 
-                    e alle cose che contano davvero.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- COME AFFRONTIAMO LE BARRIERE -->
-    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
-        <h2 class="heading text-4xl mb-10">Come affrontiamo le principali preoccupazioni</h2>
-
-        <div class="space-y-8 text-lg">
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Timore del salto nel vuoto</h3>
-                <p class="text-[#CFCFCF]">
-                    Offriamo un percorso graduale: visita, periodo di prova e affiancamento pratico. 
-                    Non si entra da un giorno all’altro.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Dubbi sul lavoro</h3>
-                <p class="text-[#CFCFCF]">
-                    È possibile combinare attività locali con lavoro da remoto. 
-                    È prevista inoltre formazione interna e lo sviluppo di micro-filiere.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Incertezza sui costi</h3>
-                <p class="text-[#CFCFCF]">
-                    Contributi e impegni sono chiari fin dall’inizio. 
-                    I beni comuni e i meccanismi anti-speculativi aiutano a contenere le spese superflue.
-                </p>
-            </div>
-            <div>
-                <h3 class="font-semibold text-[#D4AF37] mb-2">Paura di una comunità “invasiva”</h3>
-                <p class="text-[#CFCFCF]">
-                    La privacy familiare è tutelata. I momenti comuni sono scelti e regolati, 
-                    non imposti.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="max-w-4xl mx-auto px-8 pb-20 text-center border-t border-white/10 pt-16">
-        <p class="text-xl mb-8 max-w-2xl mx-auto">
-            Se stai valutando un cambiamento importante per la tua famiglia o per te stesso, 
-            ti invitiamo a scaricare il vademecum e a contattarci.
-        </p>
-        <a href="contatti.html" 
-           class="gold-button inline-block px-10 py-4 rounded-full font-medium text-lg tracking-wider">
-            Scarica il vademecum
-        </a>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
-        © Baglio San Michele • Sicilian Slow Living
-    </footer>
-
-    <script>
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        
-        if (menuBtn && mobileMenu) {
-            menuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            });
-        }
-    </script>
+    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 </body>
 </html>
