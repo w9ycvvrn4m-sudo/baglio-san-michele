@@ -7,35 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
-                         "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #000000;
-            color: #E5E5E5;
-        }
-        .heading {
-            font-family: 'Julius Sans One', Georgia, serif;
-            font-weight: 400;
-            letter-spacing: 0.5px;
-        }
-        .gold {
-            color: #D4AF37;
-        }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
+        .gold { color: #D4AF37; }
     </style>
 </head>
 <body class="bg-black text-[#E5E5E5]">
 
-    <!-- NAVBAR -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div>
-                    <a href="index.html">
-                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                    </a>
-                </div>
-
-                <!-- Menu Desktop -->
+                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
                     <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
                     <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
@@ -43,12 +25,8 @@
                     <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
                     <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
                 </div>
-
-                <!-- Hamburger -->
-                <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">☰</button>
+                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
             </div>
-
-            <!-- Menu Mobile -->
             <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
                 <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
                 <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
@@ -59,7 +37,6 @@
         </div>
     </nav>
 
-    <!-- HERO / TITOLO -->
     <header class="pt-20 pb-12 border-b border-white/10">
         <div class="max-w-4xl mx-auto px-8 text-center">
             <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL NOSTRO APPROCCIO</span>
@@ -67,89 +44,42 @@
         </div>
     </header>
 
-    <!-- INTRODUZIONE -->
     <section class="max-w-4xl mx-auto px-8 py-14">
         <p class="text-xl leading-relaxed">
-            Negli ultimi anni molti progetti di rigenerazione di borghi in Sicilia e in Italia 
-            hanno seguito modelli basati principalmente sul turismo o su formule temporanee. 
-            Questi approcci hanno spesso prodotto risultati limitati nel tempo, 
-            con scarsa creazione di comunità residenti stabili.
+            Molti progetti di rigenerazione di borghi in Sicilia e in Italia si sono concentrati sul turismo o su formule temporanee. 
+            Questi modelli hanno spesso prodotto risultati limitati, con scarsa creazione di comunità residenti stabili.
         </p>
     </section>
 
-    <!-- PERCHÉ È DIVERSO -->
     <section class="max-w-5xl mx-auto px-8 pb-16">
         <h2 class="heading text-4xl mb-10">Perché è diverso</h2>
 
-        <div class="space-y-12">
-            
-            <!-- Punto 1 -->
+        <div class="space-y-10 text-lg">
             <div>
-                <h3 class="font-semibold text-[#D4AF37] text-2xl mb-4">Residenza stabile, non turismo stagionale</h3>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    Baglio San Michele non è pensato come un “borgo-vetrina” o un luogo di seconde case 
-                    che si svuota d’inverno. È un luogo di residenza stabile, dove le persone 
-                    abitano, lavorano e crescono i figli tutto l’anno.
-                </p>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Residenza stabile, non turismo stagionale</h3>
+                <p class="text-[#CFCFCF]">Non un borgo-vetrina o un insieme di seconde case che si svuota d’inverno. Qui si abita, si lavora e si cresce i figli tutto l’anno.</p>
             </div>
-
-            <!-- Punto 2 -->
             <div>
-                <h3 class="font-semibold text-[#D4AF37] text-2xl mb-4">Selezione e patti chiari</h3>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    A differenza di modelli basati sull’adesione indistinta, qui l’ingresso avviene 
-                    attraverso un percorso strutturato di conoscenza reciproca. 
-                    Questo permette di costruire coesione di valori e responsabilità condivise fin dall’inizio.
-                </p>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Selezione e patti chiari</h3>
+                <p class="text-[#CFCFCF]">L’ingresso avviene attraverso un percorso di conoscenza reciproca. Questo permette di costruire coesione di valori e responsabilità condivise fin dall’inizio.</p>
             </div>
-
-            <!-- Punto 3 -->
             <div>
-                <h3 class="font-semibold text-[#D4AF37] text-2xl mb-4">Identità forte e vissuta</h3>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    Il Sicilian Slow Living non è uno slogan decorativo. È una pratica quotidiana 
-                    che riguarda il rapporto con la terra, la casa, il lavoro e le relazioni. 
-                    Non si tratta di “vivere come una volta”, ma di applicare principi di lentezza, 
-                    responsabilità e qualità in modo concreto e contemporaneo.
-                </p>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Identità forte e vissuta</h3>
+                <p class="text-[#CFCFCF]">Il Sicilian Slow Living non è uno slogan. È una pratica quotidiana che riguarda il rapporto con la terra, la casa, il lavoro e le relazioni.</p>
             </div>
-
-            <!-- Punto 4 -->
             <div>
-                <h3 class="font-semibold text-[#D4AF37] text-2xl mb-4">Autonomia progressiva</h3>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    Il progetto punta a sviluppare nel tempo filiere corte, gestione autonoma 
-                    dell’acqua e dell’energia e una manutenzione programmata. 
-                    L’obiettivo è costruire una resilienza reale, non dipendente da flussi turistici 
-                    o da finanziamenti esterni temporanei.
-                </p>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Autonomia progressiva</h3>
+                <p class="text-[#CFCFCF]">Il progetto punta a sviluppare filiere corte, gestione autonoma dell’acqua e dell’energia e una manutenzione programmata nel tempo.</p>
             </div>
-
         </div>
     </section>
 
-    <!-- IMMAGINE -->
     <section class="max-w-5xl mx-auto px-8 pb-20">
         <div class="overflow-hidden rounded-3xl">
             <img src="assets/atmosfera-sagra.png" alt="Un modello diverso - Baglio San Michele" class="w-full h-auto object-cover">
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
-        © Baglio San Michele • Sicilian Slow Living
-    </footer>
-
-    <script>
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        
-        if (menuBtn && mobileMenu) {
-            menuBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            });
-        }
-    </script>
+    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 </body>
 </html>
