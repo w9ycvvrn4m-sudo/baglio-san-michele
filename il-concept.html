@@ -7,85 +7,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #000000; color: #E5E5E5; }
-        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; }
-        .gold { color: #D4AF37; }
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif; font-weight: 400; letter-spacing: 0.5px; color: #c8872f; }
+        .gold { color: #c8872f; }
+        .text-secondary { color: #4a4a4a; }
     </style>
 </head>
-<body class="bg-black text-[#E5E5E5]">
+<body class="bg-white text-[#1f1f1f]">
 
-    <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div><a href="index.html"><img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
+                <div><a href="index.html"><img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <a href="il-concept.html" class="text-[#D4AF37]">Il Concept</a>
-                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                    <a href="il-concept.html" class="text-[#c8872f]">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
                 </div>
-                <button id="menu-btn" class="md:hidden text-2xl">☰</button>
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
-                <a href="il-concept.html" class="block py-2 text-[#D4AF37]">Il Concept</a>
-                <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-                <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
-                <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 text-[#c8872f]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
     </nav>
 
-    <header class="pt-20 pb-12 border-b border-white/10">
+    <header class="pt-20 pb-12 border-b border-gray-200">
         <div class="max-w-4xl mx-auto px-8 text-center">
-            <span class="text-[#D4AF37] text-sm tracking-[3px] uppercase">IL NOSTRO ORIZZONTE</span>
+            <span class="text-[#c8872f] text-sm tracking-[3px] uppercase">IL NOSTRO ORIZZONTE</span>
             <h1 class="heading text-5xl md:text-6xl tracking-[0.5px] mt-4">Il Concept</h1>
         </div>
     </header>
 
-    <!-- CHI SIAMO -->
     <section class="max-w-4xl mx-auto px-8 py-16">
         <h2 class="heading text-4xl mb-8">Chi siamo</h2>
         <div class="prose prose-invert max-w-none text-lg leading-relaxed">
             <p>Siamo famiglie e professionisti che hanno scelto di mettere radici in Sicilia, in provincia di Ragusa, per rigenerare un antico baglio fortificato come <strong>comunità intenzionale stabile</strong>, ispirata al Sicilian Slow Living.</p>
             <p class="mt-6">La nostra visione è che <strong>casa, lavoro, relazioni e paesaggio</strong> formino un unico ecosistema da curare insieme.</p>
             <p class="mt-6">Procediamo per <strong>piccoli passi</strong>, con standard elevati, responsabilità condivisa e trasparenza economica. La nostra identità si riconosce in una <strong>dimensione spirituale esplicita e serena</strong> e in un rapporto vivo con la tradizione.</p>
-            <p class="mt-6">Siamo <strong>piccoli per scelta</strong>. L’ingresso avviene per tappe: candidatura, colloquio, visita, periodo di prova e ingresso formale. La selezione è reciproca.</p>
         </div>
     </section>
 
-    <!-- AMBITI -->
+    <section class="max-w-5xl mx-auto px-8 pb-12">
+        <div class="overflow-hidden rounded-3xl">
+            <img src="assets/atmosfera-borgo.png" alt="Baglio San Michele - Il Concept" class="w-full h-auto object-cover">
+        </div>
+    </section>
+
     <section class="max-w-5xl mx-auto px-8 pb-16">
         <h2 class="heading text-4xl mb-8">I nostri ambiti</h2>
         <div class="grid md:grid-cols-2 gap-x-10 gap-y-6 text-lg">
-            <div><strong class="text-[#D4AF37]">Architettura e cantieri</strong><br><span class="text-[#CFCFCF]">Restauro filologico, materiali locali, criteri bioclimatici.</span></div>
-            <div><strong class="text-[#D4AF37]">Terra e allevamenti</strong><br><span class="text-[#CFCFCF]">Orto, frutteto, apicoltura, benessere animale, gestione acqua e suolo.</span></div>
-            <div><strong class="text-[#D4AF37]">Economia e governance</strong><br><span class="text-[#CFCFCF]">Patti chiari, fondi comuni, rendicontazione periodica.</span></div>
-            <div><strong class="text-[#D4AF37]">Artigianato e filiere</strong><br><span class="text-[#CFCFCF]">Lavoro del legno, della pietra, filiere tessili e alimentari.</span></div>
-            <div><strong class="text-[#D4AF37]">Comunità ed educazione</strong><br><span class="text-[#CFCFCF]">Processi decisionali partecipati, cura intergenerazionale.</span></div>
-            <div><strong class="text-[#D4AF37]">Lavoro da remoto</strong><br><span class="text-[#CFCFCF]">Spazi di coworking e connettività di qualità.</span></div>
+            <div><strong class="text-[#c8872f]">Architettura e cantieri</strong><br><span class="text-secondary">Restauro filologico, materiali locali, criteri bioclimatici.</span></div>
+            <div><strong class="text-[#c8872f]">Terra e allevamenti</strong><br><span class="text-secondary">Orto, frutteto, apicoltura, benessere animale.</span></div>
+            <div><strong class="text-[#c8872f]">Economia e governance</strong><br><span class="text-secondary">Patti chiari, fondi comuni, rendicontazione periodica.</span></div>
+            <div><strong class="text-[#c8872f]">Artigianato e filiere</strong><br><span class="text-secondary">Lavoro del legno, della pietra, filiere tessili e alimentari.</span></div>
+            <div><strong class="text-[#c8872f]">Comunità ed educazione</strong><br><span class="text-secondary">Processi decisionali partecipati, cura intergenerazionale.</span></div>
+            <div><strong class="text-[#c8872f]">Lavoro da remoto</strong><br><span class="text-secondary">Spazi di coworking e connettività di qualità.</span></div>
         </div>
     </section>
 
-    <!-- MANIFESTO -->
-    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
-        <h2 class="heading text-4xl mb-8">Manifesto del Sicilian Slow Living</h2>
-        <div class="space-y-8 text-lg">
-            <div><strong class="text-[#D4AF37]">1. Radici</strong> — Conoscere il luogo e usare materiali e saperi locali.</div>
-            <div><strong class="text-[#D4AF37]">2. Tempo giusto</strong> — Coltivare, cucinare, riparare, studiare, pregare, riposare.</div>
-            <div><strong class="text-[#D4AF37]">3. Comunità adulta</strong> — Libertà con responsabilità, regole chiare, decisioni partecipate.</div>
-            <div><strong class="text-[#D4AF37]">4. Casa e paesaggio</strong> — Spazi privati essenziali e spazi comuni curati.</div>
-            <div><strong class="text-[#D4AF37]">5. Lavoro con senso</strong> — Pari dignità tra mestieri della terra, dell’ingegno e del pensiero.</div>
-            <div><strong class="text-[#D4AF37]">6. Ecologia concreta</strong> — Acqua, suolo ed energia gestiti con responsabilità.</div>
-            <div><strong class="text-[#D4AF37]">7. Apertura selettiva</strong> — Ospitalità sì, turismo estrattivo no.</div>
-            <div><strong class="text-[#D4AF37]">8. Educazione diffusa</strong> — Apprendimento come fatto comunitario.</div>
-            <div><strong class="text-[#D4AF37]">9. Economia della fiducia</strong> — Parola data, contratti chiari, anti-speculazione.</div>
-            <div><strong class="text-[#D4AF37]">10. Continuità</strong> — Pensare in decenni e lasciare il luogo migliore di come lo abbiamo trovato.</div>
-        </div>
-    </section>
-
-    <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
+    <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 </body>
 </html>
