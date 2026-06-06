@@ -21,50 +21,43 @@
         .gold {
             color: #D4AF37;
         }
-        .section-divider {
-            border-top: 1px solid rgba(255,255,255,0.1);
-        }
     </style>
 </head>
 <body class="bg-black text-[#E5E5E5]">
 
-<!-- NAVBAR con Menu Mobile -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
-    <div class="max-w-6xl mx-auto px-6">
-        <div class="flex items-center justify-between h-20">
-            
-            <!-- Logo -->
-            <div>
-                <a href="index.html">
-                    <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
-                </a>
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <div>
+                    <a href="index.html">
+                        <img src="assets/logo-500-oro.jpg" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
+                </div>
+
+                <!-- Menu Desktop -->
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                    <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="text-[#D4AF37]">Vivere qui</a>
+                    <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+                </div>
+
+                <!-- Hamburger -->
+                <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">☰</button>
             </div>
 
-            <!-- Menu Desktop -->
-            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                <a href="il-concept.html" class="hover:text-[#D4AF37] transition-colors">Il Concept</a>
-                <a href="il-progetto.html" class="hover:text-[#D4AF37] transition-colors">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="hover:text-[#D4AF37] transition-colors">Un modello diverso</a>
-                <a href="vivere-qui.html" class="hover:text-[#D4AF37] transition-colors">Vivere qui</a>
-                <a href="contatti.html" class="hover:text-[#D4AF37] transition-colors">Contatti</a>
+            <!-- Menu Mobile -->
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider">
+                <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 text-[#D4AF37]">Vivere qui</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
             </div>
-
-            <!-- Hamburger Button (solo mobile) -->
-            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
-                ☰
-            </button>
         </div>
-
-        <!-- Menu Mobile -->
-        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-4 pb-6 text-sm tracking-wider">
-            <a href="il-concept.html" class="block py-2 hover:text-[#D4AF37]">Il Concept</a>
-            <a href="il-progetto.html" class="block py-2 hover:text-[#D4AF37]">Il Progetto</a>
-            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#D4AF37]">Un modello diverso</a>
-            <a href="vivere-qui.html" class="block py-2 hover:text-[#D4AF37]">Vivere qui</a>
-            <a href="contatti.html" class="block py-2 hover:text-[#D4AF37]">Contatti</a>
-        </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- HERO / TITOLO -->
     <header class="pt-20 pb-12 border-b border-white/10">
@@ -76,114 +69,161 @@
 
     <!-- INTRODUZIONE -->
     <section class="max-w-4xl mx-auto px-8 py-14">
-        <p class="text-xl leading-relaxed text-center">
-            Vivere a Baglio San Michele significa scegliere un ritmo più umano e consapevole. 
-            Qui i gesti quotidiani tornano a essere centrali e carichi di significato.
+        <p class="text-xl leading-relaxed">
+            Vivere a Baglio San Michele significa scegliere un ritmo più umano e consapevole, 
+            all’interno di una comunità intenzionale stabile. Non si tratta solo di abitare un luogo, 
+            ma di partecipare attivamente alla sua vita quotidiana.
         </p>
     </section>
 
-    <!-- SEZIONE 1: Artigianato e Scuola dei mestieri -->
-    <section class="max-w-6xl mx-auto px-8 pb-16 section-divider pt-10">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
+    <!-- PER CHI È PENSATO -->
+    <section class="max-w-5xl mx-auto px-8 pb-16">
+        <h2 class="heading text-4xl mb-8">Per chi è pensato</h2>
+
+        <p class="text-lg mb-8 max-w-3xl">
+            Il progetto è rivolto principalmente a <strong>famiglie italiane con figli</strong> 
+            (o che desiderano averne) e a persone che cercano un cambiamento di vita profondo, 
+            non solo una casa più grande.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-8 text-lg">
             <div>
-                <h2 class="heading text-4xl mb-6">Artigianato e Scuola dei mestieri</h2>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    L’artigianato e la scuola dei mestieri occupano un ruolo centrale nella vita della comunità. 
-                    Non si tratta solo di produrre oggetti, ma di formare persone, trasmettere competenze concrete 
-                    e creare legami tra generazioni diverse. Il lavoro manuale è inteso come strumento di 
-                    educazione, autonomia e dignità.
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Famiglie con figli</h3>
+                <p class="text-[#CFCFCF]">
+                    Genitori che desiderano un contesto educativo ricco di adulti di riferimento, 
+                    natura, ritmi regolari e apprendistati pratici.
                 </p>
             </div>
-            <div class="overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-lavoro.png" alt="Artigianato e mestieri" class="w-full h-auto object-cover">
-            </div>
-        </div>
-    </section>
-
-    <!-- SEZIONE 2: Mutua assistenza e Convivialità -->
-    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
-            <div class="order-2 md:order-1 overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-casa.png" alt="Mutua assistenza e convivialità" class="w-full h-auto object-cover">
-            </div>
-            <div class="order-1 md:order-2">
-                <h2 class="heading text-4xl mb-6">Mutua assistenza e Convivialità</h2>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    La mutua assistenza tra le famiglie è una realtà vissuta ogni giorno. 
-                    Ci si sostiene nei momenti di difficoltà come nelle occasioni di festa, 
-                    creando una rete di relazioni solide e affidabili. La convivialità non è solo 
-                    un momento di svago, ma un modo per rafforzare il senso di appartenenza e di cura reciproca.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- SEZIONE 3: Permacultura e Autonomia -->
-    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
             <div>
-                <h2 class="heading text-4xl mb-6">Permacultura e Autonomia</h2>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    La cura della terra avviene secondo principi di permacultura, con l’obiettivo 
-                    di sviluppare nel tempo una maggiore autonomia energetica e alimentare. 
-                    Questo non è solo un aspetto tecnico, ma un’espressione di responsabilità 
-                    verso il territorio e verso le generazioni future.
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Professionisti in smart working</h3>
+                <p class="text-[#CFCFCF]">
+                    Persone che cercano una base stabile, immersa nella natura e nelle relazioni, 
+                    senza rinunciare alla propria attività lavorativa.
                 </p>
             </div>
-            <div class="overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-orto.png" alt="Permacultura e autonomia" class="w-full h-auto object-cover">
-            </div>
-        </div>
-    </section>
-
-    <!-- SEZIONE 4: Dimensione spirituale -->
-    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
-            <div class="order-2 md:order-1 overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-chiesa.png" alt="Dimensione spirituale" class="w-full h-auto object-cover">
-            </div>
-            <div class="order-1 md:order-2">
-                <h2 class="heading text-4xl mb-6">Dimensione spirituale</h2>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    La dimensione spirituale attraversa tutti gli aspetti della vita comunitaria. 
-                    Non come un’attività separata, ma come orizzonte che dà senso al lavoro, 
-                    all’educazione dei figli e alla vita condivisa. Le feste, le celebrazioni 
-                    e i momenti di raccoglimento fanno parte del tessuto quotidiano.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- SEZIONE 5: Vita familiare -->
-    <section class="max-w-6xl mx-auto px-8 py-16 section-divider">
-        <div class="grid md:grid-cols-2 gap-10 items-center">
             <div>
-                <h2 class="heading text-4xl mb-6">Vita familiare ed educazione</h2>
-                <p class="text-[#CFCFCF] text-lg leading-relaxed">
-                    I bambini e i ragazzi crescono in un ambiente in cui l’educazione non è delegata 
-                    esclusivamente alla scuola, ma è accompagnata dalla vita quotidiana, dal contatto 
-                    con la natura e dalla presenza di adulti che trasmettono valori e competenze. 
-                    La famiglia è al centro del progetto comunitario.
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Artigiani e agricoltori</h3>
+                <p class="text-[#CFCFCF]">
+                    Chi desidera apprendere o trasmettere mestieri tradizionali e partecipare 
+                    attivamente alla vita produttiva del luogo.
                 </p>
             </div>
-            <div class="overflow-hidden rounded-3xl">
-                <img src="assets/atmosfera-cucina.png" alt="Vita familiare" class="w-full h-auto object-cover">
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Anziani autosufficienti</h3>
+                <p class="text-[#CFCFCF]">
+                    Persone che cercano dignità, utilità sociale e prossimità a una comunità 
+                    che valorizza il confronto intergenerazionale.
+                </p>
             </div>
         </div>
+    </section>
+
+    <!-- COSA CERCHIAMO -->
+    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
+        <h2 class="heading text-4xl mb-10">Cosa cercano le persone che si avvicinano al progetto</h2>
+
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-10 text-lg">
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Educazione dei figli</h3>
+                <p class="text-[#CFCFCF]">
+                    Un contesto in cui i bambini possano crescere con adulti di riferimento, 
+                    a contatto con la natura e con ritmi più regolari.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Stabilità e sicurezza</h3>
+                <p class="text-[#CFCFCF]">
+                    Un ambiente prevedibile e protetto, lontano dal degrado e dallo stress 
+                    delle grandi città.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Relazioni autentiche</h3>
+                <p class="text-[#CFCFCF]">
+                    Una comunità piccola, dove le persone si conoscono e si aiutano 
+                    realmente nel quotidiano.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Trasmissione di valori</h3>
+                <p class="text-[#CFCFCF]">
+                    La possibilità di trasmettere ai figli fede, responsabilità, 
+                    senso di appartenenza e radicamento.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-3">Meno stress, più tempo di qualità</h3>
+                <p class="text-[#CFCFCF]">
+                    Ritmi più umani e la possibilità di dedicare più tempo alla famiglia 
+                    e alle cose che contano davvero.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COME AFFRONTIAMO LE BARRIERE -->
+    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-white/10">
+        <h2 class="heading text-4xl mb-10">Come affrontiamo le principali preoccupazioni</h2>
+
+        <div class="space-y-8 text-lg">
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-2">Timore del salto nel vuoto</h3>
+                <p class="text-[#CFCFCF]">
+                    Offriamo un percorso graduale: visita, periodo di prova e affiancamento pratico. 
+                    Non si entra da un giorno all’altro.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-2">Dubbi sul lavoro</h3>
+                <p class="text-[#CFCFCF]">
+                    È possibile combinare attività locali con lavoro da remoto. 
+                    È prevista inoltre formazione interna e lo sviluppo di micro-filiere.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-2">Incertezza sui costi</h3>
+                <p class="text-[#CFCFCF]">
+                    Contributi e impegni sono chiari fin dall’inizio. 
+                    I beni comuni e i meccanismi anti-speculativi aiutano a contenere le spese superflue.
+                </p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-[#D4AF37] mb-2">Paura di una comunità “invasiva”</h3>
+                <p class="text-[#CFCFCF]">
+                    La privacy familiare è tutelata. I momenti comuni sono scelti e regolati, 
+                    non imposti.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="max-w-4xl mx-auto px-8 pb-20 text-center border-t border-white/10 pt-16">
+        <p class="text-xl mb-8 max-w-2xl mx-auto">
+            Se stai valutando un cambiamento importante per la tua famiglia o per te stesso, 
+            ti invitiamo a scaricare il vademecum e a contattarci.
+        </p>
+        <a href="contatti.html" 
+           class="gold-button inline-block px-10 py-4 rounded-full font-medium text-lg tracking-wider">
+            Scarica il vademecum
+        </a>
     </section>
 
     <!-- FOOTER -->
     <footer class="border-t border-white/10 py-8 text-center text-sm text-[#666666]">
         © Baglio San Michele • Sicilian Slow Living
     </footer>
-<script>
-    const menuBtn = document.getElementById('menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
 
-    menuBtn.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');
-        mobileMenu.classList.toggle('flex');
-    });
-</script>
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            });
+        }
+    </script>
 </body>
 </html>
