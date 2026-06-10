@@ -106,10 +106,22 @@
         </p>
     </section>
 
-    <!-- DIFFERENZE -->
+    <!-- IMMAGINE 1 -->
+    <section class="max-w-5xl mx-auto px-8 pb-12">
+        <div class="overflow-hidden rounded-3xl">
+            <img src="assets/atmosfera-serenata.png" alt="Atmosfera serena e autentica al Baglio San Michele" class="w-full h-80 object-cover">
+        </div>
+    </section>
+
+    <!-- IN COSA SIAMO DIVERSI -->
     <section class="max-w-5xl mx-auto px-8 py-16 border-t border-gray-200">
         <h2 class="heading text-4xl mb-8">In cosa siamo diversi</h2>
-        
+
+        <!-- IMMAGINE 2 -->
+        <div class="mb-10">
+            <img src="assets/atmosfera-veranda.png" alt="Il Baglio San Michele - un luogo vissuto" class="w-full h-72 object-cover rounded-3xl">
+        </div>
+
         <div class="grid md:grid-cols-2 gap-x-10 gap-y-10 text-lg">
             
             <div class="border border-gray-200 rounded-2xl p-8">
@@ -157,7 +169,12 @@
     <!-- COSA RENDE UNICO IL NOSTRO MODELLO -->
     <section class="max-w-5xl mx-auto px-8 py-16 border-t border-gray-200 bg-[#f9f6f0]">
         <h2 class="heading text-4xl mb-8">Cosa rende unico il nostro modello</h2>
-        
+
+        <!-- IMMAGINE 3 -->
+        <div class="mb-10">
+            <img src="assets/atmosfera-cena.png" alt="Convivialità e relazioni autentiche al Baglio San Michele" class="w-full h-72 object-cover rounded-3xl">
+        </div>
+
         <div class="grid md:grid-cols-2 gap-x-10 gap-y-10 text-lg">
             <div>
                 <h3 class="font-semibold text-[#c8872f] mb-3">Residenza stabile vs turismo stagionale</h3>
@@ -215,19 +232,21 @@
 
     <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 
-    <!-- SCRIPT MENU MOBILE CORRETTO PER IPHONE -->
+    <!-- SCRIPT MENU MOBILE FUNZIONANTE (iPhone incluso) -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const menuBtn = document.getElementById('menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
 
             if (menuBtn && mobileMenu) {
+                // Apertura/chiusura menu al click sull'hamburger
                 menuBtn.addEventListener('click', function(e) {
                     e.preventDefault();
                     mobileMenu.classList.toggle('hidden');
                     mobileMenu.classList.toggle('flex');
                 });
 
+                // Chiude il menu cliccando fuori (funziona bene su iPhone)
                 document.addEventListener('click', function(e) {
                     if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
                         if (!mobileMenu.classList.contains('hidden')) {
