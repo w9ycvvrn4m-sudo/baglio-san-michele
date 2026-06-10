@@ -3,32 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baglio San Michele | Comunità Intenzionale in Sicilia</title>
+    
+    <title>Baglio San Michele • Comunità Intenzionale in Sicilia</title>
+    <meta name="description" content="Baglio San Michele è una comunità intenzionale stabile in provincia di Ragusa. Un progetto di vita radicato nel Sicilian Slow Living per famiglie e professionisti che cercano stabilità, valori e relazioni autentiche.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.borgoideale.com">
+
+    <meta property="og:title" content="Baglio San Michele • Comunità Intenzionale in Sicilia">
+    <meta property="og:description" content="Una comunità intenzionale stabile in provincia di Ragusa. Famiglie e professionisti che rigenerano un baglio storico secondo i principi del Sicilian Slow Living.">
+    <meta property="og:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
+    <meta property="og:url" content="https://www.borgoideale.com">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:site_name" content="Baglio San Michele">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Baglio San Michele • Comunità Intenzionale in Sicilia">
+    <meta name="twitter:description" content="Una comunità intenzionale stabile in provincia di Ragusa ispirata al Sicilian Slow Living.">
+    <meta name="twitter:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
+
     <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
+    <link rel="apple-touch-icon" href="assets/logo-500-bn.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-        body { font-family: "Avenir Next", system-ui, sans-serif; background-color: #ffffff; color: #1f1f1f; }
-        .heading { font-family: 'Julius Sans One', Georgia, serif; color: #c8872f; }
+        body { 
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+            background-color: #ffffff; 
+            color: #1f1f1f; 
+        }
+        .heading { 
+            font-family: 'Julius Sans One', Georgia, serif; 
+            font-weight: 400; 
+            letter-spacing: 0.5px; 
+            color: #c8872f; 
+        }
+        .gold-button { 
+            background-color: #c8872f; 
+            color: white; 
+            transition: all 0.3s ease; 
+        }
+        .gold-button:hover { 
+            background-color: #a86f24; 
+            transform: translateY(-1px); 
+        }
         .text-secondary { color: #4a4a4a; }
-        .gold-button { background-color: #c8872f; color: white; transition: all 0.3s ease; }
-        .gold-button:hover { background-color: #a86f24; transform: translateY(-1px); }
+        .hero-bg { 
+            background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), 
+                              url('assets/atmosfera-benvenuti.png'); 
+            background-size: cover; 
+            background-position: center 35%; 
+        }
     </style>
 </head>
-<body class="bg-white text-[#1f1f1f]">
+<body>
 
     <!-- NAVBAR -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-white">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex items-center justify-between h-20">
-                <div><a href="index.html"><img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
+                <div>
+                    <a href="index.html">
+                        <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
+                </div>
                 <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
                     <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
                     <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
                     <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
                     <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
                     <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
-                    <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
                     <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
                 </div>
                 <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
@@ -38,127 +85,198 @@
                 <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
                 <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
                 <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
-                <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
-                <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+                <a href="investimento-etico.html" class="block py-2 text-[#c8872f]">Investimento etico</a>
                 <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
     </nav>
 
     <!-- HERO -->
-    <header class="pt-20 pb-16 border-b border-gray-200">
-        <div class="max-w-5xl mx-auto px-8 text-center">
-            <h1 class="heading text-6xl md:text-7xl tracking-[0.5px]">Baglio San Michele</h1>
-            <p class="mt-4 text-2xl text-secondary">Comunità intenzionale • Sicilian Slow Living</p>
-            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="vivere-qui.html" class="gold-button px-8 py-3 rounded-full font-medium text-lg">Scopri come vivere qui</a>
-                <a href="investimento-etico.html" class="px-8 py-3 rounded-full font-medium text-lg border border-[#c8872f] text-[#c8872f] hover:bg-[#f9f6f0]">Investi nel progetto</a>
+    <header class="hero-bg min-h-[100dvh] flex items-center pt-20">
+        <div class="max-w-5xl mx-auto px-8 text-center text-white relative z-10">
+            <div class="flex justify-center mb-8">
+                <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-36 md:h-44 w-auto">
+            </div>
+            <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">
+                Una comunità intenzionale
+            </h1>
+            <p class="text-2xl md:text-3xl tracking-wide mb-10 text-white/90">
+                radicata nella tradizione e nella cultura siciliana
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#percorsi" class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">
+                    Scopri come partecipare
+                </a>
+                <a href="#tipologie" class="inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider border border-white/70 hover:bg-white/10 transition-colors">
+                    Vedi le tipologie abitative
+                </a>
             </div>
         </div>
     </header>
 
-    <!-- IMMAGINE DOPO HERO -->
-    <section class="max-w-5xl mx-auto px-8 pb-12">
-        <div class="overflow-hidden rounded-3xl">
-            <img src="assets/atmosfera-veranda.png" alt="Baglio San Michele - Vista della veranda" class="w-full h-80 object-cover">
+    <!-- STATS BAR -->
+    <div class="max-w-6xl mx-auto px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-y-8 text-center border-b border-gray-200">
+        <div>
+            <div class="text-4xl font-light text-[#c8872f]">XVI<span class="text-2xl">°</span></div>
+            <div class="text-sm text-secondary mt-1 tracking-wider">SECOLO — MASSERIA STORICA</div>
         </div>
-    </section>
-
-    <!-- STATS -->
-    <section class="max-w-5xl mx-auto px-8 py-12 border-b border-gray-200">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-                <div class="text-4xl font-light text-[#c8872f]">XVI° sec.</div>
-                <div class="text-secondary mt-1">Masseria storica</div>
-            </div>
-            <div>
-                <div class="text-4xl font-light text-[#c8872f]">23 ettari</div>
-                <div class="text-secondary mt-1">Terreni della masseria</div>
-            </div>
-            <div>
-                <div class="text-4xl font-light text-[#c8872f]">34 unità</div>
-                <div class="text-secondary mt-1">Abitative totali</div>
-            </div>
-            <div>
-                <div class="text-4xl font-light text-[#c8872f]">26–30%</div>
-                <div class="text-secondary mt-1">IRR stimato</div>
-            </div>
+        <div>
+            <div class="text-4xl font-light text-[#c8872f]">23</div>
+            <div class="text-sm text-secondary mt-1 tracking-wider">ETTARI DI TERRENO FERTILE</div>
         </div>
-    </section>
+        <div>
+            <div class="text-4xl font-light text-[#c8872f]">34</div>
+            <div class="text-sm text-secondary mt-1 tracking-wider">UNITÀ ABITATIVE SELETTIVE</div>
+        </div>
+        <div>
+            <div class="text-4xl font-light text-[#c8872f]">26<span class="text-2xl">%</span></div>
+            <div class="text-sm text-secondary mt-1 tracking-wider">IRR STIMATO — SCENARIO BASE</div>
+        </div>
+    </div>
 
     <!-- DUE PERCORSI -->
-    <section class="max-w-5xl mx-auto px-8 py-16">
-        <h2 class="heading text-4xl mb-8 text-center">Due percorsi possibili</h2>
+    <section id="percorsi" class="max-w-6xl mx-auto px-8 py-16">
+        <div class="text-center mb-12">
+            <span class="text-[#c8872f] text-sm tracking-[3px] uppercase">Come far parte del progetto</span>
+            <h2 class="heading text-4xl mt-4">Due percorsi, una stessa visione</h2>
+        </div>
+
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="border border-gray-200 rounded-2xl p-8">
-                <h3 class="font-semibold text-[#c8872f] mb-3">Per chi vuole abitare</h3>
-                <p class="text-secondary mb-4">Famiglie e professionisti che desiderano una residenza stabile in una comunità intenzionale radicata nella tradizione e nei valori cristiani.</p>
-                <a href="vivere-qui.html" class="text-[#c8872f] font-medium hover:underline">Scopri di più →</a>
+            
+            <!-- Percorso Residenti -->
+            <div class="bg-white border border-gray-200 rounded-3xl p-10 flex flex-col">
+                <div class="mb-6">
+                    <span class="inline-block px-4 py-1 bg-[#f5f0e6] text-[#c8872f] text-xs tracking-wider rounded-full">
+                        PER CHI VUOLE ABITARE
+                    </span>
+                </div>
+                <h3 class="heading text-3xl mb-4">Vivere al Baglio San Michele</h3>
+                <p class="text-secondary mb-8 flex-grow">
+                    Una comunità intenzionale stabile per famiglie e professionisti che cercano un ritmo di vita più umano, 
+                    radicato nella tradizione siciliana, nella cura delle relazioni e nella trasmissione di valori.
+                </p>
+                <a href="vivere-qui.html" class="text-[#c8872f] font-medium hover:underline">Scopri come si vive →</a>
             </div>
-            <div class="border border-gray-200 rounded-2xl p-8">
-                <h3 class="font-semibold text-[#c8872f] mb-3">Per chi vuole investire</h3>
-                <p class="text-secondary mb-4">Investitori che cercano un’opportunità etica e di lungo periodo, con rendimenti solidi e un forte impatto sociale e territoriale.</p>
-                <a href="investimento-etico.html" class="text-[#c8872f] font-medium hover:underline">Scopri di più →</a>
+
+            <!-- Percorso Investitori -->
+            <div class="bg-white border border-gray-200 rounded-3xl p-10 flex flex-col">
+                <div class="mb-6">
+                    <span class="inline-block px-4 py-1 bg-[#f5f0e6] text-[#c8872f] text-xs tracking-wider rounded-full">
+                        PER CHI VUOLE INVESTIRE
+                    </span>
+                </div>
+                <h3 class="heading text-3xl mb-4">Investimento etico e di lungo periodo</h3>
+                <p class="text-secondary mb-8 flex-grow">
+                    Un’operazione immobiliare con identità forte, governance chiara e clausole anti-speculative. 
+                    Un investimento concreto in beni reali, con rendimenti stabili e valore patrimoniale duraturo.
+                </p>
+                <a href="investimento-etico.html" class="text-[#c8872f] font-medium hover:underline">Scopri l’investimento →</a>
             </div>
         </div>
     </section>
 
     <!-- TIPOLOGIE -->
-    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-gray-200">
-        <h2 class="heading text-4xl mb-8">Le tipologie abitative</h2>
-        
-        <div class="mb-10">
-            <h3 class="font-semibold text-xl mb-4">Fase 1 — Appartamenti nel Baglio storico</h3>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="border border-gray-200 rounded-2xl p-6">
-                    <div class="font-semibold">Bronze</div>
-                    <div class="text-sm text-secondary">6 unità • 45–65 m²</div>
+    <section id="tipologie" class="max-w-6xl mx-auto px-8 py-16 border-t border-gray-200">
+        <div class="mb-12">
+            <span class="text-[#c8872f] text-sm tracking-[3px] uppercase">Le unità abitative</span>
+            <h2 class="heading text-4xl mt-3">Tipologie disponibili</h2>
+            <p class="text-secondary mt-4 max-w-3xl">
+                Il progetto prevede due tipologie di abitazioni, pensate per esigenze diverse ma unite dalla stessa 
+                visione di comunità e qualità della vita. Ogni soluzione è progettata per favorire la stabilità 
+                residenziale nel tempo.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12">
+            
+            <!-- FASE 1 -->
+            <div>
+                <div class="mb-6">
+                    <span class="text-sm font-semibold text-[#c8872f]">FASE 1 — IN CORSO</span>
+                    <h3 class="heading text-2xl mt-1">Appartamenti nel Baglio storico</h3>
                 </div>
-                <div class="border border-gray-200 rounded-2xl p-6">
-                    <div class="font-semibold">Silver</div>
-                    <div class="text-sm text-secondary">7 unità • 70–90 m²</div>
+                <p class="text-secondary mb-8">
+                    14 unità ricavate dal restauro filologico della masseria fortificata del XVI secolo. 
+                    Ogni appartamento mantiene le caratteristiche architettoniche originali e beneficia 
+                    degli spazi comuni del Baglio (cortile, cappella, cucina condivisa e laboratori).
+                </p>
+
+                <div class="space-y-6">
+                    <div class="border border-gray-200 rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <div><span class="font-semibold">Bronze</span> <span class="text-sm text-[#c8872f] ml-2">6 unità</span></div>
+                            <span class="text-sm text-secondary">45–65 m²</span>
+                        </div>
+                        <p class="text-secondary text-sm">Ideali per coppie o single. Accesso diretto dal cortile, spazi funzionali e luminosi.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <div><span class="font-semibold">Silver</span> <span class="text-sm text-[#c8872f] ml-2">7 unità</span></div>
+                            <span class="text-sm text-secondary">80–105 m²</span>
+                        </div>
+                        <p class="text-secondary text-sm">Perfette per famiglie. Possibilità di soppalco in legno e maggiore flessibilità degli spazi.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <div><span class="font-semibold">Gold</span> <span class="text-sm text-[#c8872f] ml-2">1 unità</span></div>
+                            <span class="text-sm text-secondary">105–115 m²</span>
+                        </div>
+                        <p class="text-secondary text-sm">Unità di prestigio con forti caratteristiche storiche e posizione privilegiata all’interno del Baglio.</p>
+                    </div>
                 </div>
-                <div class="border border-gray-200 rounded-2xl p-6">
-                    <div class="font-semibold">Gold</div>
-                    <div class="text-sm text-secondary">1 unità • 115 m²</div>
+            </div>
+
+            <!-- FASE 2 -->
+            <div>
+                <div class="mb-6">
+                    <span class="text-sm font-semibold text-[#c8872f]">FASE 2 — IN PROGETTAZIONE</span>
+                    <h3 class="heading text-2xl mt-1">Case coloniche sui 23 ettari</h3>
+                </div>
+                <p class="text-secondary mb-8">
+                    20 nuove abitazioni in pietra iblea tradizionale, distribuite sui terreni della masseria. 
+                    Ogni casa dispone di un lotto privato di circa un ettaro con orto, giardino e frutteto, 
+                    favorendo l’autosufficienza e il contatto diretto con la terra.
+                </p>
+
+                <div class="space-y-6">
+                    <div class="border border-gray-200 rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <div><span class="font-semibold">Bronze Coloniche</span> <span class="text-sm text-[#c8872f] ml-2">8 unità</span></div>
+                            <span class="text-sm text-secondary">140–160 m²</span>
+                        </div>
+                        <p class="text-secondary text-sm">Soluzione essenziale e funzionale con lotto privato e possibilità di orto.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <div><span class="font-semibold">Silver Coloniche</span> <span class="text-sm text-[#c8872f] ml-2">8 unità</span></div>
+                            <span class="text-sm text-secondary">200–220 m²</span>
+                        </div>
+                        <p class="text-secondary text-sm">Ampia e confortevole, ideale per famiglie numerose o chi desidera più spazio.</p>
+                    </div>
+
+                    <div class="border border-gray-200 rounded-2xl p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <div><span class="font-semibold">Gold Coloniche</span> <span class="text-sm text-[#c8872f] ml-2">4 unità</span></div>
+                            <span class="text-sm text-secondary">240–260 m²</span>
+                        </div>
+                        <p class="text-secondary text-sm">Versione più ampia e panoramica, con vista privilegiata sul territorio ibleo.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div>
-            <h3 class="font-semibold text-xl mb-4">Fase 2 — Case coloniche</h3>
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="border border-gray-200 rounded-2xl p-6">
-                    <div class="font-semibold">Bronze</div>
-                    <div class="text-sm text-secondary">8 unità • 140–170 m²</div>
-                </div>
-                <div class="border border-gray-200 rounded-2xl p-6">
-                    <div class="font-semibold">Silver</div>
-                    <div class="text-sm text-secondary">8 unità • 180–210 m²</div>
-                </div>
-                <div class="border border-gray-200 rounded-2xl p-6">
-                    <div class="font-semibold">Gold</div>
-                    <div class="text-sm text-secondary">4 unità • 230–260 m²</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- IMMAGINE PRIMA DEL MECCANISMO -->
-    <section class="max-w-5xl mx-auto px-8 pb-12">
-        <div class="overflow-hidden rounded-3xl">
-            <img src="assets/atmosfera-cena.png" alt="Momento di convivialità al Baglio San Michele" class="w-full h-72 object-cover">
-        </div>
-    </section>
-
-    <!-- MECCANISMO DI TRANSIZIONE -->
-    <section class="max-w-5xl mx-auto px-8 py-16 border-t border-gray-200 bg-[#f9f6f0]">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="heading text-3xl mb-4">Meccanismo di transizione tra le fasi</h2>
-            <p class="text-lg text-secondary">
-                Chi acquista un appartamento nella Fase 1 può, in un secondo momento, restituire l’unità e 
-                vedersi riconosciuto il valore in caso di acquisto di una casa colonica più grande nella Fase 2. 
-                Un sistema pensato per accompagnare le famiglie nel tempo.
+        <!-- MECCANISMO DI TRANSIZIONE -->
+        <div class="mt-12 p-8 bg-[#f9f6f0] border border-[#e8d9b8] rounded-2xl">
+            <h4 class="font-semibold text-[#c8872f] mb-3">Meccanismo di transizione tra Fase 1 e Fase 2</h4>
+            <p class="text-secondary leading-relaxed">
+                Il progetto è pensato per accompagnare le famiglie nel tempo. Chi acquista un appartamento nel Baglio 
+                e, con la crescita della famiglia, desidera passare a una casa colonica, può restituire l’unità abitativa 
+                al Baglio. Il valore riconosciuto dell’appartamento verrà scalato dal prezzo della nuova casa colonica, 
+                facilitando il passaggio verso una soluzione più ampia senza dispersione di risorse e mantenendo 
+                la continuità all’interno della comunità.
             </p>
         </div>
     </section>
@@ -167,29 +285,15 @@
         © Baglio San Michele • Sicilian Slow Living
     </footer>
 
-    <!-- SCRIPT MENU MOBILE -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuBtn = document.getElementById('menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-
-            if (menuBtn && mobileMenu) {
-                menuBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    mobileMenu.classList.toggle('hidden');
-                    mobileMenu.classList.toggle('flex');
-                });
-
-                document.addEventListener('click', function(e) {
-                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                        if (!mobileMenu.classList.contains('hidden')) {
-                            mobileMenu.classList.add('hidden');
-                            mobileMenu.classList.remove('flex');
-                        }
-                    }
-                });
-            }
-        });
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            });
+        }
     </script>
 </body>
 </html>
