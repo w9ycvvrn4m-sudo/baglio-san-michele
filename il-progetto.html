@@ -119,6 +119,11 @@
                 <span class="text-sm text-secondary">2026 / 2027</span>
             </div>
             <h3 class="heading text-3xl mb-4">Restauro del Baglio storico</h3>
+
+            <!-- IMMAGINE AGGIUNTA -->
+            <img src="assets/atmosfera-appartamento.png" alt="Restauro degli appartamenti nel Baglio storico" 
+                 class="w-full h-64 object-cover rounded-2xl mb-6">
+
             <div class="grid md:grid-cols-2 gap-x-12 gap-y-8 text-lg">
                 <div>
                     <p class="text-secondary">
@@ -151,6 +156,11 @@
                 <span class="text-sm text-secondary">2027 / 2028</span>
             </div>
             <h3 class="heading text-3xl mb-4">Le case coloniche sui 23 ettari</h3>
+
+            <!-- IMMAGINE AGGIUNTA -->
+            <img src="assets/atmosfera-casacolonica.png" alt="Case coloniche sui terreni della masseria" 
+                 class="w-full h-64 object-cover rounded-2xl mb-6">
+
             <div class="grid md:grid-cols-2 gap-x-12 gap-y-8 text-lg">
                 <div>
                     <p class="text-secondary">
@@ -243,14 +253,12 @@
             const mobileMenu = document.getElementById('mobile-menu');
 
             if (menuBtn && mobileMenu) {
-                // Toggle menu (funziona perfettamente su iPhone)
                 menuBtn.addEventListener('click', function(e) {
                     e.preventDefault();
                     mobileMenu.classList.toggle('hidden');
                     mobileMenu.classList.toggle('flex');
                 });
 
-                // Chiudi menu cliccando fuori (migliora esperienza mobile)
                 document.addEventListener('click', function(e) {
                     if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
                         if (!mobileMenu.classList.contains('hidden')) {
