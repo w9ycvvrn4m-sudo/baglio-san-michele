@@ -3,26 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ | Baglio San Michele — Comunità Intenzionale Tradizionale</title>
+    <title>FAQ • Baglio San Michele</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Inter:wght@400;500;600&amp;display=swap');
+        
         body {
             font-family: 'Inter', system_ui, sans-serif;
         }
+        
         .heading-serif {
             font-family: 'Playfair Display', Georgia, serif;
+            letter-spacing: -0.02em;
         }
+
+        .section-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            letter-spacing: -0.015em;
+        }
+
         details summary {
             cursor: pointer;
             list-style: none;
         }
+        
         details summary::-webkit-details-marker {
             display: none;
         }
-        .faq-item {
-            transition: all 0.2s ease;
+
+        .nav-link {
+            transition: color 0.2s ease;
         }
+        
+        .nav-link.active {
+            color: #4A5D23;
+            font-weight: 600;
+        }
+
+        .faq-item {
+            transition: border-color 0.2s ease;
+        }
+        
         .faq-item:hover {
             border-color: #B8A88A;
         }
@@ -31,257 +53,186 @@
 <body class="bg-[#F8F4ED] text-[#3F2E1E]">
 
     <!-- Header -->
-    <header class="bg-white border-b border-[#D4C9B8] sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-            <div class="flex items-center gap-x-3">
-                <div class="flex items-center gap-x-2">
-                    <div class="w-9 h-9 bg-[#4A5D23] rounded flex items-center justify-center">
-                        <i class="fa-solid fa-home text-white text-xl"></i>
+    <header class="bg-white border-b border-[#D4C9B8]">
+        <div class="max-w-screen-2xl mx-auto">
+            <div class="px-8 py-6 flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center gap-x-3">
+                    <div class="w-10 h-10 bg-[#4A5D23] rounded flex items-center justify-center">
+                        <i class="fa-solid fa-home text-white text-2xl"></i>
                     </div>
-                    <span class="font-semibold text-2xl tracking-tight">Baglio San Michele</span>
+                    <div>
+                        <span class="font-semibold text-2xl tracking-tight">Baglio San Michele</span>
+                    </div>
+                </div>
+
+                <!-- Menu di navigazione -->
+                <nav class="hidden md:flex items-center gap-x-9 text-sm font-medium">
+                    <a href="#" class="nav-link hover:text-[#4A5D23]">Il Progetto</a>
+                    <a href="#" class="nav-link hover:text-[#4A5D23]">La Comunità</a>
+                    <a href="#" class="nav-link hover:text-[#4A5D23]">Fasi di sviluppo</a>
+                    <a href="#" class="nav-link active">FAQ</a>
+                    <a href="#" class="nav-link hover:text-[#4A5D23]">Contatti</a>
+                </nav>
+
+                <div class="flex items-center gap-x-4">
+                    <a href="#" 
+                       class="hidden md:inline-flex items-center px-6 py-2.5 bg-[#4A5D23] hover:bg-[#3A4A1C] text-white text-sm font-medium rounded-xl transition-colors">
+                        <i class="fa-solid fa-envelope mr-2"></i>
+                        Contattaci
+                    </a>
+                    
+                    <!-- Mobile menu -->
+                    <button class="md:hidden w-10 h-10 flex items-center justify-center text-[#4A5D23]">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
                 </div>
             </div>
-            
-            <!-- Menu con FAQ attivo -->
-            <nav class="hidden md:flex items-center gap-x-8 text-sm font-medium">
-                <a href="#" class="hover:text-[#4A5D23] transition-colors">Il Progetto</a>
-                <a href="#" class="hover:text-[#4A5D23] transition-colors">La Comunità</a>
-                <a href="#" class="hover:text-[#4A5D23] transition-colors">Fasi</a>
-                <a href="#" class="text-[#4A5D23] font-semibold">FAQ</a>
-                <a href="#" class="hover:text-[#4A5D23] transition-colors">Contatti</a>
-            </nav>
-            
-            <a href="#" class="inline-flex items-center px-5 py-2.5 bg-[#4A5D23] hover:bg-[#3A4A1C] text-white text-sm font-medium rounded-lg transition-all">
-                <i class="fa-solid fa-envelope mr-2"></i>
-                Contattaci
-            </a>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <div class="max-w-5xl mx-auto px-6 pt-14 pb-10 text-center">
-        <div class="inline-flex items-center gap-x-2 bg-white px-4 py-1.5 rounded-full border border-[#D4C9B8] mb-6">
-            <div class="w-2 h-2 bg-[#4A5D23] rounded-full animate-pulse"></div>
-            <span class="text-sm font-medium text-[#4A5D23]">Fase preparatoria • Giugno 2026</span>
+    <!-- Hero -->
+    <div class="max-w-screen-2xl mx-auto px-8 pt-16 pb-12">
+        <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-x-2 px-4 py-1.5 bg-white border border-[#D4C9B8] rounded-full mb-6">
+                <div class="w-2 h-2 bg-[#4A5D23] rounded-full animate-pulse"></div>
+                <span class="text-sm font-medium tracking-wide">Fase preparatoria • Giugno 2026</span>
+            </div>
+            
+            <h1 class="heading-serif text-6xl font-bold tracking-tighter mb-4">Domande frequenti</h1>
+            <p class="text-xl text-[#5C4A3A] max-w-2xl">
+                Risposte alle domande più comuni sul progetto, i criteri di ammissione e la vita al Baglio San Michele.
+            </p>
         </div>
-        
-        <h1 class="heading-serif text-5xl md:text-6xl font-bold tracking-tight mb-4">Domande frequenti</h1>
-        <p class="max-w-2xl mx-auto text-xl text-[#5C4A3A]">
-            Tutto ciò che serve sapere per comprendere il progetto e il percorso di ingresso al Baglio San Michele.
-        </p>
-        
-        <!-- Barra di ricerca -->
-        <div class="max-w-md mx-auto mt-8">
+
+        <!-- Search -->
+        <div class="max-w-lg mt-10">
             <div class="relative">
                 <input type="text" id="searchInput" 
-                       class="w-full pl-12 pr-5 py-3.5 bg-white border border-[#D4C9B8] rounded-2xl text-base focus:outline-none focus:border-[#4A5D23] placeholder:text-[#8C7B6A]"
-                       placeholder="Cerca tra le domande...">
-                <i class="fa-solid fa-search absolute left-5 top-4 text-[#8C7B6A]"></i>
+                       class="w-full bg-white border border-[#D4C9B8] focus:border-[#4A5D23] rounded-2xl py-4 pl-14 pr-6 text-base placeholder:text-[#8C7B6A] focus:outline-none"
+                       placeholder="Cerca una domanda...">
+                <i class="fa-solid fa-search absolute left-6 top-4.5 text-[#8C7B6A] text-lg"></i>
             </div>
         </div>
     </div>
 
-    <div class="max-w-5xl mx-auto px-6 pb-20">
+    <div class="max-w-screen-2xl mx-auto px-8 pb-20">
 
-        <!-- Categoria 1: Il progetto e la sua identità -->
-        <div class="mb-12">
-            <div class="flex items-center gap-x-3 mb-5 px-1">
-                <i class="fa-solid fa-home text-[#4A5D23] text-2xl"></i>
-                <h2 class="heading-serif text-3xl font-semibold">Il progetto e la sua identità</h2>
-            </div>
+        <!-- Sezione 1: Il progetto -->
+        <div class="mb-16">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center gap-x-3">
+                <i class="fa-solid fa-home text-[#4A5D23]"></i> 
+                <span>Il progetto e la sua identità</span>
+            </h2>
             
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Che cos’è il Baglio San Michele?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il Baglio San Michele (già Masseria Torre Mastro) è una masseria fortificata del XVI secolo situata in Contrada Torre Mastro, nel territorio di Ragusa. Il progetto trasforma questo bene storico nel primo nucleo di una <strong>comunità intenzionale tradizionale</strong> radicata nella fede cristiana e nella cultura siciliana.
-                </div>
-            </details>
+            <div class="space-y-3">
+                <!-- Domande della sezione 1 -->
+                <details class="faq-item bg-white border border-[#D4C9B8] rounded-2xl px-7 py-1 group">
+                    <summary class="py-5 font-medium text-lg flex justify-between items-center cursor-pointer">
+                        Che cos’è il Baglio San Michele?
+                        <i class="fa-solid fa-chevron-down text-[#8C7B6A] group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
+                        Il Baglio San Michele è una masseria fortificata del XVI secolo trasformata nel primo nucleo di una <strong>comunità intenzionale tradizionale</strong> radicata nella fede cristiana e nella cultura siciliana.
+                    </div>
+                </details>
 
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Qual è la differenza tra il Baglio San Michele e un resort o un villaggio turistico?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il Baglio San Michele <strong>non è un resort, non è un albergo diffuso e non è un progetto turistico stagionale</strong>. È un luogo di <strong>residenza stabile tutto l’anno</strong>, abitato da famiglie che scelgono di farne la propria casa e di aderire a un regolamento interno condiviso.
-                </div>
-            </details>
-
-            <!-- Domanda 19: Religione -->
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Quale religione professa il Borgo?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il Baglio San Michele professa la <strong>religione cattolica apostolica romana</strong>. La comunità è intenzionalmente radicata nella fede cristiana tradizionale.
-                </div>
-            </details>
-
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Il modello del Baglio San Michele è simile ai kolchoz o ai kibbutz?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il Baglio San Michele condivide con questi modelli l’idea di comunità rurale intenzionale, ma se ne differenzia radicalmente ponendo al centro la <strong>famiglia nucleare</strong>, la <strong>fede cristiana tradizionale</strong> e la <strong>proprietà privata delle abitazioni</strong>.
-                </div>
-            </details>
+                <details class="faq-item bg-white border border-[#D4C9B8] rounded-2xl px-7 py-1 group">
+                    <summary class="py-5 font-medium text-lg flex justify-between items-center cursor-pointer">
+                        Quale religione professa il Borgo?
+                        <i class="fa-solid fa-chevron-down text-[#8C7B6A] group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
+                        Il Baglio San Michele professa la <strong>religione cattolica apostolica romana</strong>. La comunità è intenzionalmente radicata nella fede cristiana tradizionale.
+                    </div>
+                </details>
+            </div>
         </div>
 
-        <!-- Categoria 2: Chi può farne parte -->
-        <div class="mb-12">
-            <div class="flex items-center gap-x-3 mb-5 px-1">
-                <i class="fa-solid fa-users text-[#4A5D23] text-2xl"></i>
-                <h2 class="heading-serif text-3xl font-semibold">Chi può farne parte e come entrare</h2>
-            </div>
+        <!-- Sezione 2: Chi può farne parte -->
+        <div class="mb-16">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center gap-x-3">
+                <i class="fa-solid fa-users text-[#4A5D23]"></i> 
+                <span>Chi può farne parte e come entrare</span>
+            </h2>
             
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>A chi è rivolto il progetto?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il progetto è rivolto principalmente a <strong>famiglie italiane con figli</strong> (o che desiderano averne), con genitori tra i 35 e i 50 anni e 1-3 figli in età scolare.
-                </div>
-            </details>
+            <div class="space-y-3">
+                <details class="faq-item bg-white border border-[#D4C9B8] rounded-2xl px-7 py-1 group">
+                    <summary class="py-5 font-medium text-lg flex justify-between items-center cursor-pointer">
+                        Io non sono cattolico: posso vivere nel Borgo?
+                        <i class="fa-solid fa-chevron-down text-[#8C7B6A] group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
+                        Sì, è possibile, a condizione che il proprio modo di vita non sia incompatibile con i principi cristiani fondamentali e che non si svolgano attività di proselitismo acattolico. Nessuno è obbligato a partecipare alle funzioni religiose, ma non è possibile pretendere che la comunità non manifesti pubblicamente la propria fede.
+                    </div>
+                </details>
 
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Come funziona il processo di ammissione?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    L’ingresso è volontario e prevede un percorso di <strong>selezione reciproca</strong> basato su criteri valoriali e pratici, tra cui l’allineamento con il <em>Sicilian Slow Living</em> e la disponibilità a una residenza stabile.
-                </div>
-            </details>
-
-            <!-- Domanda 20: Non cattolico -->
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Io non sono cattolico: posso vivere nel Borgo?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Sì, è possibile vivere nel Baglio San Michele anche se non si è cattolici, a condizione che il proprio modo di vita non risulti incompatibile con i principi cristiani fondamentali e che non si svolgano attività di proselitismo acattolico all’interno della comunità.<br><br>
-                    Nessuno è obbligato a partecipare alle funzioni religiose. Tuttavia, non è possibile pretendere che gli abitanti del Borgo non manifestino pubblicamente la propria Fede.
-                </div>
-            </details>
-
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>È possibile visitare il Baglio o partecipare a un periodo di prova?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il progetto si trova attualmente nella fase preparatoria: la Fase 1 non è ancora iniziata. Le visite e i periodi di prova saranno organizzati progressivamente per le famiglie che dimostrano un serio interesse.
-                </div>
-            </details>
+                <details class="faq-item bg-white border border-[#D4C9B8] rounded-2xl px-7 py-1 group">
+                    <summary class="py-5 font-medium text-lg flex justify-between items-center cursor-pointer">
+                        Come funziona il processo di ammissione?
+                        <i class="fa-solid fa-chevron-down text-[#8C7B6A] group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
+                        L’ingresso è volontario e prevede un percorso di selezione reciproca basato su criteri valoriali, disponibilità alla residenza stabile e allineamento con il <em>Sicilian Slow Living</em>.
+                    </div>
+                </details>
+            </div>
         </div>
 
-        <!-- Categoria 3: La vita nella comunità -->
-        <div class="mb-12">
-            <div class="flex items-center gap-x-3 mb-5 px-1">
-                <i class="fa-solid fa-handshake text-[#4A5D23] text-2xl"></i>
-                <h2 class="heading-serif text-3xl font-semibold">La vita nella comunità</h2>
-            </div>
+        <!-- Sezione 3: Vita nella comunità -->
+        <div class="mb-16">
+            <h2 class="section-title text-3xl font-semibold mb-6 flex items-center gap-x-3">
+                <i class="fa-solid fa-handshake text-[#4A5D23]"></i> 
+                <span>La vita nella comunità</span>
+            </h2>
             
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Come è organizzata la vita comunitaria e la governance?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    La vita comunitaria si basa su <strong>libertà con responsabilità</strong>. La governance è ispirata alle <em>universitates rurali</em> siciliane e prevede l’istituzione di un <strong>Capitolo dei Savi</strong> con rotazione delle cariche e presenza di una figura spirituale con potere di veto su materie di fede e morale.
-                </div>
-            </details>
-
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Qual è il ruolo della fede e della dimensione spirituale?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    La dimensione spirituale cristiana è un valore fondante della vita comune, con presenza discreta e quotidiana. La comunità è intenzionalmente radicata nella fede cristiana tradizionale.
-                </div>
-            </details>
-
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>Come si garantisce l’autonomia e l’autosufficienza?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    L’autosufficienza alimentare, zootecnica e artigianale è un pilastro del modello. Le attività prioritarie includono agricoltura biodinamica, allevamenti integrati e trasformazione artigianale.
-                </div>
-            </details>
+            <div class="space-y-3">
+                <details class="faq-item bg-white border border-[#D4C9B8] rounded-2xl px-7 py-1 group">
+                    <summary class="py-5 font-medium text-lg flex justify-between items-center cursor-pointer">
+                        Come è organizzata la governance del Borgo?
+                        <i class="fa-solid fa-chevron-down text-[#8C7B6A] group-open:rotate-180 transition-transform"></i>
+                    </summary>
+                    <div class="pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
+                        La governance è ispirata alle <em>universitates rurali</em> siciliane e prevede un Capitolo dei Savi con rotazione delle cariche e presenza di una figura spirituale con potere di veto su materie di fede e morale.
+                    </div>
+                </details>
+            </div>
         </div>
 
-        <!-- Categoria 4: Aspetti pratici -->
-        <div class="mb-12">
-            <div class="flex items-center gap-x-3 mb-5 px-1">
-                <i class="fa-solid fa-tools text-[#4A5D23] text-2xl"></i>
-                <h2 class="heading-serif text-3xl font-semibold">Aspetti pratici e contributi</h2>
-            </div>
+        <!-- CTA -->
+        <div class="mt-12 bg-white border border-[#D4C9B8] rounded-3xl p-10 md:p-12 text-center">
+            <h3 class="heading-serif text-3xl font-semibold mb-3">Hai altre domande?</h3>
+            <p class="text-[#5C4A3A] mb-7 max-w-md mx-auto">Siamo disponibili a un colloquio conoscitivo per approfondire il progetto insieme a te.</p>
             
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>È possibile personalizzare l’appartamento o il casale rurale acquistato?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Gli <strong>interni</strong> possono essere personalizzati secondo le esigenze della famiglia. Gli esterni, le facciate e gli spazi comuni devono invece conformarsi al progetto di restauro storico e alle linee guida comunitarie.
-                </div>
-            </details>
-
-            <details class="faq-item group bg-white border border-[#D4C9B8] rounded-2xl mb-3 overflow-hidden">
-                <summary class="px-6 py-5 flex justify-between items-center font-medium text-lg cursor-pointer hover:bg-[#F8F4ED]">
-                    <span>In quale modo posso contribuire alla realizzazione di questo progetto?</span>
-                    <i class="fa-solid fa-chevron-down transition-transform group-open:rotate-180 text-[#8C7B6A]"></i>
-                </summary>
-                <div class="px-6 pb-6 text-[15px] leading-relaxed text-[#4A3F32]">
-                    Il contributo principale avviene attraverso l’acquisto di un’unità abitativa. Sono possibili anche donazioni, finanziamento di progetti specifici e collaborazioni professionali da parte di imprese del settore.
-                </div>
-            </details>
-        </div>
-
-        <!-- CTA finale -->
-        <div class="mt-16 bg-white border border-[#D4C9B8] rounded-3xl p-10 text-center">
-            <h3 class="heading-serif text-3xl font-semibold mb-3">Non hai trovato la risposta che cercavi?</h3>
-            <p class="text-[#5C4A3A] mb-6 max-w-md mx-auto">Siamo a disposizione per approfondire il progetto insieme a te e alla tua famiglia.</p>
-            
-            <a href="#" class="inline-flex items-center justify-center px-8 py-3.5 bg-[#4A5D23] hover:bg-[#3A4A1C] text-white font-medium rounded-2xl transition-all text-base">
-                <i class="fa-solid fa-calendar-check mr-3"></i>
-                Richiedi un colloquio conoscitivo
+            <a href="#" class="inline-flex items-center justify-center gap-x-3 bg-[#4A5D23] hover:bg-[#3A4A1C] text-white font-medium px-8 py-3.5 rounded-2xl transition-colors">
+                <i class="fa-solid fa-calendar-check"></i>
+                <span>Richiedi un colloquio</span>
             </a>
         </div>
 
         <div class="text-center mt-8 text-xs text-[#8C7B6A]">
-            Ultimo aggiornamento: 10 giugno 2026 • Il progetto è nella fase preparatoria
+            Ultimo aggiornamento: 10 giugno 2026
         </div>
     </div>
 
     <script>
-        // Funzione di ricerca
-        function setupSearch() {
-            const searchInput = document.getElementById('searchInput');
-            const faqItems = document.querySelectorAll('.faq-item');
-            
-            searchInput.addEventListener('input', function() {
-                const term = this.value.toLowerCase().trim();
-                
-                faqItems.forEach(item => {
-                    const text = item.textContent.toLowerCase();
-                    item.style.display = (term === '' || text.includes(term)) ? '' : 'none';
+        // Ricerca FAQ
+        function initSearch() {
+            const input = document.getElementById('searchInput');
+            const items = document.querySelectorAll('.faq-item');
+
+            input.addEventListener('input', () => {
+                const term = input.value.toLowerCase().trim();
+
+                items.forEach(item => {
+                    const content = item.textContent.toLowerCase();
+                    item.style.display = content.includes(term) ? '' : 'none';
                 });
             });
         }
-        
+
         window.onload = function() {
-            setupSearch();
+            initSearch();
         };
     </script>
 </body>
