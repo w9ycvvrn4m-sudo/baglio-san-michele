@@ -215,6 +215,13 @@
         </div>
     </section>
 
+    <!-- IMMAGINE AGGIUNTA: atmosfera-processione.png -->
+    <section class="max-w-5xl mx-auto px-8 pt-8 pb-12">
+        <div class="overflow-hidden rounded-3xl">
+            <img src="assets/atmosfera-processione.png" alt="Momento di comunità e tradizione al Baglio San Michele" class="w-full h-80 object-cover">
+        </div>
+    </section>
+
     <!-- CONCLUSIONE -->
     <section class="max-w-4xl mx-auto px-8 py-16 border-t border-gray-200">
         <h2 class="heading text-3xl mb-6">Un progetto di vita, non solo immobiliare</h2>
@@ -232,21 +239,19 @@
 
     <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 
-    <!-- SCRIPT MENU MOBILE FUNZIONANTE (iPhone incluso) -->
+    <!-- SCRIPT MENU MOBILE FUNZIONANTE -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const menuBtn = document.getElementById('menu-btn');
             const mobileMenu = document.getElementById('mobile-menu');
 
             if (menuBtn && mobileMenu) {
-                // Apertura/chiusura menu al click sull'hamburger
                 menuBtn.addEventListener('click', function(e) {
                     e.preventDefault();
                     mobileMenu.classList.toggle('hidden');
                     mobileMenu.classList.toggle('flex');
                 });
 
-                // Chiude il menu cliccando fuori (funziona bene su iPhone)
                 document.addEventListener('click', function(e) {
                     if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
                         if (!mobileMenu.classList.contains('hidden')) {
