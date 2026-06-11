@@ -41,6 +41,18 @@
             color: #c8872f; 
         }
         .text-secondary { color: #4a4a4a; }
+        
+        /* Stile accordion FAQ */
+        details summary {
+            cursor: pointer;
+            list-style: none;
+        }
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary {
+            color: #c8872f;
+        }
     </style>
 </head>
 <body>
@@ -97,70 +109,103 @@
                 </p>
             </div>
 
-            <!-- IMMAGINE INIZIALE AGGIUNTA -->
+            <!-- IMMAGINE INIZIALE -->
             <div class="mb-14 overflow-hidden rounded-3xl">
                 <img src="assets/faq.jpg" 
                      alt="Baglio San Michele - Domande frequenti" 
                      class="w-full h-80 object-cover">
             </div>
 
-            <!-- DOMANDE E RISPOSTE -->
-            <div class="space-y-8">
+            <!-- FAQ ACCORDION -->
+            <div class="space-y-4">
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">1. Che cos’è il Baglio San Michele?</h3>
-                    <p class="text-secondary">Il Baglio San Michele (già Masseria Torre Mastro) è una masseria fortificata del XVI secolo situata in Contrada Torre Mastro, nel territorio di Ragusa, nel cuore della Sicilia iblea. Il progetto trasforma questo bene storico nel primo nucleo di una comunità intenzionale tradizionale, dove famiglie selezionate vivono stabilmente secondo i principi del Sicilian Slow Living.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Che cos’è il Baglio San Michele?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">Il Baglio San Michele (già Masseria Torre Mastro) è una masseria fortificata del XVI secolo situata in Contrada Torre Mastro, nel territorio di Ragusa, nel cuore della Sicilia iblea. Il progetto trasforma questo bene storico nel primo nucleo di una comunità intenzionale tradizionale, dove famiglie selezionate vivono stabilmente secondo i principi del Sicilian Slow Living: lentezza, relazioni autentiche, lavoro con senso e radicamento nel territorio.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">2. Qual è la differenza tra il Baglio San Michele e un resort o un villaggio turistico?</h3>
-                    <p class="text-secondary">Il Baglio San Michele non è un resort, non è un albergo diffuso e non è un progetto turistico stagionale. È un luogo di residenza stabile tutto l’anno, abitato da famiglie che scelgono di farne la propria casa e di aderire a un regolamento interno condiviso.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Qual è la differenza tra il Baglio San Michele e un resort o un villaggio turistico?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">Il Baglio San Michele non è un resort, non è un albergo diffuso e non è un progetto turistico stagionale. È un luogo di residenza stabile tutto l’anno, abitato da famiglie che scelgono di farne la propria casa e di aderire a un regolamento interno condiviso. L’obiettivo non è l’ospitalità temporanea né la rendita turistica.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">3. A chi è rivolto il progetto?</h3>
-                    <p class="text-secondary">Il progetto è rivolto principalmente a famiglie italiane con figli (o che desiderano averne), con genitori tra i 35 e i 50 anni e 1-3 figli in età compresa tra i 3 e i 16 anni. Si tratta di nuclei familiari che cercano un cambiamento profondo nello stile di vita: stabilità, sicurezza, qualità delle relazioni e trasmissione di valori.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        A chi è rivolto il progetto?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">Il progetto è rivolto principalmente a famiglie italiane con figli (o che desiderano averne), con genitori tra i 35 e i 50 anni e 1-3 figli in età compresa tra i 3 e i 16 anni. Si tratta di nuclei familiari che cercano un cambiamento profondo nello stile di vita: stabilità, sicurezza, qualità delle relazioni, educazione dei figli in un contesto di natura e valori solidi.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">4. Come funziona il processo di ammissione?</h3>
-                    <p class="text-secondary">L’ingresso è volontario e prevede un percorso di selezione reciproca. I criteri principali sono: allineamento con il Sicilian Slow Living, riconoscimento del valore della fede cristiana nella vita comune, intenzione di residenza stabile tutto l’anno e adesione al principio anti-speculativo. È previsto un periodo di prova.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Come funziona il processo di ammissione?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">L’ingresso è volontario e prevede un percorso di selezione reciproca. I criteri principali sono: allineamento con il Sicilian Slow Living, riconoscimento del valore della fede cristiana nella vita comune, intenzione di residenza stabile tutto l’anno, disponibilità alla partecipazione comunitaria e adesione al principio anti-speculativo. È previsto un periodo di prova.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">5. Quali sono le fasi di sviluppo del progetto?</h3>
-                    <p class="text-secondary">Il progetto si articola in tre fasi: Fase 1 (2026-2028): restauro della masseria e realizzazione di 14 appartamenti. Fase 2 (post-2028): costruzione di 20 nuovi immobili rurali sui 23 ettari. Fase 3: sviluppo di un network di Borghi replicabili.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Quali sono le fasi di sviluppo del progetto?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">Il progetto si articola in tre fasi: Fase 1 (2026-2028): restauro della masseria fortificata e realizzazione di 14 appartamenti residenziali. Fase 2 (post-2028): costruzione di 20 nuovi immobili rurali in pietra iblea sui 23 ettari. Fase 3: sviluppo di un network di Borghi replicabili.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">6. Il modello del Baglio San Michele è simile ai kolchoz o ai kibbutz?</h3>
-                    <p class="text-secondary">No. Il Baglio San Michele differisce sostanzialmente da quei modelli. È volontario, fondato sulla fede cristiana tradizionale, sulla proprietà privata delle abitazioni e su un autogoverno ispirato alle tradizioni rurali siciliane e alla Regola benedettina. La famiglia nucleare è al centro del modello.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Il modello del Baglio San Michele è simile ai kolchoz o ai kibbutz?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">No. Il Baglio San Michele differisce sostanzialmente da quei modelli. È volontario, fondato sulla fede cristiana tradizionale, sulla proprietà privata delle abitazioni e su un autogoverno ispirato alle tradizioni rurali siciliane. La famiglia nucleare è al centro del modello.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">7. Come è organizzata la vita comunitaria e la governance?</h3>
-                    <p class="text-secondary">La vita comunitaria si basa su libertà con responsabilità e regole chiare. La governance prevede un Capitolo dei Savi composto da 9 membri con competenze specifiche. Le cariche sono soggette a rotazione e rendiconto periodico. Un sacerdote partecipa con potere di veto su materie di fede e morale.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Come è organizzata la vita comunitaria e la governance?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">La vita comunitaria si basa su libertà con responsabilità e regole chiare. La governance prevede un Capitolo dei Savi composto da 9 membri con competenze specifiche (agricole, artigianali, tecnico-energetiche, spirituali e di comunità). Le cariche sono soggette a rotazione e rendiconto periodico.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">8. Qual è il ruolo della fede e della dimensione spirituale?</h3>
-                    <p class="text-secondary">La dimensione spirituale cristiana è un valore fondante della vita comune. La comunità è intenzionalmente radicata nella fede cristiana tradizionale e nella cultura siciliana. La figura spirituale è integrata nella governance per garantire fedeltà a questi principi.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Qual è il ruolo della fede e della dimensione spirituale?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">La dimensione spirituale cristiana è un valore fondante della vita comune. La comunità è intenzionalmente radicata nella fede cristiana tradizionale e nella cultura siciliana. La figura spirituale è integrata nella governance per garantire fedeltà a questi principi.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">9. Come si garantisce l’autonomia e l’autosufficienza?</h3>
-                    <p class="text-secondary">L’autosufficienza alimentare, zootecnica e artigianale è un pilastro del modello. Le attività prioritarie includono agricoltura biodinamica, allevamenti integrati e trasformazione artigianale, con l’obiettivo di rafforzare la resilienza della comunità.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Come si garantisce l’autonomia e l’autosufficienza?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">L’autosufficienza alimentare, zootecnica e artigianale è un pilastro del modello. Le attività prioritarie includono agricoltura biodinamica, allevamenti integrati e trasformazione artigianale, con l’obiettivo di rafforzare la resilienza della comunità.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">10. Quali sono le professionalità particolarmente richieste nel Baglio?</h3>
-                    <p class="text-secondary">Il progetto richiede professionalità in ambito agricolo e zootecnico, trasformazione alimentare artigianale, artigianato e restauro, oltre a figure per la governance, i servizi e l’educazione. Sono particolarmente ricercati agricoltori biodinamici, artigiani della pietra e del legno, e professionisti in smart working con competenze utili alla comunità.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        Quali sono le professionalità particolarmente richieste nel Baglio?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">Il progetto richiede professionalità in ambito agricolo e zootecnico, trasformazione alimentare artigianale, artigianato e restauro, oltre a figure per la governance, i servizi e l’educazione. Sono particolarmente ricercati agricoltori biodinamici, artigiani della pietra e del legno, e professionisti in smart working.</p>
+                </details>
 
-                <div>
-                    <h3 class="font-semibold text-xl mb-2">11. È possibile visitare il Baglio o partecipare a un periodo di prova?</h3>
-                    <p class="text-secondary">Il progetto si trova attualmente nella fase preparatoria. Le visite e i periodi di prova saranno organizzati in modo strutturato una volta avviata la Fase 1. Chi è interessato può comunque candidarsi e avviare il percorso di conoscenza reciproca.</p>
-                </div>
+                <details class="border border-gray-200 rounded-2xl p-6 group">
+                    <summary class="font-semibold text-xl cursor-pointer flex justify-between items-center">
+                        È possibile visitare il Baglio o partecipare a un periodo di prova?
+                        <span class="text-[#c8872f] group-open:rotate-180 transition-transform">↓</span>
+                    </summary>
+                    <p class="text-secondary mt-4">Il progetto si trova attualmente nella fase preparatoria. Le visite e i periodi di prova saranno organizzati in modo strutturato una volta avviata la Fase 1. Chi è interessato può comunque candidarsi e avviare il percorso di conoscenza reciproca.</p>
+                </details>
 
             </div>
 
