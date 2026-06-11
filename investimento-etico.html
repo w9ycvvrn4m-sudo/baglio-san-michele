@@ -38,31 +38,37 @@
 </head>
 <body class="bg-white text-[#1f1f1f]">
 
-    <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="flex items-center justify-between h-20">
-                <div><a href="index.html"><img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
-                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
-                    <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
-                    <a href="investimento-etico.html" class="text-[#c8872f]">Investimento etico</a>
-                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
-                </div>
-                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
+<!-- NAVBAR CON FAQ -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex items-center justify-between h-20">
+            <div>
+                <a href="index.html">
+                    <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                </a>
             </div>
-            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
-                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
-                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
-                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
-                <a href="investimento-etico.html" class="block py-2 text-[#c8872f]">Investimento etico</a>
-                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
+                <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
+                <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
             </div>
+            <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
         </div>
-    </nav>
+        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
+            <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
+            <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
+            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+            <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
+            <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
+            <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+            <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+        </div>
+    </div>
+</nav>
 
     <header class="pt-20 pb-12 border-b border-gray-200">
         <div class="max-w-4xl mx-auto px-8 text-center">
@@ -253,29 +259,28 @@
 
     <footer class="border-t border-gray-200 py-8 text-center text-sm text-[#666666]">© Baglio San Michele • Sicilian Slow Living</footer>
 
-    <!-- SCRIPT MENU MOBILE CORRETTO PER IPHONE -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuBtn = document.getElementById('menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
 
-            if (menuBtn && mobileMenu) {
-                menuBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    mobileMenu.classList.toggle('hidden');
-                    mobileMenu.classList.toggle('flex');
-                });
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            });
 
-                document.addEventListener('click', function(e) {
-                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                        if (!mobileMenu.classList.contains('hidden')) {
-                            mobileMenu.classList.add('hidden');
-                            mobileMenu.classList.remove('flex');
-                        }
+            document.addEventListener('click', function(e) {
+                if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenu.classList.remove('flex');
                     }
-                });
-            }
-        });
-    </script>
+                }
+            });
+        }
+    });
+</script>
 </body>
 </html>
