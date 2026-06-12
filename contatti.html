@@ -27,224 +27,184 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-    body { 
-        font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
-                 "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
-        background-color: #ffffff; 
-        color: #1f1f1f; 
-    }
-    
-    .heading { 
-        font-family: 'Julius Sans One', Georgia, serif !important; 
-        font-weight: 400 !important; 
-        letter-spacing: 0.5px !important; 
-        color: #c8872f; 
-    }
-    
-    .text-secondary { 
-        color: #4a4a4a; 
-    }
-</style>
+        body { 
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+            background-color: #ffffff; 
+            color: #1f1f1f; 
+        }
+        .heading { 
+            font-family: 'Julius Sans One', Georgia, serif !important; 
+            font-weight: 400 !important; 
+            letter-spacing: 0.5px !important; 
+            color: #c8872f; 
+        }
+        .text-secondary { color: #4a4a4a; }
+        .gold-button { 
+            background-color: #c8872f; 
+            color: white; 
+            transition: all 0.3s ease; 
+        }
+        .gold-button:hover { 
+            background-color: #a86f24; 
+            transform: translateY(-1px); 
+        }
+    </style>
 </head>
-<body class="bg-white text-[#1f1f1f]">
+<body>
 
-<!-- NAVBAR CON FAQ -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
-        <div class="flex items-center justify-between h-20">
-            <div>
-                <a href="index.html">
-                    <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
-                </a>
-            </div>
-            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
-                <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
-                <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
-                <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
-                <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
-                <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
-            </div>
-            <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">☰</button>
-        </div>
-        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
-            <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
-            <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
-            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
-            <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
-            <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
-            <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
-            <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
-        </div>
-    </div>
-</nav>
-
-    <header class="pt-20 pb-12 border-b border-gray-200">
-        <div class="max-w-4xl mx-auto px-8 text-center">
-            <span class="text-[#c8872f] text-sm tracking-[3px] uppercase">PARLIAMO</span>
-            <h1 class="heading text-5xl md:text-6xl tracking-[0.5px] mt-4">Contatti</h1>
-        </div>
-    </header>
-
-    <section class="max-w-3xl mx-auto px-8 py-12">
-        <div class="max-w-2xl mx-auto text-center">
-            <p class="text-xl">Se questo progetto risuona con la tua visione di vita, ti invitiamo a metterti in contatto con noi. Siamo disponibili a un primo colloquio conoscitivo.</p>
-        </div>
-    </section>
-
-    <section class="max-w-3xl mx-auto px-8 pb-16">
-        <form action="#" method="POST" class="space-y-8">
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
                 <div>
-                    <label class="block text-sm mb-2 text-[#4a4a4a]">Nome e Cognome *</label>
-                    <input type="text" name="nome" required class="form-input w-full px-4 py-3 rounded-xl">
+                    <a href="index.html">
+                        <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
                 </div>
-                <div>
-                    <label class="block text-sm mb-2 text-[#4a4a4a]">Email *</label>
-                    <input type="email" name="email" required class="form-input w-full px-4 py-3 rounded-xl">
-                </div>
-            </div>
-
-            <div>
-                <label class="block text-sm mb-2 text-[#4a4a4a]">Telefono</label>
-                <input type="tel" name="telefono" class="form-input w-full px-4 py-3 rounded-xl">
-            </div>
-
-            <div>
-                <label class="block text-sm mb-3 text-[#4a4a4a]">Quali sono i tuoi principali interessi? *</label>
-                <div class="space-y-2">
-                    <label class="flex items-center gap-x-3"><input type="checkbox" name="interessi[]" value="Vivere stabilmente nel Borgo" class="accent-[#c8872f]"> Vivere stabilmente nel Borgo</label>
-                    <label class="flex items-center gap-x-3"><input type="checkbox" name="interessi[]" value="Partecipare attivamente al progetto" class="accent-[#c8872f]"> Partecipare attivamente al progetto</label>
-                    <label class="flex items-center gap-x-3"><input type="checkbox" name="interessi[]" value="Sostenere il progetto" class="accent-[#c8872f]"> Sostenere economicamente o in altro modo il progetto</label>
-                    <label class="flex items-center gap-x-3"><input type="checkbox" name="interessi[]" value="Altro" class="accent-[#c8872f]"> Altro</label>
-                </div>
-            </div>
-
-            <div>
-                <label class="block text-sm mb-2 text-[#4a4a4a]">Situazione familiare *</label>
-                <select name="famiglia" id="famiglia" required class="form-select w-full px-4 py-3 rounded-xl">
-                    <option value="">Seleziona...</option>
-                    <option value="Single">Single</option>
-                    <option value="Coppia">Coppia (senza figli)</option>
-                    <option value="Famiglia con figli">Famiglia con figli</option>
-                </select>
-            </div>
-
-            <div id="campo-componenti" class="hidden">
-                <label class="block text-sm mb-2 text-[#4a4a4a]">Numero di componenti del nucleo familiare</label>
-                <input type="number" name="componenti" min="2" class="form-input w-full px-4 py-3 rounded-xl">
-            </div>
-
-            <div>
-                <label class="block text-sm mb-2 text-[#4a4a4a]">Hai competenze o un lavoro utile al Borgo?</label>
-                <select name="professione" class="form-select w-full px-4 py-3 rounded-xl">
-                    <option value="">Seleziona...</option>
-                    <option value="Agricoltore / Orticoltore">Agricoltore / Orticoltore</option>
-                    <option value="Allevatore">Allevatore</option>
-                    <option value="Artigiano / Falegname / Muratore">Artigiano / Falegname / Muratore</option>
-                    <option value="Educatore / Insegnante">Educatore / Insegnante</option>
-                    <option value="Professionista">Professionista</option>
-                    <option value="Altro">Altro</option>
-                </select>
-            </div>
-
-            <div>
-                <label class="block text-sm mb-2 text-[#4a4a4a]">Specifica meglio il tuo lavoro o le tue competenze</label>
-                <input type="text" name="dettaglio_lavoro" class="form-input w-full px-4 py-3 rounded-xl">
-            </div>
-
-            <div>
-                <label class="block text-sm mb-2 text-[#4a4a4a]">Messaggio *</label>
-                <textarea name="messaggio" rows="6" required class="form-textarea w-full px-4 py-3 rounded-xl resize-y"></textarea>
-            </div>
-
-            <button type="submit" class="gold-button px-10 py-4 rounded-full font-medium text-lg tracking-wider">Invia la richiesta</button>
-        </form>
-    </section>
-
-    <section class="max-w-4xl mx-auto px-8 pb-20">
-        <div class="overflow-hidden rounded-3xl">
-            <img src="assets/atmosfera-accoglienza.png" alt="Contatti - Baglio San Michele" class="w-full h-auto object-cover">
-        </div>
-    </section>
-
-<!-- FOOTER RAFFINATO - SOLUZIONE 2 (versione ottimizzata) -->
-<footer class="border-t border-gray-200 bg-white">
-    <div class="max-w-6xl mx-auto px-6 py-10">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
-            
-            <!-- Copyright -->
-            <div class="text-secondary">
-                © 2026 Baglio San Michele. Tutti i diritti riservati.
-            </div>
-
-            <!-- Social affiancati - versione minimal -->
-            <div class="flex items-center justify-end gap-x-8 text-sm">
                 
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/borgoideale" 
-                   target="_blank" 
-                   rel="noopener noreferrer"
-                   class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.40s-.644-1.44-1.439-1.44z"/>
-                    </svg>
-                    <span>@borgoideale</span>
-                </a>
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                    <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
+                    <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
+                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                    <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                    <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
+                    <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors font-medium">Contatti</a>
+                </div>
 
-                <!-- X -->
-                <a href="https://x.com/borgoideale" 
-                   target="_blank" 
-                   rel="noopener noreferrer"
-                   class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/>
-                    </svg>
-                    <span>@borgoideale</span>
-                </a>
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
+                    Menu
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
+                <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
+                <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
             </div>
         </div>
-    </div>
-</footer>
+    </nav>
 
+    <!-- CONTENUTO PRINCIPALE -->
+    <main class="pt-20">
+
+        <section class="max-w-2xl mx-auto px-6 py-16">
+            <div class="text-center mb-12">
+                <h1 class="heading text-4xl md:text-5xl mb-4">Contatti</h1>
+                <p class="text-secondary text-lg">Per candidarsi o richiedere informazioni sul progetto</p>
+            </div>
+
+            <!-- FORM AGGIORNATO -->
+            <form class="space-y-8">
+                <div>
+                    <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
+                    <input type="text" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-2">Email</label>
+                    <input type="email" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-2">Telefono</label>
+                    <input type="tel" class="w-full border border-gray-300 rounded-xl px-4 py-3">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-3">Sono interessato a:</label>
+                    <div class="grid grid-cols-2 gap-3">
+                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Vivere nel Baglio</label>
+                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Investire eticamente</label>
+                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Visita preliminare</label>
+                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Fare una donazione</label>
+                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Altro</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
+                    <select class="w-full border border-gray-300 rounded-xl px-4 py-3">
+                        <option value="">Seleziona...</option>
+                        <option value="single">Single</option>
+                        <option value="coppia">Coppia senza figli</option>
+                        <option value="famiglia">Famiglia con figli</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-2">Competenze o professionalità (opzionale)</label>
+                    <select class="w-full border border-gray-300 rounded-xl px-4 py-3">
+                        <option value="">Seleziona...</option>
+                        <option value="agricoltura">Agricoltura / Permacultura</option>
+                        <option value="artigianato">Artigianato (pietra, legno, ecc.)</option>
+                        <option value="smartworking">Smart working / Professioni digitali</option>
+                        <option value="educazione">Educazione / Formazione</option>
+                        <option value="altro">Altro (specificare sotto)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-medium mb-2">Messaggio / Note</label>
+                    <textarea class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Scrivi qui eventuali informazioni aggiuntive..."></textarea>
+                </div>
+
+                <!-- Bottone enfatizzato -->
+                <button type="submit" class="w-full gold-button py-5 rounded-2xl font-medium text-lg tracking-wider">
+                    Invia
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+                <div class="text-secondary">
+                    © 2026 Baglio San Michele. Tutti i diritti riservati.
+                </div>
+                <div class="flex items-center justify-end gap-x-8 text-sm">
+                    <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <span>@borgoideale</span>
+                    </a>
+                    <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <span>@borgoideale</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
     <script>
-        const btn = document.getElementById('menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        if (btn && menu) btn.addEventListener('click', () => { menu.classList.toggle('hidden'); menu.classList.toggle('flex'); });
-
-        const select = document.getElementById('famiglia');
-        const campo = document.getElementById('campo-componenti');
-        if (select && campo) {
-            select.addEventListener('change', function() {
-                campo.classList.toggle('hidden', this.value !== 'Famiglia con figli');
-            });
-        }
-    </script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        if (menuBtn && mobileMenu) {
-            menuBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            });
-
-            document.addEventListener('click', function(e) {
-                if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenu.classList.remove('flex');
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('flex');
+                });
+                document.addEventListener('click', function(e) {
+                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        if (!mobileMenu.classList.contains('hidden')) {
+                            mobileMenu.classList.add('hidden');
+                            mobileMenu.classList.remove('flex');
+                        }
                     }
-                }
-            });
-        }
-    });
-</script>
+                });
+            }
+        });
+    </script>
 </body>
 </html>
