@@ -47,41 +47,67 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="flex items-center justify-between h-20">
-                <div>
-                    <a href="index.html">
-                        <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
-                    </a>
-                </div>
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex items-center justify-between h-20">
+            <div>
+                <a href="index.html">
+                    <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                </a>
+            </div>
+            
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
+                <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
+                <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
+                <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
+                <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
                 
-                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <a href="il-concept.html" class="hover:text-[#c8872f] transition-colors">Il Concept</a>
-                    <a href="il-progetto.html" class="hover:text-[#c8872f] transition-colors">Il Progetto</a>
-                    <a href="un-modello-diverso.html" class="hover:text-[#c8872f] transition-colors">Un modello diverso</a>
-                    <a href="vivere-qui.html" class="hover:text-[#c8872f] transition-colors">Vivere qui</a>
-                    <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
-                    <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
-                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
+                <!-- Sottomenu Unisciti a noi -->
+                <div class="relative group">
+                    <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                        Unisciti a noi
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    
+                    <!-- Dropdown -->
+                    <div class="absolute left-0 mt-2 w-56 bg-white border border-gray-200 rounded-xl shadow-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                        <a href="chi-cerchiamo.html" class="block px-5 py-2.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Chi cerchiamo</a>
+                        <a href="figure-professionali.html" class="block px-5 py-2.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Figure professionali richieste</a>
+                    </div>
                 </div>
 
-                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
-                    Menu
-                </button>
+                <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
             </div>
 
-            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-3 pb-6 text-sm tracking-wider bg-white">
-                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
-                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
-                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
-                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere qui</a>
-                <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
-                <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
-                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
-            </div>
+            <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
+                Menu
+            </button>
         </div>
-    </nav>
+
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-1 pb-6 text-sm tracking-wider bg-white">
+            <a href="il-concept.html" class="block py-2.5 hover:text-[#c8872f]">Il Concept</a>
+            <a href="il-progetto.html" class="block py-2.5 hover:text-[#c8872f]">Il Progetto</a>
+            <a href="un-modello-diverso.html" class="block py-2.5 hover:text-[#c8872f]">Un modello diverso</a>
+            <a href="vivere-qui.html" class="block py-2.5 hover:text-[#c8872f]">Vivere qui</a>
+            <a href="investimento-etico.html" class="block py-2.5 hover:text-[#c8872f]">Investimento etico</a>
+            
+            <!-- Voci del sottomenu nel mobile -->
+            <div class="pl-4 border-l border-gray-200 ml-1 mt-1">
+                <a href="chi-cerchiamo.html" class="block py-2 hover:text-[#c8872f]">Chi cerchiamo</a>
+                <a href="figure-professionali.html" class="block py-2 hover:text-[#c8872f]">Figure professionali richieste</a>
+            </div>
+
+            <a href="faq.html" class="block py-2.5 hover:text-[#c8872f]">FAQ</a>
+            <a href="contatti.html" class="block py-2.5 hover:text-[#c8872f]">Contatti</a>
+        </div>
+    </div>
+</nav>
 
     <!-- CONTENUTO PRINCIPALE -->
     <main class="pt-20">
