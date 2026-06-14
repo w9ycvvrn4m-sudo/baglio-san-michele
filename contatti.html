@@ -150,22 +150,22 @@
                 <p class="text-secondary text-lg">Per candidarsi o richiedere informazioni sul progetto</p>
             </div>
 
-  <!-- FORM FUNZIONANTE CON WEB3FORMS -->
+<!-- FORM FUNZIONANTE - Web3Forms -->
 <form action="https://api.web3forms.com/submit" method="POST" class="space-y-8">
 
-    <!-- Access Key di Web3Forms (sostituiscila con la tua) -->
-    <input type="hidden" name="access_key" value="INSERISCI_IL_TUO_ACCESS_KEY">
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="e0ef2929-d6ac-4c87-bccb-31cb61b0318c">
 
-    <!-- Oggetto dell'email -->
-    <input type="hidden" name="subject" value="Nuova richiesta dal sito Baglio San Michele">
+    <!-- Oggetto dell'email (modificabile) -->
+    <input type="hidden" name="subject" value="Nuova richiesta dal sito - Baglio San Michele">
 
-    <!-- Campo per far rispondere direttamente all'utente -->
-    <input type="hidden" name="from_name" value="Sito Baglio San Michele">
+    <!-- Nome del mittente visibile nell'email -->
+    <input type="hidden" name="from_name" value="Sito Web Baglio San Michele">
 
     <!-- Nome e Cognome -->
     <div>
         <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
-        <input type="text" name="nome" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+        <input type="text" name="nome_cognome" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
     </div>
 
     <!-- Email -->
@@ -180,7 +180,7 @@
         <input type="tel" name="telefono" class="w-full border border-gray-300 rounded-xl px-4 py-3">
     </div>
 
-    <!-- Interessi -->
+    <!-- Interessi (Checkbox) -->
     <div>
         <label class="block text-sm font-medium mb-3">Sono interessato a:</label>
         <div class="grid grid-cols-2 gap-3">
@@ -202,7 +202,7 @@
         </div>
     </div>
 
-    <!-- Composizione nucleo familiare -->
+    <!-- Composizione del nucleo familiare -->
     <div>
         <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
         <select name="nucleo_familiare" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
@@ -232,7 +232,7 @@
         <textarea name="messaggio" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Scrivi qui eventuali informazioni aggiuntive..."></textarea>
     </div>
 
-    <!-- Bottone -->
+    <!-- Bottone Invia -->
     <button type="submit" class="w-full gold-button py-5 rounded-2xl font-medium text-lg tracking-wider">
         Invia
     </button>
