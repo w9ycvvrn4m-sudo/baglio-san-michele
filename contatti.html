@@ -150,66 +150,94 @@
                 <p class="text-secondary text-lg">Per candidarsi o richiedere informazioni sul progetto</p>
             </div>
 
-            <!-- FORM AGGIORNATO -->
-            <form class="space-y-8">
-                <div>
-                    <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
-                    <input type="text" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                </div>
+  <!-- FORM FUNZIONANTE CON WEB3FORMS -->
+<form action="https://api.web3forms.com/submit" method="POST" class="space-y-8">
 
-                <div>
-                    <label class="block text-sm font-medium mb-2">Email</label>
-                    <input type="email" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                </div>
+    <!-- Access Key di Web3Forms (sostituiscila con la tua) -->
+    <input type="hidden" name="access_key" value="INSERISCI_IL_TUO_ACCESS_KEY">
 
-                <div>
-                    <label class="block text-sm font-medium mb-2">Telefono</label>
-                    <input type="tel" class="w-full border border-gray-300 rounded-xl px-4 py-3">
-                </div>
+    <!-- Oggetto dell'email -->
+    <input type="hidden" name="subject" value="Nuova richiesta dal sito Baglio San Michele">
 
-                <div>
-                    <label class="block text-sm font-medium mb-3">Sono interessato a:</label>
-                    <div class="grid grid-cols-2 gap-3">
-                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Vivere nel Baglio</label>
-                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Investire eticamente</label>
-                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Visita preliminare</label>
-                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Fare una donazione</label>
-                        <label class="flex items-center gap-2"><input type="checkbox" class="w-4 h-4"> Altro</label>
-                    </div>
-                </div>
+    <!-- Campo per far rispondere direttamente all'utente -->
+    <input type="hidden" name="from_name" value="Sito Baglio San Michele">
 
-                <div>
-                    <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
-                    <select class="w-full border border-gray-300 rounded-xl px-4 py-3">
-                        <option value="">Seleziona...</option>
-                        <option value="single">Single</option>
-                        <option value="coppia">Coppia senza figli</option>
-                        <option value="famiglia">Famiglia con figli</option>
-                    </select>
-                </div>
+    <!-- Nome e Cognome -->
+    <div>
+        <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
+        <input type="text" name="nome" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+    </div>
 
-                <div>
-                    <label class="block text-sm font-medium mb-2">Competenze o professionalità (opzionale)</label>
-                    <select class="w-full border border-gray-300 rounded-xl px-4 py-3">
-                        <option value="">Seleziona...</option>
-                        <option value="agricoltura">Agricoltura / Permacultura</option>
-                        <option value="artigianato">Artigianato (pietra, legno, ecc.)</option>
-                        <option value="smartworking">Smart working / Professioni digitali</option>
-                        <option value="educazione">Educazione / Formazione</option>
-                        <option value="altro">Altro (specificare sotto)</option>
-                    </select>
-                </div>
+    <!-- Email -->
+    <div>
+        <label class="block text-sm font-medium mb-2">Email</label>
+        <input type="email" name="email" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+    </div>
 
-                <div>
-                    <label class="block text-sm font-medium mb-2">Messaggio / Note</label>
-                    <textarea class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Scrivi qui eventuali informazioni aggiuntive..."></textarea>
-                </div>
+    <!-- Telefono -->
+    <div>
+        <label class="block text-sm font-medium mb-2">Telefono</label>
+        <input type="tel" name="telefono" class="w-full border border-gray-300 rounded-xl px-4 py-3">
+    </div>
 
-                <!-- Bottone enfatizzato -->
-                <button type="submit" class="w-full gold-button py-5 rounded-2xl font-medium text-lg tracking-wider">
-                    Invia
-                </button>
-            </form>
+    <!-- Interessi -->
+    <div>
+        <label class="block text-sm font-medium mb-3">Sono interessato a:</label>
+        <div class="grid grid-cols-2 gap-3">
+            <label class="flex items-center gap-2">
+                <input type="checkbox" name="interesse" value="Vivere nel Baglio" class="w-4 h-4"> Vivere nel Baglio
+            </label>
+            <label class="flex items-center gap-2">
+                <input type="checkbox" name="interesse" value="Investire eticamente" class="w-4 h-4"> Investire eticamente
+            </label>
+            <label class="flex items-center gap-2">
+                <input type="checkbox" name="interesse" value="Visita preliminare" class="w-4 h-4"> Visita preliminare
+            </label>
+            <label class="flex items-center gap-2">
+                <input type="checkbox" name="interesse" value="Fare una donazione" class="w-4 h-4"> Fare una donazione
+            </label>
+            <label class="flex items-center gap-2">
+                <input type="checkbox" name="interesse" value="Altro" class="w-4 h-4"> Altro
+            </label>
+        </div>
+    </div>
+
+    <!-- Composizione nucleo familiare -->
+    <div>
+        <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
+        <select name="nucleo_familiare" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+            <option value="">Seleziona...</option>
+            <option value="Single">Single</option>
+            <option value="Coppia senza figli">Coppia senza figli</option>
+            <option value="Famiglia con figli">Famiglia con figli</option>
+        </select>
+    </div>
+
+    <!-- Competenze / Professionalità -->
+    <div>
+        <label class="block text-sm font-medium mb-2">Competenze o professionalità (opzionale)</label>
+        <select name="competenze" class="w-full border border-gray-300 rounded-xl px-4 py-3">
+            <option value="">Seleziona...</option>
+            <option value="Agricoltura / Permacultura">Agricoltura / Permacultura</option>
+            <option value="Artigianato (pietra, legno, ecc.)">Artigianato (pietra, legno, ecc.)</option>
+            <option value="Smart working / Professioni digitali">Smart working / Professioni digitali</option>
+            <option value="Educazione / Formazione">Educazione / Formazione</option>
+            <option value="Altro">Altro (specificare sotto)</option>
+        </select>
+    </div>
+
+    <!-- Messaggio -->
+    <div>
+        <label class="block text-sm font-medium mb-2">Messaggio / Note</label>
+        <textarea name="messaggio" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Scrivi qui eventuali informazioni aggiuntive..."></textarea>
+    </div>
+
+    <!-- Bottone -->
+    <button type="submit" class="w-full gold-button py-5 rounded-2xl font-medium text-lg tracking-wider">
+        Invia
+    </button>
+
+</form>
         </section>
 
     </main>
