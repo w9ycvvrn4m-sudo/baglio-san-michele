@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomia alimentare • Baglio San Michele</title>
+    <meta name="description" content="L’autonomia alimentare del Baglio San Michele: pilastro della resilienza e del radicamento della comunità.">
+    <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: "Avenir Next", system-ui, sans-serif; background-color: #ffffff; color: #1f1f1f; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif !important; color: #c8872f; letter-spacing: 0.5px; }
+        .text-secondary { color: #4a4a4a; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <div><a href="index.html"><img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto"></a></div>
+                
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                    <div class="group relative">
+                        <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Il Borgo Ideale
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </a>
+                        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                            <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                                <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Il Concept</a>
+                                <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Il Progetto</a>
+                                <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La Governance</a>
+                                <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Un modello diverso</a>
+                                <a href="autonomia-alimentare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f] font-medium">Autonomia alimentare</a>
+                                <a href="autonomia-energetica.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia energetica</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Investimento etico</a>
+                    <a href="territorio.html" class="hover:text-[#c8872f] transition-colors">Il Territorio</a>
+                    <a href="comunita-aperta.html" class="hover:text-[#c8872f] transition-colors">La nostra comunità aperta</a>
+                    <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
+                </div>
+
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">Menu</button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-2 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Il Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Il Progetto</a>
+                <a href="governance.html" class="block py-2 hover:text-[#c8872f]">La Governance</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Un modello diverso</a>
+                <a href="autonomia-alimentare.html" class="block py-2 hover:text-[#c8872f]">Autonomia alimentare</a>
+                <a href="autonomia-energetica.html" class="block py-2 hover:text-[#c8872f]">Autonomia energetica</a>
+                <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
+                <a href="territorio.html" class="block py-2 hover:text-[#c8872f]">Il Territorio</a>
+                <a href="comunita-aperta.html" class="block py-2 hover:text-[#c8872f]">La nostra comunità aperta</a>
+                <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="pt-24 pb-12 bg-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="uppercase tracking-[2.5px] text-[#c8872f] text-sm mb-3">RESILIENZA E RADICAMENTO</p>
+            <h1 class="heading text-5xl md:text-6xl leading-tight mb-6">Autonomia alimentare</h1>
+            <p class="text-xl text-secondary max-w-3xl mx-auto">Il fondamento concreto della resilienza del Borgo</p>
+
+            <div class="mt-10">
+                <img src="assets/autonomia-alimentare.png" alt="Autonomia alimentare al Baglio San Michele" 
+                     class="w-full max-w-[1100px] mx-auto rounded-3xl shadow-sm object-cover">
+            </div>
+        </div>
+    </div>
+
+    <main class="max-w-5xl mx-auto px-6 pb-16">
+
+        <div class="max-w-4xl mx-auto mb-16">
+            <p class="text-lg text-secondary">
+                Nel Baglio San Michele l’autonomia alimentare costituisce il primo e più importante pilastro della comunità intenzionale. Produrre e trasformare il proprio cibo significa restituire alle famiglie sicurezza, dignità e radicamento, in un’epoca in cui le catene globali di approvvigionamento risultano sempre più fragili.
+            </p>
+        </div>
+
+        <!-- Principi fondanti -->
+        <div class="mb-16">
+            <h2 class="heading text-3xl mb-6">Principi fondanti</h2>
+            <div class="bg-white border border-gray-200 rounded-2xl p-8">
+                <ul class="space-y-3 text-secondary">
+                    <li>• Custodia responsabile della terra come dono ricevuto dal Creatore</li>
+                    <li>• Chiusura dei cicli produttivi all’interno della proprietà</li>
+                    <li>• Integrazione tra colture, allevamenti e trasformazioni artigianali</li>
+                    <li>• Trasmissione intergenerazionale dei saperi rurali e artigianali</li>
+                    <li>• Partecipazione attiva delle famiglie</li>
+                    <li>• Scansione del tempo data dalle Tempora e dalle benedizioni dei campi, degli orti e degli animali</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Metodi e pratiche -->
+        <div class="mb-16">
+            <h2 class="heading text-3xl mb-6">Metodi e pratiche operative</h2>
+            <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                <img src="assets/atmosfera-orto.png" alt="Metodi e pratiche operative" class="w-full h-80 object-cover">
+                <div class="p-8">
+                    <p class="text-secondary">Le attività sono coordinate dai tre Savi agricoli e zootecnici del Capitolo dei Savi e prevedono agricoltura biodinamica e rigenerativa su uliveti, vigneti e orti, potatura tradizionale, produzione di ortaggi stagionali, allevamento integrato con pascolo rotazionale e trasformazione artigianale (forno a legna, norcineria, caseificazione).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fasi -->
+        <div class="mb-16">
+            <h2 class="heading text-3xl mb-8 text-center">Realizzazione progressiva per fasi</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <img src="assets/autonomia-fase1.png" alt="Fase 1" class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl mb-3">Fase 1 (2026-2028) – Autonomia del Baglio storico</h3>
+                        <p class="text-secondary">Nel Baglio fortificato restaurato si imposta l’autonomia alimentare di base per i primi residenti con orti collettivi, piccoli allevamenti e laboratori di trasformazione. I residenti possono già contare su una produzione significativa di ortaggi, uova, pane e salumi.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <img src="assets/autonomia-fase2.png" alt="Fase 2" class="w-full h-56 object-cover">
+                    <div class="p-8">
+                        <h3 class="font-semibold text-xl mb-3">Fase 2 (post-2028) – Autonomia dell’intera proprietà</h3>
+                        <p class="text-secondary">Con la realizzazione delle 20 case coloniche si consolida l’autonomia per l’intera comunità. Ogni casa dispone di un lotto privato e i terreni comuni consentono la produzione su scala più ampia. Solo in questa fase si raggiunge la piena autosufficienza per tutte le 34 unità abitative.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formazione -->
+        <div class="mb-16">
+            <h2 class="heading text-3xl mb-6">Formazione e corsi pratici</h2>
+            <div class="bg-white border border-gray-200 rounded-2xl p-8">
+                <p class="text-secondary mb-4">Il Baglio organizza corsi e laboratori aperti ai residenti e ai candidati:</p>
+                <ul class="grid md:grid-cols-2 gap-x-8 gap-y-2 text-secondary">
+                    <li>• Agricoltura biodinamica e rigenerativa</li>
+                    <li>• Potatura tradizionale di ulivi e alberi da frutto</li>
+                    <li>• Allevamento sostenibile di pollame, capre e suini</li>
+                    <li>• Panificazione con lievito madre e forno a legna</li>
+                    <li>• Norcineria tradizionale e conservazione delle carni</li>
+                    <li>• Orticoltura stagionale e permacultura applicata</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-4xl mx-auto bg-[#F8F5F0] border-l-4 border-[#c8872f] p-8 md:p-10 rounded-r-2xl">
+            <p class="text-secondary">L’autonomia alimentare non è solo produzione: è educazione, relazione con la terra, sicurezza per le famiglie e bellezza del lavoro ben fatto. Costituisce uno dei modi più concreti per vivere la fedeltà alla Tradizione nel nostro tempo.</p>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+                <div class="text-secondary">© 2026 Baglio San Michele. Tutti i diritti riservati.</div>
+                <div class="flex items-center gap-x-6 text-sm">
+                    <a href="https://www.instagram.com/borgoideale" target="_blank" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z"/></svg>
+                        <span>@borgoideale</span>
+                    </a>
+                    <a href="https://x.com/borgoideale" target="_blank" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/></svg>
+                        <span>@borgoideale</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+        });
+    </script>
+</body>
+</html>
