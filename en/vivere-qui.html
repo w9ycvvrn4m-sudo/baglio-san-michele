@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Living Here • Baglio San Michele</title>
+    <meta name="description" content="Daily life at Baglio San Michele: rhythms, relationships, education of children, work, community and balance between privacy and shared life.">
+
+    <link rel="canonical" href="https://www.borgoideale.com/en/vivere-qui.html">
+
+    <link rel="icon" type="image/png" href="../assets/logo-500-bn.png">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body { 
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+            background-color: #ffffff; 
+            color: #1f1f1f; 
+        }
+        .heading { 
+            font-family: 'Julius Sans One', Georgia, serif !important; 
+            font-weight: 400 !important; 
+            letter-spacing: 0.5px !important; 
+            color: #c8872f; 
+        }
+        .text-secondary { color: #4a4a4a; }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                
+                <div>
+                    <a href="index.html">
+                        <img src="../assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                    </a>
+                </div>
+                
+                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+
+                    <!-- Our Project -->
+                    <div class="group relative">
+                        <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                            Our Project
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                            <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                                <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">The Concept</a>
+                                <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">The Project</a>
+                                <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
+                                <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">A Different Model</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="investimento-etico.html" class="hover:text-[#c8872f] transition-colors">Ethical Investment</a>
+
+                    <!-- Join Us -->
+                    <div class="group relative">
+                        <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                            Join Us
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                            <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                                <a href="vivere-qui.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Living Here</a>
+                                <a href="come-entrare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">How to Join</a>
+                                <a href="chi-cerchiamo.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Who We’re Looking For</a>
+                                <a href="figure-professionali.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Professional Roles</a>
+                                <a href="territorio.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Cooperation</a>
+                                <a href="comunita-aperta.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Open Community</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                    <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
+
+                    <!-- Language Switcher -->
+                    <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
+                        <a href="../index.html" class="hover:text-[#c8872f] transition-colors">IT</a>
+                        <span class="text-gray-300">|</span>
+                        <span class="font-medium text-[#c8872f]">EN</span>
+                    </div>
+                </div>
+
+                <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
+                    Menu
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-2 pb-6 text-sm tracking-wider bg-white">
+                <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">The Concept</a>
+                <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">The Project</a>
+                <a href="governance.html" class="block py-2 hover:text-[#c8872f]">Governance</a>
+                <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">A Different Model</a>
+                <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Ethical Investment</a>
+                <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Living Here</a>
+                <a href="come-entrare.html" class="block py-2 hover:text-[#c8872f]">How to Join</a>
+                <a href="chi-cerchiamo.html" class="block py-2 hover:text-[#c8872f]">Who We’re Looking For</a>
+                <a href="figure-professionali.html" class="block py-2 hover:text-[#c8872f]">Professional Roles</a>
+                <a href="territorio.html" class="block py-2 hover:text-[#c8872f]">Cooperation</a>
+                <a href="comunita-aperta.html" class="block py-2 hover:text-[#c8872f]">Open Community</a>
+                <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+                <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="pt-24 pb-12 bg-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="uppercase tracking-[2.5px] text-[#c8872f] text-sm mb-3">DAILY LIFE</p>
+            <h1 class="heading text-5xl md:text-6xl leading-tight">Living at Baglio San Michele</h1>
+        </div>
+    </div>
+
+    <main class="max-w-5xl mx-auto px-6 pb-16">
+
+        <!-- Introduzione -->
+        <div class="max-w-4xl mx-auto mb-16">
+            <p class="text-lg text-secondary">
+                Life at Baglio San Michele follows a rhythm marked by the times of the land and the care of relationships. It is not a life of constant communal living, but a coexistence in which everyone can choose when to participate and when to withdraw into their own home. The families who choose the Baglio are generally people who appreciate the relational dimension without giving up their autonomy.
+            </p>
+        </div>
+
+        <!-- Ritmo della giornata -->
+        <div class="mb-14">
+            <h2 class="heading text-3xl mb-6">The rhythm of daily life</h2>
+            <p class="text-secondary mb-4">
+                Days often begin early, with the sounds of the countryside and the aroma of bread or coffee prepared at home. Many families work remotely or dedicate themselves to artisanal and agricultural activities, alternating moments of individual commitment with time spent with children and community life.
+            </p>
+            <p class="text-secondary">
+                Meals play a central role. They are not only moments of nourishment but of encounter. Often people eat together in the courtyard or common areas, especially on weekends and summer evenings. Products from the vegetable garden, olive grove, and neighboring farms naturally enter the kitchen of each family.
+            </p>
+        </div>
+
+        <!-- Educazione dei figli -->
+        <div class="mb-14">
+            <h2 class="heading text-3xl mb-6">Education and raising children</h2>
+            <p class="text-secondary mb-4">
+                Children grow up in an environment where nature, intergenerational relationships, and contact with manual work are part of daily life. There is no structured internal school, but we favor an educational approach that integrates formal learning with direct experience: the vegetable garden, caring for animals, participating in festivals and seasonal work, and contact with local artisans and farmers.
+            </p>
+            <p class="text-secondary">
+                Families support each other in organizing activities for children and in mutual help during busier periods. The presence of elderly people and adults with different trades offers children a rich context of stimuli and role models.
+            </p>
+        </div>
+
+        <!-- Lavoro e attività -->
+        <div class="mb-14">
+            <h2 class="heading text-3xl mb-6">Work and productive activities</h2>
+            <p class="text-secondary mb-4">
+                Many residents work remotely, taking advantage of the available connectivity and dedicated spaces for study and individual work. Others dedicate themselves to activities related to the land, crafts, or processing of local products.
+            </p>
+            <p class="text-secondary">
+                The Baglio encourages the creation of small productive activities internally or in collaboration with local businesses (beekeeping, horticulture, food processing, crafts). The goal is not profit maximization, but the creation of a dignified mixed economy consistent with the rhythms of community life.
+            </p>
+        </div>
+
+        <!-- Vita comunitaria -->
+        <div class="mb-14">
+            <h2 class="heading text-3xl mb-6">Community life and mutual support</h2>
+            <p class="text-secondary mb-4">
+                Each family has its own private home, designed to guarantee intimacy and tranquility. At the same time, the Baglio offers shared spaces — such as the courtyard, common kitchen, chapel, and green areas — that become places of natural encounter.
+            </p>
+            <p class="text-secondary">
+                The care of common spaces is everyone’s responsibility. There is no “service staff”: the families themselves, according to rotations or agreements, take care of ordinary maintenance, the preparation of some events, and the daily management of shared environments. This model strengthens the sense of shared responsibility and reduces management costs.
+            </p>
+        </div>
+
+        <!-- Equilibrio -->
+        <div class="max-w-4xl mx-auto bg-[#F8F5F0] border-l-4 border-[#c8872f] p-8 md:p-10 rounded-r-2xl">
+            <h2 class="heading text-2xl mb-4">Balance between privacy and community</h2>
+            <p class="text-secondary">
+                One of the most delicate aspects of life at the Baglio is finding the right balance between the need for family intimacy and the community dimension. It is not a life of constant communal living, but a coexistence in which everyone can choose when to participate and when to retreat into their own home.
+            </p>
+            <p class="text-secondary mt-4">
+                Respect for others’ time and space is considered a fundamental value. The families who choose the Baglio are generally people who appreciate relational life without renouncing their autonomy.
+            </p>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+                <div class="text-secondary">
+                    © 2026 Baglio San Michele. All rights reserved.
+                </div>
+                <div class="flex items-center justify-end gap-x-8 text-sm">
+                    <a href="https://www.instagram.com/borgoideale" target="_blank" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <span>@borgoideale</span>
+                    </a>
+                    <a href="https://x.com/borgoideale" target="_blank" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <span>@borgoideale</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('flex');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
