@@ -1,8 +1,11 @@
 # robots.txt per Baglio San Michele
-# Ultimo aggiornamento: 17 Giugno 2026
+# Ultimo aggiornamento: 19 Giugno 2026
 
 User-agent: *
 Allow: /
+
+User-agent: Twitterbot
+Allow: /assets/
 
 # Impedisce l'indicizzazione di cartelle non necessarie
 Disallow: /assets/
