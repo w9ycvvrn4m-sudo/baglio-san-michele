@@ -118,7 +118,7 @@
                     </div>
 
                     <!-- Donazioni - NUOVA VOCE AGGIUNTA -->
-                    <a href="donazioni.html" class="nav-link font-medium hover:text-[#c8872f]">Donazioni</a>
+                    <a href="donazioni.html" class="nav-link font-medium text-[#bf8a41] hover:text-[#a86f24]">Donazioni</a>
 
                     <!-- Link diretti -->
                     <a href="faq.html" class="nav-link hover:text-[#c8872f]">FAQ</a>
@@ -167,7 +167,7 @@
                 <div class="h-px bg-gray-100 my-2"></div>
                 
                 <!-- Donazioni nel mobile -->
-                <a href="donazioni.html" class="py-2 font-medium hover:text-[#c8872f]">Donazioni</a>
+                <a href="donazioni.html" class="py-2 font-medium text-[#bf8a41] hover:text-[#a86f24]">Donazioni</a>
                 
                 <a href="faq.html" class="py-2 hover:text-[#c8872f]">FAQ</a>
                 <a href="contatti.html" class="py-2 hover:text-[#c8872f]">Contatti</a>
@@ -179,13 +179,20 @@
     <div class="pt-20 pb-12 bg-white border-b border-gray-100">
         <div class="max-w-3xl mx-auto px-6 text-center">
             <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-4">
-                SOSTIENI IL PROGETTO
+                CONTRIBUISCI AL PROGETTO
             </div>
-            <h1 class="section-title text-5xl md:text-6xl tracking-tight mb-6">Donazioni</h1>
+            <h1 class="section-title text-5xl md:text-6xl tracking-tight mb-6 text-[#bf8a41]">SOSTIENI IL BAGLIO</h1>
             <p class="text-xl text-[#4a4a4a] max-w-2xl mx-auto">
                 Ogni contributo aiuta a realizzare un borgo ideale fondato su autonomia, etica e comunità aperta.
             </p>
         </div>
+    </div>
+
+    <!-- IMMAGINE PRINCIPALE -->
+    <div class="max-w-5xl mx-auto px-6 pb-12">
+        <img src="assets/baglio-donazione-1.png" 
+             alt="Baglio San Michele - Sostieni il progetto" 
+             class="w-full rounded-3xl shadow-sm border border-gray-100">
     </div>
 
     <!-- SEZIONE PRINCIPALE DONAZIONI -->
@@ -193,6 +200,11 @@
         <div class="bg-white border border-gray-200 rounded-3xl p-10 md:p-14 shadow-sm">
             <div class="max-w-2xl mx-auto">
                 <h2 class="section-title text-3xl mb-6 tracking-tight">Perché donare a Baglio San Michele?</h2>
+
+                <!-- Immagine secondaria per la card -->
+                <img src="assets/baglio-donazione-2.png" 
+                     alt="Baglio San Michele - Il progetto" 
+                     class="w-full rounded-2xl mb-8 shadow-sm border border-gray-100">
                 
                 <div class="prose prose-stone text-[#4a4a4a] text-[15.5px] leading-relaxed space-y-5">
                     <p>
@@ -205,36 +217,30 @@
                         Ogni euro donato viene utilizzato in modo trasparente per:
                     </p>
                     <ul class="list-disc pl-5 space-y-1.5">
-                        <li>Realizzare e mantenere strutture per l’autonomia energetica e alimentare</li>
-                        <li>Supportare iniziative di formazione e accoglienza</li>
+                        <li>Finanziare la due diligence e la fase di progettazione esecutiva per i restauri del Baglio</li>
+                        <li>Contribuire alla realizzazione del sistema di tokenizzazione del Borgo Ideale</li>
                         <li>Preservare e valorizzare il patrimonio storico e paesaggistico del luogo</li>
-                        <li>Facilitare l’ingresso di nuove persone e famiglie nel progetto</li>
+                        <li>Restaurare gli arredi e le suppellettili delle aree comuni della masseria</li>
                     </ul>
                 </div>
 
                 <!-- BLOCCO SOSTIENI IL BAGLIO -->
-                <div class="mt-10 pt-8 border-t border-gray-100">
+                <div class="mt-10">
                     <div class="bg-[#c8872f]/5 border border-[#c8872f]/20 rounded-2xl p-8 text-center">
-                        <h3 class="section-title text-2xl tracking-tight mb-4 text-[#c8872f]">Sostieni il Baglio</h3>
+                        <h3 class="section-title text-2xl tracking-tight mb-6 text-[#c8872f]">SOSTIENI IL BAGLIO</h3>
                         
-                        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6">
-                            <!-- Pulsante Stripe principale -->
-                            <a href="https://donate.stripe.com/cNibJ0bCV186d5C0Fq4sE00" 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               class="gold-button inline-flex items-center justify-center gap-x-3 px-10 py-4 text-lg font-semibold rounded-full w-full sm:w-auto shadow-sm">
-                                <span>Dona ora con Stripe</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7m-4-7h11" />
-                                </svg>
-                            </a>
-                            
-                            <div class="text-center sm:text-left text-xs text-[#4a4a4a]">
-                                Pagamento sicuro •<br class="sm:hidden"> gestito direttamente da Stripe
-                            </div>
-                        </div>
+                        <!-- Pulsante Stripe centrato -->
+                        <a href="https://donate.stripe.com/cNibJ0bCV186d5C0Fq4sE00" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="gold-button inline-flex items-center justify-center gap-x-3 px-12 py-4 text-lg font-semibold rounded-full shadow-sm mx-auto">
+                            <span>Dona ora con Stripe</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7m-4-7h11" />
+                            </svg>
+                        </a>
                         
-                        <p class="text-sm text-[#4a4a4a]">
+                        <p class="mt-6 text-sm text-[#4a4a4a]">
                             Grazie per il sostegno. Ogni donazione fa la differenza.
                         </p>
                     </div>
