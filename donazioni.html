@@ -3,280 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Donazioni • Baglio San Michele</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&amp;display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&amp;display=swap');
-        
-        :root {
-            --gold: #c8872f;
-            --gold-dark: #a86f24;
-        }
-        
-        body {
-            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        }
-        
-        .heading {
-            font-family: 'Julius Sans One', system-ui, -apple-system, sans-serif;
-            letter-spacing: 0.5px;
-        }
+    <meta name="description" content="Sostieni il progetto del Baglio San Michele con una donazione. Contribuisci allo sviluppo di una comunità intenzionale stabile e radicata.">
 
+    <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body { 
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+            background-color: #ffffff; 
+            color: #1f1f1f; 
+        }
+        .heading { 
+            font-family: 'Julius Sans One', Georgia, serif !important; 
+            font-weight: 400 !important; 
+            letter-spacing: 0.5px !important; 
+            color: #c8872f; 
+        }
+        .text-secondary { color: #4a4a4a; }
         .gold-button {
             background-color: #c8872f;
             color: white;
             transition: all 0.2s ease;
         }
-        
         .gold-button:hover {
             background-color: #a86f24;
-            transform: translateY(-1px);
-        }
-
-        .nav-link {
-            transition: color 0.2s ease;
-        }
-        
-        .nav-link:hover {
-            color: #c8872f;
-        }
-
-        .section-title {
-            font-family: 'Julius Sans One', system-ui, -apple-system, sans-serif;
-            letter-spacing: 0.5px;
         }
     </style>
 </head>
-<body class="bg-white text-[#1f1f1f]">
-    <!-- NAVBAR - Identica allo stile del sito -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="flex items-center justify-between h-20">
-                <!-- Logo -->
-                <div>
-                    <a href="index.html">
-                        <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+<body>
+
+<!-- NAVBAR (versione standard del sito) -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex items-center justify-between h-20">
+            
+            <div>
+                <a href="index.html">
+                    <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
+                </a>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+
+                <!-- Borgo Ideale -->
+                <div class="group relative">
+                    <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                        Borgo Ideale
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
                     </a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                            <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Concept</a>
+                            <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Progetto</a>
+                            <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
+                            <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Unicità</a>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Desktop Menu -->
-                <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                    <!-- Borgo Ideale -->
-                    <div class="group relative">
-                        <a href="#" class="nav-link flex items-center gap-x-1 hover:text-[#c8872f]">
-                            Borgo Ideale
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                        </a>
-                        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
-                            <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
-                                <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Concept</a>
-                                <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Progetto</a>
-                                <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
-                                <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Unicità</a>
-                            </div>
+                <!-- Valori etici -->
+                <div class="group relative">
+                    <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                        Valori etici
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                            <a href="investimento-etico.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Investimento etico</a>
+                            <a href="territorio.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Cooperazione</a>
+                            <a href="comunita-aperta.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Comunità aperta</a>
+                            <a href="autonomia-alimentare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia alimentare</a>
+                            <a href="autonomia-energetica.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia energetica</a>
                         </div>
                     </div>
-
-                    <!-- Valori etici -->
-                    <div class="group relative">
-                        <a href="#" class="nav-link flex items-center gap-x-1 hover:text-[#c8872f]">
-                            Valori etici
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                        </a>
-                        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
-                            <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
-                                <a href="investimento-etico.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Investimento etico</a>
-                                <a href="territorio.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Cooperazione</a>
-                                <a href="comunita-aperta.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Comunità aperta</a>
-                                <a href="autonomia-alimentare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia alimentare</a>
-                                <a href="autonomia-energetica.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia energetica</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Unisciti a noi -->
-                    <div class="group relative">
-                        <a href="#" class="nav-link flex items-center gap-x-1 hover:text-[#c8872f]">
-                            Unisciti a noi
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                        </a>
-                        <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
-                            <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
-                                <a href="vivere-qui.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vivere al Baglio</a>
-                                <a href="come-entrare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Come entrare</a>
-                                <a href="chi-cerchiamo.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Chi cerchiamo</a>
-                                <a href="figure-professionali.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Figure professionali</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Donazioni - NUOVA VOCE AGGIUNTA -->
-                    <a href="donazioni.html" class="nav-link font-medium text-[#bf8a41] hover:text-[#a86f24]">Donazioni</a>
-
-                    <!-- Link diretti -->
-                    <a href="faq.html" class="nav-link hover:text-[#c8872f]">FAQ</a>
-                    <a href="contatti.html" class="nav-link hover:text-[#c8872f]">Contatti</a>
                 </div>
 
-                <!-- Language + Mobile -->
-                <div class="flex items-center gap-x-4">
-                    <div class="hidden md:block text-xs tracking-widest">
-                        <a href="index.html" class="font-medium">IT</a> 
-                        <span class="text-gray-300">|</span> 
-                        <a href="en/index.html" class="text-gray-400 hover:text-[#c8872f]">EN</a>
+                <!-- Unisciti a noi -->
+                <div class="group relative">
+                    <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                        Unisciti a noi
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                            <a href="vivere-qui.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vivere al Baglio</a>
+                            <a href="come-entrare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Come entrare</a>
+                            <a href="chi-cerchiamo.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Chi cerchiamo</a>
+                            <a href="figure-professionali.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Figure professionali</a>
+                        </div>
                     </div>
-                    
-                    <button id="menu-btn" 
-                            class="md:hidden px-4 py-2 text-sm border border-gray-200 rounded-full hover:bg-gray-50">
-                        Menu
-                    </button>
+                </div>
+
+                <!-- Donazioni -->
+                <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
+
+                <!-- Link diretti -->
+                <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
+
+                <!-- Language Switcher -->
+                <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
+                    <span class="font-medium text-[#c8872f]">IT</span>
+                    <span class="text-gray-300">|</span>
+                    <a href="en/index.html" class="hover:text-[#c8872f] transition-colors">EN</a>
                 </div>
             </div>
+
+            <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
+                Menu
+            </button>
         </div>
 
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-100 bg-white px-6 py-4 text-sm">
-            <div class="flex flex-col gap-y-1">
-                <a href="il-concept.html" class="py-2 hover:text-[#c8872f]">Borgo Ideale → Concept</a>
-                <a href="il-progetto.html" class="py-2 hover:text-[#c8872f]">Borgo Ideale → Progetto</a>
-                <a href="governance.html" class="py-2 hover:text-[#c8872f]">Borgo Ideale → Governance</a>
-                <a href="un-modello-diverso.html" class="py-2 hover:text-[#c8872f]">Borgo Ideale → Unicità</a>
-                
-                <div class="h-px bg-gray-100 my-2"></div>
-                
-                <a href="investimento-etico.html" class="py-2 hover:text-[#c8872f]">Valori etici → Investimento etico</a>
-                <a href="territorio.html" class="py-2 hover:text-[#c8872f]">Valori etici → Cooperazione</a>
-                <a href="comunita-aperta.html" class="py-2 hover:text-[#c8872f]">Valori etici → Comunità aperta</a>
-                <a href="autonomia-alimentare.html" class="py-2 hover:text-[#c8872f]">Valori etici → Autonomia alimentare</a>
-                <a href="autonomia-energetica.html" class="py-2 hover:text-[#c8872f]">Valori etici → Autonomia energetica</a>
-                
-                <div class="h-px bg-gray-100 my-2"></div>
-                
-                <a href="vivere-qui.html" class="py-2 hover:text-[#c8872f]">Unisciti → Vivere al Baglio</a>
-                <a href="come-entrare.html" class="py-2 hover:text-[#c8872f]">Unisciti → Come entrare</a>
-                <a href="chi-cerchiamo.html" class="py-2 hover:text-[#c8872f]">Unisciti → Chi cerchiamo</a>
-                <a href="figure-professionali.html" class="py-2 hover:text-[#c8872f]">Unisciti → Figure professionali</a>
-                
-                <div class="h-px bg-gray-100 my-2"></div>
-                
-                <!-- Donazioni nel mobile -->
-                <a href="donazioni.html" class="py-2 font-medium text-[#bf8a41] hover:text-[#a86f24]">Donazioni</a>
-                
-                <a href="faq.html" class="py-2 hover:text-[#c8872f]">FAQ</a>
-                <a href="contatti.html" class="py-2 hover:text-[#c8872f]">Contatti</a>
-            </div>
+        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-2 pb-6 text-sm tracking-wider bg-white px-6">
+            <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Concept</a>
+            <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Progetto</a>
+            <a href="governance.html" class="block py-2 hover:text-[#c8872f]">Governance</a>
+            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Unicità</a>
+            <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
+            <a href="territorio.html" class="block py-2 hover:text-[#c8872f]">Cooperazione</a>
+            <a href="comunita-aperta.html" class="block py-2 hover:text-[#c8872f]">Comunità aperta</a>
+            <a href="autonomia-alimentare.html" class="block py-2 hover:text-[#c8872f]">Autonomia alimentare</a>
+            <a href="autonomia-energetica.html" class="block py-2 hover:text-[#c8872f]">Autonomia energetica</a>
+            <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere al Baglio</a>
+            <a href="come-entrare.html" class="block py-2 hover:text-[#c8872f]">Come entrare</a>
+            <a href="chi-cerchiamo.html" class="block py-2 hover:text-[#c8872f]">Chi cerchiamo</a>
+            <a href="figure-professionali.html" class="block py-2 hover:text-[#c8872f]">Figure professionali</a>
+            <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
+            <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+            <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- HERO / INTRO DONAZIONI -->
+    <!-- HERO -->
     <div class="pt-20 pb-12 bg-white border-b border-gray-100">
         <div class="max-w-3xl mx-auto px-6 text-center">
             <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-4">
                 CONTRIBUISCI AL PROGETTO
             </div>
-            <h1 class="section-title text-5xl md:text-6xl tracking-tight mb-6 text-[#bf8a41]">SOSTIENI IL BAGLIO</h1>
-            <p class="text-xl text-[#4a4a4a] max-w-2xl mx-auto">
-                Ogni contributo aiuta a realizzare un borgo ideale fondato su autonomia, etica e comunità aperta.
+            <h1 class="heading text-5xl md:text-6xl mb-6">Sostieni il Baglio</h1>
+            <p class="text-xl text-secondary max-w-2xl mx-auto">
+                Ogni contributo aiuta a realizzare un luogo fondato su autonomia, etica e comunità aperta.
             </p>
         </div>
     </div>
 
     <!-- IMMAGINE PRINCIPALE -->
-    <div class="max-w-5xl mx-auto px-6 pb-12">
+    <div class="max-w-5xl mx-auto px-6 py-12">
         <img src="assets/baglio-donazione-1.png" 
              alt="Baglio San Michele - Sostieni il progetto" 
              class="w-full rounded-3xl shadow-sm border border-gray-100">
     </div>
 
-    <!-- SEZIONE PRINCIPALE DONAZIONI -->
-    <section class="max-w-3xl mx-auto px-6 py-16">
-        <div class="bg-white border border-gray-200 rounded-3xl p-10 md:p-14 shadow-sm">
-            <div class="max-w-2xl mx-auto">
-                <h2 class="section-title text-3xl mb-6 tracking-tight">Perché donare a Baglio San Michele?</h2>
+    <!-- CONTENUTO PRINCIPALE -->
+    <section class="max-w-3xl mx-auto px-6 pb-20">
+        <div class="bg-white border border-gray-200 rounded-3xl p-10 md:p-14">
+            
+            <h2 class="heading text-3xl mb-8">Perché donare a Baglio San Michele?</h2>
 
-                <!-- Immagine secondaria per la card -->
-                <img src="assets/baglio-donazione-2.png" 
-                     alt="Baglio San Michele - Il progetto" 
-                     class="w-full rounded-2xl mb-8 shadow-sm border border-gray-100">
+            <div class="prose prose-stone text-secondary text-[15.5px] leading-relaxed space-y-6">
+                <p>
+                    Baglio San Michele è un progetto concreto di rigenerazione territoriale e comunitaria. 
+                    Le donazioni ci permettono di accelerare lo sviluppo di infrastrutture sostenibili, 
+                    supportare l’autonomia alimentare ed energetica e rendere più accessibili le opportunità 
+                    di vivere e collaborare qui.
+                </p>
                 
-                <div class="prose prose-stone text-[#4a4a4a] text-[15.5px] leading-relaxed space-y-5">
-                    <p>
-                        Baglio San Michele è un progetto concreto di rigenerazione territoriale e comunitaria. 
-                        Le donazioni ci permettono di accelerare lo sviluppo di infrastrutture sostenibili, 
-                        supportare l’autonomia alimentare ed energetica e rendere accessibili le opportunità 
-                        di vivere e collaborare qui a più persone.
-                    </p>
-                    <p>
-                        Ogni euro donato viene utilizzato in modo trasparente per:
-                    </p>
-                    <ul class="list-disc pl-5 space-y-1.5">
-                        <li>Finanziare la due diligence e la fase di progettazione esecutiva per i restauri del Baglio</li>
-                        <li>Contribuire alla realizzazione del sistema di tokenizzazione del Borgo Ideale</li>
-                        <li>Preservare e valorizzare il patrimonio storico e paesaggistico del luogo</li>
-                        <li>Restaurare gli arredi e le suppellettili delle aree comuni della masseria</li>
-                    </ul>
-                </div>
+                <p>Ogni euro donato viene utilizzato in modo trasparente per:</p>
+                
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>Finanziare la progettazione esecutiva e gli interventi di restauro del Baglio</li>
+                    <li>Contribuire alla realizzazione del sistema di tokenizzazione del Borgo Ideale</li>
+                    <li>Preservare e valorizzare il patrimonio storico e paesaggistico del luogo</li>
+                    <li>Restaurare arredi e suppellettili delle aree comuni della masseria</li>
+                </ul>
+            </div>
 
-                <!-- BLOCCO SOSTIENI IL BAGLIO -->
-                <div class="mt-10">
-                    <div class="bg-[#c8872f]/5 border border-[#c8872f]/20 rounded-2xl p-8 text-center">
-                        <h3 class="section-title text-2xl tracking-tight mb-6 text-[#c8872f]">SOSTIENI IL BAGLIO</h3>
-                        
-                        <!-- Pulsante Stripe centrato -->
-                        <a href="https://donate.stripe.com/cNibJ0bCV186d5C0Fq4sE00" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           class="gold-button inline-flex items-center justify-center gap-x-3 px-12 py-4 text-lg font-semibold rounded-full shadow-sm mx-auto">
-                            <span>Dona ora con Stripe</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7m-4-7h11" />
-                            </svg>
-                        </a>
-                        
-                        <p class="mt-6 text-sm text-[#4a4a4a]">
-                            Grazie per il sostegno. Ogni donazione fa la differenza.
-                        </p>
-                    </div>
+            <!-- BLOCCO DONAZIONE -->
+            <div class="mt-12">
+                <div class="bg-[#f9f6f0] border border-[#c8872f]/20 rounded-3xl p-10 text-center">
+                    <h3 class="heading text-2xl mb-8 text-[#c8872f]">Sostieni il Baglio</h3>
+                    
+                    <a href="https://donate.stripe.com/cNibJ0bCV186d5C0Fq4sE00" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="gold-button inline-flex items-center justify-center gap-x-3 px-14 py-4 text-lg font-medium rounded-2xl mx-auto">
+                        Dona ora con Stripe
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7m-4-7h11" />
+                        </svg>
+                    </a>
+                    
+                    <p class="mt-6 text-sm text-secondary">
+                        Grazie per il tuo sostegno. Ogni donazione fa la differenza.
+                    </p>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- FOOTER - Mantenuto identico con loghi X e Instagram -->
+    <!-- FOOTER -->
     <footer class="border-t border-gray-200 bg-white">
         <div class="max-w-6xl mx-auto px-6 py-10">
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-y-6 text-sm">
-                <div class="text-[#4a4a4a]">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+                <div class="text-secondary">
                     © 2026 Baglio San Michele. Tutti i diritti riservati.
                 </div>
-                
-                <div class="flex flex-col md:flex-row items-start md:items-center gap-x-8 gap-y-4">
-                    <!-- Instagram -->
-                    <a href="https://www.instagram.com/borgoideale" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
+                <div class="flex items-center justify-end gap-x-8 text-sm">
+                    <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" 
                        class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-                        </svg>
                         <span>@borgoideale</span>
                     </a>
-                    
-                    <!-- X -->
-                    <a href="https://x.com/borgoideale" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
+                    <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" 
                        class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l7.5 8.5L1.5 21.75h3l6.75-7.5 6.75 7.5h3l-7.5-8.5 7.5-8.5h-3z"/>
-                        </svg>
                         <span>@borgoideale</span>
                     </a>
                 </div>
@@ -285,18 +237,17 @@
     </footer>
 
     <script>
-        // Mobile menu toggle (stesso comportamento del sito)
+        // Mobile Menu
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         
         if (menuBtn && mobileMenu) {
-            menuBtn.addEventListener('click', () => {
+            menuBtn.addEventListener('click', function() {
                 mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
             });
         }
-        
-        // Tailwind config (opzionale, per coerenza)
-        console.log('%c[Baglio San Michele] Pagina donazioni integrata con stile coerente.', 'color:#c8872f');
     </script>
 </body>
+</html>
 </html>
