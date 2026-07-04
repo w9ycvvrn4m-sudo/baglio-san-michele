@@ -46,7 +46,7 @@
 </head>
 <body>
 
-<!-- ==================== NAVBAR ==================== -->
+<!-- NAVBAR -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
@@ -139,7 +139,7 @@
             </button>
         </div>
 
-        <!-- ==================== MENU MOBILE CON SOTTOMENU ==================== -->
+        <!-- MENU MOBILE CON SOTTOMENU -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
 
             <!-- Borgo Ideale -->
@@ -183,35 +183,7 @@
         </div>
     </div>
 </nav>
-<!-- ==================== FINE NAVBAR ==================== -->
 
-
-<!-- ==================== SCRIPT MENU MOBILE ==================== -->
-<script>
-    function initMobileMenu() {
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        if (!menuBtn || !mobileMenu) return;
-
-        const toggleMenu = (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            mobileMenu.classList.toggle('hidden');
-            mobileMenu.classList.toggle('flex');
-        };
-
-        menuBtn.addEventListener('click', toggleMenu);
-        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMobileMenu);
-    } else {
-        initMobileMenu();
-    }
-</script>
-    
     <!-- CONTENUTO PRINCIPALE -->
     <main class="pt-20">
 
@@ -231,6 +203,7 @@
                          class="w-full h-[420px] object-cover object-center">
                 </div>
             </div>
+
             <!-- INTRODUZIONE -->
             <div class="max-w-4xl mx-auto mb-12">
                 <p class="text-lg text-secondary">
@@ -238,6 +211,7 @@
 Le persone selezionate opereranno come <strong>imprenditori</strong> all’interno della cooperativa del Baglio San Michele. Questo modello garantisce loro <strong>indipendenza economica</strong>, attraverso la gestione diretta delle proprie attività (produzione agricola, trasformazione artigianale, servizi o mestieri), unite alla partecipazione ai benefici e alle decisioni della comunità. Il sistema economico è rafforzato dalla <strong>tokenizzazione del Borgo</strong>, che permette una distribuzione trasparente del valore generato e allinea gli interessi di lungo periodo tra tutti i membri.
                 </p>
             </div>
+
             <!-- 1. Produzione primaria agricola e zootecnica -->
             <div class="mb-16">
                 <div class="mb-8">
@@ -268,6 +242,8 @@ Le persone selezionate opereranno come <strong>imprenditori</strong> all’inter
                 <ul class="space-y-4 text-sm text-secondary list-disc pl-5">
                     <li><strong>Fornaio</strong> (1-2 unità con forno a legna tradizionale). Produzione quotidiana di pane, focacce e prodotti da forno con farine locali e lievito madre.</li>
                     <li><strong>Macellaio / norcino</strong> (1 unità). Macellazione, insaccati e conservazione della carne secondo metodi tradizionali siciliani.</li>
+                    <li><strong>Formaggiaio / casaro</strong> (1-2 unità). Produzione artigianale di formaggi con latte locale.</li>
+                    <li><strong>Marmellataio / confetturiere</strong> (1 unità, eventualmente condivisa). Produzione di marmellate, conserve e sciroppi con frutta di stagione.</li>
                 </ul>
             </div>
 
@@ -283,6 +259,9 @@ Le persone selezionate opereranno come <strong>imprenditori</strong> all’inter
                     <li><strong>Falegname</strong></li>
                     <li><strong>Fabbro</strong></li>
                     <li><strong>Artigiani della pietra iblea</strong> (scalpellini, posatori)</li>
+                    <li><strong>Artigiani della lavorazione del gesso e dello stucco artistico</strong></li>
+                    <li><strong>Tipografi e legatori artigiani</strong></li>
+                    <li><strong>Mosaicisti e artigiani della lavorazione musiva</strong></li>
                 </ul>
             </div>
 
@@ -299,91 +278,82 @@ Le persone selezionate opereranno come <strong>imprenditori</strong> all’inter
                 </ul>
             </div>
 
-            <!-- MODULO DI CANDIDATURA - Web3Forms -->
-<div class="max-w-3xl mx-auto mt-12">
-    <div class="text-center mb-10">
-        <h2 class="heading text-3xl mb-4">Invia la tua candidatura</h2>
-        <p class="text-secondary">Se possiedi una delle competenze indicate o sei fortemente motivato ad acquisirle, compila il modulo qui sotto.</p>
-    </div>
+            <!-- MODULO DI CANDIDATURA -->
+            <div class="max-w-3xl mx-auto mt-12">
+                <div class="text-center mb-10">
+                    <h2 class="heading text-3xl mb-4">Invia la tua candidatura</h2>
+                    <p class="text-secondary">Se possiedi una delle competenze indicate o sei fortemente motivato ad acquisirle, compila il modulo qui sotto.</p>
+                </div>
 
-    <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-white p-8 rounded-3xl border border-gray-200">
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-white p-8 rounded-3xl border border-gray-200">
 
-        <!-- Web3Forms Access Key -->
-        <input type="hidden" name="access_key" value="991621e0-b89a-4350-bf32-6a74a9cdd266">
+                    <input type="hidden" name="access_key" value="991621e0-b89a-4350-bf32-6a74a9cdd266">
+                    <input type="hidden" name="subject" value="Nuova candidatura - Figure professionali | Baglio San Michele">
+                    <input type="hidden" name="from_name" value="Candidatura Figure Professionali - Sito Baglio San Michele">
 
-        <!-- Oggetto dell'email -->
-        <input type="hidden" name="subject" value="Nuova candidatura - Figure professionali | Baglio San Michele">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
+                            <input type="text" name="nome_cognome" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" name="email" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+                        </div>
+                    </div>
 
-        <!-- Nome del mittente -->
-        <input type="hidden" name="from_name" value="Candidatura Figure Professionali - Sito Baglio San Michele">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Telefono</label>
+                        <input type="tel" name="telefono" class="w-full border border-gray-300 rounded-xl px-4 py-3">
+                    </div>
 
-        <div class="grid md:grid-cols-2 gap-6">
-            <!-- Nome e Cognome -->
-            <div>
-                <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
-                <input type="text" name="nome_cognome" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-            </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Figura professionale di interesse</label>
+                        <select name="figura_professionale" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+                            <option value="">Seleziona...</option>
+                            <option value="Agricoltore / Contadino biodinamico">Agricoltore / Contadino biodinamico</option>
+                            <option value="Allevatore">Allevatore</option>
+                            <option value="Fornaio">Fornaio</option>
+                            <option value="Muratore / Restauratore">Muratore / Restauratore</option>
+                            <option value="Falegname">Falegname</option>
+                            <option value="Fabbro">Fabbro</option>
+                            <option value="Artigiano della pietra iblea">Artigiano della pietra iblea</option>
+                            <option value="Formaggiaio / casaro">Formaggiaio / casaro</option>
+                            <option value="Marmellataio / confetturiere">Marmellataio / confetturiere</option>
+                            <option value="Apicoltore">Apicoltore</option>
+                            <option value="Pastore">Pastore</option>
+                            <option value="Artigiani della lavorazione del gesso e dello stucco artistico">Artigiani della lavorazione del gesso e dello stucco artistico</option>
+                            <option value="Tipografi e legatori artigiani">Tipografi e legatori artigiani</option>
+                            <option value="Mosaicisti e artigiani della lavorazione musiva">Mosaicisti e artigiani della lavorazione musiva</option>
+                            <option value="Altro">Altro</option>
+                        </select>
+                    </div>
 
-            <!-- Email -->
-            <div>
-                <label class="block text-sm font-medium mb-2">Email</label>
-                <input type="email" name="email" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-            </div>
-        </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Esperienza e competenze</label>
+                        <textarea name="esperienza_competenze" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-28" placeholder="Descrivi brevemente la tua esperienza..." required></textarea>
+                    </div>
 
-        <!-- Telefono -->
-        <div>
-            <label class="block text-sm font-medium mb-2">Telefono</label>
-            <input type="tel" name="telefono" class="w-full border border-gray-300 rounded-xl px-4 py-3">
-        </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
+                        <select name="nucleo_familiare" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+                            <option value="">Seleziona...</option>
+                            <option value="Single">Single</option>
+                            <option value="Coppia senza figli">Coppia senza figli</option>
+                            <option value="Famiglia con figli">Famiglia con figli</option>
+                        </select>
+                    </div>
 
-        <!-- Figura professionale di interesse -->
-        <div>
-            <label class="block text-sm font-medium mb-2">Figura professionale di interesse</label>
-            <select name="figura_professionale" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                <option value="">Seleziona...</option>
-                <option value="Agricoltore / Contadino biodinamico">Agricoltore / Contadino biodinamico</option>
-                <option value="Allevatore">Allevatore</option>
-                <option value="Fornaio">Fornaio</option>
-                <option value="Muratore / Restauratore">Muratore / Restauratore</option>
-                <option value="Falegname">Falegname</option>
-                <option value="Fabbro">Fabbro</option>
-                <option value="Artigiano della pietra iblea">Artigiano della pietra iblea</option>
-                <option value="Altro">Altro</option>
-            </select>
-        </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Messaggio / Motivazione</label>
+                        <textarea name="messaggio_motivazione" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Perché vorresti far parte del Baglio San Michele?" required></textarea>
+                    </div>
 
-        <!-- Esperienza e competenze -->
-        <div>
-            <label class="block text-sm font-medium mb-2">Esperienza e competenze</label>
-            <textarea name="esperienza_competenze" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-28" placeholder="Descrivi brevemente la tua esperienza..." required></textarea>
-        </div>
+                    <button type="submit" class="w-full gold-button py-4 rounded-2xl font-medium text-lg tracking-wider">
+                        Invia candidatura
+                    </button>
 
-        <!-- Composizione del nucleo familiare -->
-        <div>
-            <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
-            <select name="nucleo_familiare" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                <option value="">Seleziona...</option>
-                <option value="Single">Single</option>
-                <option value="Coppia senza figli">Coppia senza figli</option>
-                <option value="Famiglia con figli">Famiglia con figli</option>
-            </select>
-        </div>
-
-        <!-- Messaggio / Motivazione -->
-        <div>
-            <label class="block text-sm font-medium mb-2">Messaggio / Motivazione</label>
-            <textarea name="messaggio_motivazione" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Perché vorresti far parte del Baglio San Michele?" required></textarea>
-        </div>
-
-        <!-- Bottone -->
-        <button type="submit" class="w-full gold-button py-4 rounded-2xl font-medium text-lg tracking-wider">
-            Invia candidatura
-        </button>
-
-    </form>
-</div>
-</div>
+                </form>
             </div>
 
         </section>
@@ -399,15 +369,9 @@ Le persone selezionate opereranno come <strong>imprenditori</strong> all’inter
                 </div>
                 <div class="flex items-center justify-end gap-x-8 text-sm">
                     <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                        </svg>
                         <span>@borgoideale</span>
                     </a>
                     <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/>
-                        </svg>
                         <span>@borgoideale</span>
                     </a>
                 </div>
@@ -425,14 +389,6 @@ Le persone selezionate opereranno come <strong>imprenditori</strong> all’inter
                     e.preventDefault();
                     mobileMenu.classList.toggle('hidden');
                     mobileMenu.classList.toggle('flex');
-                });
-                document.addEventListener('click', function(e) {
-                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                        if (!mobileMenu.classList.contains('hidden')) {
-                            mobileMenu.classList.add('hidden');
-                            mobileMenu.classList.remove('flex');
-                        }
-                    }
                 });
             }
         });
