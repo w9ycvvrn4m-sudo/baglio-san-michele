@@ -156,46 +156,6 @@
 <!-- ==================== FINE NAVBAR ==================== -->
 
 
-<!-- ==================== SCRIPT MENU MOBILE ==================== -->
-<script>
-    function initMobileMenu() {
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        if (!menuBtn || !mobileMenu) return;
-
-        const toggleMenu = (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            mobileMenu.classList.toggle('hidden');
-            mobileMenu.classList.toggle('flex');
-        };
-
-        menuBtn.addEventListener('click', toggleMenu);
-        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMobileMenu);
-    } else {
-        initMobileMenu();
-    }
-</script>
-
-    <!-- HERO -->
-    <div class="pt-24 pb-12 bg-white">
-        <div class="max-w-5xl mx-auto px-6 text-center">
-            <p class="uppercase tracking-[2.5px] text-[#c8872f] text-sm mb-3">RESILIENZA E RISPETTO DEL PATRIMONIO</p>
-            <h1 class="heading text-5xl md:text-6xl leading-tight mb-6">Autonomia energetica e idrica</h1>
-            <p class="text-xl text-secondary max-w-3xl mx-auto">Tecnologie discrete, resilienza idrica ed energetica, rispetto del patrimonio</p>
-
-            <div class="mt-10">
-                <img src="assets/baglio-boscaioli.png" alt="Autonomia energetica al Baglio San Michele" 
-                     class="w-full max-w-[1100px] mx-auto rounded-3xl shadow-sm object-cover">
-            </div>
-        </div>
-    </div>
-
     <main class="max-w-5xl mx-auto px-6 pb-16">
 
         <div class="max-w-4xl mx-auto mb-16">
