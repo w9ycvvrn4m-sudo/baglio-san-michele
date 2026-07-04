@@ -55,19 +55,21 @@
 </head>
 <body>
 
-<!-- NAVBAR -->
+<!-- ==================== NAVBAR ==================== -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
             
+            <!-- Logo -->
             <div>
                 <a href="index.html">
                     <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
                 </a>
             </div>
-            
-            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
 
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                
                 <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
@@ -126,10 +128,8 @@
                     </div>
                 </div>
 
-                <!-- Donazioni -->
-                <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
-
                 <!-- Link diretti -->
+                <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
                 <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
                 <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
 
@@ -141,35 +141,85 @@
                 </div>
             </div>
 
-            <button id="menu-btn" class="md:hidden flex items-center justify-center w-11 h-11 text-3xl text-[#c8872f]">
-                Menu
+            <!-- Pulsante Menu Mobile -->
+            <button id="menu-btn" 
+                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation">
+                ☰
             </button>
         </div>
 
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden flex-col gap-y-2 pb-6 text-sm tracking-wider bg-white px-6">
-            <a href="il-concept.html" class="block py-2 hover:text-[#c8872f]">Concept</a>
-            <a href="il-progetto.html" class="block py-2 hover:text-[#c8872f]">Progetto</a>
-            <a href="governance.html" class="block py-2 hover:text-[#c8872f]">Governance</a>
-            <a href="un-modello-diverso.html" class="block py-2 hover:text-[#c8872f]">Unicità</a>
-            <a href="investimento-etico.html" class="block py-2 hover:text-[#c8872f]">Investimento etico</a>
-            <a href="tokenizzazione.html" class="block py-2 font-medium text-[#c8872f]">Economia di reciprocità</a>
-            <a href="territorio.html" class="block py-2 hover:text-[#c8872f]">Cooperazione</a>
-            <a href="comunita-aperta.html" class="block py-2 hover:text-[#c8872f]">Comunità aperta</a>
-            <a href="autonomia-alimentare.html" class="block py-2 hover:text-[#c8872f]">Autonomia alimentare</a>
-            <a href="autonomia-energetica.html" class="block py-2 hover:text-[#c8872f]">Autonomia energetica</a>
-            <a href="san-michele.html" class="block py-2 hover:text-[#c8872f]">Il nostro Patrono</a>
-            <a href="vivere-qui.html" class="block py-2 hover:text-[#c8872f]">Vivere al Baglio</a>
-            <a href="come-entrare.html" class="block py-2 hover:text-[#c8872f]">Come entrare</a>
-            <a href="chi-cerchiamo.html" class="block py-2 hover:text-[#c8872f]">Chi cerchiamo</a>
-            <a href="figure-professionali.html" class="block py-2 hover:text-[#c8872f]">Figure professionali</a>
-            <a href="archivum-artium.html" class="block py-2 hover:text-[#c8872f]">Archivum Artium</a>
+        <!-- ==================== MENU MOBILE CON SOTTOMENU ==================== -->
+        <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
+
+            <!-- Borgo Ideale -->
+            <div class="pt-3">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
+                <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Concept</a>
+                <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Progetto</a>
+                <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
+                <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
+            </div>
+
+            <!-- Valori etici -->
+            <div class="pt-4">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
+                <a href="investimento-etico.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Investimento etico</a>
+                <a href="tokenizzazione.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Economia di reciprocità</a>
+                <a href="territorio.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Cooperazione</a>
+                <a href="comunita-aperta.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Comunità aperta</a>
+                <a href="autonomia-alimentare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia alimentare</a>
+                <a href="autonomia-energetica.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia energetica</a>
+                <a href="san-michele.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Il nostro Patrono</a>
+            </div>
+
+            <!-- Unisciti a noi -->
+            <div class="pt-4">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
+                <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
+                <a href="come-entrare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Come entrare</a>
+                <a href="chi-cerchiamo.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Chi cerchiamo</a>
+                <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
+                <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
+            </div>
+
+            <div class="h-px bg-gray-200 my-4"></div>
+
+            <!-- Link diretti -->
             <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
             <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
             <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+
         </div>
     </div>
 </nav>
+<!-- ==================== FINE NAVBAR ==================== -->
+
+
+<!-- ==================== SCRIPT MENU MOBILE ==================== -->
+<script>
+    function initMobileMenu() {
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        if (!menuBtn || !mobileMenu) return;
+
+        const toggleMenu = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        };
+
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    } else {
+        initMobileMenu();
+    }
+</script>
 
     
     <!-- CONTENUTO PRINCIPALE -->
