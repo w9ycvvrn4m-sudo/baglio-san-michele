@@ -26,7 +26,14 @@
         }
         .text-secondary { color: #4a4a4a; }
         .bg-cream { background-color: #F8F5F0; }
-        .section { padding-top: 5rem; padding-bottom: 5rem; }
+
+        /* Hero originale ripristinato */
+        .hero-bg { 
+            background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), 
+                              url('assets/atmosfera-benvenuti.png'); 
+            background-size: cover; 
+            background-position: center 35%; 
+        }
     </style>
 </head>
 <body>
@@ -118,18 +125,17 @@
     </div>
 </nav>
 
-<!-- ==================== HERO ==================== -->
-<div class="pt-20 pb-16 bg-white border-b border-gray-100">
-    <div class="max-w-4xl mx-auto px-6 text-center">
-        <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-4">
+<!-- ==================== HERO (IMMAGINE ORIGINALE RIPRISTINATA) ==================== -->
+<div class="hero-bg h-[92vh] flex items-center justify-center pt-20">
+    <div class="max-w-4xl mx-auto px-6 text-center text-white">
+        <div class="inline-block px-4 py-1 rounded-full bg-white/20 text-xs tracking-[2px] font-medium mb-4">
             COMUNITÀ INTENZIONALE TRADIZIONALE
         </div>
         
-        <h1 class="heading text-5xl md:text-6xl mb-6">Baglio San Michele</h1>
+        <h1 class="heading text-6xl md:text-7xl mb-6 drop-shadow-lg">Baglio San Michele</h1>
         
-        <p class="text-2xl text-secondary max-w-3xl mx-auto mb-10">
-            Una comunità intenzionale stabile nel cuore della Sicilia iblea.<br>
-            Famiglie che mettono radici profonde, relazioni autentiche e un modello di vita radicato nella tradizione.
+        <p class="text-2xl md:text-3xl max-w-3xl mx-auto mb-10 drop-shadow-md">
+            Una comunità intenzionale stabile nel cuore della Sicilia iblea
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -138,15 +144,22 @@
                 Scopri come vivere qui
             </a>
             <a href="investimento-etico.html" 
-               class="inline-flex items-center justify-center px-8 py-4 border border-[#c8872f] text-[#c8872f] font-medium rounded-2xl hover:bg-[#c8872f] hover:text-white transition">
+               class="inline-flex items-center justify-center px-8 py-4 bg-white/90 text-[#1f1f1f] font-medium rounded-2xl hover:bg-white transition">
                 Investimento etico
             </a>
         </div>
     </div>
 </div>
 
-<!-- ==================== PERCHÉ QUESTO LUOGO ==================== -->
-<section class="section max-w-6xl mx-auto px-6">
+<!-- ==================== IMMAGINE PRIMA DI "PERCHÉ QUESTO LUOGO È DIVERSO" ==================== -->
+<div class="max-w-6xl mx-auto px-6 pt-16">
+    <img src="assets/atmosfera-vita-comunitaria.png" 
+         alt="Vita comunitaria al Baglio San Michele" 
+         class="w-full rounded-3xl object-cover shadow-sm">
+</div>
+
+<!-- ==================== PERCHÉ QUESTO LUOGO È DIVERSO ==================== -->
+<section class="max-w-6xl mx-auto px-6 pt-16 pb-20">
     <div class="text-center mb-12">
         <h2 class="heading text-4xl mb-4">Perché questo luogo è diverso</h2>
         <p class="text-secondary max-w-2xl mx-auto">
@@ -171,55 +184,51 @@
 </section>
 
 <!-- ==================== DUE PERCORSI ==================== -->
-<section class="section bg-cream">
+<section class="bg-cream py-16">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
             <h2 class="heading text-4xl mb-4">Due modi per far parte del progetto</h2>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
-            <!-- Vivere qui -->
-            <div class="bg-white rounded-3xl p-10 border border-gray-200">
-                <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">PER CHI VUOLE ABITARE</div>
-                <h3 class="heading text-3xl mb-4">Vivere al Baglio</h3>
-                <p class="text-secondary mb-8">
-                    Famiglie che cercano un luogo stabile dove crescere i figli, condividere valori 
-                    e costruire relazioni autentiche all’interno di una comunità intenzionale.
-                </p>
-                <a href="vivere-qui.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
-                    Scopri come entrare →
-                </a>
+            
+            <!-- Vivere al Baglio -->
+            <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
+                <img src="assets/vivere-al-baglio.png" 
+                     alt="Vivere al Baglio San Michele" 
+                     class="w-full h-64 object-cover">
+                <div class="p-10">
+                    <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">PER CHI VUOLE ABITARE</div>
+                    <h3 class="heading text-3xl mb-4">Vivere al Baglio</h3>
+                    <p class="text-secondary mb-8">
+                        Famiglie che cercano un luogo stabile dove crescere i figli, condividere valori 
+                        e costruire relazioni autentiche all’interno di una comunità intenzionale.
+                    </p>
+                    <a href="vivere-qui.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
+                        Scopri come entrare →
+                    </a>
+                </div>
             </div>
 
-            <!-- Investire -->
-            <div class="bg-white rounded-3xl p-10 border border-gray-200">
-                <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">PER CHI VUOLE INVESTIRE</div>
-                <h3 class="heading text-3xl mb-4">Investimento etico</h3>
-                <p class="text-secondary mb-8">
-                    Un’opportunità di allocare capitale in beni reali all’interno di un modello 
-                    anti-speculativo, trasparente e orientato al lungo periodo.
-                </p>
-                <a href="investimento-etico.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
-                    Scopri l’investimento →
-                </a>
+            <!-- Investimento Etico -->
+            <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
+                <img src="assets/investimento-etico.png" 
+                     alt="Investimento etico al Baglio San Michele" 
+                     class="w-full h-64 object-cover">
+                <div class="p-10">
+                    <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">PER CHI VUOLE INVESTIRE</div>
+                    <h3 class="heading text-3xl mb-4">Investimento etico</h3>
+                    <p class="text-secondary mb-8">
+                        Un’opportunità di allocare capitale in beni reali all’interno di un modello 
+                        anti-speculativo, trasparente e orientato al lungo periodo.
+                    </p>
+                    <a href="investimento-etico.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
+                        Scopri l’investimento →
+                    </a>
+                </div>
             </div>
+
         </div>
-    </div>
-</section>
-
-<!-- ==================== IL PROGETTO IN BREVE ==================== -->
-<section class="section max-w-5xl mx-auto px-6 text-center">
-    <h2 class="heading text-4xl mb-6">Un progetto di vita, non solo di abitazione</h2>
-    <p class="text-xl text-secondary max-w-3xl mx-auto">
-        Il Baglio San Michele nasce dalla volontà di creare un luogo dove le famiglie possano 
-        mettere radici profonde, trasmettere valori e vivere in modo più umano, lento e significativo.
-    </p>
-    
-    <div class="mt-10">
-        <a href="il-concept.html" 
-           class="inline-flex items-center justify-center px-8 py-4 border border-[#c8872f] text-[#c8872f] font-medium rounded-2xl hover:bg-[#c8872f] hover:text-white transition">
-            Scopri il Concept
-        </a>
     </div>
 </section>
 
