@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide • Baglio San Michele</title>
+    
+    <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+        
+        body { 
+            font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
+                     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+        }
+        
+        .heading { 
+            font-family: 'Julius Sans One', Georgia, serif !important; 
+            font-weight: 400 !important; 
+            letter-spacing: 0.5px !important; 
+            color: #c8872f; 
+        }
+
+        .brand-gold { color: #c8872f; }
+        .bg-cream { background-color: #F8F5F0; }
+        
+        .section-header {
+            font-family: 'Julius Sans One', Georgia, serif;
+            color: #c8872f;
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        .swatch {
+            width: 100%;
+            height: 80px;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+            margin-bottom: 8px;
+        }
+
+        .example-card {
+            background: white;
+            border: 1px solid #e5e5e5;
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .demo-button {
+            background-color: #c8872f;
+            color: white;
+            padding: 14px 32px;
+            border-radius: 9999px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+        
+        .demo-button:hover {
+            background-color: #a86f24;
+        }
+
+        .code-block {
+            background-color: #1f1f1f;
+            color: #d1d5db;
+            padding: 16px;
+            border-radius: 12px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            font-size: 13px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body class="bg-white text-[#1f1f1f]">
+
+    <!-- Navbar -->
+    <nav class="border-b border-gray-100 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-x-3">
+                    <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-9 w-auto">
+                    <span class="font-medium text-lg tracking-tight">Baglio San Michele</span>
+                </div>
+                <div class="flex items-center gap-x-8 text-sm">
+                    <a href="index.html" class="hover:text-[#c8872f]">Home</a>
+                    <a href="investimento-etico.html" class="hover:text-[#c8872f]">Investimento</a>
+                    <a href="brand.html" class="font-medium text-[#c8872f]">Style Guide</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-6xl mx-auto px-6 py-12">
+        
+        <!-- Header -->
+        <div class="mb-16">
+            <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-4">
+                DOCUMENTO INTERNO
+            </div>
+            <h1 class="heading text-5xl mb-4">Style Guide</h1>
+            <p class="text-xl text-[#4a4a4a] max-w-2xl">
+                Linee guida visive e di design per Baglio San Michele.<br>
+                Versione 1.0 — Luglio 2026
+            </p>
+        </div>
+
+        <!-- 1. COLORI -->
+        <div class="mb-20">
+            <h2 class="section-header">1. Palette Colori</h2>
+            <p class="text-[#4a4a4a] mb-8 max-w-2xl">
+                L’oro #c8872f è il colore di identità principale. Viene usato con moderazione come accento.
+            </p>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <!-- Gold Primary -->
+                <div>
+                    <div class="swatch" style="background-color: #c8872f;"></div>
+                    <div class="font-medium">Oro Principale</div>
+                    <div class="text-sm text-[#4a4a4a]">#c8872f</div>
+                    <div class="text-xs text-[#4a4a4a] mt-1">Titoli, pulsanti, accenti</div>
+                </div>
+                
+                <!-- Gold Dark -->
+                <div>
+                    <div class="swatch" style="background-color: #a86f24;"></div>
+                    <div class="font-medium">Oro Scuro</div>
+                    <div class="text-sm text-[#4a4a4a]">#a86f24</div>
+                    <div class="text-xs text-[#4a4a4a] mt-1">Hover, enfasi</div>
+                </div>
+                
+                <!-- Cream -->
+                <div>
+                    <div class="swatch" style="background-color: #F8F5F0; border: 1px solid #d1d5db;"></div>
+                    <div class="font-medium">Crema</div>
+                    <div class="text-sm text-[#4a4a4a]">#F8F5F0</div>
+                    <div class="text-xs text-[#4a4a4a] mt-1">Sfondo sezioni secondarie</div>
+                </div>
+                
+                <!-- White -->
+                <div>
+                    <div class="swatch" style="background-color: #ffffff; border: 1px solid #d1d5db;"></div>
+                    <div class="font-medium">Bianco</div>
+                    <div class="text-sm text-[#4a4a4a]">#FFFFFF</div>
+                    <div class="text-xs text-[#4a4a4a] mt-1">Sfondo principale</div>
+                </div>
+                
+                <!-- Dark Text -->
+                <div>
+                    <div class="swatch" style="background-color: #1f1f1f;"></div>
+                    <div class="font-medium">Testo Principale</div>
+                    <div class="text-sm text-[#4a4a4a]">#1f1f1f</div>
+                    <div class="text-xs text-[#4a4a4a] mt-1">Corpo testo</div>
+                </div>
+                
+                <!-- Secondary Text -->
+                <div>
+                    <div class="swatch" style="background-color: #4a4a4a;"></div>
+                    <div class="font-medium">Testo Secondario</div>
+                    <div class="text-sm text-[#4a4a4a]">#4a4a4a</div>
+                    <div class="text-xs text-[#4a4a4a] mt-1">Sottotitoli, descrizioni</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. TIPOGRAFIA -->
+        <div class="mb-20">
+            <h2 class="section-header">2. Tipografia</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <div class="mb-6">
+                        <div class="text-sm text-[#4a4a4a] mb-1">Titoli (H1 - H3)</div>
+                        <div class="heading text-4xl">Julius Sans One</div>
+                        <div class="text-sm mt-1">Peso: 400 • Letter-spacing: 0.5px</div>
+                    </div>
+                    
+                    <div>
+                        <div class="text-sm text-[#4a4a4a] mb-1">Corpo testo</div>
+                        <div class="text-xl">Avenir Next / System Sans</div>
+                        <div class="text-sm mt-1">Peso: Regular / Medium • Line-height: 1.65</div>
+                    </div>
+                </div>
+                
+                <div class="example-card">
+                    <div class="heading text-3xl mb-4">Baglio San Michele</div>
+                    <p class="text-[#4a4a4a]">
+                        Una comunità intenzionale tradizionale nel cuore della Sicilia iblea, 
+                        dove le famiglie mettono radici profonde.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. PULSANTI -->
+        <div class="mb-20">
+            <h2 class="section-header">3. Pulsanti</h2>
+            
+            <div class="flex flex-wrap gap-4">
+                <button class="demo-button">Contattaci</button>
+                <button class="demo-button">Scopri il progetto</button>
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-[#c8872f] text-[#c8872f] rounded-2xl font-medium hover:bg-[#c8872f] hover:text-white transition">
+                    Versione secondaria
+                </a>
+            </div>
+            
+            <div class="mt-8 text-sm text-[#4a4a4a]">
+                <strong>Regola:</strong> Pulsante principale = sfondo oro + testo bianco. 
+                Pulsante secondario = bordo oro + testo oro.
+            </div>
+        </div>
+
+        <!-- 4. CARD -->
+        <div class="mb-20">
+            <h2 class="section-header">4. Card</h2>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="example-card">
+                    <div class="font-semibold mb-2">Beni reali e tangibili</div>
+                    <p class="text-sm text-[#4a4a4a]">
+                        Il capitale viene investito in unità abitative all’interno di una masseria storica.
+                    </p>
+                </div>
+                <div class="example-card bg-cream">
+                    <div class="font-semibold mb-2">Modello anti-speculativo</div>
+                    <p class="text-sm text-[#4a4a4a]">
+                        Clausole che impediscono la rivendita rapida e la finanziarizzazione.
+                    </p>
+                </div>
+                <div class="example-card">
+                    <div class="font-semibold mb-2">La comunità come garanzia</div>
+                    <p class="text-sm text-[#4a4a4a]">
+                        Una comunità stabile contribuisce alla valorizzazione del patrimonio nel tempo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. SEZIONI -->
+        <div class="mb-20">
+            <h2 class="section-header">5. Struttura delle Sezioni</h2>
+            <p class="mb-6 text-[#4a4a4a]">Alternare sfondo bianco e crema per creare ritmo visivo.</p>
+            
+            <div class="space-y-6">
+                <!-- White section -->
+                <div class="p-8 border border-gray-100 rounded-2xl">
+                    <div class="font-medium mb-2">Sezione con sfondo bianco</div>
+                    <p class="text-sm text-[#4a4a4a]">Contenuto principale con maggiore contrasto.</p>
+                </div>
+                
+                <!-- Cream section -->
+                <div class="p-8 bg-cream rounded-2xl">
+                    <div class="font-medium mb-2">Sezione con sfondo crema (#F8F5F0)</div>
+                    <p class="text-sm text-[#4a4a4a]">Usata per evidenziare contenuti secondari o elenchi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. STILE FOTOGRAFICO -->
+        <div class="mb-20">
+            <h2 class="section-header">6. Stile Fotografico</h2>
+            <div class="max-w-2xl">
+                <p class="mb-4">Le immagini devono trasmettere <strong>autenticità, calore e radicamento territoriale</strong>.</p>
+                
+                <ul class="space-y-2 text-sm">
+                    <li class="flex gap-2">• Luce naturale e colori caldi (non saturi)</li>
+                    <li class="flex gap-2">• Forte presenza di pietra, terra e paesaggio ibleo</li>
+                    <li class="flex gap-2">• Preferire immagini vive (persone, lavoro della terra, comunità)</li>
+                    <li class="flex gap-2">• Evitare immagini fredde, moderne o troppo “stock”</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 7. DO'S E DON'TS -->
+        <div>
+            <h2 class="section-header">7. Do’s e Don’ts</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-6 bg-green-50 border border-green-200 rounded-2xl">
+                    <div class="font-semibold text-green-700 mb-3">Do’s</div>
+                    <ul class="text-sm space-y-1.5">
+                        <li>• Usare Julius Sans One solo per i titoli</li>
+                        <li>• Mantenere spaziatura generosa</li>
+                        <li>• Alternare sezioni bianche e crema</li>
+                        <li>• Usare immagini calde e naturali</li>
+                        <li>• Mantenere coerenza tra tutte le pagine</li>
+                    </ul>
+                </div>
+                
+                <div class="p-6 bg-red-50 border border-red-200 rounded-2xl">
+                    <div class="font-semibold text-red-700 mb-3">Don’ts</div>
+                    <ul class="text-sm space-y-1.5">
+                        <li>• Usare altri colori come accento principale</li>
+                        <li>• Usare immagini fredde o generiche</li>
+                        <li>• Rendere il design troppo minimal/tech</li>
+                        <li>• Cambiare font senza motivo</li>
+                        <li>• Usare troppe immagini stock di bassa qualità</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 bg-white mt-16">
+        <div class="max-w-6xl mx-auto px-6 py-8 text-sm text-[#4a4a4a]">
+            © 2026 Baglio San Michele — Documento interno di design
+        </div>
+    </footer>
+
+</body>
+</html>
