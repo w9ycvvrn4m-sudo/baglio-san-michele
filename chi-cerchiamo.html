@@ -23,15 +23,7 @@
     <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Chi cerchiamo",
-  "url": "https://www.borgoideale.com/chi-cerchiamo.html",
-  "description": "Le famiglie e le persone che stiamo cercando per il Baglio San Michele: comunità intenzionale tradizionale in Sicilia."
-}
-</script>
+
     <style>
         body { 
             font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, 
@@ -50,10 +42,12 @@
 </head>
 <body>
 
-<!-- ==================== NAVBAR COMPLETO ==================== -->
+<!-- ==================== NAVBAR ==================== -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
+            
+            <!-- Logo -->
             <div>
                 <a href="index.html">
                     <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
@@ -62,6 +56,7 @@
 
             <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                
                 <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
@@ -121,10 +116,12 @@
                     </div>
                 </div>
 
+                <!-- Link diretti -->
                 <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
                 <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
                 <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
 
+                <!-- Language Switcher -->
                 <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
                     <span class="font-medium text-[#c8872f]">IT</span>
                     <span class="text-gray-300">|</span>
@@ -132,11 +129,14 @@
                 </div>
             </div>
 
-            <!-- Hamburger -->
-            <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
+            <!-- Pulsante Menu Mobile -->
+            <button id="menu-btn" 
+                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation">
+                ☰
+            </button>
         </div>
 
-        <!-- Mobile Menu -->
+        <!-- MENU MOBILE -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
             <div class="pt-3">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
@@ -174,32 +174,28 @@
 
 <!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    function initMobileMenu() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
-        if (menuBtn && mobileMenu) {
-            function toggleMenu(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            }
+        if (!menuBtn || !mobileMenu) return;
 
-            menuBtn.addEventListener('click', toggleMenu);
-            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+        const toggleMenu = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        };
 
-            // Chiude il menu cliccando fuori
-            document.addEventListener('click', function(e) {
-                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenu.classList.remove('flex');
-                    }
-                }
-            });
-        }
-    });
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    } else {
+        initMobileMenu();
+    }
 </script>
 
     <!-- CONTENUTO PRINCIPALE -->
@@ -225,26 +221,24 @@
             <!-- Introduzione -->
             <div class="max-w-4xl mx-auto mb-16">
                 <p class="text-2xl text-[#2C2522] mb-6">
-                    Il Baglio San Michele nasce per famiglie e persone che stanno compiendo una scelta profonda e lungimirante di vita.
+                    Stiamo cercando famiglie che hanno deciso di non subire più il ritmo frenetico e precario della vita contemporanea.
                 </p>
                 <p class="text-secondary mb-4">
-                    Cerchiamo principalmente nuclei familiari composti da genitori tra i <strong>35 e i 50 anni</strong>, con uno o più figli in età scolare o prescolare, 
-                    che desiderano lasciare il ritmo frenetico e precario delle grandi città per un contesto rurale preservato nel cuore della Sicilia.
+                    Famiglie con genitori tra i <strong>35 e i 50 anni</strong>, con uno o più figli, che desiderano lasciare l’anonimato e l’insicurezza delle grandi città per costruire qualcosa di stabile, bello e duraturo in Sicilia.
                 </p>
                 <p class="text-secondary">
-                    Non cerchiamo semplicemente acquirenti. Cerchiamo persone pronte a diventare parte attiva di una <strong>comunità intenzionale tradizionale</strong>, 
-                    fondata sulla reciprocità, sulla trasmissione dei valori e sulla responsabilità verso il bene comune.
+                    Non cerchiamo semplicemente residenti. Cerchiamo persone pronte a diventare parte attiva di una <strong>comunità intenzionale tradizionale</strong>, fondata sulla reciprocità, sulla trasmissione dei valori e sulla responsabilità verso il bene comune.
                 </p>
             </div>
 
             <!-- LE RAGIONI DI UNA SCELTA TEMPESTIVA -->
             <div class="max-w-4xl mx-auto mb-16 bg-[#F8F5F0] border-l-4 border-[#c8872f] p-8 md:p-10 rounded-r-2xl">
-                <h2 class="heading text-2xl mb-6">Le ragioni di una scelta tempestiva</h2>
+                <h2 class="heading text-2xl mb-6">Perché proprio ora</h2>
                 <div class="space-y-5 text-secondary">
-                    <p>Stiamo assistendo a una convergenza di crisi — tecnologica, economica, geopolitica e culturale — che sta rendendo sempre più fragile la possibilità per le famiglie di condurre una vita stabile e radicata.</p>
-                    <p>L’automazione e l’intelligenza artificiale minacciano interi settori occupazionali, mentre le grandi città diventano progressivamente più costose, anonime e insicure. Parallelamente, politiche ispirate a logiche globali stanno erodendo la sovranità alimentare italiana, penalizzando l’agricoltura e l’allevamento familiare a vantaggio di modelli produttivi concentrati e delocalizzati.</p>
-                    <p>In questo contesto, la capacità di garantire ai propri figli un ambiente sicuro, relazioni umane autentiche e accesso a cibo sano e locale non è più scontata. Diventa invece una scelta strategica e lungimirante.</p>
-                    <p>Il Baglio San Michele si propone come una risposta concreta a queste trasformazioni: un luogo in cui ricostruire, su basi tradizionali ma attualizzate, condizioni di stabilità, autonomia e trasmissione dei valori che il processo di globalizzazione rende sempre più difficili da preservare.</p>
+                    <p>Stiamo vivendo un momento storico in cui molte certezze su cui le famiglie hanno costruito la propria vita stanno venendo meno.</p>
+                    <p>L’automazione e l’intelligenza artificiale stanno ridefinendo il lavoro. Le grandi città diventano sempre più costose, anonime e difficili da gestire con figli. Allo stesso tempo, politiche globali stanno progressivamente indebolendo l’agricoltura familiare e la sovranità alimentare del nostro Paese.</p>
+                    <p>In questo contesto, la possibilità di garantire ai propri figli un ambiente sicuro, relazioni umane autentiche, accesso a cibo sano e la trasmissione di valori solidi non è più scontata. Diventa invece una <strong>scelta strategica e generazionale</strong>.</p>
+                    <p>Il Baglio San Michele nasce proprio come risposta concreta a queste trasformazioni: un luogo in cui ricostruire condizioni di stabilità, autonomia e senso di appartenenza che altrove stanno diventando sempre più difficili da preservare.</p>
                 </div>
             </div>
 
@@ -256,25 +250,25 @@
                     <div class="bg-white p-7 rounded-2xl border border-gray-200">
                         <img src="assets/atmosfera-archivum.png" alt="Educazione dei figli" class="w-full h-44 object-cover rounded-xl mb-5">
                         <h3 class="font-semibold text-xl mb-3">Educazione dei figli</h3>
-                        <p class="text-secondary">Un ambiente in cui i bambini crescano a contatto con la natura e con valori solidi.</p>
+                        <p class="text-secondary">Un ambiente in cui i bambini possano crescere a contatto con la natura, con adulti presenti e con valori chiari da trasmettere, invece che essere educati principalmente da schermi e istituzioni anonime.</p>
                     </div>
                     
                     <div class="bg-white p-7 rounded-2xl border border-gray-200">
                         <img src="assets/atmosfera-casa.png" alt="Stabilità e sicurezza" class="w-full h-44 object-cover rounded-xl mb-5">
                         <h3 class="font-semibold text-xl mb-3">Stabilità e sicurezza</h3>
-                        <p class="text-secondary">Un luogo prevedibile e protetto, lontano dalla precarietà urbana.</p>
+                        <p class="text-secondary">Un luogo prevedibile e protetto, dove la famiglia può pianificare il futuro senza l’angoscia continua del cambiamento improvviso o della precarietà.</p>
                     </div>
                     
                     <div class="bg-white p-7 rounded-2xl border border-gray-200">
                         <img src="assets/atmosfera-patriarcato.png" alt="Qualità delle relazioni" class="w-full h-44 object-cover rounded-xl mb-5">
                         <h3 class="font-semibold text-xl mb-3">Qualità delle relazioni</h3>
-                        <p class="text-secondary">Rapporti umani autentici, in cui le persone si conoscano e si aiutino realmente.</p>
+                        <p class="text-secondary">La possibilità di costruire legami reali e duraturi con altre famiglie che condividono gli stessi valori, invece di vivere in contesti dove le relazioni restano superficiali.</p>
                     </div>
                     
                     <div class="bg-white p-7 rounded-2xl border border-gray-200">
                         <img src="assets/atmosfera-processione.png" alt="Trasmissione di valori" class="w-full h-44 object-cover rounded-xl mb-5">
                         <h3 class="font-semibold text-xl mb-3">Trasmissione di valori</h3>
-                        <p class="text-secondary">Trasmettere ai figli identità, fede e radicamento in un’epoca di grande fragilità.</p>
+                        <p class="text-secondary">La consapevolezza che i propri figli cresceranno in un contesto in cui la fede, la tradizione e il senso di responsabilità vengono vissuti quotidianamente, non solo insegnati a parole.</p>
                     </div>
                 </div>
             </div>
@@ -285,6 +279,7 @@
                 
                 <div class="space-y-6">
 
+                    <!-- Profilo 1 -->
                     <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
                         <img src="assets/atmosfera-famiglia-1.png" alt="Famiglie in cerca di radici" class="w-full h-64 object-cover">
                         <div class="p-8">
@@ -292,10 +287,11 @@
                                 <span class="text-xs font-semibold tracking-widest bg-[#c8872f] text-white px-3 py-1 rounded">PRIORITÀ ALTA</span>
                                 <h3 class="heading text-2xl">Famiglie in cerca di radici</h3>
                             </div>
-                            <p class="text-secondary">Vivono nelle grandi città e sperimentano ogni giorno le conseguenze di un’esistenza frenetica, anonima e precaria. Crescono i figli in contesti che erodono la stabilità familiare, la trasmissione dei valori e il senso di radicamento. Desiderano un’alternativa concreta e generazionale: un luogo umano e stabile dove i bambini possano crescere a contatto con la natura, con relazioni autentiche e con una comunità di adulti che condividono fede, responsabilità e tradizione siciliana.</p>
+                            <p class="text-secondary">Famiglie che vivono nelle grandi città e avvertono ogni giorno la fatica di crescere i figli in un ambiente frenetico, anonimo e precario. Desiderano un’alternativa concreta: un luogo in cui i bambini possano avere stabilità, relazioni autentiche e un futuro radicato, invece di crescere come cittadini del mondo senza appartenenza.</p>
                         </div>
                     </div>
 
+                    <!-- Profilo 2 -->
                     <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
                         <img src="assets/atmosfera-famiglia-2.png" alt="Famiglie cattoliche tradizionali" class="w-full h-64 object-cover">
                         <div class="p-8">
@@ -303,23 +299,25 @@
                                 <span class="text-xs font-semibold tracking-widest bg-[#c8872f] text-white px-3 py-1 rounded">PRIORITÀ ALTA</span>
                                 <h3 class="heading text-2xl">Famiglie cattoliche tradizionali</h3>
                             </div>
-                            <p class="text-secondary">Attente alla dimensione spirituale e all’educazione valoriale secondo la tradizione cattolica, queste famiglie avvertono l’urgenza di un contesto in cui la fede non sia relegata alla sfera privata ma diventi presenza viva e quotidiana, e in cui i figli crescano con valori solidi, identità chiara e senso di radicamento. In un’epoca di secolarizzazione e relativismo, desiderano una comunità che sostenga attivamente la trasmissione della fede e della morale tradizionale, integrata alla vita familiare e sociale.</p>
+                            <p class="text-secondary">Famiglie per le quali la dimensione spirituale e la trasmissione della fede non sono opzionali. Cercano un contesto in cui la fede cristiana tradizionale possa essere vissuta e trasmessa in modo naturale all’interno di una comunità che la sostiene attivamente.</p>
                         </div>
                     </div>
 
+                    <!-- Profilo 3 -->
                     <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
                         <img src="assets/atmosfera-lavoro.png" alt="Artigianato e mestieri" class="w-full h-64 object-cover">
                         <div class="p-8">
-                            <h3 class="heading text-2xl mb-4">Famiglie/single orientati all’artigianato e ai mestieri</h3>
-                            <p class="text-secondary">Persone (singole o in famiglia) che apprezzano profondamente il lavoro manuale, i mestieri tradizionali e la trasmissione intergenerazionale di competenze concrete. In un’epoca dominata da lavori astratti e digitalizzati, desiderano un contesto reale in cui queste abilità possano essere esercitate quotidianamente, apprese e tramandate ai figli o ai più giovani, contribuendo attivamente alla vita di una comunità.</p>
+                            <h3 class="heading text-2xl mb-4">Famiglie e single orientati all’artigianato e ai mestieri</h3>
+                            <p class="text-secondary">Persone che credono nel valore del lavoro manuale, della competenza concreta e della trasmissione intergenerazionale di mestieri. Desiderano un luogo in cui queste abilità possano essere esercitate, apprese e tramandate, contribuendo attivamente alla vita di una comunità.</p>
                         </div>
                     </div>
 
+                    <!-- Profilo 4 -->
                     <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
                         <img src="assets/atmosfera-lavanderia.png" alt="Slow Living e bellezza rurale" class="w-full h-64 object-cover">
                         <div class="p-8">
-                            <h3 class="heading text-2xl mb-4">Famiglie/single orientati allo Slow Living e alla bellezza della vita rurale tradizionale</h3>
-                            <p class="text-secondary">Persone che ricercano un ritmo di vita più lento, autentico e armonioso con il paesaggio e le tradizioni del territorio. Stanche della frenesia urbana, della standardizzazione e della perdita di misura del tempo, desiderano un contesto in cui il quotidiano sia scandito da ritmi naturali, relazioni profonde, lavoro con senso e dalla bellezza concreta del paesaggio ibleo.</p>
+                            <h3 class="heading text-2xl mb-4">Famiglie e single orientati al Sicilian Slow Living</h3>
+                            <p class="text-secondary">Persone stanche della frenesia, della standardizzazione e della perdita di misura del tempo. Cercano un ritmo di vita più lento, autentico e armonioso con il paesaggio e le stagioni, in cui il quotidiano sia scandito da relazioni profonde e dalla bellezza concreta del territorio ibleo.</p>
                         </div>
                     </div>
 
@@ -330,12 +328,16 @@
             <div class="bg-[#2C2522] text-white rounded-3xl p-10 md:p-14 text-center">
                 <h2 class="heading text-3xl mb-4">Iniziamo a conoscerci</h2>
                 <p class="max-w-lg mx-auto text-[#D4C9B8] mb-8">
-                    Se ti identifichi in uno di questi profili, puoi scriverci e inizieremo il percorso di conoscenza reciproca.
+                    Se riconosci te stesso o la tua famiglia in uno di questi profili, ti invitiamo a fare il primo passo. Il percorso di ingresso è graduale e reciproco.
                 </p>
-                <div class="flex justify-center">
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
                     <a href="contatti.html" 
                        class="inline-flex items-center justify-center px-8 py-3.5 border border-white/70 text-white font-medium rounded-xl hover:bg-white hover:text-[#2C2522] transition">
                         Inizia il colloquio conoscitivo
+                    </a>
+                    <a href="vivere-qui.html" 
+                       class="inline-flex items-center justify-center px-8 py-3.5 bg-white text-[#2C2522] font-medium rounded-xl hover:bg-[#F8F5F0] transition">
+                        Scopri come si vive al Baglio
                     </a>
                 </div>
             </div>
@@ -353,9 +355,15 @@
                 </div>
                 <div class="flex items-center justify-end gap-x-8 text-sm">
                     <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
                         <span>@borgoideale</span>
                     </a>
                     <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/>
+                        </svg>
                         <span>@borgoideale</span>
                     </a>
                 </div>
