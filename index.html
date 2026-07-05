@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!-- SEO -->
     <title>Baglio San Michele | Comunità Intenzionale Tradizionale in Sicilia</title>
     <meta name="description" content="Baglio San Michele è una comunità intenzionale tradizionale stabile in una masseria storica del XVI secolo nel Ragusano. Famiglie che scelgono radici profonde, relazioni autentiche, fede cristiana e Sicilian Slow Living.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.borgoideale.com">
 
-    <!-- Open Graph -->
+    <!-- Open Graph / Facebook, LinkedIn, WhatsApp -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.borgoideale.com/">
     <meta property="og:title" content="Baglio San Michele | Comunità Intenzionale Tradizionale in Sicilia">
@@ -17,40 +18,19 @@
     <meta property="og:image" content="https://www.borgoideale.com/assets/og-home-baglio-san-michele.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Baglio San Michele">
+    <meta property="og:locale" content="it_IT">
 
-    <!-- Twitter -->
+    <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@borgoideale">
     <meta name="twitter:title" content="Baglio San Michele | Comunità Intenzionale Tradizionale in Sicilia">
-    <meta name="twitter:description" content="Comunità intenzionale in masseria storica siciliana. Vivere slow o investimento etico anti-speculativo.">
+    <meta name="twitter:description" content="Comunità intenzionale in masseria storica siciliana. Vivere slow o investimento etico con governance trasparente.">
     <meta name="twitter:image" content="https://www.borgoideale.com/assets/og-home-baglio-san-michele.jpg">
+    <meta name="twitter:image:alt" content="Baglio San Michele - Masseria storica del XVI secolo in Sicilia">
 
     <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
-
-    <!-- Schema.org -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Baglio San Michele",
-      "url": "https://www.borgoideale.com",
-      "description": "Comunità intenzionale tradizionale in Sicilia dedicata alla vita stabile, al lavoro della terra e alla fede cristiana.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Baglio San Michele"
-      }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Baglio San Michele",
-      "url": "https://www.borgoideale.com",
-      "logo": "https://www.borgoideale.com/assets/logo-500-bn.png",
-      "image": "https://www.borgoideale.com/assets/logo-borgo-social.jpg"
-    }
-    </script>
+    <link rel="apple-touch-icon" href="assets/logo-500-bn.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -88,10 +68,12 @@
 </head>
 <body>
 
-<!-- ==================== NAVBAR COMPLETO ==================== -->
+<!-- ==================== NAVBAR ==================== -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
+            
+            <!-- Logo -->
             <div>
                 <a href="index.html">
                     <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
@@ -100,6 +82,7 @@
 
             <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                
                 <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
@@ -170,11 +153,14 @@
                 </div>
             </div>
 
-            <!-- Hamburger -->
-            <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
+            <!-- Pulsante Menu Mobile -->
+            <button id="menu-btn" 
+                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation">
+                ☰
+            </button>
         </div>
 
-        <!-- Mobile Menu -->
+        <!-- MENU MOBILE -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
             <div class="pt-3">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
@@ -210,55 +196,28 @@
     </div>
 </nav>
 
-<!-- ==================== SCRIPT MENU MOBILE ==================== -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        if (menuBtn && mobileMenu) {
-            function toggleMenu(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            }
-
-            menuBtn.addEventListener('click', toggleMenu);
-            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-
-            // Chiude il menu cliccando fuori
-            document.addEventListener('click', function(e) {
-                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenu.classList.remove('flex');
-                    }
-                }
-            });
-        }
-    });
-</script>
-
-    <!-- ==================== RESTO DELLA TUA PAGINA (invariato) ==================== -->
-    <!-- HERO -->
+    <!-- HERO (versione riscritta) -->
     <header class="hero-bg min-h-[100dvh] flex items-center pt-20">
         <div class="max-w-5xl mx-auto px-8 text-center text-white relative z-10">
             <div class="flex justify-center mb-8">
                 <img src="assets/logo-baglio-oro-2.png" alt="Baglio San Michele" class="h-36 md:h-44 w-auto">
             </div>
+            
             <h1 class="heading text-6xl md:text-7xl leading-none tracking-[1px] mb-4">
-                Una comunità intenzionale
+                Una casa. Una comunità.<br>Una scelta di vita.
             </h1>
-            <p class="text-2xl md:text-3xl tracking-wide mb-10 text-white/90">
-                radicata nella tradizione e nella cultura siciliana
+            
+            <p class="text-2xl md:text-3xl tracking-wide mb-10 text-white/90 max-w-4xl mx-auto">
+                Nel cuore della Sicilia iblea, famiglie scelgono di mettere radici profonde, 
+                crescere i figli in sicurezza e bellezza, e vivere secondo valori che durano nel tempo.
             </p>
+            
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#percorsi" class="gold-button inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider">
-                    Scopri come partecipare
+                    Scopri come far parte del progetto
                 </a>
-                <a href="#tipologie" class="inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider border border-white/70 hover:bg-white/10 transition-colors">
-                    Vedi le tipologie abitative
+                <a href="contatti.html" class="inline-block px-9 py-4 rounded-full font-medium text-lg tracking-wider border border-white/70 hover:bg-white/10 transition-colors">
+                    Inizia il colloquio conoscitivo
                 </a>
             </div>
         </div>
@@ -284,37 +243,63 @@
         </div>
     </div>
 
-    <!-- DUE PERCORSI -->
+    <!-- DUE PERCORSI (sezione riscritta) -->
     <section id="percorsi" class="max-w-6xl mx-auto px-6 py-16">
         <div class="text-center mb-12">
-            <p class="uppercase tracking-[2px] text-[#c8872f] text-sm mb-2">Come far parte del progetto</p>
-            <h2 class="heading text-4xl md:text-5xl">Due percorsi, una stessa visione</h2>
+            <p class="uppercase tracking-[2px] text-[#c8872f] text-sm mb-2">Due modi per entrare nel progetto</p>
+            <h2 class="heading text-4xl md:text-5xl">Scegli il percorso che fa per te</h2>
+            <p class="text-lg text-secondary max-w-2xl mx-auto mt-4">
+                Che tu voglia abitare stabilmente al Baglio o sostenere il progetto con un investimento etico di lungo periodo, 
+                esiste un percorso pensato per te.
+            </p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="border border-gray-200 rounded-3xl overflow-hidden bg-white">
+            
+            <!-- Percorso Vivere al Baglio -->
+            <div class="border border-gray-200 rounded-3xl overflow-hidden bg-white flex flex-col">
                 <img src="assets/baglio-intergenerazionale.png" alt="Vivere al Baglio San Michele" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <span class="inline-block px-4 py-1 bg-[#f5f0e6] text-[#c8872f] text-xs font-medium tracking-wider rounded-full mb-6">PER CHI VUOLE ABITARE</span>
+                <div class="p-8 flex flex-col flex-1">
+                    <span class="inline-block px-4 py-1 bg-[#f5f0e6] text-[#c8872f] text-xs font-medium tracking-wider rounded-full mb-6 w-fit">PER CHI VUOLE ABITARE</span>
+                    
                     <h3 class="heading text-3xl mb-4">Vivere al Baglio San Michele</h3>
-                    <p class="text-secondary mb-8">Una comunità intenzionale stabile per famiglie e professionisti che cercano un ritmo di vita più umano, radicato nella tradizione siciliana, nella cura delle relazioni e nella trasmissione di valori.</p>
-                    <a href="vivere-qui.html" class="inline-flex items-center text-[#c8872f] hover:text-[#a86f24] font-medium transition-colors">Scopri come si vive →</a>
+                    
+                    <p class="text-secondary mb-6 flex-1">
+                        Una comunità intenzionale stabile per famiglie che cercano un’alternativa concreta alla vita frenetica e precaria delle grandi città. 
+                        Qui i tuoi figli possono crescere in un ambiente sicuro, a contatto con la natura e con valori solidi. 
+                        Relazioni autentiche, ritmo lento e senso di appartenenza non sono ideali astratti: sono la normalità quotidiana.
+                    </p>
+                    
+                    <a href="vivere-qui.html" class="inline-flex items-center text-[#c8872f] hover:text-[#a86f24] font-medium transition-colors mt-auto">
+                        Scopri come si vive al Baglio →
+                    </a>
                 </div>
             </div>
 
-            <div class="border border-gray-200 rounded-3xl overflow-hidden bg-white">
+            <!-- Percorso Investimento Etico -->
+            <div class="border border-gray-200 rounded-3xl overflow-hidden bg-white flex flex-col">
                 <img src="assets/investimento-etico.jpg" alt="Investimento etico" class="w-full h-56 object-cover">
-                <div class="p-8">
-                    <span class="inline-block px-4 py-1 bg-[#f5f0e6] text-[#c8872f] text-xs font-medium tracking-wider rounded-full mb-6">PER CHI VUOI INVESTIRE</span>
+                <div class="p-8 flex flex-col flex-1">
+                    <span class="inline-block px-4 py-1 bg-[#f5f0e6] text-[#c8872f] text-xs font-medium tracking-wider rounded-full mb-6 w-fit">PER CHI VUOLE INVESTIRE</span>
+                    
                     <h3 class="heading text-3xl mb-4">Investimento etico e di lungo periodo</h3>
-                    <p class="text-secondary mb-8">Un’operazione immobiliare con identità forte, governance chiara e clausole anti-speculative. Un investimento concreto in beni reali, con rendimenti stabili e valore patrimoniale duraturo.</p>
-                    <a href="investimento-etico.html" class="inline-flex items-center text-[#c8872f] hover:text-[#a86f24] font-medium transition-colors">Scopri l’investimento →</a>
+                    
+                    <p class="text-secondary mb-6 flex-1">
+                        Un investimento concreto in beni reali, all’interno di un progetto strutturato con regole chiare e clausole anti-speculative. 
+                        Non si tratta solo di acquistare una proprietà, ma di partecipare alla creazione di un modello di comunità stabile, 
+                        dove il valore è protetto nel tempo dalla coesione del gruppo e da una governance trasparente.
+                    </p>
+                    
+                    <a href="investimento-etico.html" class="inline-flex items-center text-[#c8872f] hover:text-[#a86f24] font-medium transition-colors mt-auto">
+                        Scopri l’investimento →
+                    </a>
                 </div>
             </div>
+
         </div>
     </section>
 
-    <!-- TIPOLOGIE DISPONIBILI -->
+    <!-- TIPOLOGIE ABITATIVE (invariato) -->
     <section id="tipologie" class="max-w-6xl mx-auto px-6 py-16 bg-white">
         <div class="text-center mb-12">
             <h2 class="heading text-4xl md:text-5xl mb-4">Le unità abitative</h2>
@@ -335,7 +320,6 @@
                 Nascono <strong>14 appartamenti</strong> di qualità distribuiti tra piano terra e primo piano, tutti con accesso agli spazi comuni del Baglio.
             </p>
 
-            <!-- Card Tipologie Fase 1 -->
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="border border-gray-200 rounded-2xl overflow-hidden">
                     <img src="assets/app-1-interno.jpg" alt="Appartamento Bronze" class="w-full h-48 object-cover">
@@ -372,7 +356,6 @@
                 Sui terreni della masseria verranno restaurate e in parte ricostruite <strong>3 nuove abitazioni in pietra iblea tradizionale</strong>, distribuite nel paesaggio con rispetto per l’ambiente. Ognuna di queste tre abitazioni sarà dotata di un lotto privato di circa un ettaro, con orto, giardino e frutteto. Verrà inoltre ricostruita la parte attualmente crollata dell'ala est, creando così <strong>7 nuovi appartamenti</strong> di varie metrature.
             </p>
 
-            <!-- Card Tipologie Fase 2 -->
             <div class="grid md:grid-cols-3 gap-6">
                 <div class="border border-gray-200 rounded-2xl overflow-hidden">
                     <img src="assets/casa-1-esterno.jpg" alt="Casa colonica Bronze" class="w-full h-48 object-cover">
@@ -399,14 +382,13 @@
         </div>
     </section>
 
-    <!-- IMMAGINE AGGIUNTA SOPRA LA SEZIONE FINALE -->
+    <!-- IMMAGINE + SEZIONE FINALE (invariata) -->
     <div class="max-w-6xl mx-auto px-6 pt-8">
         <div class="overflow-hidden rounded-3xl">
             <img src="assets/baglio-conversazione.png" alt="Vivere al Baglio San Michele" class="w-full h-[420px] object-cover">
         </div>
     </div>
 
-    <!-- SEZIONE FINALE -->
     <section class="max-w-4xl mx-auto px-6 py-16 text-center">
         <h2 class="heading text-4xl mb-6">Un progetto di vita, non solo di abitazione</h2>
         <p class="text-lg text-secondary max-w-3xl mx-auto">
@@ -443,7 +425,7 @@
         </div>
     </div>
 </footer>
-    <!-- Mobile Menu Script -->
+
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const menuBtn = document.getElementById('menu-btn');
