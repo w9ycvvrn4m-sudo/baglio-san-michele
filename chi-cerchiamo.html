@@ -50,12 +50,10 @@
 </head>
 <body>
 
-<!-- ==================== NAVBAR ==================== -->
+<!-- ==================== NAVBAR COMPLETO ==================== -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
-            
-            <!-- Logo -->
             <div>
                 <a href="index.html">
                     <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
@@ -64,7 +62,6 @@
 
             <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                
                 <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
@@ -77,6 +74,7 @@
                         <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
                             <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Concept</a>
                             <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Progetto</a>
+                            <a href="sicilian-slow-living.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Sicilian Slow Living</a>
                             <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
                             <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Unicità</a>
                         </div>
@@ -123,12 +121,10 @@
                     </div>
                 </div>
 
-                <!-- Link diretti -->
                 <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
                 <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
                 <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
 
-                <!-- Language Switcher -->
                 <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
                     <span class="font-medium text-[#c8872f]">IT</span>
                     <span class="text-gray-300">|</span>
@@ -136,26 +132,20 @@
                 </div>
             </div>
 
-            <!-- Pulsante Menu Mobile -->
-            <button id="menu-btn" 
-                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation">
-                ☰
-            </button>
+            <!-- Hamburger -->
+            <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
         </div>
 
-        <!-- ==================== MENU MOBILE CON SOTTOMENU ==================== -->
+        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
-
-            <!-- Borgo Ideale -->
             <div class="pt-3">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
                 <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Concept</a>
                 <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Progetto</a>
+                <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
                 <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
                 <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
             </div>
-
-            <!-- Valori etici -->
             <div class="pt-4">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
                 <a href="investimento-etico.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Investimento etico</a>
@@ -166,8 +156,6 @@
                 <a href="autonomia-energetica.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia energetica</a>
                 <a href="san-michele.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Il nostro Patrono</a>
             </div>
-
-            <!-- Unisciti a noi -->
             <div class="pt-4">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
                 <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
@@ -176,44 +164,42 @@
                 <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
                 <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
             </div>
-
             <div class="h-px bg-gray-200 my-4"></div>
-
-            <!-- Link diretti -->
             <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
             <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
             <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
-
         </div>
     </div>
 </nav>
-<!-- ==================== FINE NAVBAR ==================== -->
-
 
 <!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
-    function initMobileMenu() {
+    document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
-        if (!menuBtn || !mobileMenu) return;
+        if (menuBtn && mobileMenu) {
+            function toggleMenu(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            }
 
-        const toggleMenu = (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            mobileMenu.classList.toggle('hidden');
-            mobileMenu.classList.toggle('flex');
-        };
+            menuBtn.addEventListener('click', toggleMenu);
+            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
 
-        menuBtn.addEventListener('click', toggleMenu);
-        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMobileMenu);
-    } else {
-        initMobileMenu();
-    }
+            // Chiude il menu cliccando fuori
+            document.addEventListener('click', function(e) {
+                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenu.classList.remove('flex');
+                    }
+                }
+            });
+        }
+    });
 </script>
 
     <!-- CONTENUTO PRINCIPALE -->
