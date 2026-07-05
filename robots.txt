@@ -1,23 +1,10 @@
-# robots.txt per Baglio San Michele
-# Ultimo aggiornamento: 19 Giugno 2026
-
 User-agent: *
 Allow: /
 
-User-agent: Twitterbot
-Allow: /assets/
-
-# Impedisce l'indicizzazione di cartelle non necessarie
+# Blocca cartelle sensibili
 Disallow: /assets/
-Disallow: /*.pdf$
+Disallow: /private/
+Disallow: /admin/
 
-# Sitemap principale
+# Sitemap
 Sitemap: https://www.borgoideale.com/sitemap.xml
-
-# Googlebot specifico (opzionale ma consigliato)
-User-agent: Googlebot
-Allow: /
-
-# Bingbot
-User-agent: Bingbot
-Allow: /
