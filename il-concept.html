@@ -194,7 +194,6 @@
             menuBtn.addEventListener('click', toggleMenu);
             menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
 
-            // Chiude il menu cliccando fuori
             document.addEventListener('click', function(e) {
                 if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                     if (!mobileMenu.classList.contains('hidden')) {
@@ -234,6 +233,7 @@
                 <img src="assets/atmosfera-patriarcato.png" alt="Atmosfera del Baglio San Michele" 
                      class="w-full rounded-3xl h-80 object-cover">
             </div>
+
 <!-- ==================== SEZIONE POSIZIONAMENTO ==================== -->
 <div class="max-w-6xl mx-auto px-6 mb-20">
     <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
@@ -284,33 +284,80 @@
         
     </div>
 </div>
-            <!-- I valori fondanti -->
-            <div class="max-w-4xl mx-auto mb-16">
-                <h2 class="heading text-3xl mb-8">I valori fondanti</h2>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="font-semibold text-xl mb-3">Stabilità e continuità</h3>
-                        <p class="text-secondary">Crediamo in un modello residenziale di lungo periodo, dove le famiglie possano crescere e invecchiare insieme senza essere costrette a spostarsi continuamente.</p>
+
+            <!-- I valori fondanti (VERSIONE CON CARD E IMMAGINI) -->
+            <div class="max-w-6xl mx-auto mb-16">
+                <h2 class="heading text-3xl mb-8 text-center">I valori fondanti</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Stabilità e continuità -->
+                    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                        <img src="assets/baglio-nonna-pasta.png" alt="Stabilità e continuità" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-xl mb-3">Stabilità e continuità</h3>
+                            <p class="text-secondary">Crediamo in un modello residenziale di lungo periodo, dove le famiglie possano crescere e invecchiare insieme senza essere costrette a spostarsi continuamente.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="font-semibold text-xl mb-3">Relazioni autentiche</h3>
-                        <p class="text-secondary">La comunità è piccola per scelta: vogliamo che le persone si conoscano davvero, si aiutino e creino legami duraturi.</p>
+
+                    <!-- Relazioni autentiche -->
+                    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                        <img src="assets/baglio-androne-vespa.png" alt="Relazioni autentiche" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-xl mb-3">Relazioni autentiche</h3>
+                            <p class="text-secondary">La comunità è piccola per scelta: vogliamo che le persone si conoscano davvero, si aiutino e creino legami duraturi.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="font-semibold text-xl mb-3">Tradizione viva</h3>
-                        <p class="text-secondary">Valorizziamo il patrimonio culturale, artigianale e spirituale siciliano come risorsa viva da trasmettere, non come reperto da museo.</p>
+
+                    <!-- Tradizione viva -->
+                    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                        <img src="assets/bacio-dopo-funzione.png" alt="Tradizione viva" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-xl mb-3">Tradizione viva</h3>
+                            <p class="text-secondary">Valorizziamo il patrimonio culturale, artigianale e spirituale siciliano come risorsa viva da trasmettere, non come reperto da museo.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="font-semibold text-xl mb-3">Responsabilità condivisa</h3>
-                        <p class="text-secondary">Ogni membro contribuisce secondo le proprie possibilità e competenze, in un equilibrio tra libertà individuale e bene comune.</p>
+
+                    <!-- Responsabilità condivisa -->
+                    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                        <img src="assets/baglio-pastori.png" alt="Responsabilità condivisa" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-xl mb-3">Responsabilità condivisa</h3>
+                            <p class="text-secondary">Ogni membro contribuisce secondo le proprie possibilità e competenze, in un equilibrio tra libertà individuale e bene comune.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="font-semibold text-xl mb-3">Rispetto della terra</h3>
-                        <p class="text-secondary">L’autosufficienza alimentare, la cura del suolo e l’uso responsabile delle risorse sono al centro del nostro modello di vita.</p>
+
+                    <!-- Rispetto della terra -->
+                    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                        <img src="assets/baglio-permacoltura.png" alt="Rispetto della terra" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-xl mb-3">Rispetto della terra</h3>
+                            <p class="text-secondary">L’autosufficienza alimentare, la cura del suolo e l’uso responsabile delle risorse sono al centro del nostro modello di vita.</p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 class="font-semibold text-xl mb-3">Trasmissione intergenerazionale</h3>
-                        <p class="text-secondary">Bambini e anziani sono parte attiva della comunità: i primi imparano, i secondi trasmettono saperi e saggezza.</p>
+
+                    <!-- Trasmissione intergenerazionale -->
+                    <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                        <img src="assets/baglio-nonna-nipote-2.png" alt="Trasmissione intergenerazionale" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="font-semibold text-xl mb-3">Trasmissione intergenerazionale</h3>
+                            <p class="text-secondary">Bambini e anziani sono parte attiva della comunità: i primi imparano, i secondi trasmettono saperi e saggezza.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CTA finale della sezione -->
+                <div class="mt-10 text-center">
+                    <p class="text-secondary mb-5">Questi valori guidano ogni scelta del nostro progetto di vita comune.</p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <a href="vivere-qui.html" 
+                           class="inline-flex items-center justify-center px-8 py-3.5 border border-[#c8872f] text-[#c8872f] rounded-2xl font-medium hover:bg-[#c8872f] hover:text-white transition">
+                            Scopri come si vive qui
+                        </a>
+                        <a href="figure-professionali.html" 
+                           class="inline-flex items-center justify-center px-8 py-3.5 border border-[#c8872f] text-[#c8872f] rounded-2xl font-medium hover:bg-[#c8872f] hover:text-white transition">
+                            Vedi le figure professionali che cerchiamo
+                        </a>
                     </div>
                 </div>
             </div>
