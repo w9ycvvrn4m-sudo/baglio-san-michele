@@ -54,10 +54,12 @@
 </head>
 <body>
 
-<!-- ==================== NAVBAR COMPLETO ==================== -->
+<!-- ==================== NAVBAR ==================== -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
+            
+            <!-- Logo -->
             <div>
                 <a href="index.html">
                     <img src="assets/logo-500-bn.png" alt="Baglio San Michele" class="h-11 w-auto">
@@ -66,6 +68,7 @@
 
             <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                
                 <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
@@ -78,7 +81,6 @@
                         <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
                             <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Concept</a>
                             <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Progetto</a>
-                            <a href="sicilian-slow-living.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Sicilian Slow Living</a>
                             <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
                             <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Unicità</a>
                         </div>
@@ -125,10 +127,12 @@
                     </div>
                 </div>
 
+                <!-- Link diretti -->
                 <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
                 <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
                 <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
 
+                <!-- Language Switcher -->
                 <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
                     <span class="font-medium text-[#c8872f]">IT</span>
                     <span class="text-gray-300">|</span>
@@ -136,20 +140,26 @@
                 </div>
             </div>
 
-            <!-- Hamburger -->
-            <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
+            <!-- Pulsante Menu Mobile -->
+            <button id="menu-btn" 
+                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation">
+                ☰
+            </button>
         </div>
 
-        <!-- Mobile Menu -->
+        <!-- ==================== MENU MOBILE CON SOTTOMENU ==================== -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
+
+            <!-- Borgo Ideale -->
             <div class="pt-3">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
                 <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Concept</a>
                 <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Progetto</a>
-                <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
                 <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
                 <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
             </div>
+
+            <!-- Valori etici -->
             <div class="pt-4">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
                 <a href="investimento-etico.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Investimento etico</a>
@@ -160,6 +170,8 @@
                 <a href="autonomia-energetica.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia energetica</a>
                 <a href="san-michele.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Il nostro Patrono</a>
             </div>
+
+            <!-- Unisciti a noi -->
             <div class="pt-4">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
                 <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
@@ -168,42 +180,44 @@
                 <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
                 <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
             </div>
+
             <div class="h-px bg-gray-200 my-4"></div>
+
+            <!-- Link diretti -->
             <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
             <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
             <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+
         </div>
     </div>
 </nav>
+<!-- ==================== FINE NAVBAR ==================== -->
+
 
 <!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    function initMobileMenu() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
-        if (menuBtn && mobileMenu) {
-            function toggleMenu(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
-            }
+        if (!menuBtn || !mobileMenu) return;
 
-            menuBtn.addEventListener('click', toggleMenu);
-            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+        const toggleMenu = (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        };
 
-            // Chiude il menu cliccando fuori
-            document.addEventListener('click', function(e) {
-                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenu.classList.remove('flex');
-                    }
-                }
-            });
-        }
-    });
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    } else {
+        initMobileMenu();
+    }
 </script>
 
     <!-- HERO -->
@@ -238,7 +252,7 @@
                 <img src="assets/atmosfera-cucina.png" alt="Il ritmo della vita quotidiana" class="w-full h-80 object-cover">
                 <div class="p-8">
                     <p class="text-secondary">
-                        La vita al Baglio San Michele segue un ritmo scandito dai tempi della terra e dalla cura delle relazioni. Le giornate iniziano presto, con i suoni della campagna e il profumo del pane o del caffè preparato in casa. Molte famiglie scelcono di lavorare da remoto o di dedicarsi ad attività artigianali e agricole, alternando momenti di impegno individuale con il tempo dedicato ai figli e alla vita comune.
+                        La vita al Baglio San Michele segue un ritmo scandito dai tempi della terra e dalla cura delle relazioni. Le giornate iniziano presto, con i suoni della campagna e il profumo del pane o del caffè preparato in casa. Molte famiglie scelgono di lavorare da remoto o di dedicarsi ad attività artigianali e agricole, alternando momenti di impegno individuale con il tempo dedicato ai figli e alla vita comune.
                     </p>
                     <p class="text-secondary mt-4">
                         I pasti hanno un ruolo centrale. Non sono solo un momento di nutrimento, ma di incontro. Spesso si mangia insieme nel cortile o negli spazi comuni, soprattutto nei fine settimane e nelle sere d’estate. I prodotti dell’orto, dell’uliveto e delle masserie vicine entrano naturalmente nella cucina di ogni famiglia, favorendo una alimentazione semplice, stagionale e legata al territorio.
@@ -346,7 +360,7 @@
             <h2 class="heading text-3xl mb-6">Tradizioni, feste e trasmissione culturale</h2>
             
             <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-                <img src="assets/baglio-sacristia.png" alt="Tradizioni e feste al Baglio" class="w-full h-100 object-cover">
+                <img src="assets/baglio-benedizione.png" alt="Tradizioni e feste al Baglio" class="w-full h-80 object-cover">
                 <div class="p-8">
                     <p class="text-secondary">
                         Il calendario dell’anno è scandito da momenti forti: la Festa di San Michele, le celebrazioni legate al raccolto, il Natale, la Pasqua e altre ricorrenze legate alla tradizione siciliana e cristiana. Queste occasioni non sono solo eventi sociali, ma momenti in cui si rinnova il senso di appartenenza e si trasmette alle nuove generazioni il valore della memoria, della fede e della convivialità.
@@ -369,4 +383,56 @@
                         Uno degli aspetti più delicati della vita al Baglio è il giusto equilibrio tra il bisogno di intimità familiare e la dimensione comunitaria. Non si tratta di una vita “in comune” continua, ma di una convivenza in cui ognuno può scegliere quando partecipare e quando ritirarsi nella propria casa.
                     </p>
                     <p class="text-secondary mt-4">
-                        Le famiglie che scelgono il Baglio sono generalmente persone che apprezzano la dimensione relazionale senza rinunciare alla propria autonomia. Il rispett
+                        Le famiglie che scelgono il Baglio sono generalmente persone che apprezzano la dimensione relazionale senza rinunciare alla propria autonomia. Il rispetto della privacy è un valore centrale: le regole del Baglio garantiscono a ciascuno lo spazio necessario per vivere serenamente la propria vita familiare, senza pressioni né obblighi di partecipazione continua. Ognuno può decidere liberamente quando e come coinvolgersi nella vita comune, mantenendo il proprio ritmo e la propria intimità.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+                <div class="text-secondary">
+                    © 2026 Baglio San Michele. Tutti i diritti riservati.
+                </div>
+                <div class="flex items-center justify-end gap-x-8 text-sm">
+                    <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        <span>@borgoideale</span>
+                    </a>
+                    <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/></svg>
+                        <span>@borgoideale</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('flex');
+                });
+                document.addEventListener('click', function(e) {
+                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        if (!mobileMenu.classList.contains('hidden')) {
+                            mobileMenu.classList.add('hidden');
+                            mobileMenu.classList.remove('flex');
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
