@@ -161,33 +161,110 @@
     </div>
 </nav>
 
-<!-- ==================== SCRIPT MENU MOBILE ==================== -->
+            <!-- Pulsante Menu Mobile -->
+            <button id="menu-btn" 
+                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation"
+                    aria-label="Apri menu di navigazione">
+                ☰
+            </button>
+        </div>
+
+        <!-- ==================== MENU MOBILE ==================== -->
+        <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
+
+            <!-- Borgo Ideale -->
+            <div class="pt-3">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
+                <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Concept</a>
+                <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Progetto</a>
+                <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
+                <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
+                <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
+            </div>
+
+            <!-- Valori etici -->
+            <div class="pt-4">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
+                <a href="investimento-etico.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Investimento etico</a>
+                <a href="tokenizzazione.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Economia di reciprocità</a>
+                <a href="territorio.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Cooperazione</a>
+                <a href="comunita-aperta.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Comunità aperta</a>
+                <a href="autonomia-alimentare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia alimentare</a>
+                <a href="autonomia-energetica.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia energetica</a>
+                <a href="san-michele.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Il nostro Patrono</a>
+            </div>
+
+            <!-- Unisciti a noi -->
+            <div class="pt-4">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
+                <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
+                <a href="come-entrare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Come entrare</a>
+                <a href="chi-cerchiamo.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Chi cerchiamo</a>
+                <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
+                <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
+            </div>
+
+            <div class="h-px bg-gray-200 my-4"></div>
+
+            <!-- Link diretti -->
+            <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
+            <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+            <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+
+        </div>
+    </div>
+</nav>
+<!-- ==================== FINE NAVBAR ==================== -->
+
+
+<!-- ==================== SCRIPT MENU MOBILE (versione stabile iPhone) ==================== -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
-        if (menuBtn && mobileMenu) {
-            function toggleMenu(e) {
-                e.preventDefault();
-                e.stopPropagation();
-                mobileMenu.classList.toggle('hidden');
-                mobileMenu.classList.toggle('flex');
+        if (!menuBtn || !mobileMenu) return;
+
+        function toggleMenu(e) {
+            e.preventDefault();
+            e.stopImmediatePropagation();
+
+            const isOpen = mobileMenu.classList.contains('flex');
+
+            if (isOpen) {
+                mobileMenu.classList.remove('flex');
+                mobileMenu.classList.add('hidden');
+                document.body.style.overflow = '';
+            } else {
+                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.add('flex');
+                document.body.style.overflow = 'hidden';
             }
-
-            menuBtn.addEventListener('click', toggleMenu);
-            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-
-            // Chiude il menu cliccando fuori
-            document.addEventListener('click', function(e) {
-                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                        mobileMenu.classList.remove('flex');
-                    }
-                }
-            });
         }
+
+        // Supporto click + touch su iPhone
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+
+        // Chiudi cliccando fuori dal menu
+        document.addEventListener('click', function(e) {
+            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenu.classList.remove('flex');
+                    document.body.style.overflow = '';
+                }
+            }
+        });
+
+        // Chiudi con tasto ESC
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+                document.body.style.overflow = '';
+            }
+        });
     });
 </script>
 
