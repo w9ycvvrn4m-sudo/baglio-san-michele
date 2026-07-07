@@ -27,7 +27,6 @@
         .text-secondary { color: #4a4a4a; }
         .bg-cream { background-color: #F8F5F0; }
 
-        /* Hero originale ripristinato */
         .hero-bg { 
             background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), 
                               url('assets/atmosfera-benvenuti.png'); 
@@ -120,11 +119,7 @@
                 </div>
             </div>
 
-            <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
-        </div>
-    </div>
-</nav>
-            <!-- Pulsante Menu Mobile -->
+            <!-- Hamburger -->
             <button id="menu-btn" 
                     class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation"
                     aria-label="Apri menu di navigazione">
@@ -132,7 +127,7 @@
             </button>
         </div>
 
-        <!-- ==================== MENU MOBILE ==================== -->
+        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
 
             <!-- Borgo Ideale -->
@@ -169,18 +164,14 @@
 
             <div class="h-px bg-gray-200 my-4"></div>
 
-            <!-- Link diretti -->
             <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
             <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
             <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
-
         </div>
     </div>
 </nav>
-<!-- ==================== FINE NAVBAR ==================== -->
 
-
-<!-- ==================== SCRIPT MENU MOBILE (versione stabile iPhone) ==================== -->
+<!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.getElementById('menu-btn');
@@ -192,9 +183,7 @@
             e.preventDefault();
             e.stopImmediatePropagation();
 
-            const isOpen = mobileMenu.classList.contains('flex');
-
-            if (isOpen) {
+            if (mobileMenu.classList.contains('flex')) {
                 mobileMenu.classList.remove('flex');
                 mobileMenu.classList.add('hidden');
                 document.body.style.overflow = '';
@@ -205,11 +194,9 @@
             }
         }
 
-        // Supporto click + touch su iPhone
         menuBtn.addEventListener('click', toggleMenu);
         menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
 
-        // Chiudi cliccando fuori dal menu
         document.addEventListener('click', function(e) {
             if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                 if (!mobileMenu.classList.contains('hidden')) {
@@ -220,9 +207,8 @@
             }
         });
 
-        // Chiudi con tasto ESC
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('flex')) {
                 mobileMenu.classList.add('hidden');
                 mobileMenu.classList.remove('flex');
                 document.body.style.overflow = '';
@@ -230,10 +216,10 @@
         });
     });
 </script>
-<!-- ==================== HERO (IMMAGINE ORIGINALE RIPRISTINATA) ==================== -->
+
+<!-- ==================== HERO ==================== -->
 <div class="hero-bg h-[92vh] flex items-center justify-center pt-20">
     <div class="max-w-4xl mx-auto px-6 text-center text-white">
-        <!-- Logo Baglio (versione oro decorativa) -->
         <img src="assets/logo-homepage-trasp.png" 
              alt="Baglio San Michele" 
              class="h-24 md:h-32 mx-auto mb-6 drop-shadow-lg">
@@ -293,16 +279,16 @@
     </div>
 </section>
 
-<!-- ==================== DUE PERCORSI ==================== -->
+<!-- ==================== MODI PER FAR PARTE DEL PROGETTO (4 CARD) ==================== -->
 <section class="bg-cream py-16">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
-            <h2 class="heading text-4xl mb-4">Due modi per far parte del progetto</h2>
+            <h2 class="heading text-4xl mb-4">Modi per far parte del progetto</h2>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             
-            <!-- Vivere al Baglio -->
+            <!-- 1. Vivere al Baglio -->
             <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
                 <img src="assets/vivere-al-baglio-1.jpg" 
                      alt="Vivere al Baglio San Michele" 
@@ -320,7 +306,7 @@
                 </div>
             </div>
 
-            <!-- Investimento Etico -->
+            <!-- 2. Investimento Etico -->
             <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
                 <img src="assets/investimento-etico-2.jpg" 
                      alt="Investimento etico al Baglio San Michele" 
@@ -334,6 +320,42 @@
                     </p>
                     <a href="investimento-etico.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
                         Scopri l’investimento →
+                    </a>
+                </div>
+            </div>
+
+            <!-- 3. Per chi vuole lavorare -->
+            <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
+                <img src="assets/baglio-studio.png" 
+                     alt="Figure professionali al Baglio San Michele" 
+                     class="w-full h-64 object-cover">
+                <div class="p-10">
+                    <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">PER CHI VUOLE LAVORARE</div>
+                    <h3 class="heading text-3xl mb-4">Contribuire professionalmente</h3>
+                    <p class="text-secondary mb-8">
+                        Artigiani, agricoltori, professionisti e figure specializzate che desiderano 
+                        mettere le proprie competenze al servizio della comunità e dell’autosufficienza del Borgo.
+                    </p>
+                    <a href="figure-professionali.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
+                        Scopri le figure professionali →
+                    </a>
+                </div>
+            </div>
+
+            <!-- 4. Per chi vuole donare -->
+            <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
+                <img src="assets/baglio-donazione-1.png" 
+                     alt="Donazioni al Baglio San Michele" 
+                     class="w-full h-64 object-cover">
+                <div class="p-10">
+                    <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">PER CHI VUOLE DONARE</div>
+                    <h3 class="heading text-3xl mb-4">Sostenere il progetto</h3>
+                    <p class="text-secondary mb-8">
+                        Chi condivide la visione e desidera sostenere lo sviluppo del Baglio 
+                        attraverso una donazione concreta.
+                    </p>
+                    <a href="donazioni.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">
+                        Scopri come donare →
                     </a>
                 </div>
             </div>
