@@ -172,110 +172,32 @@
     </div>
 </nav>
 
-            <!-- Pulsante Menu Mobile -->
-            <button id="menu-btn" 
-                    class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f] cursor-pointer touch-manipulation"
-                    aria-label="Apri menu di navigazione">
-                ☰
-            </button>
-        </div>
-
-        <!-- ==================== MENU MOBILE ==================== -->
-        <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
-
-            <!-- Borgo Ideale -->
-            <div class="pt-3">
-                <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
-                <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Concept</a>
-                <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Progetto</a>
-                <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
-                <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
-                <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
-            </div>
-
-            <!-- Valori etici -->
-            <div class="pt-4">
-                <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
-                <a href="investimento-etico.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Investimento etico</a>
-                <a href="tokenizzazione.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Economia di reciprocità</a>
-                <a href="territorio.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Cooperazione</a>
-                <a href="comunita-aperta.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Comunità aperta</a>
-                <a href="autonomia-alimentare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia alimentare</a>
-                <a href="autonomia-energetica.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia energetica</a>
-                <a href="san-michele.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Il nostro Patrono</a>
-            </div>
-
-            <!-- Unisciti a noi -->
-            <div class="pt-4">
-                <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
-                <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
-                <a href="come-entrare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Come entrare</a>
-                <a href="chi-cerchiamo.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Chi cerchiamo</a>
-                <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
-                <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
-            </div>
-
-            <div class="h-px bg-gray-200 my-4"></div>
-
-            <!-- Link diretti -->
-            <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
-            <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
-            <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
-
-        </div>
-    </div>
-</nav>
-<!-- ==================== FINE NAVBAR ==================== -->
-
-
-<!-- ==================== SCRIPT MENU MOBILE (versione stabile iPhone) ==================== -->
+<!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
-        if (!menuBtn || !mobileMenu) return;
-
-        function toggleMenu(e) {
-            e.preventDefault();
-            e.stopImmediatePropagation();
-
-            const isOpen = mobileMenu.classList.contains('flex');
-
-            if (isOpen) {
-                mobileMenu.classList.remove('flex');
-                mobileMenu.classList.add('hidden');
-                document.body.style.overflow = '';
-            } else {
-                mobileMenu.classList.remove('hidden');
-                mobileMenu.classList.add('flex');
-                document.body.style.overflow = 'hidden';
+        if (menuBtn && mobileMenu) {
+            function toggleMenu(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
             }
-        }
 
-        // Supporto click + touch su iPhone
-        menuBtn.addEventListener('click', toggleMenu);
-        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+            menuBtn.addEventListener('click', toggleMenu);
+            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
 
-        // Chiudi cliccando fuori dal menu
-        document.addEventListener('click', function(e) {
-            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                if (!mobileMenu.classList.contains('hidden')) {
-                    mobileMenu.classList.add('hidden');
-                    mobileMenu.classList.remove('flex');
-                    document.body.style.overflow = '';
+            document.addEventListener('click', function(e) {
+                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenu.classList.remove('flex');
+                    }
                 }
-            }
-        });
-
-        // Chiudi con tasto ESC
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && !mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.add('hidden');
-                mobileMenu.classList.remove('flex');
-                document.body.style.overflow = '';
-            }
-        });
+            });
+        }
     });
 </script>
 
@@ -318,59 +240,84 @@
 
             <div class="space-y-6 max-w-4xl mx-auto">
 
-                <!-- Fase 1 -->
-                <div class="bg-white border border-gray-200 rounded-2xl p-8">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">1</span>
-                        <h3 class="font-semibold text-2xl">Candidatura</h3>
+                <!-- Fase 1: Candidatura -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3">
+                        <img src="assets/baglio-candidatura.png" alt="Fase di candidatura al Baglio San Michele" class="w-full h-full object-cover">
                     </div>
-                    <p class="text-secondary">
-                        Il percorso inizia con l’invio di una candidatura attraverso il modulo presente sul sito. Si richiede di compilare con attenzione il form, allegando una lettera motivazionale e, se possibile, un breve curriculum o descrizione delle proprie competenze e del proprio nucleo familiare.
-                    </p>
+                    <div class="w-full md:w-2/3 p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">1</span>
+                            <h3 class="font-semibold text-2xl">Candidatura</h3>
+                        </div>
+                        <p class="text-secondary">
+                            Il percorso inizia con l’invio di una candidatura attraverso il modulo presente sul sito. Si richiede di compilare con attenzione il form, allegando una lettera motivazionale e, se possibile, un breve curriculum o descrizione delle proprie competenze e del proprio nucleo familiare.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Fase 2 -->
-                <div class="bg-white border border-gray-200 rounded-2xl p-8">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">2</span>
-                        <h3 class="font-semibold text-2xl">Colloquio conoscitivo</h3>
+                <!-- Fase 2: Colloquio -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3">
+                        <img src="assets/baglio-colloquio.png" alt="Fase di colloquio conoscitivo al Baglio San Michele" class="w-full h-full object-cover">
                     </div>
-                    <p class="text-secondary">
-                        I candidati selezionati vengono invitati a un colloquio (in presenza o online) con uno o più membri del gruppo promotore. Questo incontro serve a conoscersi reciprocamente, approfondire le motivazioni, chiarire dubbi e verificare l’allineamento con i principi del progetto.
-                    </p>
+                    <div class="w-full md:w-2/3 p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">2</span>
+                            <h3 class="font-semibold text-2xl">Colloquio conoscitivo</h3>
+                        </div>
+                        <p class="text-secondary">
+                            I candidati selezionati vengono invitati a un colloquio (in presenza o online) con uno o più membri del gruppo promotore. Questo incontro serve a conoscersi reciprocamente, approfondire le motivazioni, chiarire dubbi e verificare l’allineamento con i principi del progetto.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Fase 3 -->
-                <div class="bg-white border border-gray-200 rounded-2xl p-8">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">3</span>
-                        <h3 class="font-semibold text-2xl">Visita residenziale</h3>
+                <!-- Fase 3: Visita -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3">
+                        <img src="assets/baglio-alloggio.png" alt="Fase di visita residenziale al Baglio San Michele" class="w-full h-full object-cover">
                     </div>
-                    <p class="text-secondary">
-                        Dopo il colloquio, i candidati vengono invitati a trascorrere alcuni giorni al Baglio. Questo momento è fondamentale per vivere direttamente l’atmosfera del luogo, conoscere gli altri residenti (quando presenti) e farsi un’idea concreta della vita comunitaria e del territorio.
-                    </p>
+                    <div class="w-full md:w-2/3 p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">3</span>
+                            <h3 class="font-semibold text-2xl">Visita residenziale</h3>
+                        </div>
+                        <p class="text-secondary">
+                            Dopo il colloquio, i candidati vengono invitati a trascorrere alcuni giorni al Baglio. Questo momento è fondamentale per vivere direttamente l’atmosfera del luogo, conoscere gli altri residenti (quando presenti) e farsi un’idea concreta della vita comunitaria e del territorio.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Fase 4 -->
-                <div class="bg-white border border-gray-200 rounded-2xl p-8">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">4</span>
-                        <h3 class="font-semibold text-2xl">Periodo di prova</h3>
+                <!-- Fase 4: Prova -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3">
+                        <img src="assets/baglio-prova.png" alt="Fase di periodo di prova al Baglio San Michele" class="w-full h-full object-cover">
                     </div>
-                    <p class="text-secondary">
-                        In caso di reciproco interesse, si procede con un periodo di prova della durata variabile (generalmente alcuni mesi). Durante questa fase il nucleo familiare vive stabilmente al Baglio, partecipando alla vita comunitaria e contribuendo, secondo le proprie possibilità, alle attività del luogo. È un momento di conoscenza profonda e di verifica concreta dell’integrazione.
-                    </p>
+                    <div class="w-full md:w-2/3 p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">4</span>
+                            <h3 class="font-semibold text-2xl">Periodo di prova</h3>
+                        </div>
+                        <p class="text-secondary">
+                            In caso di reciproco interesse, si procede con un periodo di prova della durata variabile (generalmente alcuni mesi). Durante questa fase il nucleo familiare vive stabilmente al Baglio, partecipando alla vita comunitaria e contribuendo, secondo le proprie possibilità, alle attività del luogo. È un momento di conoscenza profonda e di verifica concreta dell’integrazione.
+                        </p>
+                    </div>
                 </div>
 
-                <!-- Fase 5 -->
-                <div class="bg-white border border-gray-200 rounded-2xl p-8">
-                    <div class="flex items-center gap-4 mb-4">
-                        <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">5</span>
-                        <h3 class="font-semibold text-2xl">Ingresso formale</h3>
+                <!-- Fase 5: Ingresso -->
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden flex flex-col md:flex-row">
+                    <div class="w-full md:w-1/3">
+                        <img src="assets/baglio-ingresso.png" alt="Fase di ingresso formale al Baglio San Michele" class="w-full h-full object-cover">
                     </div>
-                    <p class="text-secondary">
-                        Al termine del periodo di prova, se entrambe le parti confermano la volontà di proseguire insieme, si procede con l’ingresso formale. Viene sottoscritto un accordo che regola l’assegnazione dell’unità abitativa, i diritti e i doveri del nucleo familiare all’interno della comunità.
-                    </p>
+                    <div class="w-full md:w-2/3 p-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="inline-flex items-center justify-center w-9 h-9 bg-[#c8872f] text-white rounded-full font-semibold">5</span>
+                            <h3 class="font-semibold text-2xl">Ingresso formale</h3>
+                        </div>
+                        <p class="text-secondary">
+                            Al termine del periodo di prova, se entrambe le parti confermano la volontà di proseguire insieme, si procede con l’ingresso formale. Viene sottoscritto un accordo che regola l’assegnazione dell’unità abitativa, i diritti e i doveri del nucleo familiare all’interno della comunità.
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -381,7 +328,7 @@
             <h2 class="heading text-3xl mb-8 text-center">I principi del nostro percorso</h2>
 
             <div class="max-w-4xl mx-auto mb-8">
-                <img src="assets/vivere-al-baglio-2.png" 
+                <img src="assets/vivere-al-baglio-1.jpg" 
                      alt="I principi del percorso di ingresso" 
                      class="w-full rounded-3xl shadow-sm object-cover">
             </div>
@@ -443,18 +390,5 @@
         </div>
     </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuBtn = document.getElementById('menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-            if (menuBtn && mobileMenu) {
-                menuBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    mobileMenu.classList.toggle('hidden');
-                    mobileMenu.classList.toggle('flex');
-                });
-            }
-        });
-    </script>
 </body>
 </html>
