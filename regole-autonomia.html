@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Le regole dell’autonomia • Baglio San Michele</title>
-    <meta name="description" content="Dieci consigli pratici per prepararsi all’indipendenza nel Baglio San Michele.">
+    <title>Le regole dell'autonomia • Baglio San Michele</title>
+    <meta name="description" content="Dieci consigli pratici per prepararsi all'indipendenza familiare e comunitaria nel Sicilian Slow Living del Baglio San Michele.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.borgoideale.com/regole-autonomia.html">
 
-    <meta property="og:title" content="Le regole dell’autonomia • Baglio San Michele">
-    <meta property="og:description" content="Dieci consigli per l’autonomia.">
+    <meta property="og:title" content="Le regole dell'autonomia • Baglio San Michele">
+    <meta property="og:description" content="Dieci scelte concrete per vivere con maggiore autonomia e radicamento.">
     <meta property="og:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
     <meta property="og:url" content="https://www.borgoideale.com/regole-autonomia.html">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Le regole dell'autonomia • Baglio San Michele">
+    <meta name="twitter:description" content="Dieci consigli pratici per l'autonomia nel Baglio San Michele.">
+    <meta name="twitter:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
 
     <link rel="icon" type="image/png" href="assets/logo-500-bn.png">
+    <link rel="apple-touch-icon" href="assets/logo-500-bn.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -33,28 +40,11 @@
             color: #c8872f; 
         }
         .text-secondary { color: #4a4a4a; }
-
-        .rule-card {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 0;
-            border: 1px solid #e5e5e5;
-            border-radius: 24px;
-            overflow: hidden;
-        }
-        @media (min-width: 768px) {
-            .rule-card { 
-                grid-template-columns: 1fr 2fr; 
-            }
-            .rule-card.reverse { 
-                grid-template-columns: 2fr 1fr; 
-            }
-        }
     </style>
 </head>
 <body>
 
-<!-- NAVBAR (aggiornato) -->
+<!-- ==================== NAVBAR COMPLETO ==================== -->
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
@@ -64,7 +54,9 @@
                 </a>
             </div>
 
+            <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
                         Borgo Ideale
@@ -77,325 +69,396 @@
                             <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Concept</a>
                             <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Progetto</a>
                             <a href="sicilian-slow-living.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Sicilian Slow Living</a>
-                            <a href="regole-autonomia.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Regole dell’autonomia</a>
+                            <a href="regole-autonomia.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Regole dell'Autonomia</a>
                             <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
                             <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Unicità</a>
                         </div>
                     </div>
                 </div>
-                <!-- Altri menu... -->
+
+                <!-- Valori etici -->
+                <div class="group relative">
+                    <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                        Valori etici
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                            <a href="investimento-etico.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Investimento etico</a>
+                            <a href="tokenizzazione.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Economia di reciprocità</a>
+                            <a href="territorio.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Cooperazione</a>
+                            <a href="comunita-aperta.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Comunità aperta</a>
+                            <a href="autonomia-alimentare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia alimentare</a>
+                            <a href="autonomia-energetica.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Autonomia energetica</a>
+                            <a href="san-michele.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Il nostro Patrono</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unisciti a noi -->
+                <div class="group relative">
+                    <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
+                        Unisciti a noi
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
+                            <a href="vivere-qui.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vivere al Baglio</a>
+                            <a href="come-entrare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Come entrare</a>
+                            <a href="chi-cerchiamo.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Chi cerchiamo</a>
+                            <a href="figure-professionali.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Figure professionali</a>
+                            <a href="archivum-artium.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Archivum Artium</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="donazioni.html" class="font-medium text-[#c8872f] hover:text-[#a86f24]">Donazioni</a>
+                <a href="faq.html" class="hover:text-[#c8872f] transition-colors">FAQ</a>
+                <a href="contatti.html" class="hover:text-[#c8872f] transition-colors">Contatti</a>
+
+                <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
+                    <span class="font-medium text-[#c8872f]">IT</span>
+                    <span class="text-gray-300">|</span>
+                    <a href="en/index.html" class="hover:text-[#c8872f] transition-colors">EN</a>
+                </div>
             </div>
 
+            <!-- Hamburger -->
             <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
+            <div class="pt-3">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
+                <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Concept</a>
+                <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Progetto</a>
+                <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
+                <a href="regole-autonomia.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Regole dell'Autonomia</a>
+                <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
+                <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
+            </div>
+            <div class="pt-4">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
+                <a href="investimento-etico.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Investimento etico</a>
+                <a href="tokenizzazione.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Economia di reciprocità</a>
+                <a href="territorio.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Cooperazione</a>
+                <a href="comunita-aperta.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Comunità aperta</a>
+                <a href="autonomia-alimentare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia alimentare</a>
+                <a href="autonomia-energetica.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Autonomia energetica</a>
+                <a href="san-michele.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Il nostro Patrono</a>
+            </div>
+            <div class="pt-4">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
+                <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
+                <a href="come-entrare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Come entrare</a>
+                <a href="chi-cerchiamo.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Chi cerchiamo</a>
+                <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
+                <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
+            </div>
+            <div class="h-px bg-gray-200 my-4"></div>
+            <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
+            <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
+            <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
         </div>
     </div>
 </nav>
 
-<!-- HERO -->
-<div class="pt-24 pb-12 bg-white">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-        <p class="uppercase tracking-[2.5px] text-[#c8872f] text-sm mb-3">RESILIENZA E AUTONOMIA</p>
-        <h1 class="heading text-5xl md:text-6xl leading-tight mb-6">Le regole dell’autonomia</h1>
-        <p class="text-xl text-secondary max-w-3xl mx-auto">Dieci consigli pratici per prepararsi all’indipendenza</p>
-    </div>
-</div>
+<!-- ==================== SCRIPT MENU MOBILE ==================== -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
 
-<main class="max-w-5xl mx-auto px-6 pb-16">
+        if (menuBtn && mobileMenu) {
+            function toggleMenu(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                mobileMenu.classList.toggle('hidden');
+                mobileMenu.classList.toggle('flex');
+            }
 
-    <!-- ==================== LE 10 CARD (1/3 immagine - 2/3 testo) ==================== -->
+            menuBtn.addEventListener('click', toggleMenu);
+            menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
 
-    <!-- Card 1 (immagine destra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[2fr,1fr]">
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">1</span>
-                    <h3 class="heading text-2xl">Coltiva ciò che mangi</h3>
-                </div>
-                <p class="text-secondary">Anche una pianta di pomodoro o un piccolo orto familiare conta. Nel Baglio San Michele, con i suoi 23 ettari di terre vocate all’agricoltura biodinamica, ogni famiglia potrà partecipare alla produzione di ortaggi, ulivi e vigneti secondo metodi tradizionali siciliani.</p>
-            </div>
-            <div>
-                <img src="assets/baglio-orto-ragazza.png" alt="Coltiva ciò che mangi" class="w-full h-full object-cover">
+            document.addEventListener('click', function(e) {
+                if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                        mobileMenu.classList.remove('flex');
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+    <!-- HERO -->
+    <div class="pt-24 pb-12 bg-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="uppercase tracking-[2.5px] text-[#c8872f] text-sm mb-3">PREPARARSI ALL'INDIPENDENZA</p>
+            <h1 class="heading text-5xl md:text-6xl leading-tight mb-6">Le regole dell'autonomia</h1>
+            <p class="text-xl text-secondary max-w-3xl mx-auto">Dieci consigli pratici per una vita più libera e radicata</p>
+
+            <div class="mt-10">
+                <img src="assets/baglio-orto-ragazza.png" 
+                     alt="Autonomia al Baglio San Michele" 
+                     class="w-full max-w-[1100px] mx-auto rounded-3xl shadow-sm object-cover">
             </div>
         </div>
     </div>
 
-    <!-- Card 2 (immagine sinistra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[1fr,2fr]">
-            <div>
-                <img src="assets/baglio-magazzino.png" alt="Accumula scorte" class="w-full h-full object-cover">
-            </div>
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">2</span>
-                    <h3 class="heading text-2xl">Accumula più di una settimana di scorte alimentari</h3>
-                </div>
-                <p class="text-secondary">Non per scenari apocalittici, ma per affrontare con serenità ritardi, intemperie o vuoti temporanei. Nel contesto del Baglio, questo si traduce in magazzini condivisi, conserve artigianali e produzione locale.</p>
-            </div>
-        </div>
-    </div>
+    <main class="max-w-5xl mx-auto px-6 pb-16">
 
-    <!-- Card 3 (immagine destra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[2fr,1fr]">
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">3</span>
-                    <h3 class="heading text-2xl">Impara un’arte che i tuoi nonni conoscevano</h3>
-                </div>
-                <p class="text-secondary">Conservare, lavorare il legno, riparare, potare gli alberi o produrre formaggi. Nel Baglio San Michele valorizziamo i mestieri tradizionali iblei attraverso laboratori e maestri artigiani.</p>
-            </div>
-            <div>
-                <img src="assets/baglio-falegname.png" alt="Mestieri tradizionali" class="w-full h-full object-cover">
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 4 (immagine sinistra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[1fr,2fr]">
-            <div>
-                <img src="assets/baglio-attrezzi.png" alt="Strumenti durevoli" class="w-full h-full object-cover">
-            </div>
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">4</span>
-                    <h3 class="heading text-2xl">Elimina un abbonamento e acquista uno strumento durevole</h3>
-                </div>
-                <p class="text-secondary">Un attrezzo da lavoro o da cucina serve per anni. Nel nostro modello privilegiamo investimenti in beni produttivi che rafforzano l’autonomia familiare e comunitaria.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 5 (immagine destra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[2fr,1fr]">
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">5</span>
-                    <h3 class="heading text-2xl">Insegna ai figli a riparare, non a sostituire</h3>
-                </div>
-                <p class="text-secondary">La riparazione è una mentalità. Nel Baglio i bambini crescono a contatto con la natura, imparando mestieri rurali, cura degli animali e manutenzione delle strutture in pietra iblea.</p>
-            </div>
-            <div>
-                <img src="assets/baglio-bambini-orto.png" alt="Educazione pratica" class="w-full h-full object-cover">
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 6 (immagine sinistra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[1fr,2fr]">
-            <div>
-                <img src="assets/baglio-formaggiai.png" alt="Fonte del cibo" class="w-full h-full object-cover">
-            </div>
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">6</span>
-                    <h3 class="heading text-2xl">Avvicinati alla fonte del tuo cibo</h3>
-                </div>
-                <p class="text-secondary">Conosci il contadino, il vicino con il pollaio. Nel Baglio San Michele allevamenti, orti collettivi e filiera corta garantiscono trasparenza e freschezza.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 7 (immagine destra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[2fr,1fr]">
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">7</span>
-                    <h3 class="heading text-2xl">Costruisci almeno una relazione su cui poter contare</h3>
-                </div>
-                <p class="text-secondary">La comunità intenzionale del Baglio, governata dal Capitolo dei Savi, crea reti di fiducia profonde ispirate ai valori cristiani di reciprocità.</p>
-            </div>
-            <div>
-                <img src="assets/baglio-famiglia-cortile.png" alt="Relazioni comunitarie" class="w-full h-full object-cover">
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 8 (immagine sinistra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[1fr,2fr]">
-            <div>
-                <img src="assets/baglio-silenzio.png" alt="Fine settimana senza rumore" class="w-full h-full object-cover">
-            </div>
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">8</span>
-                    <h3 class="heading text-2xl">Trascorri un fine settimana senza rumore esterno</h3>
-                </div>
-                <p class="text-secondary">Nel silenzio del Baglio, tra le mura storiche della masseria fortificata del XVI secolo, si riscopre sé stessi, la preghiera e la bellezza del paesaggio ibleo.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 9 (immagine destra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[2fr,1fr]">
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">9</span>
-                    <h3 class="heading text-2xl">Investi in qualcosa che produce, non che impressiona</h3>
-                </div>
-                <p class="text-secondary">Qualche gallina o un albero da frutto valgono più di un pagamento superfluo. Nel progetto le risorse vengono destinate alla produttività agricola, zootecnica e artigianale.</p>
-            </div>
-            <div>
-                <img src="assets/baglio-polli.png" alt="Produzione locale" class="w-full h-full object-cover">
-            </div>
-        </div>
-    </div>
-
-    <!-- Card 10 (immagine sinistra) -->
-    <div class="rule-card bg-white border border-gray-200 rounded-3xl overflow-hidden mb-16">
-        <div class="grid md:grid-cols-[1fr,2fr]">
-            <div>
-                <img src="assets/baglio-famiglia-preghiera.png" alt="Chiediti per cosa stai lavorando" class="w-full h-full object-cover">
-            </div>
-            <div class="p-8 md:p-10">
-                <div class="flex items-center gap-4 mb-6">
-                    <span class="inline-flex items-center justify-center w-10 h-10 bg-[#c8872f] text-white text-2xl font-semibold rounded-2xl">10</span>
-                    <h3 class="heading text-2xl">Chiediti per cosa stai realmente lavorando</h3>
-                </div>
-                <p class="text-secondary">Se non è per la famiglia, il tempo di qualità, la fede e il futuro delle generazioni, ridisegna gli obiettivi. Nel Baglio San Michele la residenza stabile di famiglie cristiane orientate alla stabilità è il fulcro.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- ==================== FIGURE PROFESSIONALI ==================== -->
-    <div class="pt-12 mb-16 max-w-4xl mx-auto">
-        <h2 class="heading text-3xl mb-8 text-center">Figure professionali richieste</h2>
-        <div class="mb-8">
-            <img src="assets/muratore-fabbro-falegname-3.png" alt="Figure professionali" class="w-full rounded-3xl shadow-sm object-cover">
-        </div>
-        <div class="bg-white border border-gray-200 rounded-2xl p-8">
-            <p class="text-secondary mb-6">Il Baglio San Michele cerca residenti stabili che contribuiscano attivamente alla vita della comunità.</p>
-            <div class="grid md:grid-cols-2 gap-6 text-secondary">
-                <ul class="space-y-2 list-disc pl-5">
-                    <li><strong>Agricoltori / Contadini biodinamici</strong> (4-6 unità)</li>
-                    <li><strong>Allevatori</strong> (pollame, capre, maiali, pecore)</li>
-                    <li><strong>Fornai</strong> con forno a legna</li>
-                    <li><strong>Casari</strong> e produttori di latticini</li>
-                </ul>
-                <ul class="space-y-2 list-disc pl-5">
-                    <li><strong>Muratori / Restauratori pietra iblea</strong></li>
-                    <li><strong>Falegnami / Ebanisti</strong></li>
-                    <li><strong>Fabbri</strong> e artigiani del metallo</li>
-                    <li><strong>Altri mestieri</strong>: mosaicisti, legatori, manutentori</li>
-                </ul>
-            </div>
-            <div class="mt-8 text-center">
-                <a href="figure-professionali.html" class="inline-flex items-center px-8 py-4 bg-[#c8872f] text-white rounded-2xl font-medium hover:bg-[#a86f24] transition">
-                    Scopri tutte le figure professionali →
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- ==================== INTEGRAZIONE E COOPERAZIONE ==================== -->
-    <div class="mb-16 max-w-4xl mx-auto">
-        <h2 class="heading text-3xl mb-8 text-center">Integrazione e cooperazione con il territorio</h2>
-        <div class="mb-8">
-            <img src="assets/baglio-campagna.png" alt="Integrazione con il territorio" class="w-full rounded-3xl shadow-sm object-cover">
-        </div>
-        <div class="bg-white border border-gray-200 rounded-2xl p-8">
-            <p class="text-secondary">
-                Il Baglio San Michele vuole essere parte viva del tessuto ragusano: collaboriamo con artigiani, masserie e imprese locali per cantieri, filiera corta, formazione e iniziative culturali aperte al territorio.
+        <!-- Introduzione -->
+        <div class="max-w-4xl mx-auto mb-16 text-center">
+            <p class="text-lg text-secondary">
+                Nel cuore del progetto <strong>Baglio San Michele</strong>, nucleo pilota del <strong>Borgo Ideale</strong>, 
+                promuoviamo un modello di vita radicato nella tradizione siciliana, nella fede cristiana e nell’autonomia familiare. 
+                Ecco 10 scelte concrete che le famiglie residenti potranno incarnare quotidianamente.
             </p>
-            <div class="mt-8 text-center">
-                <a href="territorio.html" class="inline-flex items-center px-8 py-4 border border-[#c8872f] text-[#c8872f] rounded-2xl font-medium hover:bg-[#c8872f] hover:text-white transition">
-                    Approfondisci l’integrazione con il territorio →
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <!-- ==================== CANDIDATURA ==================== -->
-    <div class="max-w-3xl mx-auto">
-        <div class="text-center mb-10">
-            <h2 class="heading text-3xl mb-4">Invia la tua candidatura</h2>
-            <p class="text-secondary">Se possiedi una delle competenze indicate o sei fortemente motivato ad acquisirle, compila il modulo qui sotto.</p>
         </div>
 
-        <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6 bg-white p-8 rounded-3xl border border-gray-200">
-            <input type="hidden" name="access_key" value="991621e0-b89a-4350-bf32-6a74a9cdd266">
-            <input type="hidden" name="subject" value="Nuova candidatura - Regole dell'Autonomia">
-            <input type="hidden" name="from_name" value="Candidatura Figure Professionali - Sito Baglio San Michele">
-
-            <!-- Campi identici alla pagina figure-professionali.html -->
-            <div class="grid md:grid-cols-2 gap-6">
-                <div>
-                    <label class="block text-sm font-medium mb-2">Nome e Cognome</label>
-                    <input type="text" name="nome_cognome" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                </div>
-                <div>
-                    <label class="block text-sm font-medium mb-2">Email</label>
-                    <input type="email" name="email" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
+        <!-- Card 1 -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-2 order-2 md:order-1">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">1</span>
+                        <h3 class="font-semibold text-2xl">Coltiva ciò che mangi</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Anche una pianta di pomodoro o un piccolo orto familiare conta. Nel Baglio San Michele, con i suoi 23 ettari di terre vocate all’agricoltura biodinamica, ogni famiglia potrà partecipare alla produzione di ortaggi, ulivi e vigneti secondo metodi tradizionali siciliani.
+                    </p>
                 </div>
             </div>
-
-            <div>
-                <label class="block text-sm font-medium mb-2">Telefono</label>
-                <input type="tel" name="telefono" class="w-full border border-gray-300 rounded-xl px-4 py-3">
-            </div>
-
-            <div>
-                <label class="block text-sm font-medium mb-2">Figura professionale di interesse</label>
-                <select name="figura_professionale" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                    <option value="">Seleziona...</option>
-                    <option value="Agricoltore / Contadino biodinamico">Agricoltore / Contadino biodinamico</option>
-                    <option value="Allevatore">Allevatore</option>
-                    <option value="Fornaio">Fornaio</option>
-                    <option value="Muratore / Restauratore">Muratore / Restauratore</option>
-                    <option value="Falegname">Falegname</option>
-                    <option value="Fabbro">Fabbro</option>
-                    <option value="Artigiano della pietra iblea">Artigiano della pietra iblea</option>
-                    <option value="Altro">Altro</option>
-                </select>
-            </div>
-
-            <div>
-                <label class="block text-sm font-medium mb-2">Esperienza e competenze</label>
-                <textarea name="esperienza_competenze" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-28" placeholder="Descrivi brevemente la tua esperienza..." required></textarea>
-            </div>
-
-            <div>
-                <label class="block text-sm font-medium mb-2">Composizione del nucleo familiare</label>
-                <select name="nucleo_familiare" class="w-full border border-gray-300 rounded-xl px-4 py-3" required>
-                    <option value="">Seleziona...</option>
-                    <option value="Single">Single</option>
-                    <option value="Coppia senza figli">Coppia senza figli</option>
-                    <option value="Famiglia con figli">Famiglia con figli</option>
-                </select>
-            </div>
-
-            <div>
-                <label class="block text-sm font-medium mb-2">Messaggio / Motivazione</label>
-                <textarea name="messaggio_motivazione" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Perché vorresti far parte del Baglio San Michele?" required></textarea>
-            </div>
-
-            <button type="submit" class="w-full bg-[#c8872f] hover:bg-[#a86f24] text-white py-4 rounded-2xl font-medium text-lg tracking-wider transition">
-                Invia candidatura
-            </button>
-        </form>
-    </div>
-
-</main>
-
-<!-- FOOTER -->
-<footer class="border-t border-gray-200 bg-white">
-    <div class="max-w-6xl mx-auto px-6 py-10">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
-            <div class="text-secondary">© 2026 Baglio San Michele. Tutti i diritti riservati.</div>
-            <div class="flex items-center justify-end gap-x-8 text-sm">
-                <a href="https://www.instagram.com/borgoideale" target="_blank" class="flex items-center gap-x-2 text-[#c8872f]">Instagram</a>
-                <a href="https://x.com/borgoideale" target="_blank" class="flex items-center gap-x-2 text-[#c8872f]">X</a>
+            <div class="md:col-span-1 order-1 md:order-2">
+                <img src="assets/baglio-orto-ragazza.png" alt="Coltiva ciò che mangi" class="w-full rounded-3xl shadow-sm object-cover">
             </div>
         </div>
-    </div>
-</footer>
 
+        <!-- Card 2 (immagine a sinistra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-1">
+                <img src="assets/baglio-marmellate.png" alt="Accumula scorte" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">2</span>
+                        <h3 class="font-semibold text-2xl">Accumula più di una settimana di scorte alimentari</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Non per scenari apocalittici, ma per affrontare con serenità ritardi, intemperie o vuoti temporanei. Nel contesto del Baglio questo si traduce in magazzini condivisi, conserve artigianali e produzione locale.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 (immagine a destra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">3</span>
+                        <h3 class="font-semibold text-2xl">Impara un’arte che i tuoi nonni conoscevano</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Conservare, lavorare il legno, riparare, potare gli alberi o produrre formaggi. Nel Baglio San Michele valorizziamo i mestieri tradizionali iblei attraverso laboratori comunitari.
+                    </p>
+                </div>
+            </div>
+            <div class="md:col-span-1">
+                <img src="assets/baglio-fabbro.png" alt="Mestieri tradizionali" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+        </div>
+
+        <!-- Card 4 (immagine a sinistra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-1">
+                <img src="assets/baglio-legatoria.png" alt="Elimina abbonamenti" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">4</span>
+                        <h3 class="font-semibold text-2xl">Elimina un abbonamento e acquista uno strumento durevole</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Un attrezzo da lavoro o da cucina serve per anni. Nel nostro modello privilegiamo investimenti in beni produttivi che rafforzano l’autonomia familiare e comunitaria.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 5 (immagine a destra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">5</span>
+                        <h3 class="font-semibold text-2xl">Insegna ai figli a riparare, non a sostituire</h3>
+                    </div>
+                    <p class="text-secondary">
+                        La riparazione è una mentalità. Nel Baglio i bambini crescono a contatto con la natura, imparando mestieri rurali e sviluppando responsabilità e ingegno.
+                    </p>
+                </div>
+            </div>
+            <div class="md:col-span-1">
+                <img src="assets/baglio-nonna-nipote-1.png" alt="Educazione dei figli" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+        </div>
+
+        <!-- Card 6 (immagine a sinistra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-1">
+                <img src="assets/baglio-formaggiai.png" alt="Avvicinati alla fonte del cibo" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">6</span>
+                        <h3 class="font-semibold text-2xl">Avvicinati alla fonte del tuo cibo</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Conosci il contadino, il vicino con il pollaio. Nel Baglio San Michele allevamenti e orti collettivi garantiscono trasparenza e freschezza.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 7 (immagine a destra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">7</span>
+                        <h3 class="font-semibold text-2xl">Costruisci almeno una relazione su cui poter contare</h3>
+                    </div>
+                    <p class="text-secondary">
+                        La comunità intenzionale del Baglio, governata dal Capitolo dei Savi, crea reti di fiducia profonde e stabili tra famiglie.
+                    </p>
+                </div>
+            </div>
+            <div class="md:col-span-1">
+                <img src="assets/baglio-famiglia-cortile.png" alt="Relazioni comunitarie" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+        </div>
+
+        <!-- Card 8 (immagine a sinistra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-1">
+                <img src="assets/baglio-silenzio.png" alt="Tempo senza rumore" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">8</span>
+                        <h3 class="font-semibold text-2xl">Trascorri un fine settimana senza rumore esterno</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Nel silenzio del Baglio, tra le antiche mura della masseria, si riscopre sé stessi, la preghiera e la conversazione familiare.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 9 (immagine a destra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">9</span>
+                        <h3 class="font-semibold text-2xl">Investi in qualcosa che produce, non che impressiona</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Qualche gallina o un albero da frutto valgono più di un pagamento superfluo. Le risorse vengono destinate alla produttività agricola e artigianale.
+                    </p>
+                </div>
+            </div>
+            <div class="md:col-span-1">
+                <img src="assets/baglio-polli.png" alt="Investi in ciò che produce" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+        </div>
+
+        <!-- Card 10 (immagine a sinistra) -->
+        <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
+            <div class="md:col-span-1">
+                <img src="assets/baglio-famiglia-preghiera.png" alt="Chiediti per cosa stai lavorando" class="w-full rounded-3xl shadow-sm object-cover">
+            </div>
+            <div class="md:col-span-2">
+                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-4 mb-6">
+                        <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">10</span>
+                        <h3 class="font-semibold text-2xl">Chiediti per cosa stai realmente lavorando</h3>
+                    </div>
+                    <p class="text-secondary">
+                        Se non è per la famiglia, il tempo di qualità, la fede e il futuro delle generazioni, ridisegna gli obiettivi. Nel Baglio San Michele la residenza stabile di famiglie cristiane è il fulcro.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusione -->
+        <div class="max-w-4xl mx-auto bg-[#F8F5F0] border-l-4 border-[#c8872f] p-8 md:p-10 rounded-r-2xl">
+            <p class="text-secondary">
+                Queste scelte possono apparire “non convenzionali” viste da fuori. Ma la vera follia è dipendere interamente da un solo lavoro, da un sistema fragile e da catene di fornitura lontane. 
+                Nel <strong>Baglio San Michele</strong> queste pratiche non sono opzionali: sono il tessuto stesso della comunità.
+            </p>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-10">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+                <div class="text-secondary">
+                    © 2026 Baglio San Michele. Tutti i diritti riservati.
+                </div>
+                <div class="flex items-center justify-end gap-x-8 text-sm">
+                    <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span>@borgoideale</span>
+                    </a>
+                    <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/>
+                        </svg>
+                        <span>@borgoideale</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (menuBtn && mobileMenu) {
+                menuBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    mobileMenu.classList.toggle('hidden');
+                    mobileMenu.classList.toggle('flex');
+                });
+                document.addEventListener('click', function(e) {
+                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                        if (!mobileMenu.classList.contains('hidden')) {
+                            mobileMenu.classList.add('hidden');
+                            mobileMenu.classList.remove('flex');
+                        }
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>
