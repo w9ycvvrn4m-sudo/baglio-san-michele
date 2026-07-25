@@ -9,16 +9,22 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.borgoideale.com/en/">
 
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="it" href="https://www.borgoideale.com/">
+    <link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/">
+    <link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/">
+
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Baglio San Michele">
     <meta property="og:title" content="Baglio San Michele | Intentional Traditional Community in Sicily">
     <meta property="og:description" content="A stable intentional community rooted in faith, tradition and Sicilian culture.">
     <meta property="og:url" content="https://www.borgoideale.com/en/">
-    <meta property="og:image" content="https://www.borgoideale.com/assets/og-home-baglio-san-michele.jpg">
+    <meta property="og:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="it_IT">
 
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -26,11 +32,55 @@
     <meta name="twitter:creator" content="@borgoideale">
     <meta name="twitter:title" content="Baglio San Michele | Intentional Traditional Community in Sicily">
     <meta name="twitter:description" content="A stable intentional community rooted in faith, tradition and Sicilian culture.">
-    <meta name="twitter:image" content="https://www.borgoideale.com/assets/og-home-baglio-san-michele.jpg">
+    <meta name="twitter:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
 
     <link rel="icon" type="image/png" href="../assets/logo-500-bn.png">
+    <link rel="apple-touch-icon" href="../assets/logo-500-bn.png">
+
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.borgoideale.com/#organization",
+          "name": "Baglio San Michele",
+          "url": "https://www.borgoideale.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.borgoideale.com/assets/logo-500-bn.png"
+          },
+          "sameAs": [
+            "https://www.instagram.com/borgoideale",
+            "https://x.com/borgoideale"
+          ],
+          "description": "Stable traditional intentional community in Sicily, pilot project of Borgo Ideale."
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.borgoideale.com/#website",
+          "url": "https://www.borgoideale.com",
+          "name": "Baglio San Michele",
+          "publisher": { "@id": "https://www.borgoideale.com/#organization" },
+          "inLanguage": ["it", "en"]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.borgoideale.com/en/#webpage",
+          "url": "https://www.borgoideale.com/en/",
+          "name": "Baglio San Michele | Intentional Traditional Community in Sicily",
+          "description": "Baglio San Michele is a stable traditional intentional community in a 16th-century historic farmhouse in the Ragusa area.",
+          "isPartOf": { "@id": "https://www.borgoideale.com/#website" },
+          "about": { "@id": "https://www.borgoideale.com/#organization" },
+          "inLanguage": "en"
+        }
+      ]
+    }
+    </script>
     
     <style>
         body { 
@@ -83,6 +133,7 @@
                             <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">The Concept</a>
                             <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">The Project</a>
                             <a href="sicilian-slow-living.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Sicilian Slow Living</a>
+                            <a href="regole-autonomia.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Rules of Autonomy</a>
                             <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
                             <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Uniqueness</a>
                         </div>
@@ -152,6 +203,7 @@
                 <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">The Concept</a>
                 <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">The Project</a>
                 <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
+                <a href="regole-autonomia.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Rules of Autonomy</a>
                 <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
                 <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Uniqueness</a>
             </div>
@@ -246,7 +298,7 @@
     </div>
 </div>
 
-<!-- ==================== IMMAGINE PRIMA DI "WHY THIS PLACE IS DIFFERENT" ==================== -->
+<!-- ==================== IMAGE BEFORE WHY DIFFERENT ==================== -->
 <div class="max-w-6xl mx-auto px-6 pt-16">
     <img src="../assets/baglio-partita-1.png" 
          alt="Community life at Baglio San Michele" 
@@ -278,7 +330,7 @@
     </div>
 </section>
 
-<!-- ==================== WAYS TO BE PART OF THE PROJECT (4 CARDS) ==================== -->
+<!-- ==================== WAYS TO BE PART OF THE PROJECT ==================== -->
 <section class="bg-cream py-16">
     <div class="max-w-6xl mx-auto px-6">
         <div class="text-center mb-12">
@@ -287,7 +339,6 @@
 
         <div class="grid md:grid-cols-2 gap-8">
             
-            <!-- 1. Living at the Baglio -->
             <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
                 <img src="../assets/vivere-al-baglio-1.jpg" 
                      alt="Living at Baglio San Michele" 
@@ -305,7 +356,6 @@
                 </div>
             </div>
 
-            <!-- 2. Ethical Investment -->
             <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
                 <img src="../assets/investimento-etico-2.jpg" 
                      alt="Ethical investment at Baglio San Michele" 
@@ -323,7 +373,6 @@
                 </div>
             </div>
 
-            <!-- 3. Professional contribution -->
             <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
                 <img src="../assets/baglio-studio.png" 
                      alt="Professional roles at Baglio San Michele" 
@@ -341,7 +390,6 @@
                 </div>
             </div>
 
-            <!-- 4. Donations -->
             <div class="bg-white rounded-3xl overflow-hidden border border-gray-200">
                 <img src="../assets/baglio-donazione-1.png" 
                      alt="Donations to Baglio San Michele" 
@@ -374,7 +422,6 @@
 
     <div class="grid md:grid-cols-2 gap-8">
         
-        <!-- Phase 1 -->
         <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
             <img src="../assets/app-1-interno.png" 
                  alt="Phase 1 - Restoration of the historic Baglio" 
@@ -394,7 +441,6 @@
             </div>
         </div>
 
-        <!-- Phase 2 -->
         <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
             <img src="../assets/atmosfera-appartamento.png" 
                  alt="Phase 2 - New residential units" 
