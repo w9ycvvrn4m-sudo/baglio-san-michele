@@ -1,93 +1,403 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- ========== HOMEPAGE ========== -->
     <url>
         <loc>https://www.borgoideale.com/</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/"/>
     </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/"/>
+    </url>
+
+    <!-- ========== BORGO IDEALE ========== -->
     <url>
         <loc>https://www.borgoideale.com/il-concept.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/il-concept.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/il-concept.html"/>
     </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/il-concept.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/il-concept.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/il-concept.html"/>
+    </url>
+
     <url>
         <loc>https://www.borgoideale.com/il-progetto.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/il-progetto.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/il-progetto.html"/>
     </url>
     <url>
-        <loc>https://www.borgoideale.com/vivere-qui.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <loc>https://www.borgoideale.com/en/il-progetto.html</loc>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/il-progetto.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/il-progetto.html"/>
     </url>
+
     <url>
-        <loc>https://www.borgoideale.com/chi-cerchiamo.html</loc>
-        <lastmod>2026-07-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.borgoideale.com/figure-professionali.html</loc>
-        <lastmod>2026-07-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.borgoideale.com/come-entrare.html</loc>
-        <lastmod>2026-07-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.borgoideale.com/investimento-etico.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <loc>https://www.borgoideale.com/sicilian-slow-living.html</loc>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/sicilian-slow-living.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/sicilian-slow-living.html"/>
     </url>
     <url>
-        <loc>https://www.borgoideale.com/tokenizzazione.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <loc>https://www.borgoideale.com/en/sicilian-slow-living.html</loc>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/sicilian-slow-living.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/sicilian-slow-living.html"/>
     </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/regole-autonomia.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/regole-autonomia.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/regole-autonomia.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/regole-autonomia.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/regole-autonomia.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/regole-autonomia.html"/>
+    </url>
+
     <url>
         <loc>https://www.borgoideale.com/governance.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/governance.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/governance.html"/>
     </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/governance.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/governance.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/governance.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/un-modello-diverso.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/un-modello-diverso.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/un-modello-diverso.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/un-modello-diverso.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/un-modello-diverso.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/un-modello-diverso.html"/>
+    </url>
+
+    <!-- ========== VALORI ETICI ========== -->
+    <url>
+        <loc>https://www.borgoideale.com/investimento-etico.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/investimento-etico.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/investimento-etico.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/investimento-etico.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/investimento-etico.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/investimento-etico.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/tokenizzazione.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/tokenizzazione.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/tokenizzazione.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/tokenizzazione.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/tokenizzazione.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/tokenizzazione.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/territorio.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/territorio.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/territorio.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/territorio.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/territorio.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/territorio.html"/>
+    </url>
+
     <url>
         <loc>https://www.borgoideale.com/comunita-aperta.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/comunita-aperta.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/comunita-aperta.html"/>
     </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/comunita-aperta.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/comunita-aperta.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/comunita-aperta.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/autonomia-alimentare.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/autonomia-alimentare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/autonomia-alimentare.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/autonomia-alimentare.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/autonomia-alimentare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/autonomia-alimentare.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/autonomia-energetica.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/autonomia-energetica.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/autonomia-energetica.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/autonomia-energetica.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/autonomia-energetica.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/autonomia-energetica.html"/>
+    </url>
+
     <url>
         <loc>https://www.borgoideale.com/san-michele.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/san-michele.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/san-michele.html"/>
     </url>
     <url>
-        <loc>https://www.borgoideale.com/faq.html</loc>
-        <lastmod>2026-07-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://www.borgoideale.com/contatti.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <loc>https://www.borgoideale.com/en/san-michele.html</loc>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/san-michele.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/san-michele.html"/>
     </url>
+
+    <!-- ========== UNISCITI A NOI ========== -->
+    <url>
+        <loc>https://www.borgoideale.com/vivere-qui.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/vivere-qui.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/vivere-qui.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/vivere-qui.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/vivere-qui.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/vivere-qui.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/soggiornare.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/soggiornare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/soggiornare.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/soggiornare.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/soggiornare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/soggiornare.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/come-entrare.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/come-entrare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/come-entrare.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/come-entrare.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/come-entrare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/come-entrare.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/chi-cerchiamo.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/chi-cerchiamo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/chi-cerchiamo.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/chi-cerchiamo.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/chi-cerchiamo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/chi-cerchiamo.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/figure-professionali.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/figure-professionali.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/figure-professionali.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/figure-professionali.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/figure-professionali.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/figure-professionali.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/archivum-artium.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/archivum-artium.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/archivum-artium.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/archivum-artium.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/archivum-artium.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/archivum-artium.html"/>
+    </url>
+
+    <!-- ========== TRASVERSALI ========== -->
     <url>
         <loc>https://www.borgoideale.com/donazioni.html</loc>
-        <lastmod>2026-07-05</lastmod>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/donazioni.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/donazioni.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/donazioni.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/donazioni.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/donazioni.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/faq.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/faq.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/faq.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.75</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/faq.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/faq.html"/>
+    </url>
+
+    <url>
+        <loc>https://www.borgoideale.com/contatti.html</loc>
+        <lastmod>2026-07-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.65</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/contatti.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/contatti.html"/>
     </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/contatti.html</loc>
+        <lastmod>2026-07-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.65</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/contatti.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/contatti.html"/>
+    </url>
+
 </urlset>
