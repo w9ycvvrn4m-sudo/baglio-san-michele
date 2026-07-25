@@ -9,11 +9,19 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.borgoideale.com/regole-autonomia.html">
 
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="it" href="https://www.borgoideale.com/regole-autonomia.html">
+    <link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/regole-autonomia.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/regole-autonomia.html">
+
     <meta property="og:title" content="Le regole dell'autonomia • Baglio San Michele">
     <meta property="og:description" content="Dieci scelte concrete per vivere con maggiore autonomia e radicamento.">
     <meta property="og:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
     <meta property="og:url" content="https://www.borgoideale.com/regole-autonomia.html">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:site_name" content="Baglio San Michele">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Le regole dell'autonomia • Baglio San Michele">
@@ -25,6 +33,32 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.borgoideale.com/#organization",
+          "name": "Baglio San Michele",
+          "url": "https://www.borgoideale.com",
+          "logo": { "@type": "ImageObject", "url": "https://www.borgoideale.com/assets/logo-500-bn.png" },
+          "sameAs": ["https://www.instagram.com/borgoideale", "https://x.com/borgoideale"]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.borgoideale.com/regole-autonomia.html#webpage",
+          "url": "https://www.borgoideale.com/regole-autonomia.html",
+          "name": "Le regole dell'autonomia • Baglio San Michele",
+          "description": "Dieci consigli pratici per prepararsi all'indipendenza familiare e comunitaria nel Sicilian Slow Living del Baglio San Michele.",
+          "isPartOf": { "@id": "https://www.borgoideale.com/#website" },
+          "about": { "@id": "https://www.borgoideale.com/#organization" },
+          "inLanguage": "it"
+        }
+      ]
+    }
+    </script>
 
     <style>
         body { 
@@ -54,9 +88,7 @@
                 </a>
             </div>
 
-            <!-- Menu Desktop -->
             <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                <!-- Borgo Ideale -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
                         Borgo Ideale
@@ -76,7 +108,6 @@
                     </div>
                 </div>
 
-                <!-- Valori etici -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
                         Valori etici
@@ -97,7 +128,6 @@
                     </div>
                 </div>
 
-                <!-- Unisciti a noi -->
                 <div class="group relative">
                     <a href="#" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">
                         Unisciti a noi
@@ -128,11 +158,9 @@
                 </div>
             </div>
 
-            <!-- Hamburger -->
             <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
         </div>
 
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
             <div class="pt-3">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Borgo Ideale</p>
@@ -175,12 +203,10 @@
     </div>
 </nav>
 
-<!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-
         if (menuBtn && mobileMenu) {
             function toggleMenu(e) {
                 e.preventDefault();
@@ -188,10 +214,8 @@
                 mobileMenu.classList.toggle('hidden');
                 mobileMenu.classList.toggle('flex');
             }
-
             menuBtn.addEventListener('click', toggleMenu);
             menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-
             document.addEventListener('click', function(e) {
                 if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                     if (!mobileMenu.classList.contains('hidden')) {
@@ -204,24 +228,18 @@
     });
 </script>
 
-    <!-- HERO -->
     <div class="pt-24 pb-12 bg-white">
         <div class="max-w-5xl mx-auto px-6 text-center">
             <p class="uppercase tracking-[2.5px] text-[#c8872f] text-sm mb-3">PREPARARSI ALL'INDIPENDENZA</p>
             <h1 class="heading text-5xl md:text-6xl leading-tight mb-6">Le regole dell'autonomia</h1>
             <p class="text-xl text-secondary max-w-3xl mx-auto">Dieci consigli pratici per una vita più libera e radicata</p>
-
             <div class="mt-10">
-                <img src="assets/baglio-regole-0.png" 
-                     alt="Autonomia al Baglio San Michele" 
-                     class="w-full max-w-[1100px] mx-auto rounded-3xl shadow-sm object-cover">
+                <img src="assets/baglio-regole-0.png" alt="Autonomia al Baglio San Michele" class="w-full max-w-[1100px] mx-auto rounded-3xl shadow-sm object-cover">
             </div>
         </div>
     </div>
 
     <main class="max-w-5xl mx-auto px-6 pb-16">
-
-        <!-- Introduzione -->
         <div class="max-w-4xl mx-auto mb-16 text-center">
             <p class="text-lg text-secondary">
                 Nel cuore del progetto <strong>Baglio San Michele</strong>, nucleo pilota del <strong>Borgo Ideale</strong>, 
@@ -230,7 +248,6 @@
             </p>
         </div>
 
-        <!-- Card 1 -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
             <div class="md:col-span-2 order-2 md:order-1">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
@@ -238,9 +255,7 @@
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">1</span>
                         <h3 class="font-semibold text-2xl">Coltiva ciò che mangi</h3>
                     </div>
-                    <p class="text-secondary">
-                        Una pianta di pomodoro o un piccolo orto familiare rappresenta solo l’inizio. Nel Baglio San Michele, ogni famiglia potrà dedicarsi agli orti collettivi e familiari, alla cura degli uliveti secolari e dei vigneti secondo metodi biodinamici tradizionali siciliani. Gli agricoltori/contadini biodinamici (almeno 4-6 unità full-time nella comunità) gestiranno rotazioni delle colture e rigenerazione del suolo, garantendo autosufficienza alimentare e trasmettendo competenze antiche alle nuove generazioni.
-                    </p>
+                    <p class="text-secondary">Una pianta di pomodoro o un piccolo orto familiare rappresenta solo l’inizio. Nel Baglio San Michele, ogni famiglia potrà dedicarsi agli orti collettivi e familiari, alla cura degli uliveti secolari e dei vigneti secondo metodi biodinamici tradizionali siciliani. Gli agricoltori/contadini biodinamici (almeno 4-6 unità full-time nella comunità) gestiranno rotazioni delle colture e rigenerazione del suolo, garantendo autosufficienza alimentare e trasmettendo competenze antiche alle nuove generazioni.</p>
                 </div>
             </div>
             <div class="md:col-span-1 order-1 md:order-2">
@@ -248,25 +263,19 @@
             </div>
         </div>
 
-        <!-- Card 2 (immagine a sinistra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-2.png" alt="Accumula scorte" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-2.png" alt="Accumula scorte" class="w-full rounded-3xl shadow-sm object-cover"></div>
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">2</span>
                         <h3 class="font-semibold text-2xl">Accumula più di una settimana di scorte alimentari</h3>
                     </div>
-                    <p class="text-secondary">
-                        Non per timori apocalittici, ma per affrontare serenamente ritardi, intemperie o interruzioni delle forniture. Nel Baglio, ciò si traduce in magazzini condivisi, produzione di conserve artigianali, olio, formaggi e salumi derivati dagli allevamenti interni (pollame, capre, maiali, pecore). La filiera corta e la trasformazione alimentare (fornaio con forno a legna, norcino) chiudono il ciclo produttivo, rendendo la comunità resiliente.
-                    </p>
+                    <p class="text-secondary">Non per timori apocalittici, ma per affrontare serenamente ritardi, intemperie o interruzioni delle forniture. Nel Baglio, ciò si traduce in magazzini condivisi, produzione di conserve artigianali, olio, formaggi e salumi derivati dagli allevamenti interni (pollame, capre, maiali, pecore). La filiera corta e la trasformazione alimentare (fornaio con forno a legna, norcino) chiudono il ciclo produttivo, rendendo la comunità resiliente.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Card 3 (immagine a destra) - TESTO AZIENDE RIMOSSO -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
@@ -274,35 +283,25 @@
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">3</span>
                         <h3 class="font-semibold text-2xl">Impara un’arte che i tuoi nonni conoscevano</h3>
                     </div>
-                    <p class="text-secondary">
-                        Conservare, lavorare la pietra iblea, potare, mendere o produrre formaggi. Il progetto privilegia il coinvolgimento di maestranze e artigiani locali ragusani per il restauro e la manutenzione. Laboratori comunitari trasmetteranno questi mestieri, in armonia con il Regolamento interno che valorizza reciprocità, identità e radicamento culturale siciliano.
-                    </p>
+                    <p class="text-secondary">Conservare, lavorare la pietra iblea, potare, mendere o produrre formaggi. Il progetto privilegia il coinvolgimento di maestranze e artigiani locali ragusani per il restauro e la manutenzione. Laboratori comunitari trasmetteranno questi mestieri, in armonia con il Regolamento interno che valorizza reciprocità, identità e radicamento culturale siciliano.</p>
                 </div>
             </div>
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-3.png" alt="Mestieri tradizionali" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-3.png" alt="Mestieri tradizionali" class="w-full rounded-3xl shadow-sm object-cover"></div>
         </div>
 
-        <!-- Card 4 (immagine a sinistra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-4.png" alt="Elimina abbonamenti" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-4.png" alt="Elimina abbonamenti" class="w-full rounded-3xl shadow-sm object-cover"></div>
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">4</span>
                         <h3 class="font-semibold text-2xl">Elimina un abbonamento e acquista uno strumento durevole</h3>
                     </div>
-                    <p class="text-secondary">
-                        Un attrezzo da lavoro o da cucina serve per generazioni; un abbonamento erode risorse. Nel Baglio, le famiglie investiranno in strumenti per l’agricoltura, la zootecnia e l’artigianato (es. attrezzi per potatura, macchinari semplici per trasformazione), sostenuti dal Consorzio Locale che favorisce l’economia circolare e il trattenimento di valore nel territorio ragusano.
-                    </p>
+                    <p class="text-secondary">Un attrezzo da lavoro o da cucina serve per generazioni; un abbonamento erode risorse. Nel Baglio, le famiglie investiranno in strumenti per l’agricoltura, la zootecnia e l’artigianato (es. attrezzi per potatura, macchinari semplici per trasformazione), sostenuti dal Consorzio Locale che favorisce l’economia circolare e il trattenimento di valore nel territorio ragusano.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Card 5 (immagine a destra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
@@ -310,35 +309,25 @@
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">5</span>
                         <h3 class="font-semibold text-2xl">Insegna ai figli a riparare, non a sostituire</h3>
                     </div>
-                    <p class="text-secondary">
-                     La riparazione è mentalità radicata nella responsabilità cristiana. I bambini del Baglio cresceranno nella cappella privata, negli spazi comuni (biblioteca, sala del pranzo, studio) e nei campi, apprendendo cura degli animali, manutenzione delle strutture in pietra e mestieri rurali. Questo educa alla stabilità familiare e alla trasmissione di valori di fede, ordine e autosufficienza.
-                    </p>
+                    <p class="text-secondary">La riparazione è mentalità radicata nella responsabilità cristiana. I bambini del Baglio cresceranno nella cappella privata, negli spazi comuni (biblioteca, sala del pranzo, studio) e nei campi, apprendendo cura degli animali, manutenzione delle strutture in pietra e mestieri rurali. Questo educa alla stabilità familiare e alla trasmissione di valori di fede, ordine e autosufficienza.</p>
                 </div>
             </div>
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-5.png" alt="Educazione dei figli" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-5.png" alt="Educazione dei figli" class="w-full rounded-3xl shadow-sm object-cover"></div>
         </div>
 
-        <!-- Card 6 (immagine a sinistra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-6.png" alt="Avvicinati alla fonte del cibo" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-6.png" alt="Avvicinati alla fonte del cibo" class="w-full rounded-3xl shadow-sm object-cover"></div>
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">6</span>
                         <h3 class="font-semibold text-2xl">Avvicinati alla fonte del tuo cibo</h3>
                     </div>
-                    <p class="text-secondary">
-                       Conosci direttamente il produttore. Nel Baglio San Michele, gli allevamenti (pollame, capre, maiali, pecore con pascolo rotazionale) e gli orti integrati permettono a ogni famiglia di sapere esattamente da dove proviene il cibo quotidiano. Questo rafforza legami comunitari autentici, in linea con la vocazione agricola e zootecnica delle terre circostanti.
-                    </p>
+                    <p class="text-secondary">Conosci direttamente il produttore. Nel Baglio San Michele, gli allevamenti (pollame, capre, maiali, pecore con pascolo rotazionale) e gli orti integrati permettono a ogni famiglia di sapere esattamente da dove proviene il cibo quotidiano. Questo rafforza legami comunitari autentici, in linea con la vocazione agricola e zootecnica delle terre circostanti.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Card 7 (immagine a destra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
@@ -346,35 +335,25 @@
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">7</span>
                         <h3 class="font-semibold text-2xl">Costruisci almeno una relazione su cui poter contare</h3>
                     </div>
-                    <p class="text-secondary">
-                       Una persona reale, non virtuale, che si presenti. La comunità del Baglio, governata dal Capitolo dei Savi e ispirata alla Regola benedettina e alle universitates rurali siciliane, promuove mutuo soccorso, reciprocità e coesione tra le 14 famiglie selezionate (nuclei stabili, orientati a valori cristiani). La cappella e gli spazi condivisi favoriscono relazioni profonde e sostegno reciproco.
-                    </p>
+                    <p class="text-secondary">Una persona reale, non virtuale, che si presenti. La comunità del Baglio, governata dal Capitolo dei Savi e ispirata alla Regola benedettina e alle universitates rurali siciliane, promuove mutuo soccorso, reciprocità e coesione tra le 14 famiglie selezionate (nuclei stabili, orientati a valori cristiani). La cappella e gli spazi condivisi favoriscono relazioni profonde e sostegno reciproco.</p>
                 </div>
             </div>
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-7.png" alt="Relazioni comunitarie" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-7.png" alt="Relazioni comunitarie" class="w-full rounded-3xl shadow-sm object-cover"></div>
         </div>
 
-        <!-- Card 8 (immagine a sinistra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-8.png" alt="Tempo senza rumore" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-8.png" alt="Tempo senza rumore" class="w-full rounded-3xl shadow-sm object-cover"></div>
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">8</span>
                         <h3 class="font-semibold text-2xl">Trascorri un fine settimana senza rumore esterno</h3>
                     </div>
-                    <p class="text-secondary">
-                     Senza distrazioni digitali. Tra le mura storiche restaurate del Baglio, la terrazza, il giardino e la quiete della campagna iblea, le famiglie riscopriranno la preghiera, la conversazione, la lettura nella biblioteca e il contatto con la natura, nutrendo lo spirito e la vita familiare secondo i principi del Sicilian Slow Living.
-                    </p>
+                    <p class="text-secondary">Senza distrazioni digitali. Tra le mura storiche restaurate del Baglio, la terrazza, il giardino e la quiete della campagna iblea, le famiglie riscopriranno la preghiera, la conversazione, la lettura nella biblioteca e il contatto con la natura, nutrendo lo spirito e la vita familiare secondo i principi del Sicilian Slow Living.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Card 9 (immagine a destra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
@@ -382,62 +361,41 @@
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">9</span>
                         <h3 class="font-semibold text-2xl">Investi in qualcosa che produce, non che impressiona</h3>
                     </div>
-                    <p class="text-secondary">
-                    Alcune galline o un albero da frutto generano valore duraturo. Nel progetto, le risorse delle famiglie e del Consorzio sono destinate alla produttività (allevamenti, orti, artigianato), supportando l’autosufficienza energetica, alimentare e sociale, in contrapposizione a modelli consumistici.
-                    </p>
+                    <p class="text-secondary">Alcune galline o un albero da frutto generano valore duraturo. Nel progetto, le risorse delle famiglie e del Consorzio sono destinate alla produttività (allevamenti, orti, artigianato), supportando l’autosufficienza energetica, alimentare e sociale, in contrapposizione a modelli consumistici.</p>
                 </div>
             </div>
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-9.png" alt="Investi in ciò che produce" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-9.png" alt="Investi in ciò che produce" class="w-full rounded-3xl shadow-sm object-cover"></div>
         </div>
 
-        <!-- Card 10 (immagine a sinistra) -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
-            <div class="md:col-span-1">
-                <img src="assets/baglio-regole-10a.png" alt="Chiediti per cosa stai lavorando" class="w-full rounded-3xl shadow-sm object-cover">
-            </div>
+            <div class="md:col-span-1"><img src="assets/baglio-regole-10a.png" alt="Chiediti per cosa stai lavorando" class="w-full rounded-3xl shadow-sm object-cover"></div>
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
                     <div class="flex items-center gap-4 mb-6">
                         <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#c8872f] text-white font-semibold text-xl">10</span>
                         <h3 class="font-semibold text-2xl">Chiediti per cosa stai realmente lavorando</h3>
                     </div>
-                    <p class="text-secondary">
-                      Se non è per la famiglia, il tempo dedicato alla fede, all’educazione dei figli e al futuro della comunità, ridisegna gli obiettivi. Nel Baglio San Michele, la scelta di residenza stabile in appartamenti semi-finiti di pregio (all’interno del baglio storico e annessi) risponde a questa chiamata: un nido radicato, dove la vita quotidiana integra lavoro, preghiera (ora et labora), bellezza architettonica e autonomia, lontano dalla precarietà urbana.
-                    </p>
+                    <p class="text-secondary">Se non è per la famiglia, il tempo dedicato alla fede, all’educazione dei figli e al futuro della comunità, ridisegna gli obiettivi. Nel Baglio San Michele, la scelta di residenza stabile in appartamenti semi-finiti di pregio (all’interno del baglio storico e annessi) risponde a questa chiamata: un nido radicato, dove la vita quotidiana integra lavoro, preghiera (ora et labora), bellezza architettonica e autonomia, lontano dalla precarietà urbana.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Conclusione -->
         <div class="max-w-4xl mx-auto bg-[#F8F5F0] border-l-4 border-[#c8872f] p-8 md:p-10 rounded-r-2xl">
-            <p class="text-secondary">
-                Queste scelte possono apparire “non convenzionali” viste da fuori. Ma la vera follia è dipendere interamente da un solo lavoro, da un sistema fragile e da catene di fornitura lontane. 
-                Nel <strong>Baglio San Michele</strong> queste pratiche non sono opzionali: sono il tessuto stesso della comunità.
-            </p>
+            <p class="text-secondary">Queste scelte possono apparire “non convenzionali” viste da fuori. Ma la vera follia è dipendere interamente da un solo lavoro, da un sistema fragile e da catene di fornitura lontane. Nel <strong>Baglio San Michele</strong> queste pratiche non sono opzionali: sono il tessuto stesso della comunità.</p>
         </div>
-
     </main>
 
-    <!-- FOOTER -->
     <footer class="border-t border-gray-200 bg-white">
         <div class="max-w-6xl mx-auto px-6 py-10">
             <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
-                <div class="text-secondary">
-                    © 2026 Baglio San Michele. Tutti i diritti riservati.
-                </div>
+                <div class="text-secondary">© 2026 Baglio San Michele. Tutti i diritti riservati.</div>
                 <div class="flex items-center justify-end gap-x-8 text-sm">
                     <a href="https://www.instagram.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.849.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.667.072 4.947.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.76 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                         <span>@borgoideale</span>
                     </a>
                     <a href="https://x.com/borgoideale" target="_blank" rel="noopener noreferrer" class="flex items-center gap-x-2 text-[#c8872f] hover:text-[#a86f24] transition-colors font-medium">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/>
-                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25l-7.451 8.502L4.5 2.25H1.5l6.879 7.852L1.5 21.75h3l7.451-8.502L19.5 21.75h3l-6.879-7.852L22.5 2.25h-3z"/></svg>
                         <span>@borgoideale</span>
                     </a>
                 </div>
