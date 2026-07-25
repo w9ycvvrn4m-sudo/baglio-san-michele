@@ -108,6 +108,7 @@
                     <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
                         <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
                             <a href="vivere-qui.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vivere al Baglio</a>
+                            <a href="soggiornare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Soggiornare al Baglio</a>
                             <a href="come-entrare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Come entrare</a>
                             <a href="chi-cerchiamo.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Chi cerchiamo</a>
                             <a href="figure-professionali.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Figure professionali</a>
@@ -123,7 +124,7 @@
                 <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
                     <span class="font-medium text-[#c8872f]">IT</span>
                     <span class="text-gray-300">|</span>
-                    <a href="en/index.html" class="hover:text-[#c8872f] transition-colors">EN</a>
+                    <a href="en/regole-autonomia.html" class="hover:text-[#c8872f] transition-colors">EN</a>
                 </div>
             </div>
 
@@ -155,6 +156,7 @@
             <div class="pt-4">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
                 <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
+                <a href="soggiornare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Soggiornare al Baglio</a>
                 <a href="come-entrare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Come entrare</a>
                 <a href="chi-cerchiamo.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Chi cerchiamo</a>
                 <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
@@ -164,6 +166,11 @@
             <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
             <a href="faq.html" class="block py-2 hover:text-[#c8872f]">FAQ</a>
             <a href="contatti.html" class="block py-2 hover:text-[#c8872f]">Contatti</a>
+            <div class="pt-3 flex items-center gap-x-2">
+                <span class="font-medium text-[#c8872f]">IT</span>
+                <span class="text-gray-300">|</span>
+                <a href="en/regole-autonomia.html" class="hover:text-[#c8872f]">EN</a>
+            </div>
         </div>
     </div>
 </nav>
@@ -259,7 +266,7 @@
             </div>
         </div>
 
-        <!-- Card 3 (immagine a destra) -->
+        <!-- Card 3 (immagine a destra) - TESTO AZIENDE RIMOSSO -->
         <div class="grid md:grid-cols-3 gap-8 mb-16 items-center">
             <div class="md:col-span-2">
                 <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10">
@@ -268,7 +275,7 @@
                         <h3 class="font-semibold text-2xl">Impara un’arte che i tuoi nonni conoscevano</h3>
                     </div>
                     <p class="text-secondary">
-                        Conservare, lavorare la pietra iblea, potare, mendere o produrre formaggi. Il progetto privilegia il coinvolgimento di maestranze e artigiani locali ragusani (Italcementi, MP Edilizia, Occhipinti & Corallo, ecc.) per il restauro e la manutenzione. Laboratori comunitari trasmetteranno questi mestieri, in armonia con il Regolamento interno che valorizza reciprocità, identità e radicamento culturale siciliano.
+                        Conservare, lavorare la pietra iblea, potare, mendere o produrre formaggi. Il progetto privilegia il coinvolgimento di maestranze e artigiani locali ragusani per il restauro e la manutenzione. Laboratori comunitari trasmetteranno questi mestieri, in armonia con il Regolamento interno che valorizza reciprocità, identità e radicamento culturale siciliano.
                     </p>
                 </div>
             </div>
@@ -438,27 +445,5 @@
         </div>
     </footer>
 
-    <!-- Mobile Menu Script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuBtn = document.getElementById('menu-btn');
-            const mobileMenu = document.getElementById('mobile-menu');
-            if (menuBtn && mobileMenu) {
-                menuBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    mobileMenu.classList.toggle('hidden');
-                    mobileMenu.classList.toggle('flex');
-                });
-                document.addEventListener('click', function(e) {
-                    if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
-                        if (!mobileMenu.classList.contains('hidden')) {
-                            mobileMenu.classList.add('hidden');
-                            mobileMenu.classList.remove('flex');
-                        }
-                    }
-                });
-            }
-        });
-    </script>
 </body>
 </html>
