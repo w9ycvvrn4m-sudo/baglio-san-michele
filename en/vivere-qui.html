@@ -7,18 +7,56 @@
     <meta name="description" content="Daily life at Baglio San Michele: rhythms, relationships, children’s education, work and traditions.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.borgoideale.com/en/vivere-qui.html">
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="it" href="https://www.borgoideale.com/vivere-qui.html">
+    <link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/vivere-qui.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/vivere-qui.html">
+
     <meta property="og:title" content="Living at the Baglio • Baglio San Michele">
     <meta property="og:description" content="Life at Baglio San Michele: rhythms, relationships and traditions.">
     <meta property="og:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
     <meta property="og:url" content="https://www.borgoideale.com/en/vivere-qui.html">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:site_name" content="Baglio San Michele">
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Living at the Baglio • Baglio San Michele">
     <meta name="twitter:description" content="Daily life at Baglio San Michele.">
     <meta name="twitter:image" content="https://www.borgoideale.com/assets/logo-borgo-social.jpg">
+
     <link rel="icon" type="image/png" href="../assets/logo-500-bn.png">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.borgoideale.com/#organization",
+          "name": "Baglio San Michele",
+          "url": "https://www.borgoideale.com",
+          "logo": { "@type": "ImageObject", "url": "https://www.borgoideale.com/assets/logo-500-bn.png" },
+          "sameAs": ["https://www.instagram.com/borgoideale", "https://x.com/borgoideale"]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.borgoideale.com/en/vivere-qui.html#webpage",
+          "url": "https://www.borgoideale.com/en/vivere-qui.html",
+          "name": "Living at the Baglio • Baglio San Michele",
+          "description": "Daily life at Baglio San Michele: rhythms, relationships, children’s education, work and traditions.",
+          "isPartOf": { "@id": "https://www.borgoideale.com/#website" },
+          "about": { "@id": "https://www.borgoideale.com/#organization" },
+          "inLanguage": "en"
+        }
+      ]
+    }
+    </script>
+
     <style>
         body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
         .heading { font-family: 'Julius Sans One', Georgia, serif !important; font-weight: 400 !important; letter-spacing: 0.5px !important; color: #c8872f; }
@@ -38,6 +76,7 @@
                         <a href="il-concept.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">The Concept</a>
                         <a href="il-progetto.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">The Project</a>
                         <a href="sicilian-slow-living.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Sicilian Slow Living</a>
+                        <a href="regole-autonomia.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Rules of Autonomy</a>
                         <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
                         <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Uniqueness</a>
                     </div></div>
@@ -81,6 +120,7 @@
                 <a href="il-concept.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">The Concept</a>
                 <a href="il-progetto.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">The Project</a>
                 <a href="sicilian-slow-living.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Sicilian Slow Living</a>
+                <a href="regole-autonomia.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Rules of Autonomy</a>
                 <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
                 <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Uniqueness</a></div>
             <div class="pt-4"><p class="font-semibold text-[#c8872f] px-1 mb-1">Ethical Values</p>
@@ -116,8 +156,8 @@ document.addEventListener('DOMContentLoaded', function() {
         menuBtn.addEventListener('click', toggleMenu);
         menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
         document.addEventListener('click', function(e) {
-            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
-                if (!mobileMenu.classList.contains('hidden')) { mobileMenu.classList.add('hidden'); mobileMenu.classList.remove('flex'); }
+            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target) && !mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden'); mobileMenu.classList.remove('flex');
             }
         });
     }
