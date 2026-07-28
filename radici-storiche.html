@@ -19,6 +19,7 @@
         body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
         .heading { font-family: 'Julius Sans One', Georgia, serif !important; font-weight: 400 !important; letter-spacing: 0.5px !important; color: #c8872f; }
         .text-secondary { color: #4a4a4a; }
+        .arabic { font-family: "Traditional Arabic", "Arabic Typesetting", "Scheherazade New", "Noto Naskh Arabic", serif; font-size: 2.25rem; line-height: 1.2; direction: rtl; }
     </style>
 </head>
 <body>
@@ -37,6 +38,7 @@
                             <a href="governance.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Governance</a>
                             <a href="un-modello-diverso.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Unicità</a>
                             <a href="radici-storiche.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Radici storiche</a>
+                            <a href="casi-ispiratori.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Casi ispiratori</a>
                         </div>
                     </div>
                 </div>
@@ -60,10 +62,12 @@
                         <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-56">
                             <a href="vivere-qui.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vivere al Baglio</a>
                             <a href="soggiornare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Soggiornare al Baglio</a>
+                            <a href="vita-comunitaria.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vita comunitaria</a>
                             <a href="come-entrare.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Come entrare</a>
                             <a href="chi-cerchiamo.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Chi cerchiamo</a>
                             <a href="figure-professionali.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Figure professionali</a>
                             <a href="archivum-artium.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Archivum Artium</a>
+                            <a href="animali-domestici.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Animali domestici</a>
                         </div>
                     </div>
                 </div>
@@ -86,6 +90,7 @@
                 <a href="governance.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Governance</a>
                 <a href="un-modello-diverso.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Unicità</a>
                 <a href="radici-storiche.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Radici storiche</a>
+                <a href="casi-ispiratori.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Casi ispiratori</a>
             </div>
             <div class="pt-4">
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Valori etici</p>
@@ -101,10 +106,12 @@
                 <p class="font-semibold text-[#c8872f] px-1 mb-1">Unisciti a noi</p>
                 <a href="vivere-qui.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vivere al Baglio</a>
                 <a href="soggiornare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Soggiornare al Baglio</a>
+                <a href="vita-comunitaria.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Vita comunitaria</a>
                 <a href="come-entrare.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Come entrare</a>
                 <a href="chi-cerchiamo.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Chi cerchiamo</a>
                 <a href="figure-professionali.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Figure professionali</a>
                 <a href="archivum-artium.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Archivum Artium</a>
+                <a href="animali-domestici.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Animali domestici</a>
             </div>
             <div class="h-px bg-gray-200 my-4"></div>
             <a href="donazioni.html" class="block py-2 font-medium text-[#c8872f]">Donazioni</a>
@@ -147,17 +154,30 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="mb-20">
         <h2 class="heading text-3xl mb-10 text-center">La genealogia del baglio</h2>
         <div class="space-y-10">
-            <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
-                <div class="p-8 md:p-10">
+
+            <!-- 1. Wāḥa — immagine a sinistra -->
+            <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden flex flex-col md:flex-row">
+                <div class="w-full md:w-1/3">
+                    <img src="assets/baglio-palme.png" alt="Oasi mediterranea" class="w-full h-full object-cover min-h-[240px]">
+                </div>
+                <div class="w-full md:w-2/3 p-8 md:p-10">
                     <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
-                        <h3 class="heading text-3xl">Wāḥa</h3>
+                        <div>
+                            <h3 class="arabic text-[#c8872f] mb-1">واحة</h3>
+                            <p class="text-sm text-secondary">Wāḥa</p>
+                        </div>
                         <span class="text-sm tracking-wider text-[#c8872f] uppercase">Deserti del Mediterraneo · Dal IV millennio a.C.</span>
                     </div>
                     <p class="text-secondary leading-relaxed">L’oasi non nasce dalla natura. Nasce dalla decisione di un gruppo umano di restare — e di lavorare insieme per strappare fertilità alla sabbia. Raccolta dell’acqua piovana, canali sotterranei, alberi piantati in sequenza per creare microclimi: ogni oasi è un progetto collettivo di sopravvivenza. La ricerca accademica sull’architettura mediterranea lo dice con chiarezza: «Non si tratta di insediamenti sorti spontaneamente, ma artificialmente creati dalla forza e dalla coesione del gruppo umano». L’oasi insegna che un luogo non esiste senza la comunità che lo vuole.</p>
                 </div>
             </div>
-            <div class="bg-[#F8F5F0] border border-gray-200 rounded-3xl overflow-hidden">
-                <div class="p-8 md:p-10">
+
+            <!-- 2. Aulé — immagine a destra -->
+            <div class="bg-[#F8F5F0] border border-gray-200 rounded-3xl overflow-hidden flex flex-col md:flex-row-reverse">
+                <div class="w-full md:w-1/3">
+                    <img src="assets/baglio-architettura.png" alt="Casa greca con cortile" class="w-full h-full object-cover min-h-[240px]">
+                </div>
+                <div class="w-full md:w-2/3 p-8 md:p-10">
                     <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
                         <h3 class="heading text-3xl">Αὐλή</h3>
                         <span class="text-sm tracking-wider text-[#c8872f] uppercase">Grecia classica · V–IV secolo a.C.</span>
@@ -165,8 +185,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p class="text-secondary leading-relaxed">Nell’antica Olinto, le case si aprivano verso l’interno, non verso la strada. Il cortile centrale — la <em>aulé</em> — orientato a mezzogiorno riceveva il sole basso d’inverno e veniva ombreggiato d’estate dall’aggetto del tetto. Socrate lo spiegava ai suoi discepoli come principio elementare di buona vita: una casa rivolta a sud, con stanze alte a nord, è fresca in estate e calda in inverno senza bisogno di nient’altro che la geometria. Non era architettura da ricchi. Era intelligenza applicata al clima, alla portata di tutti.</p>
                 </div>
             </div>
-            <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
-                <div class="p-8 md:p-10">
+
+            <!-- 3. Atrium — immagine a sinistra -->
+            <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden flex flex-col md:flex-row">
+                <div class="w-full md:w-1/3">
+                    <img src="assets/baglio-cortile.jpg" alt="Atrium romano" class="w-full h-full object-cover min-h-[240px]">
+                </div>
+                <div class="w-full md:w-2/3 p-8 md:p-10">
                     <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
                         <h3 class="heading text-3xl">Atrium</h3>
                         <span class="text-sm tracking-wider text-[#c8872f] uppercase">Roma · II secolo a.C. – V secolo d.C.</span>
@@ -174,17 +199,30 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p class="text-secondary leading-relaxed">La <em>domus</em> romana aggiunge due elementi al principio greco: l’atrio, che raccoglie l’acqua piovana in una vasca centrale — l’<em>impluvium</em> — e il peristilio, un giardino interno porticato in cui la famiglia mangiava d’estate e si riparava d’inverno. L’acqua raccolta dall’atrio scorreva in cisterne sotto il pavimento e veniva usata per irrigare l’orto. Nessuno spreco, nessun sistema esterno: l’edificio era autonomo perché era stato pensato per esserlo. Vitruvio ne descrive le regole nel dettaglio, come se fossero evidenti: orientamento, spessore dei muri, posizione delle aperture. Una scienza, non un gusto.</p>
                 </div>
             </div>
-            <div class="bg-[#F8F5F0] border border-gray-200 rounded-3xl overflow-hidden">
-                <div class="p-8 md:p-10">
+
+            <!-- 4. Ḥawsh — immagine a destra -->
+            <div class="bg-[#F8F5F0] border border-gray-200 rounded-3xl overflow-hidden flex flex-col md:flex-row-reverse">
+                <div class="w-full md:w-1/3">
+                    <img src="assets/atmosfera-veranda.png" alt="Corte araba ḥawsh" class="w-full h-full object-cover min-h-[240px]">
+                </div>
+                <div class="w-full md:w-2/3 p-8 md:p-10">
                     <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
-                        <h3 class="heading text-3xl">Ḥawsh</h3>
+                        <div>
+                            <h3 class="arabic text-[#c8872f] mb-1">حوش</h3>
+                            <p class="text-sm text-secondary">Ḥawsh</p>
+                        </div>
                         <span class="text-sm tracking-wider text-[#c8872f] uppercase">Sicilia arabo-normanna · IX–XII secolo</span>
                     </div>
                     <p class="text-secondary leading-relaxed">Gli Arabi portano in Sicilia la versione desertica dello stesso principio: la casa si chiude verso l’esterno come un blocco compatto, mura spesse che isolano dal caldo, e si apre verso il cielo attraverso una corte interna — il <em>ḥawsh</em> — dove l’acqua di una fontana raffredda l’aria per evaporazione e la vegetazione filtra la luce. I vicoli stretti delle città islamiche siciliane — Mazara, Marsala, Palermo — seguono lo stesso principio: l’ombra reciproca degli edifici crea frescura senza aria condizionata. L’Emirato di Sicilia non ha lasciato molti edifici. Ha lasciato un modo di costruire che la pietra locale ha assorbito e trasmesso.</p>
                 </div>
             </div>
-            <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden">
-                <div class="p-8 md:p-10">
+
+            <!-- 5. Baglio — immagine a sinistra -->
+            <div class="bg-white border border-gray-200 rounded-3xl overflow-hidden flex flex-col md:flex-row">
+                <div class="w-full md:w-1/3">
+                    <img src="assets/baglio-esterno-sud.jpg" alt="Baglio siciliano" class="w-full h-full object-cover min-h-[240px]">
+                </div>
+                <div class="w-full md:w-2/3 p-8 md:p-10">
                     <div class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-2 mb-4">
                         <h3 class="heading text-3xl">Baglio</h3>
                         <span class="text-sm tracking-wider text-[#c8872f] uppercase">Sicilia occidentale · XV–XVIII secolo</span>
@@ -192,14 +230,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p class="text-secondary leading-relaxed">Il baglio è la sintesi finale. Mura di pietra calcarea locale alte e spesse, che d’estate tengono il fresco e d’inverno irradiano il calore accumulato. Un portale unico — difensivo verso l’esterno, accogliente verso l’interno. Una corte chiusa che è insieme spazio di lavoro, di incontro, di sosta. Cisterne sotterranee che raccolgono ogni goccia di pioggia. Logge e porticati che creano ombra nelle ore calde. E, sempre, uno spazio per il sacro: la cappella, al centro o nell’angolo, come nei borghi monastici che l’avevano ispirato. Il baglio non era un palazzo. Era un sistema: autosufficiente, comunitario, pensato per durare generazioni senza bisogno di risorse che non fossero già lì, nel territorio.</p>
                 </div>
             </div>
+
         </div>
     </div>
 
+    <!-- Citazione Pietro Laureano con immagine a sinistra -->
     <div class="mb-20 max-w-4xl mx-auto">
-        <div class="bg-[#F8F5F0] border-l-4 border-[#c8872f] rounded-r-3xl p-8 md:p-12">
-            <p class="text-sm tracking-[2px] uppercase text-[#c8872f] mb-6">Pietro Laureano · Consulente UNESCO</p>
-            <blockquote class="text-xl md:text-2xl text-[#1f1f1f] leading-relaxed italic mb-6">«Ogni giorno la morte di un vecchio, l’abbandono di un villaggio da parte di un contadino, determina la scomparsa di una biblioteca di conoscenze locali indispensabili a fronteggiare le nuove sfide.»</blockquote>
-            <p class="text-sm text-secondary">Africa Forum, Roma 2008</p>
+        <div class="bg-[#F8F5F0] border-l-4 border-[#c8872f] rounded-r-3xl overflow-hidden flex flex-col md:flex-row">
+            <div class="w-full md:w-1/3">
+                <img src="assets/atmosfera-architetto.png" alt="Pietro Laureano" class="w-full h-full object-cover min-h-[200px]">
+            </div>
+            <div class="w-full md:w-2/3 p-8 md:p-12">
+                <p class="text-sm tracking-[2px] uppercase text-[#c8872f] mb-6">Pietro Laureano · Consulente UNESCO</p>
+                <blockquote class="text-xl md:text-2xl text-[#1f1f1f] leading-relaxed italic mb-6">«Ogni giorno la morte di un vecchio, l’abbandono di un villaggio da parte di un contadino, determina la scomparsa di una biblioteca di conoscenze locali indispensabili a fronteggiare le nuove sfide.»</blockquote>
+                <p class="text-sm text-secondary">Africa Forum, Roma 2008</p>
+            </div>
         </div>
     </div>
 
