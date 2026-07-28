@@ -170,12 +170,10 @@
     </div>
 </nav>
 
-<!-- ==================== SCRIPT MENU MOBILE ==================== -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-
         if (menuBtn && mobileMenu) {
             function toggleMenu(e) {
                 e.preventDefault();
@@ -183,10 +181,8 @@
                 mobileMenu.classList.toggle('hidden');
                 mobileMenu.classList.toggle('flex');
             }
-
             menuBtn.addEventListener('click', toggleMenu);
             menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
-
             document.addEventListener('click', function(e) {
                 if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
                     if (!mobileMenu.classList.contains('hidden')) {
@@ -223,10 +219,10 @@
                 Baglio San Michele is not a convent, nor a tourist village, nor an indistinct commune. It is a traditional intentional community — ordered and serene — designed so that different people — singles and families — can live together authentically, respecting the specific needs of each season of life.
             </p>
             <p>
-                We have chosen to organise the community in <strong>two distinct and complementary sections</strong>, under the shared responsibility of the Chapter of the Wise, which ensures its regulation and mutual harmony. This division is not a separation, but a form of practical intelligence: it allows each person to live with greater clarity and freedom, and makes the whole Baglio more stable and more welcoming.
+                We have chosen to organise the community in <strong>two distinct and complementary sections</strong>. This division is not a separation, but a form of practical intelligence and respect: it allows each person to live with greater clarity and freedom, and makes the whole Baglio more stable, more beautiful and more attractive.
             </p>
             <p>
-                The harmony we seek is expressed in three inseparable dimensions: a clear and ordered mind, a strong and disciplined body, and a soul open to grace. <em>Mens sana in corpore sano et in anima sancta</em>. It is not a slogan: it is the concrete rhythm of the life we propose, both for those who live in the singles section and for those who live in a family.
+                The harmony we seek is expressed in three inseparable dimensions: a clear and ordered mind, a strong and disciplined body, a soul open to grace. <em>Mens sana in corpore sano et in anima sancta</em>. It is not a slogan. It is the concrete rhythm of the life we propose.
             </p>
         </div>
 
@@ -240,23 +236,12 @@
                      class="w-full h-100 md:h-100 object-cover">
                 <div class="p-8 md:p-10 space-y-6 text-secondary text-lg">
                     <p>
-                        Young people in a path of formation live in <strong>individual cells</strong>, sober and comfortable personal spaces that guarantee privacy and rest, next to the Baglio’s common areas: kitchen and refectory, laundry, Finnish sauna and Turkish bath, gym, study and reading rooms.
+                        The singles — predominantly young men — live in <strong>individual cells</strong>, sober and comfortable personal spaces that guarantee privacy and rest. Next to the cells are the common areas: kitchen and refectory, laundry, bathrooms and showers, Finnish sauna and Turkish bath, gym, study and reading rooms.
                     </p>
                     <p>
-                        Their life is accompanied by a <strong>soft rule</strong>: not a monastic rule in the strict sense, nor a military discipline, but a clear and shared rhythm, inspired by the Christian ascetic tradition, designed to foster interior order, authentic fraternity and harmonious growth. Those who live here do not renounce their freedom: they learn to exercise it with maturity.
+                        The life of the singles is accompanied by a <strong>soft rule</strong>. It is not a monastic rule, nor a military discipline. It is a clear, human and shared rhythm, designed to foster interior order, authentic fraternity and harmonious growth. Those who live here do not renounce their freedom: they learn to exercise it with maturity.
                     </p>
                 </div>
-            </div>
-
-            <!-- Why a formative section of its own -->
-            <div class="max-w-4xl mx-auto mb-12 text-secondary text-lg space-y-5">
-                <h3 class="heading text-2xl mb-4 text-center">Why a formative section of its own</h3>
-                <p>
-                    For centuries the monastic tradition and lay confraternities have recognised that a path of formation requires dedicated spaces and rhythms, distinct from those of family life: a time of recollection, discipline and apprenticeship that precedes — for those who desire it — entry into the fullness of adult life, whether family or professional.
-                </p>
-                <p>
-                    For this reason, in this first phase of the project, the singles section is organised as a male formative path, on the model of analogous historical experiences of postulancy and craft apprenticeship. It is not an ideological exclusion: it is an organisational choice, coherent with the current phase of the project. We remain open to evaluating, with the same care, the activation of an equivalent and autonomous path for women who make a motivated request — with their own spaces, their own rhythms and their own guidance — as soon as the community has the maturity and the resources to sustain it adequately.
-                </p>
             </div>
 
             <!-- The soft rule - 4 cards -->
@@ -273,7 +258,7 @@
                         <div class="p-7">
                             <h4 class="heading text-lg mb-3">Prayer and spiritual life</h4>
                             <p class="text-secondary text-base leading-relaxed">
-                                The day begins with personal morning prayer. Every morning the Baglio chaplain celebrates Mass and those who wish may attend; on Sundays and holy days of obligation Mass is sung. The Rosary remains a free commitment, as does frequent confession. Sunday Vespers with Eucharistic Benediction are a particularly beautiful community moment.
+                                The day begins with personal morning prayer, in the silence of one’s own room. Every morning the Baglio chaplain celebrates Mass; those who wish may attend. On Sundays and feast days Mass is of obligation. The Rosary remains a free and personal commitment, as does frequent confession, made possible by the presence of a priest. Sunday Vespers with Eucharistic Benediction are a community moment of particular beauty and revive an ancient tradition.
                             </p>
                         </div>
                     </div>
@@ -281,12 +266,12 @@
                     <!-- Card 2 -->
                     <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
                         <img src="../assets/baglio-semina.jpg" 
-                             alt="Work at Baglio San Michele" 
+                             alt="Work and sharing at Baglio San Michele" 
                              class="w-full h-52 object-cover">
                         <div class="p-7">
-                            <h4 class="heading text-lg mb-3">Work and apprenticeship</h4>
+                            <h4 class="heading text-lg mb-3">Work and sharing</h4>
                             <p class="text-secondary text-base leading-relaxed">
-                                Work — agricultural, artisanal or service — occupies the central part of the day: vegetable gardens, olive groves and vineyards; care of animals and small livestock; craft workshops (cabinet-making, blacksmithing, ceramics, restoration); maintenance and services. We work together, learn from the more experienced, and put to use what we already know.
+                                Work — agricultural, artisanal or of service — occupies the central part of the day. We work together, learn from one another, put to use what we know and acquire what we do not yet know. The main meals are shared in the refectory or, on fine days, outdoors. Kitchen, cleaning and common-space duties are organised in an equitable and light way, without rigidity.
                             </p>
                         </div>
                     </div>
@@ -294,12 +279,12 @@
                     <!-- Card 3 -->
                     <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
                         <img src="../assets/baglio-sport-1.jpg" 
-                             alt="Bodily discipline at Baglio San Michele" 
+                             alt="Sport and bodily discipline at Baglio San Michele" 
                              class="w-full h-52 object-cover">
                         <div class="p-7">
-                            <h4 class="heading text-lg mb-3">Bodily discipline</h4>
+                            <h4 class="heading text-lg mb-3">Sport and bodily discipline</h4>
                             <p class="text-secondary text-base leading-relaxed">
-                                Calisthenics and certain contact disciplines (grappling, judo) have a place in formation, according to the ascetic tradition that recognises in the government of the body an exercise of temperance and not an end in itself. They are not presented as training, but as part of a path of interior order that involves body, mind and spirit together.
+                                Sport has a privileged place. Calisthenics, grappling, wrestling and judo are not mere recreational activities: they are instruments for the formation of body and character. Through controlled physical effort one learns self-control, resilience, respect for the opponent and a serene self-confidence. The body is educated so that it may serve a lucid mind and a soul in the grace of God.
                             </p>
                         </div>
                     </div>
@@ -312,7 +297,7 @@
                         <div class="p-7">
                             <h4 class="heading text-lg mb-3">Evening and spaces of freedom</h4>
                             <p class="text-secondary text-base leading-relaxed">
-                                Evening is a time for rest, reading, conversation or study. The soft rule does not claim to fill every moment: it offers a solid framework within which each person can reconcile social life and personal recollection.
+                                Evening is a time for relaxation, rest, reading, conversation or study. Each person keeps spaces of personal freedom or spends time with others. The soft rule does not claim to fill every moment: it offers a solid framework within which each person can balance social life and privacy. One watches a good film, works together on a theatrical piece, plays table football, organises an evening with neighbours and friends from the area.
                             </p>
                         </div>
                     </div>
@@ -322,10 +307,21 @@
 
             <div class="max-w-4xl mx-auto mt-12 text-secondary text-lg space-y-5">
                 <p>
-                    <strong>Why a soft rule?</strong> Because a clear structure, when proposed with respect and without rigidity, becomes an instrument of freedom. It helps to overcome dispersion, to cultivate continuity and to grow in an integral way. It takes nothing away: it restores order, direction and joy.
+                    <strong>Why a soft rule?</strong> Because a clear structure, when proposed with respect and without rigidity, becomes an instrument of freedom. It helps to overcome dispersion, to cultivate continuity and to grow in an integral way. It takes nothing away: it restores order, direction and joy. The horizon we propose is that expressed by the motto <em>mens sana in corpore sano et in anima sancta</em>: a lucid and ordered mind, a strong and disciplined body, a soul capable of receiving grace. Three dimensions that nourish one another and that, together, form a man capable of standing upright, of working, of loving and of serving.
+                </p>
+            </div>
+
+            <!-- Why reserved for men -->
+            <div class="max-w-4xl mx-auto mt-16 text-secondary text-lg space-y-5">
+                <h3 class="heading text-2xl mb-4 text-center">Why is the singles section reserved for men?</h3>
+                <p>
+                    We have chosen to dedicate the singles section to young men because the modes of growth, of community life and of character formation are not the same for men and women. Respecting these differences seems to us the most authentic way of caring for each person.
                 </p>
                 <p>
-                    The horizon we propose is precisely that expressed by the motto <em>mens sana in corpore sano et in anima sancta</em>: a lucid and ordered mind, a strong and disciplined body, a soul capable of receiving grace. Three dimensions that nourish one another.
+                    A male environment of work, fraternity and discipline allows young men to form themselves freely and serenely, without the dynamics that would naturally arise in a mixed group.
+                </p>
+                <p>
+                    When concrete and motivated requests arrive from young women who wish to live in community among themselves — with their own spaces and their own rhythms — we will be glad to evaluate the opening of a parallel women’s section. Until then, the singles section remains a space designed for men.
                 </p>
             </div>
         </div>
@@ -336,7 +332,7 @@
             
             <div class="max-w-4xl mx-auto mb-12 text-secondary text-lg space-y-6">
                 <p>
-                    Here one does not “pass the time”. One works, learns, builds. The singles of the Baglio take an active part in the productive and artisanal life of the community. Each brings his own skills and, at the same time, acquires concrete knowledge that makes him more autonomous.
+                    Here one does not “pass the time”. One works, learns, builds. The singles of the Baglio take an active part in the productive and artisanal life of the community. Each brings his own skills and, at the same time, acquires concrete knowledge that makes him more autonomous and more of a man.
                 </p>
             </div>
 
@@ -424,31 +420,27 @@
                         <ul class="space-y-3 text-secondary text-base md:text-lg">
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">6:00</span>
-                                <span>Rising, personal prayer</span>
+                                <span>Rising (breakfast until 8:00)</span>
                             </li>
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">6:30</span>
-                                <span>Holy Mass</span>
+                                <span>Mass (optional on weekdays, of obligation on Sundays and feast days)</span>
                             </li>
                             <li class="flex gap-3">
-                                <span class="text-[#c8872f] font-medium min-w-[110px]">7:00–8:00</span>
-                                <span>Breakfast</span>
-                            </li>
-                            <li class="flex gap-3">
-                                <span class="text-[#c8872f] font-medium min-w-[110px]">8:00–12:00</span>
-                                <span>Work, study, apprenticeship</span>
+                                <span class="text-[#c8872f] font-medium min-w-[110px]">8:00</span>
+                                <span>Start of work or study</span>
                             </li>
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">12:30</span>
-                                <span>Lunch</span>
+                                <span>Shared lunch</span>
                             </li>
                             <li class="flex gap-3">
-                                <span class="text-[#c8872f] font-medium min-w-[110px]">12:30–14:00</span>
+                                <span class="text-[#c8872f] font-medium min-w-[110px]">13:00–14:00</span>
                                 <span>Free time</span>
                             </li>
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">14:00–19:00</span>
-                                <span>Work, study, physical discipline</span>
+                                <span>Work, study, sport</span>
                             </li>
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">20:00</span>
@@ -456,7 +448,7 @@
                             </li>
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">20:00–22:00</span>
-                                <span>Free time, reading</span>
+                                <span>Free time, reading, social life</span>
                             </li>
                             <li class="flex gap-3">
                                 <span class="text-[#c8872f] font-medium min-w-[110px]">22:00</span>
@@ -464,7 +456,7 @@
                             </li>
                         </ul>
                         <p class="mt-6 text-secondary text-sm md:text-base italic leading-relaxed">
-                            Indicative times: rural life and the seasons require flexibility. On Sundays and holy days of obligation Mass is sung at 10:00 and Vespers are celebrated at 17:30; in Lent, instead of Vespers, Compline is sung at 19:00.
+                            Indicative times: rural life and the seasons require flexibility, as do any social commitments with the local community. On Sundays and holy days of obligation Mass is sung at 10:00 and Vespers are celebrated at 17:30. In Lent, instead of Vespers, Compline is sung at 19:00.
                         </p>
                     </div>
                 </div>
@@ -499,15 +491,18 @@
                      class="w-full h-100 md:h-100 object-cover">
                 <div class="p-8 md:p-10 space-y-6 text-secondary text-lg">
                     <p>
-                        Families live in <strong>autonomous apartments</strong>, complete with all necessary services: their own kitchen, their own bathrooms, a full space of intimacy. Next to the apartment there is, where possible, a small vegetable garden, a garden and a cultivable plot.
+                        Families live in <strong>autonomous apartments</strong>, larger and complete with all necessary services. Each family has its own kitchen, its own bathrooms, its own space of intimacy. Next to the apartment there is a small vegetable garden, a garden and, where possible, a cultivable plot of land.
                     </p>
                     <p>
-                        This autonomy is not isolation. Families are full members of the community: they share meals at community moments, collaborate in agricultural and artisanal work according to their own times and availability, take part in the liturgical celebrations and the feasts of the Baglio. They remain free, however, to organise their own day according to the needs of the children, work and domestic life — because the family needs space to breathe, and its stability is itself a gift for the whole community.
+                        This autonomy is not isolation. Families are fully part of the community: they may share meals, collaborate in agricultural and artisanal work, take part in community moments and celebrations. They remain free, however, to organise their own day according to the needs of the children, work and domestic life.
+                    </p>
+                    <p>
+                        Why this greater independence? Because the family needs space to breathe, to educate its children, to live its own intimacy without the pressure of a continuous community rule. The serenity of a family is also built on respect for its autonomy. Only in this way can it become, for the whole Baglio, a point of stability, generosity and intergenerational transmission.
                     </p>
                 </div>
             </div>
 
-            <!-- Family rhythm + Education + Women -->
+            <!-- Family rhythm + Education + Women (structure and images kept) -->
             <div class="max-w-4xl mx-auto mt-12 text-secondary text-lg space-y-10">
                 <div>
                     <h3 class="heading text-2xl mb-4">The rhythm of a family’s day</h3>
@@ -560,10 +555,13 @@
                      class="w-full h-72 md:h-96 object-cover">
                 <div class="p-8 md:p-10 space-y-6 text-secondary text-lg">
                     <p>
-                        The choice of two distinct sections arises from a simple and realistic observation: the needs of someone on a path of personal formation and those of a family with children are not the same. Imposing the same regime of life on everyone would generate frustration; respecting the differences generates harmony.
+                        The choice of two distinct sections arises from a simple and realistic observation: the needs of a young single and those of a family with children are not the same. Imposing the same regime of life on everyone would generate frustration. Respecting the differences generates harmony.
                     </p>
                     <p>
-                        Those who live in the singles section find a structure that supports and forms them. Families find in autonomy the space necessary to raise their children and live their own intimacy. The two sections complete each other: the first brings energy, labour and momentum; the second bring stability, rootedness and intergenerational transmission. Together, under the common care of the Chapter of the Wise, they form a richer and more resilient community.
+                        The singles find in the soft rule a structure that supports and forms them. Families find in autonomy the space necessary to raise their children and live their own intimacy. By separating the two ways of life, the Baglio allows each to receive what they most need, without one limiting the other.
+                    </p>
+                    <p>
+                        At the same time, the two sections complete and help each other. The singles bring energy, labour, protection and a climate of youth. Families bring stability, rootedness, intergenerational transmission and the beauty of family life. Together they form a richer, more complete and more resilient community.
                     </p>
                 </div>
             </div>
@@ -575,10 +573,10 @@
                 <h2 class="heading text-2xl mb-6">An invitation to enter</h2>
                 <div class="space-y-4 text-secondary text-lg">
                     <p>
-                        This organisation is not an ideology: it is an architecture of life designed so that people can be well and grow, each according to their own season. If you are on a path of personal formation, here you find a clear rhythm, concrete work and guidance. If you are a family looking for a beautiful, safe and rooted place, here you find autonomy and community together.
+                        This organisation is not an ideology. It is an architecture of life designed so that people can be well and grow. If you are a young single looking for order, fraternity, concrete work and an authentic path of growth, here you find a clear, stimulating and human space. If you are a family looking for a beautiful, safe and rooted place, here you find autonomy and community at the same time.
                     </p>
                     <p>
-                        Baglio San Michele does not ask anyone to renounce themselves. It proposes entering a rhythm of life that is more ordered, more true and more full.
+                        Baglio San Michele does not ask anyone to renounce themselves. It simply proposes entering a rhythm of life that is more ordered, more true and more full: <em>mens sana in corpore sano et in anima sancta</em>. Two ways of living that do not exclude each other, but support each other. Two sections that, together, form one community.
                     </p>
                     <p class="pt-2">
                         <a href="come-entrare.html" class="text-[#c8872f] font-medium hover:underline">Begin with a conversation →</a>
