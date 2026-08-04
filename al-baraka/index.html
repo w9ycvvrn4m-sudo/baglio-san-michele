@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riad Al-Baraka | Demeure traditionnelle & communauté intentionnelle au Maroc</title>
+    <meta name="description" content="Riad Al-Baraka est une communauté intentionnelle traditionnelle installée dans un grand riad ou funduq historique. Beauté, rythme traditionnel, Dar al-Hiraf et hospitalité sélective de luxe.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.borgoideale.com/al-baraka/">
+    <link rel="icon" type="image/png" href="../assets/logo-500-bn.png">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: "Avenir Next", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background-color: #ffffff; color: #1f1f1f; }
+        .heading { font-family: 'Julius Sans One', Georgia, serif !important; font-weight: 400 !important; letter-spacing: 0.5px !important; color: #c8872f; }
+        .text-secondary { color: #4a4a4a; }
+        .bg-cream { background-color: #F8F5F0; }
+        .hero-bg { background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.55)), url('../assets/atmosfera-benvenuti.png'); background-size: cover; background-position: center 35%; }
+    </style>
+</head>
+<body>
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex items-center justify-between h-20">
+            <div class="flex items-center gap-x-3">
+                <a href="../index.html"><img src="../assets/logo-500-bn.png" alt="Borgo Ideale" class="h-11 w-auto"></a>
+            </div>
+            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+                <a href="index.html" class="font-medium text-[#c8872f]">Riad Al-Baraka</a>
+                <a href="projet.html" class="hover:text-[#c8872f] transition-colors">Projet</a>
+                <a href="architecture.html" class="hover:text-[#c8872f] transition-colors">Architecture</a>
+                <a href="vie.html" class="hover:text-[#c8872f] transition-colors">Vie au Riad</a>
+                <a href="dar-al-hiraf.html" class="hover:text-[#c8872f] transition-colors">Dar al-Hiraf</a>
+                <a href="sejour.html" class="hover:text-[#c8872f] transition-colors">Séjourner</a>
+                <a href="contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
+                <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-2">
+                    <a href="../index.html" class="hover:text-[#c8872f]">IT</a>
+                    <span class="text-gray-300">|</span>
+                    <span class="font-medium text-[#c8872f]">FR</span>
+                    <span class="text-gray-300">|</span>
+                    <a href="../ar/al-baraka/index.html" class="hover:text-[#c8872f]">AR</a>
+                </div>
+            </div>
+            <button id="menu-btn" class="md:hidden flex items-center justify-center w-12 h-12 text-3xl text-[#c8872f]">☰</button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
+            <a href="index.html" class="block py-2 font-medium text-[#c8872f]">Riad Al-Baraka</a>
+            <a href="projet.html" class="block py-2 hover:text-[#c8872f]">Projet</a>
+            <a href="architecture.html" class="block py-2 hover:text-[#c8872f]">Architecture</a>
+            <a href="vie.html" class="block py-2 hover:text-[#c8872f]">Vie au Riad</a>
+            <a href="dar-al-hiraf.html" class="block py-2 hover:text-[#c8872f]">Dar al-Hiraf</a>
+            <a href="sejour.html" class="block py-2 hover:text-[#c8872f]">Séjourner</a>
+            <a href="contact.html" class="block py-2 hover:text-[#c8872f]">Contact</a>
+            <div class="pt-3 flex items-center gap-x-2">
+                <a href="../index.html" class="hover:text-[#c8872f]">IT</a>
+                <span class="text-gray-300">|</span>
+                <span class="font-medium text-[#c8872f]">FR</span>
+                <span class="text-gray-300">|</span>
+                <a href="../ar/al-baraka/index.html" class="hover:text-[#c8872f]">AR</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+        function toggleMenu(e) { e.preventDefault(); e.stopPropagation(); mobileMenu.classList.toggle('hidden'); mobileMenu.classList.toggle('flex'); }
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+        document.addEventListener('click', function(e) {
+            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target) && !mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden'); mobileMenu.classList.remove('flex');
+            }
+        });
+    }
+});
+</script>
+
+<div class="hero-bg h-[88vh] flex items-center justify-center pt-20">
+    <div class="max-w-4xl mx-auto px-6 text-center text-white">
+        <div class="inline-block px-4 py-1 rounded-full bg-white/20 text-xs tracking-[2px] font-medium mb-6">COMMUNAUTÉ INTENTIONNELLE TRADITIONNELLE</div>
+        <h1 class="heading text-5xl md:text-7xl mb-6 drop-shadow-lg text-white" style="color: white;">Riad Al-Baraka</h1>
+        <p class="text-xl md:text-2xl max-w-3xl mx-auto mb-10 drop-shadow-md">Une demeure traditionnelle pour une vie enracinée, belle et harmonieuse</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="projet.html" class="inline-flex items-center justify-center px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition">Découvrir le projet</a>
+            <a href="sejour.html" class="inline-flex items-center justify-center px-8 py-4 bg-white/90 text-[#1f1f1f] font-medium rounded-2xl hover:bg-white transition">Séjourner au Riad</a>
+        </div>
+    </div>
+</div>
+
+<section class="max-w-6xl mx-auto px-6 pt-20 pb-16">
+    <div class="text-center mb-14">
+        <h2 class="heading text-4xl mb-4">Une vision de vie traditionnelle</h2>
+        <p class="text-secondary max-w-2xl mx-auto text-lg">Riad Al-Baraka n’est pas un hôtel. C’est une communauté intentionnelle de taille humaine, ancrée dans la culture marocaine, la beauté du geste et le rythme de la tradition.</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <div class="font-semibold text-xl mb-3">Beauté & ordre</div>
+            <p class="text-secondary">L’architecture, le jardin et la vie quotidienne sont conçus comme une expression d’équilibre et de dignité.</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <div class="font-semibold text-xl mb-3">Rythme traditionnel</div>
+            <p class="text-secondary">La communauté vit selon les cinq prières, le travail manuel, les repas partagés et le silence.</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <div class="font-semibold text-xl mb-3">Hospitalité sélective</div>
+            <p class="text-secondary">Un nombre très limité d’hôtes est accueilli dans un cadre de luxe authentique et discret.</p>
+        </div>
+    </div>
+</section>
+
+<section class="bg-cream py-16">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div>
+                <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">LE CŒUR DU PROJET</div>
+                <h2 class="heading text-4xl mb-5">Dar al-Hiraf</h2>
+                <p class="text-secondary mb-6 text-lg">Maison des Métiers et résidence pour jeunes hommes non mariés. Formation aux arts et métiers traditionnels, discipline, travail manuel et transmission du savoir-faire ancestral.</p>
+                <a href="dar-al-hiraf.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">Découvrir Dar al-Hiraf →</a>
+            </div>
+            <div class="bg-white rounded-3xl border border-gray-200 p-10">
+                <ul class="space-y-4 text-secondary">
+                    <li class="flex gap-3"><span class="text-[#c8872f] font-medium">—</span> Calligraphie & arts du livre</li>
+                    <li class="flex gap-3"><span class="text-[#c8872f] font-medium">—</span> Zellige, bois sculpté, stucs</li>
+                    <li class="flex gap-3"><span class="text-[#c8872f] font-medium">—</span> Cuisine traditionnelle</li>
+                    <li class="flex gap-3"><span class="text-[#c8872f] font-medium">—</span> Entretien du jardin et du potager</li>
+                    <li class="flex gap-3"><span class="text-[#c8872f] font-medium">—</span> Formation du caractère et de la responsabilité</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="max-w-6xl mx-auto px-6 py-20">
+    <div class="text-center mb-12">
+        <h2 class="heading text-4xl mb-4">Espaces & hébergements</h2>
+        <p class="text-secondary max-w-2xl mx-auto">Le Riad distingue clairement les espaces selon leur fonction et leur caractère.</p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <h3 class="heading text-2xl mb-3">Camerettes</h3>
+            <p class="text-secondary mb-4">Espaces sobres et bien conçus destinés aux jeunes hommes de Dar al-Hiraf. Intimité, simplicité et proximité des espaces communs.</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <h3 class="heading text-2xl mb-3">Chambres & Suites</h3>
+            <p class="text-secondary mb-4">Hébergements de haut standing réservés exclusivement aux hôtes sélectionnés, dans un esprit de luxe discret et authentique.</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <h3 class="heading text-2xl mb-3">Hammam, sauna & sport</h3>
+            <p class="text-secondary mb-4">Espaces de bien-être réalisés dans un style strictement traditionnel, intégrés à l’architecture du lieu.</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-3xl p-8">
+            <h3 class="heading text-2xl mb-3">Jardin & potager</h3>
+            <p class="text-secondary mb-4">Jardin formel selon le modèle classique du <em>riyāḍ</em>, accompagné d’un potager traditionnel et, si l’espace le permet, d’un petit verger.</p>
+        </div>
+    </div>
+</section>
+
+<section class="bg-cream py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="heading text-4xl mb-5">Une expérience sélective</h2>
+        <p class="text-secondary text-lg mb-8">Les hôtes sont accueillis en nombre très limité. Ils sont invités à s’immerger dans le rythme de la maison, la beauté des gestes quotidiens et une hospitalité de qualité, sans ostentation.</p>
+        <a href="sejour.html" class="inline-flex items-center justify-center px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition">En savoir plus sur le séjour</a>
+    </div>
+</section>
+
+<footer class="border-t border-gray-200 bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-6 text-sm">
+            <div class="text-secondary">© 2026 Riad Al-Baraka — Borgo Ideale. Tous droits réservés.</div>
+            <div class="flex items-center gap-x-6">
+                <a href="../index.html" class="text-[#c8872f] hover:text-[#a86f24]">Baglio San Michele</a>
+                <a href="contact.html" class="text-[#c8872f] hover:text-[#a86f24]">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
