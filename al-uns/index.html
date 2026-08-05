@@ -22,44 +22,54 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
-            <div class="flex items-center gap-x-3">
-                <a href="index.html"><img src="../assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a>
-            </div>
-            <div class="hidden lg:flex items-center gap-x-5 text-sm tracking-wider">
+            <div><a href="index.html"><img src="../assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a></div>
+            <div class="hidden lg:flex items-center gap-x-6 text-sm tracking-wider">
                 <a href="index.html" class="font-medium text-[#c8872f]">Riad Al-Uns</a>
                 <a href="projet.html" class="hover:text-[#c8872f] transition-colors">Projet</a>
-                <a href="architecture.html" class="hover:text-[#c8872f] transition-colors">Architecture</a>
-                <a href="jardin.html" class="hover:text-[#c8872f] transition-colors">Jardin</a>
+                <div class="group relative">
+                    <a href="architecture.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Architecture<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-52">
+                            <a href="architecture.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces</a>
+                            <a href="architecture.html#hebergements" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hébergements</a>
+                            <a href="architecture.html#corps" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces du corps</a>
+                            <a href="jardin.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Jardin</a>
+                        </div>
+                    </div>
+                </div>
                 <a href="vie.html" class="hover:text-[#c8872f] transition-colors">Vie au Riad</a>
-                <a href="dar-al-hiraf.html" class="hover:text-[#c8872f] transition-colors">Dar al-Hiraf</a>
+                <div class="group relative">
+                    <a href="dar-al-hiraf.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Dar al-Hiraf<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50">
+                        <div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-52">
+                            <a href="dar-al-hiraf.html#disciplines" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Disciplines</a>
+                            <a href="dar-al-hiraf.html#corps" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Le corps formé</a>
+                            <a href="dar-al-hiraf.html#residence" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La résidence</a>
+                        </div>
+                    </div>
+                </div>
                 <a href="experiences.html" class="hover:text-[#c8872f] transition-colors">Expériences</a>
                 <a href="sejour.html" class="hover:text-[#c8872f] transition-colors">Séjourner</a>
                 <a href="contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
-                <div class="flex items-center gap-x-1 text-sm border-l pl-4 ml-1">
-                    <a href="../index.html" class="hover:text-[#c8872f]">IT</a><span class="text-gray-300">|</span>
-                    <span class="font-medium text-[#c8872f]">FR</span><span class="text-gray-300">|</span>
-                    <a href="../ar/al-uns/index.html" class="hover:text-[#c8872f]">AR</a>
-                </div>
             </div>
             <button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]">☰</button>
         </div>
     </div>
 </nav>
 
-<section class="relative min-h-[88vh] flex items-end md:items-center pt-20">
+<section class="relative min-h-[92vh] flex items-center justify-center pt-20">
     <div class="absolute inset-0">
-        <img src="../assets/riad-entrata-1.jpg" alt="Seuil du Riad Al-Uns : patio, orangers, fontaine et vie de la maison" class="img-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/35 to-black/25"></div>
+        <img src="../assets/riad-entrata-1.jpg" alt="Seuil du Riad Al-Uns" class="img-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/30"></div>
     </div>
-    <div class="relative max-w-6xl mx-auto px-6 pb-16 md:pb-0 w-full">
-        <div class="max-w-2xl text-white">
-            <p class="tracking-[3px] text-sm mb-4 text-white/85">رياض الأنس</p>
-            <h1 class="heading text-5xl md:text-7xl mb-5 text-white" style="color:white">Riad Al-Uns</h1>
-            <p class="text-lg md:text-xl mb-10 text-white/90 leading-relaxed">Demeure traditionnelle & communauté intentionnelle<br>au rythme de la beauté et de la tradition</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-                <a href="projet.html" class="inline-flex items-center justify-center px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition">Découvrir le projet</a>
-                <a href="sejour.html" class="inline-flex items-center justify-center px-8 py-4 bg-white/90 text-[#1f1f1f] font-medium rounded-2xl hover:bg-white transition">Séjourner au Riad</a>
-            </div>
+    <div class="relative max-w-4xl mx-auto px-6 text-center text-white">
+        <img src="../assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-24 md:h-32 mx-auto mb-6 drop-shadow-lg">
+        <p class="tracking-[3px] text-sm mb-4 text-white/85">رياض الأنس</p>
+        <h1 class="heading text-5xl md:text-7xl mb-5 text-white drop-shadow-lg" style="color:white">Riad Al-Uns</h1>
+        <p class="text-lg md:text-xl mb-10 text-white/90 leading-relaxed max-w-2xl mx-auto">Demeure traditionnelle & communauté intentionnelle<br>au rythme de la beauté et de la tradition</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="projet.html" class="inline-flex items-center justify-center px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition">Découvrir le projet</a>
+            <a href="sejour.html" class="inline-flex items-center justify-center px-8 py-4 bg-white/90 text-[#1f1f1f] font-medium rounded-2xl hover:bg-white transition">Séjourner au Riad</a>
         </div>
     </div>
 </section>
@@ -104,7 +114,7 @@
     <div class="max-w-6xl mx-auto px-6">
         <div class="grid md:grid-cols-2 gap-10 items-center">
             <div class="rounded-3xl overflow-hidden aspect-[4/3] bg-gray-200 order-2 md:order-1">
-                <img src="../assets/IMG_7085.png" alt="Dar al-Hiraf : jeunes hommes, étude et métiers dans le patio" class="img-cover">
+                <img src="../assets/IMG_7085.png" alt="Dar al-Hiraf" class="img-cover">
             </div>
             <div class="order-1 md:order-2">
                 <div class="uppercase text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">Cœur du projet</div>
