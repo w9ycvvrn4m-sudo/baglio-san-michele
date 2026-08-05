@@ -6,7 +6,7 @@
     <title>Le Projet | Riad Al-Uns</title>
     <meta name="description" content="Vision de Riad Al-Uns : communauté intentionnelle, Dar al-Hiraf, beauté, rythme traditionnel et hospitalité sélective au Maroc.">
     <link rel="canonical" href="https://www.borgoideale.com/al-uns/projet.html">
-    <link rel="icon" type="image/png" href="../assets/logo-500-bn.png">
+    <link rel="icon" type="image/png" href="../assets/logo-RIAD-sito.png">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -20,16 +20,33 @@
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-6">
         <div class="flex items-center justify-between h-20">
-            <div><a href="index.html"><img src="../assets/logo-500-bn.png" alt="Riad Al-Uns" class="h-11 w-auto"></a></div>
-            <div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-                <a href="index.html" class="hover:text-[#c8872f]">Riad Al-Uns</a>
+            <div><a href="index.html"><img src="../assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a></div>
+            <div class="hidden lg:flex items-center gap-x-6 text-sm tracking-wider">
+                <a href="index.html" class="hover:text-[#c8872f] transition-colors">Riad Al-Uns</a>
                 <a href="projet.html" class="font-medium text-[#c8872f]">Projet</a>
-                <a href="architecture.html" class="hover:text-[#c8872f]">Architecture</a>
-                <a href="vie.html" class="hover:text-[#c8872f]">Vie au Riad</a>
-                <a href="dar-al-hiraf.html" class="hover:text-[#c8872f]">Dar al-Hiraf</a>
-                <a href="sejour.html" class="hover:text-[#c8872f]">Séjourner</a>
-                <a href="contact.html" class="hover:text-[#c8872f]">Contact</a>
+                <div class="group relative">
+                    <a href="architecture.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Architecture<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50"><div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-52">
+                        <a href="architecture.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces</a>
+                        <a href="architecture.html#hebergements" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hébergements</a>
+                        <a href="architecture.html#corps" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces du corps</a>
+                        <a href="jardin.html" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Jardin</a>
+                    </div></div>
+                </div>
+                <a href="vie.html" class="hover:text-[#c8872f] transition-colors">Vie au Riad</a>
+                <div class="group relative">
+                    <a href="dar-al-hiraf.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Dar al-Hiraf<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block z-50"><div class="bg-white border border-gray-200 rounded-xl shadow-lg py-2 w-52">
+                        <a href="dar-al-hiraf.html#disciplines" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Disciplines</a>
+                        <a href="dar-al-hiraf.html#corps" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Le corps formé</a>
+                        <a href="dar-al-hiraf.html#residence" class="block px-4 py-2 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La résidence</a>
+                    </div></div>
+                </div>
+                <a href="experiences.html" class="hover:text-[#c8872f] transition-colors">Expériences</a>
+                <a href="sejour.html" class="hover:text-[#c8872f] transition-colors">Séjourner</a>
+                <a href="contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
             </div>
+            <button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]">☰</button>
         </div>
     </div>
 </nav>
@@ -41,80 +58,28 @@
             <h1 class="heading text-5xl mb-6">Le Projet</h1>
             <p class="text-xl text-secondary max-w-2xl mx-auto leading-relaxed">Riad Al-Uns n’est pas un hôtel. C’est une demeure traditionnelle et une communauté intentionnelle : formation de jeunes hommes, beauté du geste, rythme de la tradition, hospitalité rare.</p>
         </div>
-
-        <div class="rounded-3xl overflow-hidden mb-14 bg-gray-100 aspect-[16/9]">
-            <img src="../assets/riad-entrata-1.jpg" alt="Seuil du Riad Al-Uns" class="w-full h-full object-cover">
-        </div>
-
+        <div class="rounded-3xl overflow-hidden mb-14 bg-gray-100 aspect-[16/9]"><img src="../assets/riad-entrata-1.jpg" alt="Seuil du Riad Al-Uns" class="w-full h-full object-cover"></div>
         <div class="bg-cream rounded-3xl p-8 md:p-10 mb-16">
             <h2 class="heading text-3xl mb-5">Une culture vivante</h2>
             <p class="text-secondary text-lg leading-relaxed mb-4">Ce projet montre l’actualité de la culture islamique : sa beauté, ses liens avec le monde méditerranéen, l’influence qu’elle a exercée en Espagne, en Sicile et au-delà.</p>
             <p class="text-secondary leading-relaxed">Il s’agit d’un discours de tradition et de fierté des racines — pour un modèle de vie ordonné qui, aujourd’hui, retrouve tout son sens.</p>
         </div>
-
         <div class="mb-16">
             <h2 class="heading text-3xl mb-8 text-center">Quatre piliers</h2>
             <div class="grid md:grid-cols-2 gap-6">
-
-                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-                    <div class="aspect-[4/3] bg-gray-100">
-                        <img src="../assets/IMG_7085.png" alt="Dar al-Hiraf" class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Dar al-Hiraf</h3>
-                        <p class="text-secondary text-sm leading-relaxed">Maison des métiers et résidence pour jeunes hommes non mariés. Formation du geste, du corps et du caractère. Cœur vivant du projet.</p>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-                    <div class="aspect-[4/3] bg-gray-100">
-                        <img src="../assets/IMG_7053.jpeg" alt="Beauté" class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">La beauté</h3>
-                        <p class="text-secondary text-sm leading-relaxed">Architecture, jardin, matières, relations. L’équilibre et la dignité comme principe non négociable.</p>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-                    <div class="aspect-[4/3] bg-gray-100">
-                        <img src="../assets/IMG_7057.jpeg" alt="Rythme traditionnel" class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Le rythme</h3>
-                        <p class="text-secondary text-sm leading-relaxed">Cinq prières, travail, étude, repas partagés, silence. Une journée ordonnée et incarnée — non fragmentée.</p>
-                    </div>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
-                    <div class="aspect-[4/3] bg-gray-100">
-                        <img src="../assets/IMG_6983.jpeg" alt="Hospitalité sélective" class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">L’hospitalité sélective</h3>
-                        <p class="text-secondary text-sm leading-relaxed">Très peu d’hôtes. Diyafa de haute qualité. L’invité entre dans une maison vivante, il ne consomme pas un service.</p>
-                    </div>
-                </div>
-
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden"><div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7085.png" alt="Dar al-Hiraf" class="w-full h-full object-cover"></div><div class="p-6"><h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Dar al-Hiraf</h3><p class="text-secondary text-sm leading-relaxed">Maison des métiers et résidence pour jeunes hommes non mariés. Formation du geste, du corps et du caractère.</p></div></div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden"><div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7053.jpeg" alt="Beauté" class="w-full h-full object-cover"></div><div class="p-6"><h3 class="font-semibold text-lg mb-2 text-[#c8872f]">La beauté</h3><p class="text-secondary text-sm leading-relaxed">Architecture, jardin, matières, relations. Équilibre et dignité non négociables.</p></div></div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden"><div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7057.jpeg" alt="Rythme" class="w-full h-full object-cover"></div><div class="p-6"><h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Le rythme</h3><p class="text-secondary text-sm leading-relaxed">Cinq prières, travail, étude, repas partagés, silence.</p></div></div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden"><div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_6983.jpeg" alt="Hospitalité" class="w-full h-full object-cover"></div><div class="p-6"><h3 class="font-semibold text-lg mb-2 text-[#c8872f]">L’hospitalité sélective</h3><p class="text-secondary text-sm leading-relaxed">Très peu d’hôtes. Diyafa de haute qualité.</p></div></div>
             </div>
         </div>
-
-        <div class="bg-cream rounded-3xl p-8 md:p-10 text-center mb-12">
-            <p class="text-secondary text-lg leading-relaxed max-w-2xl mx-auto">La maison forme avant d’accueillir. Les jeunes qui y vivent apprennent les métiers, le corps, la discipline et la présence. Ce qui se transmet ici peut, demain, se propager.</p>
-        </div>
-
+        <div class="bg-cream rounded-3xl p-8 md:p-10 text-center mb-12"><p class="text-secondary text-lg leading-relaxed max-w-2xl mx-auto">La maison forme avant d’accueillir. Ce qui se transmet ici peut, demain, se propager.</p></div>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="dar-al-hiraf.html" class="inline-flex items-center justify-center px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition">Dar al-Hiraf</a>
             <a href="vie.html" class="inline-flex items-center justify-center px-8 py-4 border border-gray-300 font-medium rounded-2xl hover:border-[#c8872f] hover:text-[#c8872f] transition">Vie au Riad</a>
         </div>
     </div>
 </main>
-
-<footer class="border-t border-gray-200 bg-white">
-    <div class="max-w-6xl mx-auto px-6 py-8 text-sm text-secondary flex justify-between items-center">
-        <span>© 2026 Riad Al-Uns</span>
-        <a href="index.html" class="text-[#c8872f] hover:text-[#a86f24]">Retour</a>
-    </div>
-</footer>
+<footer class="border-t border-gray-200 bg-white"><div class="max-w-6xl mx-auto px-6 py-8 text-sm text-secondary flex justify-between items-center"><span>© 2026 Riad Al-Uns</span><a href="index.html" class="text-[#c8872f] hover:text-[#a86f24]">Retour</a></div></footer>
 </body>
 </html>
