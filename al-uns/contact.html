@@ -48,6 +48,30 @@
             </div>
             <button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]">☰</button>
         </div>
+        <div id="mobile-menu" class="hidden lg:hidden flex-col pb-6 text-sm tracking-wider bg-white px-6 border-t border-gray-100">
+            <a href="index.html" class="block py-2.5 hover:text-[#c8872f]">Riad Al-Uns</a>
+            <a href="projet.html" class="block py-2.5 hover:text-[#c8872f]">Projet</a>
+            <div class="pt-2">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Architecture</p>
+                <a href="architecture.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Espaces</a>
+                <a href="architecture.html#hebergements" class="block py-1.5 pl-4 hover:text-[#c8872f]">Hébergements</a>
+                <a href="architecture.html#corps" class="block py-1.5 pl-4 hover:text-[#c8872f]">Espaces du corps</a>
+                <a href="jardin.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Jardin</a>
+            </div>
+            <a href="vie.html" class="block py-2.5 hover:text-[#c8872f]">Vie au Riad</a>
+            <div class="pt-2">
+                <p class="font-semibold text-[#c8872f] px-1 mb-1">Dar al-Hiraf</p>
+                <a href="dar-al-hiraf.html" class="block py-1.5 pl-4 hover:text-[#c8872f]">Présentation</a>
+                <a href="dar-al-hiraf.html#disciplines" class="block py-1.5 pl-4 hover:text-[#c8872f]">Disciplines</a>
+                <a href="dar-al-hiraf.html#corps" class="block py-1.5 pl-4 hover:text-[#c8872f]">Le corps formé</a>
+                <a href="dar-al-hiraf.html#residence" class="block py-1.5 pl-4 hover:text-[#c8872f]">La résidence</a>
+            </div>
+            <a href="experiences.html" class="block py-2.5 hover:text-[#c8872f]">Expériences</a>
+            <a href="sejour.html" class="block py-2.5 hover:text-[#c8872f]">Séjourner</a>
+            <a href="contact.html" class="block py-2.5 hover:text-[#c8872f]">Contact</a>
+            <div class="h-px bg-gray-200 my-3"></div>
+            <a href="../index.html" class="block py-2 text-[#c8872f]">Baglio San Michele</a>
+        </div>
     </div>
 </nav>
 <main class="pt-28 pb-20">
@@ -70,5 +94,27 @@
     </div>
 </main>
 <footer class="border-t border-gray-200 bg-white"><div class="max-w-6xl mx-auto px-6 py-8 text-sm text-secondary flex justify-between"><span>© 2026 Riad Al-Uns</span><a href="../index.html" class="text-[#c8872f]">Baglio San Michele</a></div></footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+        function toggleMenu(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        }
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+        document.addEventListener('click', function(e) {
+            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target) && !mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+            }
+        });
+    }
+});
+</script>
 </body>
 </html>
