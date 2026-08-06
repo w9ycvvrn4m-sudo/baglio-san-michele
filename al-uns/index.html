@@ -52,7 +52,19 @@
                 <a href="sejour.html" class="hover:text-[#c8872f] transition-colors">Séjourner</a>
                 <a href="contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
             </div>
-            <button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]">☰</button>
+            <button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
+        </div>
+        <div id="mobile-menu" class="hidden lg:hidden flex-col pb-6 text-sm tracking-wider bg-white border-t border-gray-100">
+            <a href="index.html" class="block py-2.5 hover:text-[#c8872f]">Riad Al-Uns</a>
+            <a href="projet.html" class="block py-2.5 hover:text-[#c8872f]">Projet</a>
+            <a href="architecture.html" class="block py-2.5 hover:text-[#c8872f]">Architecture</a>
+            <a href="vie.html" class="block py-2.5 hover:text-[#c8872f]">Vie au Riad</a>
+            <a href="dar-al-hiraf.html" class="block py-2.5 hover:text-[#c8872f]">Dar al-Hiraf</a>
+            <a href="experiences.html" class="block py-2.5 hover:text-[#c8872f]">Expériences</a>
+            <a href="sejour.html" class="block py-2.5 hover:text-[#c8872f]">Séjourner</a>
+            <a href="contact.html" class="block py-2.5 hover:text-[#c8872f]">Contact</a>
+            <div class="h-px bg-gray-200 my-3"></div>
+            <a href="../index.html" class="block py-2 text-[#c8872f]">Baglio San Michele</a>
         </div>
     </div>
 </nav>
@@ -149,5 +161,27 @@
         </div>
     </div>
 </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+        function toggleMenu(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex');
+        }
+        menuBtn.addEventListener('click', toggleMenu);
+        menuBtn.addEventListener('touchstart', toggleMenu, { passive: false });
+        document.addEventListener('click', function(e) {
+            if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target) && !mobileMenu.classList.contains('hidden')) {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+            }
+        });
+    }
+});
+</script>
 </body>
 </html>
