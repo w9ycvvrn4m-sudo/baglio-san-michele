@@ -161,13 +161,14 @@
                     <img src="../assets/IMG_7220.jpeg" alt="Jardin du Riad" class="w-full h-full object-cover min-h-[240px]">
                 </div>
                 <div class="md:w-1/2 p-8 flex flex-col justify-center">
-                    <p class="text-secondary leading-relaxed mb-4">Le jardin n’est pas un décor : c’est un ordre vivant.</p>
-                    <a href="/al-uns/jardin.html" class="inline-flex items-center text-[#c8872f] font-medium">Découvrir le jardin →</a>
+                    <p class="text-secondary leading-relaxed mb-4">Le jardin n’est pas un décor : c’est un ordre vivant — ombre, eau, parfum, nourriture. Orangers, roses, stephanotis, potager.</p>
+                    <a href="/al-uns/jardin.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">Découvrir le jardin →</a>
                 </div>
             </div>
         </section>
     </div>
 </main>
+
 <footer class="border-t border-gray-200 bg-white">
     <div class="max-w-6xl mx-auto px-6 py-10">
         <div class="text-sm text-secondary">© 2026 - All rights reserved - Riad al-Uns</div>
@@ -176,7 +177,7 @@
 <script>
 document.addEventListener('DOMContentLoaded',function(){
 var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');
-if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');}b.addEventListener('click',t);b.addEventListener('touchstart',t,{passive:false});}
+if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');}b.addEventListener('click',t);b.addEventListener('touchstart',t,{passive:false});document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');}});}
 });
 </script>
 </body>
