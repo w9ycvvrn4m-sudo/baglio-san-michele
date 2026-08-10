@@ -9,10 +9,15 @@
 <link rel="icon" type="image/png" href="../assets/logo-RIAD-sito.png">
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
-<style>body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}.text-secondary{color:#4a4a4a}.bg-cream{background-color:#F8F5F0}.img-cover{width:100%;height:100%;object-fit:cover}</style>
+<style>
+body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}
+.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}
+.text-secondary{color:#4a4a4a}.bg-cream{background-color:#F8F5F0}
+.img-cover{width:100%;height:100%;object-fit:cover}
+</style>
 </head>
 <body>
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100" role="navigation" aria-label="Menu principal">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
 <div class="max-w-6xl mx-auto px-6">
 <div class="flex items-center justify-between h-20">
 <div><a href="/al-uns/index.html"><img src="../assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a></div>
@@ -53,9 +58,9 @@
 </div></div>
 <a href="/al-uns/contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
 </div>
-<button id="menu-btn" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
+<button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
 </div>
-<div id="mobile-menu" aria-label="Menu mobile" class="hidden lg:hidden flex-col pb-6 text-sm tracking-wider bg-white border-t border-gray-100">
+<div id="mobile-menu" class="hidden lg:hidden flex-col pb-6 text-sm tracking-wider bg-white border-t border-gray-100">
 <a href="/al-uns/index.html" class="block py-2.5 hover:text-[#c8872f]">Riad Al-Uns</a>
 <div class="py-2.5 font-medium text-[#c8872f]">Projet</div>
 <a href="/al-uns/projet.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vue d'ensemble</a>
@@ -159,7 +164,7 @@
 </div>
 </section>
 
-<section class="max-w-5xl mx-auto px-6 pb-16">
+<section class="max-w-5xl mx-auto px-6 pb-20">
 <div class="text-center mb-10">
 <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">ENTRER DANS LA MAISON</p>
 <h2 class="heading text-3xl mb-4">Trois manières d'approcher</h2>
@@ -167,7 +172,7 @@
 </div>
 <div class="grid md:grid-cols-3 gap-6">
 <a href="/al-uns/sejour.html" class="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-[#c8872f]/40 transition block">
-<div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7231.jpeg" alt="Séjourner" class="w-full h-full object-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7138.jpeg" alt="Séjourner" class="w-full h-full object-cover"></div>
 <div class="p-6">
 <h3 class="heading text-xl mb-2">Séjourner</h3>
 <p class="text-secondary text-sm leading-relaxed mb-3">Un temps limité, dans le rythme de la maison — sans engagement.</p>
@@ -175,7 +180,7 @@
 </div>
 </a>
 <a href="/al-uns/dar-al-hiraf/stages.html" class="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-[#c8872f]/40 transition block">
-<div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7442.jpeg" alt="Stages de formation" class="w-full h-full object-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7267.jpeg" alt="Stages de formation" class="w-full h-full object-cover"></div>
 <div class="p-6">
 <h3 class="heading text-xl mb-2">Stages de formation</h3>
 <p class="text-secondary text-sm leading-relaxed mb-3">Quelques semaines pour toucher un métier — avant de s'engager plus loin.</p>
@@ -183,7 +188,7 @@
 </div>
 </a>
 <a href="/al-uns/dar-al-hiraf.html#residence" class="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-[#c8872f]/40 transition block">
-<div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7116.jpeg" alt="La résidence" class="w-full h-full object-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img src="../assets/IMG_7184.jpeg" alt="La résidence" class="w-full h-full object-cover"></div>
 <div class="p-6">
 <h3 class="heading text-xl mb-2">La résidence</h3>
 <p class="text-secondary text-sm leading-relaxed mb-3">L'engagement long : le métier, le corps, la foi, la vie commune.</p>
@@ -193,17 +198,9 @@
 </div>
 </section>
 
-<section class="max-w-5xl mx-auto px-6 py-16">
-<div class="text-center mb-10">
-<p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">HOSPITALITÉ</p>
-<h2 class="heading text-3xl mb-4">Une expérience sélective</h2>
-<p class="text-secondary max-w-2xl mx-auto leading-relaxed">Les hôtes sont accueillis en nombre très limité. Ils sont invités à entrer dans le rythme de la maison.</p>
+<div class="text-center pb-16">
+<a href="/al-uns/contact.html" class="inline-block border border-[#c8872f] text-[#c8872f] px-8 py-3 rounded-full text-sm tracking-wider hover:bg-[#c8872f] hover:text-white transition">Nous écrire →</a>
 </div>
-<div class="text-center">
-<a href="/al-uns/sejour.html" class="inline-flex items-center justify-center px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition mr-3">Séjourner</a>
-<a href="/al-uns/projet.html" class="inline-flex items-center justify-center px-8 py-4 border border-[#c8872f] text-[#c8872f] font-medium rounded-2xl hover:bg-[#c8872f] hover:text-white transition">Le Projet</a>
-</div>
-</section>
 
 </main>
 
@@ -212,6 +209,14 @@
 <div class="text-sm text-secondary">© 2026 - All rights reserved - Riad al-Uns</div>
 </div>
 </footer>
-<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');var expanded=!m.classList.contains('hidden');b.setAttribute('aria-expanded',expanded?'true':'false');}b.addEventListener('click',t);document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');b.setAttribute('aria-expanded','false');}});}});</script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');
+if(b&&m){
+b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');});
+document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');}});
+}
+});
+</script>
 </body>
 </html>
