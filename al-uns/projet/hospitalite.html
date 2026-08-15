@@ -83,10 +83,6 @@
 <a href="/al-uns/qui-cherchons-nous.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Qui cherchons-nous</a>
 <a href="/al-uns/maitres-et-personnel.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Maîtres &amp; personnel recherchés</a>
 <a href="/al-uns/projet/charite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Charité &amp; service</a>
-<a href="/al-uns/projet/rayonnement.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Rayonnement &amp; partenariats</a>
-<a href="/al-uns/qui-cherchons-nous.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Qui cherchons-nous</a>
-<a href="/al-uns/maitres-et-personnel.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Maîtres &amp; personnel recherchés</a>
-<a href="/al-uns/projet/charite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Charité &amp; service</a>
 <div class="py-2.5 font-medium text-[#c8872f]">Architecture</div>
 <a href="/al-uns/architecture.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Espaces</a>
 <a href="/al-uns/architecture/patio.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Patio</a>
@@ -174,6 +170,6 @@
         <div class="text-sm text-secondary">© 2026 - All rights reserved - Riad al-Uns</div>
     </div>
 </footer>
-<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');}b.addEventListener('click',t);}});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');b.setAttribute('aria-expanded',(!m.classList.contains('hidden')).toString());});document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');b.setAttribute('aria-expanded','false');}});}});</script>
 </body>
 </html>

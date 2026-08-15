@@ -157,6 +157,6 @@
 <div class="text-sm text-secondary">© 2026 - All rights reserved - Riad al-Uns</div>
 </div>
 </footer>
-<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');var expanded=!m.classList.contains('hidden');b.setAttribute('aria-expanded',expanded?'true':'false');}b.addEventListener('click',t);}});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');b.setAttribute('aria-expanded',(!m.classList.contains('hidden')).toString());});document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');b.setAttribute('aria-expanded','false');}});}});</script>
 </body>
 </html>
