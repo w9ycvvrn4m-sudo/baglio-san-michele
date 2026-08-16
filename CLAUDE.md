@@ -66,6 +66,41 @@ Vercel pubblica da solo in un paio di minuti su
 
 ---
 
+## Come lavorare con Pietro (valido per tutte le conversazioni)
+
+- **Fare le domande con le caselle a spunta** (strumento a scelta multipla), non
+  in forma di testo libero. Vale sempre, in ogni conversazione su questo progetto.
+- Procedere senza chiedere conferma quando la strada è chiara; chiedere solo ciò
+  che cambia davvero il risultato.
+- Risposte sobrie e diritte. Nessun linguaggio da hotel, resort o marketing.
+
+---
+
+## Dossier Dar al-Diyafa — punti fermi già acquisiti
+
+Estensione del progetto Riad Al-Uns: foresteria d'élite + operazione immobiliare
+sugli edifici adiacenti. Decisioni prese finora, da non rimettere in discussione
+senza motivo:
+
+- **Tipologia**: foresteria come *douiria* tradizionale — corpo staccato, due
+  porte su derb diversi, un solo passaggio con soglia a gomito, comando
+  dell'apertura dal lato del riad.
+- **Regola progettuale**: la foresteria deve conservare tutto il suo valore con
+  la porta murata. Dà al riad un veto reale e all'investitore una garanzia.
+- **Denaro**: il riad non incassa dagli ospiti. Il veicolo versa una **quota
+  fissa annuale**, mai una percentuale sui ricavi.
+- **Quattro chiavi, mai una di più**, da scrivere nello statuto.
+- **Mai** usare il sisma del 2023 come leva d'acquisto o come materiale
+  narrativo ESG. Punto chiuso.
+- Il mercato della medina di Marrakech **cresce** (+12% 2024-2026): non esiste
+  alcuno sconto post-sisma. Ogni cifra ricevuta da terzi va verificata prima
+  dell'uso — i documenti generati altrove contenevano prezzi gonfiati 2-3 volte.
+- Documenti sempre **separati**: A = il riad (identità e limiti), B = il veicolo
+  (tesi immobiliare), + la convenzione che lega i due.
+- Da verificare di persona: esistenza e mandato di **Vincent Desmarie** (Barnes).
+
+---
+
 ## In sospeso
 
 - **`al-uns/qui-cherchons-nous.html`** — 8 segnaposto `[À CHOISIR].jpeg` da
