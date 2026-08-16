@@ -138,7 +138,13 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xl text-secondary max-w-2xl mx-auto leading-relaxed">The terms that recur across these pages — Arabic for the most part, Persian, Ottoman, Berber or Andalusian for the rest. Each entry states the word, its script, its transliteration and the page where it is treated at length.</p>
 </div>
 
-<nav aria-label="Contents" class="bg-cream rounded-3xl p-8 mb-16">
+<div class="max-w-2xl mx-auto mb-12">
+<label for="gl-q" class="sr-only">Search the glossary</label>
+<input id="gl-q" type="search" autocomplete="off" placeholder="Search a term, a script, a definition…" class="w-full rounded-full border border-gray-200 bg-cream px-6 py-3 text-secondary placeholder-gray-400 focus:outline-none focus:border-[#c8872f] transition-colors">
+<p id="gl-count" class="text-center text-xs tracking-wider text-gray-400 mt-3" role="status" aria-live="polite"></p>
+</div>
+
+<nav id="gl-toc" aria-label="Contents" class="bg-cream rounded-3xl p-8 mb-16">
 <div class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-5">CONTENTS</div>
 <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-3">
 <a href="#nom" class="text-secondary hover:text-[#c8872f] transition-colors flex items-baseline justify-between gap-3"><span>The name of the house</span><span class="text-xs text-gray-400">5</span></a>
@@ -154,12 +160,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-6 pt-6 border-t border-gray-200">Transliteration follows a simple scientific convention; the Moroccan forms in current use are given alongside where they differ from classical Arabic. Terms belonging to neighbouring but distinct traditions are marked as such.</p>
 </nav>
 
-<section id="nom" class="mb-16">
+<section id="nom" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">The name of the house</h2>
 <p class="ar" dir="rtl" lang="ar">الاسم</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-riyad" data-k="riyad riyad رياض an arab-andalusian dwelling organised around a garden or a courtyard open to the sky. the word is an arabic plural — of rawda, garden — and names the gardens first, only then the house that encloses them.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Riyāḍ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">رياض</p>
@@ -169,7 +175,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">An Arab-Andalusian dwelling organised around a garden or a courtyard open to the sky. The word is an Arabic plural — of <em>rawḍa</em>, garden — and names the gardens first, only then the house that encloses them.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/jardin.html" class="text-[#c8872f] hover:underline">Garden & kitchen garden</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/architecture.html" class="text-[#c8872f] hover:underline">Spaces</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-uns" data-k="al-uns al-uns الانس cordial intimacy, reassuring familiarity, the company that drives out solitude. not noise nor confusion: the full quiet of one who knows he is not alone.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Uns</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الأنس</p>
@@ -179,7 +185,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Cordial intimacy, reassuring familiarity, the company that drives out solitude. Not noise nor confusion: the full quiet of one who knows he is not alone.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/index.html" class="text-[#c8872f] hover:underline">Riad Al-Uns</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-wahsha" data-k="wahsha wahsha وحشة inner desolation, the isolation that estranges a man from himself and from others: the exact opposite of al-uns.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Waḥsha</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">وحشة</p>
@@ -189,7 +195,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Inner desolation, the isolation that estranges a man from himself and from others: the exact opposite of <em>al-uns</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/index.html" class="text-[#c8872f] hover:underline">Riad Al-Uns</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-dar" data-k="dar dar دار “house”, in the full sense: the building and those who live in it. the word opens the name of any institution that understands itself as a household — dar al-hiraf, dar al-tiraz.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Dār</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">دار</p>
@@ -199,7 +205,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“House”, in the full sense: the building and those who live in it. The word opens the name of any institution that understands itself as a household — <em>Dar al-Hiraf</em>, <em>dar al-tirāz</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf.html" class="text-[#c8872f] hover:underline">Dar al-Hiraf</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-bayt" data-k="bayt bayt بيت the room, the chamber, and by extension the household; in poetry, the verse. the chambers of the hammam bear the name.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Bayt</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بيت</p>
@@ -212,12 +218,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="futuwwa" class="mb-16">
+<section id="futuwwa" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Moral ideals & futuwwa</h2>
 <p class="ar" dir="rtl" lang="ar">الفتوّة</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-futuwwa" data-k="futuwwa futuwwa الفتوة the companionship ideal of the medieval islamic world: it bound gesture to honour, hand to given word, apprentice to master. generosity, loyalty, courage, self-mastery, service.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Futuwwa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الفتوّة</p>
@@ -227,7 +233,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The companionship ideal of the medieval Islamic world: it bound gesture to honour, hand to given word, apprentice to master. Generosity, loyalty, courage, self-mastery, service.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-fata" data-k="fata fata فتى “young man.” futuwwa is the quality of the fata — not youth in years, but an inner disposition: generous to the point of sacrifice, loyal unto death, brave without vanity, master of himself before he is master of anything else.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Fatā</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">فتى</p>
@@ -237,7 +243,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“Young man.” <em>Futuwwa</em> is the quality of the <em>fatā</em> — not youth in years, but an inner disposition: generous to the point of sacrifice, loyal unto death, brave without vanity, master of himself before he is master of anything else.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-javanmardi" data-k="javanmardi javanmardi جوانمردی the exact persian counterpart of arabic futuwwa — same structure, same demand: generosity, loyalty, self-mastery, service. the two traditions fed one another for centuries. a persian term, not arabic: written with the persian final ya (ی).">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Javānmardī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">جوانمردی</p>
@@ -248,7 +254,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">A Persian term, not Arabic: written with the Persian final <em>yāʾ</em> (ی).</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-pahlavan" data-k="pahlavan pahlavan پهلوان the hero of the zurkhane. he is honoured not for strength alone but for generosity and uprightness — exactly like the fata of futuwwa.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Pahlavān</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">پهلوان</p>
@@ -258,7 +264,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The hero of the <em>zurkhane</em>. He is honoured not for strength alone but for generosity and uprightness — exactly like the <em>fatā</em> of <em>futuwwa</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-adab" data-k="adab adab ادب etiquette, bearing, rightness of conduct and of speech. the master of a craft does not transmit technical gestures alone: he transmits an adab, a way of standing in the craft and in life. it is also what traditional dress carries within itself — measure and dignity.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Adab</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">أدب</p>
@@ -268,7 +274,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Etiquette, bearing, rightness of conduct and of speech. The master of a craft does not transmit technical gestures alone: he transmits an <em>adab</em>, a way of standing in the craft and in life. It is also what traditional dress carries within itself — measure and dignity.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sidq" data-k="sidq sidq صدق truthfulness: word and deed coincide, without gap, without exception of circumstance.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṣidq</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">صدق</p>
@@ -278,7 +284,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Truthfulness: word and deed coincide, without gap, without exception of circumstance.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-wafa" data-k="wafa wafa وفاء faithfulness to the given word, to the master, to the brothers, to the pact — until it costs, and above all then.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Wafāʾ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">وفاء</p>
@@ -288,7 +294,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Faithfulness to the given word, to the master, to the brothers, to the pact — until it costs, and above all then.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/fraternite.html" class="text-[#c8872f] hover:underline">Brotherhood & uprightness</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sakha" data-k="sakha sakha سخاء radical generosity: to give before being asked, to give what costs.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Sakhāʾ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سخاء</p>
@@ -298,7 +304,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Radical generosity: to give before being asked, to give what costs.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-shajaa" data-k="shajaa shajaa شجاعة courage — not only before danger, but in self-mastery: the capacity to contain ones own force rather than deploy it without measure.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Shajāʿa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">شجاعة</p>
@@ -308,7 +314,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Courage — not only before danger, but in self-mastery: the capacity to contain one's own force rather than deploy it without measure.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-nafs" data-k="nafs al-nafs النفس the lower soul, seat of appetite and pride. it is what the fata learns to govern before claiming to govern anything else: his workshop, his house, one day perhaps a family.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Nafs</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">النفس</p>
@@ -318,7 +324,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The lower soul, seat of appetite and pride. It is what the <em>fatā</em> learns to govern before claiming to govern anything else: his workshop, his house, one day perhaps a family.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-khidma" data-k="khidma khidma خدمة service rendered — to the house, to the brothers, to the guest. workshop dress remains the same gandoura worn throughout the house, cut short: even in the gesture of service, the traditional form is never set aside.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Khidma</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">خدمة</p>
@@ -328,7 +334,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Service rendered — to the house, to the brothers, to the guest. Workshop dress remains the same <em>gandoura</em> worn throughout the house, cut short: even in the gesture of service, the traditional form is never set aside.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/projet/charite.html" class="text-[#c8872f] hover:underline">Charity & service</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sadaqa" data-k="sadaqa sadaqa صدقة almsgiving, the free gift. in the islamic tradition its worth lies precisely in the discretion with which it is done.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṣadaqa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">صدقة</p>
@@ -338,7 +344,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Almsgiving, the free gift. In the Islamic tradition its worth lies precisely in the discretion with which it is done.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/projet/charite.html" class="text-[#c8872f] hover:underline">Charity & service</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-shadd" data-k="shadd shadd شد the knotting of the belt: the gesture by which the futuwwa brotherhoods sealed a commitment taken.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Shadd</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">شدّ</p>
@@ -348,7 +354,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The knotting of the belt: the gesture by which the <em>futuwwa</em> brotherhoods sealed a commitment taken.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-asnaf" data-k="asnaf asnaf اصناف the craft guilds (sing. sinf), to which many futuwwa brotherhoods were bound. the craft was never merely a technique: it was the vehicle of an ethic.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Aṣnāf</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">أصناف</p>
@@ -358,7 +364,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The craft guilds (sing. <em>ṣinf</em>), to which many <em>futuwwa</em> brotherhoods were bound. The craft was never merely a technique: it was the vehicle of an ethic.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-futuwwatname" data-k="futuwwatname futuwwatname فتوت‌نامه the medieval futuwwa manuals: required virtues, rules of common life, master-disciple relation, outward signs and degrees of commitment. they codified wrestling, archery and horsemanship as formative disciplines on a par with craft and prayer. a persian title (name, “book, epistle”), for a largely arabic-persian corpus.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Futuwwatnāme</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">فتوت‌نامه</p>
@@ -369,7 +375,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">A Persian title (<em>nāme</em>, “book, epistle”), for a largely Arabic-Persian corpus.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">Futuwwa</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tawhid" data-k="tawhid tawhid توحيد divine oneness. the geometric interlace that repeats with no visible beginning or end is read, in islamic thought, as its image: unity behind the multiplicity of forms.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Tawḥīd</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">توحيد</p>
@@ -382,12 +388,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="tadbir" class="mb-16">
+<section id="tadbir" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Governance, grades & transmission</h2>
 <p class="ar" dir="rtl" lang="ar">التدبير</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-at-tadbir" data-k="at-tadbir at-tadbir التدبير the art of conducting a household: the measured governance of the home and of oneself. it is the classical word islamic political thought reserved for the government of the house.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">At-Tadbīr</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">التدبير</p>
@@ -397,7 +403,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The art of conducting a household: the measured governance of the home and of oneself. It is the classical word Islamic political thought reserved for the government of the house.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tadbir-al-manzil" data-k="tadbir al-manzil tadbir al-manzil تدبير المنزل “the government of the house.” ibn sina made it, at the scale of the household, the counterpart of the siyasa that governs the city.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Tadbīr al-manzil</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">تدبير المنزل</p>
@@ -407,7 +413,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The government of the house.” Ibn Sīnā made it, at the scale of the household, the counterpart of the <em>siyāsa</em> that governs the city.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-siyasa" data-k="siyasa siyasa سياسة the government of the city — the political order, of which tadbir is the domestic equivalent.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Siyāsa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سياسة</p>
@@ -417,7 +423,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The government of the city — the political order, of which <em>tadbīr</em> is the domestic equivalent.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-hawkama" data-k="al-hawkama al-hawkama الحوكمة the modern arabic calque of “governance”, borrowed from corporate vocabulary. the riad does not use it: it understands itself as a house, not an institution.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Ḥawkama</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الحوكمة</p>
@@ -427,7 +433,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The modern Arabic calque of “governance”, borrowed from corporate vocabulary. The Riad does not use it: it understands itself as a house, not an institution.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-ash-shaykh" data-k="ash-shaykh ash-shaykh الشيخ the head of the house. he wears the colour of no craft: he belongs to no guild, he stands for them all.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ash-Shaykh</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الشيخ</p>
@@ -437,7 +443,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The head of the house. He wears the colour of no craft: he belongs to no guild, he stands for them all.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-muqaddam" data-k="al-muqaddam al-muqaddam, pl. al-muqaddamun المقدم the two counsellors who assist the ash-shaykh in the conduct of the house.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Muqaddam</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">المقدّم</p>
@@ -447,7 +453,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The two counsellors who assist the Ash-Shaykh in the conduct of the house.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-an-naib" data-k="an-naib an-naib النايب “the deputy”: one of the most advanced pupils of each guild, who assists the other apprentices when the maallem is busy or away — never substituting for his authority. a responsibility, not a rank.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">An-Nāʾib</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">النائب</p>
@@ -457,7 +463,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The deputy”: one of the most advanced pupils of each guild, who assists the other apprentices when the <em>maʿallem</em> is busy or away — never substituting for his authority. A responsibility, not a rank.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-maallem" data-k="maallem maallem, pl. maallemin معلم the master of a craft: one who holds both technical mastery and the moral authority to transmit. to transmit a gesture is to transmit a way of standing in the craft. the maghrebi form (also maalem) of classical arabic muallim, “the one who teaches.”">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Maʿallem</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">معلّم</p>
@@ -468,7 +474,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">The Maghrebi form (also <em>mâalem</em>) of classical Arabic <em>muʿallim</em>, “the one who teaches.”</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/maitres-et-personnel.html" class="text-[#c8872f] hover:underline">Masters & staff</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sani" data-k="sani sani صانع in moroccan workshop usage, the apprentice placed under the authority of the maallem, who accepts the discipline of the bottega. in classical arabic the word means “maker, craftsman”; the apprentice sense belongs to the dialectal usage of the guilds.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṣāniʿ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">صانع</p>
@@ -479,7 +485,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">In classical Arabic the word means “maker, craftsman”; the apprentice sense belongs to the dialectal usage of the guilds.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/residence.html" class="text-[#c8872f] hover:underline">The residence</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hizam-al-itqan" data-k="hizam al-itqan hizam al-itqan حزام الاتقان “the belt of mastery”: the four grades of the residency, from undyed rawhide to the grade embroidered in gold thread. nothing is gained by seniority alone — progression follows competence actually shown.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ḥizām al-Itqān</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">حزام الإتقان</p>
@@ -489,7 +495,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The belt of mastery”: the four grades of the residency, from undyed rawhide to the grade embroidered in gold thread. Nothing is gained by seniority alone — progression follows competence actually shown.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-itqan" data-k="itqan itqan اتقان accomplished execution: work carried through to its right perfection, without negligence and without excess.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Itqān</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">إتقان</p>
@@ -499,7 +505,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Accomplished execution: work carried through to its right perfection, without negligence and without excess.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir — Governance</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-madrasa-al-ula" data-k="madrasa al-ula al-madrasa al-ula المدرسة الاولى “the first school”: the family. formation is not separable from preparation for a household — a man able to hold a craft must also be able to hold a home.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Madrasa al-ūlā</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">المدرسة الأولى</p>
@@ -512,12 +518,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="metiers" class="mb-16">
+<section id="metiers" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Crafts & workmanship</h2>
 <p class="ar" dir="rtl" lang="ar">الحِرَف</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-dar-al-hiraf" data-k="dar al-hiraf dar al-hiraf دار الحرف “the house of crafts”: the riads school-residence, where five crafts of the hand are transmitted gesture by gesture by a maallem. hiraf (حرف) is the plural of hirfa.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Dār al-Ḥiraf</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">دار الحِرَف</p>
@@ -528,7 +534,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2"><em>Ḥiraf</em> (حِرَف) is the plural of <em>ḥirfa</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf.html" class="text-[#c8872f] hover:underline">Dar al-Hiraf</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hirfa" data-k="hirfa hirfa, pl. hiraf حرفة the traditional art craft. it implies not merely technical skill of the hand but a moral discipline: learning to “hold” a craft as one holds a responsibility.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ḥirfa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">حرفة</p>
@@ -538,7 +544,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The traditional art craft. It implies not merely technical skill of the hand but a moral discipline: learning to “hold” a craft as one holds a responsibility.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf.html" class="text-[#c8872f] hover:underline">Dar al-Hiraf</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hirafi" data-k="hirafi hirafi, pl. hirafiyyun حرفي the artisan who holds a hirfa: one who works matter with intention and exactness.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ḥirafī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">حِرَفيّ</p>
@@ -548,7 +554,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The artisan who holds a <em>ḥirfa</em>: one who works matter with intention and exactness.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sinaa" data-k="sinaa sinaa صناعة making, manufacture: the art of manual skill in its highest sense.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṣināʿa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">صناعة</p>
@@ -558,7 +564,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Making, manufacture: the art of manual skill in its highest sense.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/artisanat.html" class="text-[#c8872f] hover:underline">Crafts of the Riad</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-khiyata" data-k="khiyata khiyata خياطة sewing and cutting. the riads dress is cut by hand by the craftsmen of the house or of the medina, never borrowed from the industrial register.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Khiyāṭa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">خياطة</p>
@@ -568,7 +574,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Sewing and cutting. The Riad's dress is cut by hand by the craftsmen of the house or of the medina, never borrowed from the industrial register.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tatriz" data-k="tatriz tatriz تطريز embroidery. at the riad it marks the grade belt and the borders of the ceremonial pieces.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Taṭrīz</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">تطريز</p>
@@ -578,7 +584,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Embroidery. At the Riad it marks the grade belt and the borders of the ceremonial pieces.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-khatt-maghribi" data-k="khatt maghribi al-khatt al-maghribi الخط المغربي the maghrebi script, distinct from eastern naskh and thuluth. born in al-andalus, it settled in fez after the reconquista.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Khaṭṭ maghribī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الخط المغربي</p>
@@ -588,7 +594,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The Maghrebi script, distinct from eastern <em>naskh</em> and <em>thuluth</em>. Born in al-Andalus, it settled in Fez after the Reconquista.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-khattat" data-k="khattat khattat خطاط the calligrapher. “calligraphy is a geometry of the spirit appearing through an instrument of the body” — ibn muqla.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Khaṭṭāṭ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">خطّاط</p>
@@ -598,7 +604,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The calligrapher. “Calligraphy is a geometry of the spirit appearing through an instrument of the body” — Ibn Muqla.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/maitres-et-personnel.html" class="text-[#c8872f] hover:underline">Masters & staff</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qalam" data-k="qalam qalam قلم the reed pen: the cut reed whose angle of nib determines the stroke.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qalam</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">قلم</p>
@@ -608,7 +614,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The reed pen: the cut reed whose angle of nib determines the stroke.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-basmala" data-k="basmala al-basmala البسملة the formula bismillah al-rahman al-rahim, which opens the quran and paces daily life. it is the first exercise of every apprentice calligrapher: a founding gesture before it is a decorative motif.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Basmala</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">البسملة</p>
@@ -618,7 +624,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The formula <em>bismillāh al-raḥmān al-raḥīm</em>, which opens the Qur'an and paces daily life. It is the first exercise of every apprentice calligrapher: a founding gesture before it is a decorative motif.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-zillij" data-k="zillij zillij (zellige) زليج the art of glazed ceramic tesserae, cut one by one and assembled according to geometric grids. it was born in fez under the merinids, in the 13th–14th centuries. the term comes from an arabic root denoting the small polished stone.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Zillīj</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">زليج</p>
@@ -629,7 +635,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">The term comes from an Arabic root denoting the small polished stone.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-minqash" data-k="minqash minqash منقاش the zillij cutters hammer: each piece is struck by hand from a monochrome glazed tile.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Minqāsh</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">منقاش</p>
@@ -639,7 +645,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The <em>zillīj</em> cutter's hammer: each piece is struck by hand from a monochrome glazed tile.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-gebs" data-k="gebs gebs (jibs) جبس carved plaster. worked fresh with the knife, it covers walls, arches and domes with a vegetal, epigraphic and geometric web.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Gebs</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">جبس</p>
@@ -649,7 +655,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Carved plaster. Worked fresh with the knife, it covers walls, arches and domes with a vegetal, epigraphic and geometric web.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/artisanat.html" class="text-[#c8872f] hover:underline">Crafts of the Riad</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-muqarnas" data-k="muqarnas muqarnas مقرنص the honeycomb or stalactite cells that cover domes, portals and capitals — the mocarabe of the iberian languages. brought to its height in the madrasas of fez.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Muqarnaṣ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مقرنص</p>
@@ -659,7 +665,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The honeycomb or stalactite cells that cover domes, portals and capitals — the <em>mocárabe</em> of the Iberian languages. Brought to its height in the madrasas of Fez.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/artisanat.html" class="text-[#c8872f] hover:underline">Crafts of the Riad</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-mashrabiyya" data-k="mashrabiyya mashrabiyya مشربية the turned-wood screen (mashrabiya): it filters light and sight without stopping the air. geometric assembly without nail or glue.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Mashrabiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مشربية</p>
@@ -669,7 +675,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The turned-wood screen (<em>mashrabiya</em>): it filters light and sight without stopping the air. Geometric assembly without nail or glue.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tiraz" data-k="tiraz tiraz طراز the woven or embroidered inscription running along a garment or a house textile — and, by extension, the workshop that produces it.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Tirāz</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طراز</p>
@@ -679,7 +685,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The woven or embroidered inscription running along a garment or a house textile — and, by extension, the workshop that produces it.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/artisanat.html" class="text-[#c8872f] hover:underline">Crafts of the Riad</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-dar-al-tiraz" data-k="dar al-tiraz dar al-tiraz دار الطراز the state tiraz workshop, from fatimid egypt to umayyad al-andalus. there the inscribed cloth sealed the khila.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Dār al-tirāz</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">دار الطراز</p>
@@ -689,7 +695,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The state <em>tirāz</em> workshop, from Fatimid Egypt to Umayyad al-Andalus. There the inscribed cloth sealed the <em>khilʿa</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tiraz-khassa-amma" data-k="tiraz khassa / amma tiraz khassa · tiraz amma طراز خاصة · طراز عامة the tiraz reserved first for the sovereign (khassa), then extended to dignitaries (amma).">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Tirāz khāṣṣa / ʿāmma</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طراز خاصّة · طراز عامّة</p>
@@ -699,7 +705,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The <em>tirāz</em> reserved first for the sovereign (<em>khāṣṣa</em>), then extended to dignitaries (<em>ʿāmma</em>).</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-khila" data-k="khila khila خلعة the gift of a robe of honour: a political gesture as much as a textile one, by which a sovereign both recognised and bound.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Khilʿa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">خلعة</p>
@@ -709,7 +715,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The gift of a robe of honour: a political gesture as much as a textile one, by which a sovereign both recognised and bound.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sqalli" data-k="sqalli sqalli سقلي in fez, gold and silver thread. an entire guild, the maallemin sqalli, is devoted to its making: gold beaters, rollers, wire drawers, spinners. a widespread hypothesis, without settled academic confirmation, links the name to sicily (siqilliyya).">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Sqallī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سقلّي</p>
@@ -720,7 +726,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">A widespread hypothesis, without settled academic confirmation, links the name to Sicily (<em>Siqilliyya</em>).</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-mrema-bejebbad" data-k="mrema bejebbad mrema bejebbad المرمة بالجباد the drawloom of brocade, where the roles divide: the zouaq draws the pattern, the nyar mounts the loom, the medewar winds the bobbins, the jebbad weaves — under the authority of the maallem.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Mrema bejebbad</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">المرمة بالجبّاد</p>
@@ -730,7 +736,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The drawloom of brocade, where the roles divide: the <em>zouaq</em> draws the pattern, the <em>nyar</em> mounts the loom, the <em>medewar</em> winds the bobbins, the <em>jebbad</em> weaves — under the authority of the <em>maʿallem</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/disciplines.html" class="text-[#c8872f] hover:underline">The five crafts</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-inbiq" data-k="al-inbiq al-inbiq الانبيق the alembic. the arabic word is inherited from greek ambix and gave, through spanish, the “alembic” of the european languages.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-inbīq</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الإنبيق</p>
@@ -740,7 +746,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The alembic. The Arabic word is inherited from Greek <em>ambix</em> and gave, through Spanish, the “alembic” of the European languages.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/parfums.html" class="text-[#c8872f] hover:underline">Perfumes & essences</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/artisanat.html" class="text-[#c8872f] hover:underline">Crafts of the Riad</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-itr" data-k="itr itr (attar) عطر the concentrated essence, obtained by slow distillation: for skin and linen, where rose water remains for the face, the table and the rite.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">ʿIṭr</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">عطر</p>
@@ -750,7 +756,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The concentrated essence, obtained by slow distillation: for skin and linen, where rose water remains for the face, the table and the rite.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/parfums.html" class="text-[#c8872f] hover:underline">Perfumes & essences</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/artisanat.html" class="text-[#c8872f] hover:underline">Crafts of the Riad</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-madrasa" data-k="madrasa madrasa (medersa) مدرسة the school. bou inania and al-attarin, in fez, remain the most accomplished witnesses of carved plaster, zillij and cedar wood meeting on a single wall.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Madrasa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مدرسة</p>
@@ -763,12 +769,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="kiswa" class="mb-16">
+<section id="kiswa" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Dress — Al-Kiswa</h2>
 <p class="ar" dir="rtl" lang="ar">الكسوة</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-libas" data-k="libas libas لباس dress, clothing. it denotes not merely a covering of the body but visible dignity, composure, and the respect owed to the place and the community.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Libās</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">لباس</p>
@@ -778,7 +784,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Dress, clothing. It denotes not merely a covering of the body but visible dignity, composure, and the respect owed to the place and the community.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-kiswa" data-k="al-kiswa al-kiswa الكسوة dress. at dar al-hiraf, al-kiswa al-khassa names the houses own system of vestimentary signs: gandora, craft cap, grade belt, khirqa.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Kiswa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الكسوة</p>
@@ -788,7 +794,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Dress. At Dar al-Hiraf, <em>al-kiswa al-khāṣṣa</em> names the house's own system of vestimentary signs: gandora, craft cap, grade belt, khirqa.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-zina" data-k="zina zina زينة adornment. “o children of adam, wear your finest at every prostration” (surat al-araf, 7:31) — understood here as cleanliness and decency, not as finery.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Zīna</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">زينة</p>
@@ -798,7 +804,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Adornment. “O children of Adam, wear your finest at every prostration” (sūrat al-Aʿrāf, 7:31) — understood here as cleanliness and decency, not as finery.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-satr-al-awra" data-k="satr al-awra satr al-awra ستر العورة the covering of what must be covered, according to the propriety of tradition and of prayer: from shoulders to ankles, in clean cloth.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Satr al-ʿawra</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ستر العورة</p>
@@ -808,7 +814,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The covering of what must be covered, according to the propriety of tradition and of prayer: from shoulders to ankles, in clean cloth.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-awra" data-k="awra awra عورة those parts of the body it is proper to cover. in prayer, equality among the pupils prevails over any sign of grade or craft.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">ʿAwra</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">عورة</p>
@@ -818,7 +824,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Those parts of the body it is proper to cover. In prayer, equality among the pupils prevails over any sign of grade or craft.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qamis" data-k="qamis qamis · kamis قميص a straight, light tunic, hoodless, to the ankles. white cotton or satin. it is the garment of prayer: no embroidery, no belt, no sign.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qamīṣ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">قميص</p>
@@ -828,7 +834,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A straight, light tunic, hoodless, to the ankles. White cotton or satin. It is the garment of prayer: no embroidery, no belt, no sign.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-ghandura" data-k="ghandura ghandura (gandoura, gandora) غندورة a hoodless indoor tunic, a variant of the qamis. at the riad it is the base garment: cut to suit a trained body, without ever falling into western fitted tailoring.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ghandūra</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">غندورة</p>
@@ -838,7 +844,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A hoodless indoor tunic, a variant of the <em>qamīṣ</em>. At the Riad it is the base garment: cut to suit a trained body, without ever falling into Western fitted tailoring.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-djellaba" data-k="djellaba gallaba · jellaba جلابة a long loose robe with a pointed hood (qob). everyday and outdoor garment: cotton or linen in summer, wool in winter. the backbone of the maghrebi mens wardrobe.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Djellaba</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">جلابة</p>
@@ -848,7 +854,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A long loose robe with a pointed hood (<em>qob</em>). Everyday and outdoor garment: cotton or linen in summer, wool in winter. The backbone of the Maghrebi men's wardrobe.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qob" data-k="qob qob قب the pointed hood of the djellaba: it shields from sun and cold.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qob</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">قب</p>
@@ -858,7 +864,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The pointed hood of the djellaba: it shields from sun and cold.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-selham" data-k="selham silham · selham سلهام a wide woollen mantle, open, sleeveless, hooded. worn over the djellaba in cold weather or on horseback. a sign of dignity and protection.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Selham</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سلهام</p>
@@ -868,7 +874,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A wide woollen mantle, open, sleeveless, hooded. Worn over the djellaba in cold weather or on horseback. A sign of dignity and protection.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-farwa" data-k="al-farwa al-farwa الفروة the houses winter mantle, cut for the cold of mornings and open courtyards.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Farwa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الفروة</p>
@@ -878,7 +884,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The house's winter mantle, cut for the cold of mornings and open courtyards.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-jabadur" data-k="jabadur gabadur · jabador جبادور a ceremonial set: a straight tunic closed by a row of aqad buttons, matched to the serwal, with an mdama belt. at the riad it is the garment of the naib.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Jabādūr</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">جبادور</p>
@@ -888,7 +894,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A ceremonial set: a straight tunic closed by a row of <em>ʿaqad</em> buttons, matched to the <em>serwal</em>, with an <em>mdama</em> belt. At the Riad it is the garment of the <em>nāʾib</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sirwal" data-k="sirwal sirwal (serwal) سروال wide trousers. at the riad they replace jeans: in daily life traditional dress is the norm, not the exception.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Sirwāl</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سروال</p>
@@ -898,7 +904,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Wide trousers. At the Riad they replace jeans: in daily life traditional dress is the norm, not the exception.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-madamma" data-k="madamma madamma (mdama) مضمة the braided belt, worn over the jabadur or the tunic, in the tone of the jacket.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Maḍamma</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مضمة</p>
@@ -908,7 +914,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The braided belt, worn over the <em>jabādūr</em> or the tunic, in the tone of the jacket.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-aqad" data-k="aqad aqad · aakad عقد the hand-braided spherical buttons that close the jabadur, in the tone of the craft.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">ʿAqad</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">عقد</p>
@@ -918,7 +924,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The hand-braided spherical buttons that close the <em>jabādūr</em>, in the tone of the craft.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sfifa" data-k="sfifa sfifa سفيفة the traditional moroccan embroidered cord. it edges the front opening of the gandora in a single colour, recognisable at a glance as the mark of the house.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Sfīfa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سفيفة</p>
@@ -928,7 +934,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The traditional Moroccan embroidered cord. It edges the front opening of the gandora in a single colour, recognisable at a glance as the mark of the house.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-belgha" data-k="belgha belgha بلغة the soft leather slipper, without a stiffened back. at the riad it is dyed in the colour of the craft, like the whole guild.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Belgha</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بلغة</p>
@@ -938,7 +944,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The soft leather slipper, without a stiffened back. At the Riad it is dyed in the colour of the craft, like the whole guild.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-taqiyya" data-k="taqiyya taqiyya · taguia طاقية a small round cap, close-fitted to the skull: the simplest and commonest piece, worn for prayer as in daily life. in morocco, taguia.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṭāqiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طاقية</p>
@@ -948,7 +954,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A small round cap, close-fitted to the skull: the simplest and commonest piece, worn for prayer as in daily life. In Morocco, <em>taguia</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tarbush" data-k="tarbush tarbush (tarbouche, fez) طربوش a cylindrical red felt cap, often with a black silk tassel. an ottoman and maghrebi urban legacy.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṭarbūsh</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طربوش</p>
@@ -958,7 +964,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A cylindrical red felt cap, often with a black silk tassel. An Ottoman and Maghrebi urban legacy.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qubbaat-al-hirfa" data-k="qubbaat al-hirfa qubbaat al-hirfa قبعة الحرفة the craft cap of dar al-hiraf: stiff felt, vertical sides, flat crown, no tassel, with a fine embroidered border — halfway between the taqiyya and the tarbush, but plainer. its colour states the wearers craft.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qubbaʿat al-ḥirfa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">قبعة الحرفة</p>
@@ -968,7 +974,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The craft cap of Dar al-Hiraf: stiff felt, vertical sides, flat crown, no tassel, with a fine embroidered border — halfway between the <em>ṭāqiyya</em> and the <em>ṭarbūsh</em>, but plainer. Its colour states the wearer's craft.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-imama" data-k="imama imama · rezza عمامة the turban: a length of cloth wound around the head or the taqiyya. a more solemn variant, still present in traditional circles.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">ʿImāma</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">عمامة</p>
@@ -978,7 +984,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The turban: a length of cloth wound around the head or the <em>ṭāqiyya</em>. A more solemn variant, still present in traditional circles.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-shashiyya" data-k="shashiyya shashiyya (chechia) شاشية a form close to the taqiyya, softer, sometimes of wool or felt. for daily and prayer use.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Shāshiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">شاشية</p>
@@ -988,7 +994,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A form close to the <em>ṭāqiyya</em>, softer, sometimes of wool or felt. For daily and prayer use.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-hulla" data-k="al-hulla al-hulla الحلة the overgarment of the maallem, in the colour of his craft, in tone-on-tone woven damask — the passage from a collective visual identity to a fully personal one.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Ḥulla</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الحُلّة</p>
@@ -998,7 +1004,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The overgarment of the <em>maʿallem</em>, in the colour of his craft, in tone-on-tone woven damask — the passage from a collective visual identity to a fully personal one.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-khirqa" data-k="al-khirqa al-khirqa الخرقة the mantle of investiture, bestowed and not merely worn: the master himself clothes the pupil, sealing his entry or his advancement. on the model of the dervish tradition of the khirqa.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Khirqa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الخرقة</p>
@@ -1008,7 +1014,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The mantle of investiture, bestowed and not merely worn: the master himself clothes the pupil, sealing his entry or his advancement. On the model of the dervish tradition of the <em>khirqa</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hiba" data-k="hiba hiba هيبة the bearing that commands respect. it is the one moment where the dress of the house openly seeks it — that of the khirqa; everywhere else, sobriety comes first.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Hiba</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">هيبة</p>
@@ -1018,7 +1024,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The bearing that commands respect. It is the one moment where the dress of the house openly seeks it — that of the <em>khirqa</em>; everywhere else, sobriety comes first.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-futa" data-k="futa futa فوطة the hammam cloth: a single panel of light linen, knotted at the waist. training closes in the hammam, not in the changing room.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Fūṭa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">فوطة</p>
@@ -1028,7 +1034,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The hammam cloth: a single panel of light linen, knotted at the waist. Training closes in the hammam, not in the changing room.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-izar" data-k="izar izar ازار the length of cloth knotted at the loins, worn beneath the tunic. first term of the layering: izar → serwal → qamis → djellaba or jabadur.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Izār</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">إزار</p>
@@ -1038,7 +1044,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The length of cloth knotted at the loins, worn beneath the tunic. First term of the layering: izār → <em>serwal</em> → <em>qamīṣ</em> → djellaba or <em>jabādūr</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tonban" data-k="tonban tonban تنبان the short worked-leather breeches, tight at the waist and below the knee, proper to zurkhane wrestling.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Tonbān</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">تنبان</p>
@@ -1048,7 +1054,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The short worked-leather breeches, tight at the waist and below the knee, proper to <em>zurkhane</em> wrestling.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/dar-al-hiraf/dress-code.html" class="text-[#c8872f] hover:underline">Dress code</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-lung" data-k="lung lung (loang) لنگ the simple length of cloth wound at the waist, worn for ordinary exercise in the zurkhane.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Lung</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">لنگ</p>
@@ -1058,7 +1064,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The simple length of cloth wound at the waist, worn for ordinary exercise in the <em>zurkhane</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-kispet" data-k="kispet kispet the leather breeches of ottoman wrestling. when any loose cloth becomes an obstacle to the grip, only fitted leather remains: two distinct traditions arrived, each in its own way, at the same answer. a turkish term. ottoman wrestling (yaglı gures) is a lineage distinct from musaraat al-nuba.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Kispet</h3>
 <p class="translit mt-1">kispet</p>
@@ -1068,7 +1074,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">A Turkish term. Ottoman wrestling (<em>yağlı güreş</em>) is a lineage distinct from <em>muṣāraʿat al-nūba</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-thawb-dishdasha-kandura" data-k="thawb · dishdasha · kandura thawb · dishdasha · kandura ثوب · دشداشة · كندورة the long everyday tunics of the gulf, worn with the ghutra held by the iqal.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Thawb · Dishdāsha · Kandūra</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ثوب · دشداشة · كندورة</p>
@@ -1078,7 +1084,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The long everyday tunics of the Gulf, worn with the <em>ghutra</em> held by the <em>ʿiqāl</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-ghutra-iqal" data-k="ghutra & iqal ghutra · iqal غترة · عقال the gulf head cloth and the black cord that holds it.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ghutra & ʿiqāl</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">غترة · عقال</p>
@@ -1088,7 +1094,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The Gulf head cloth and the black cord that holds it.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-kufiyya" data-k="kufiyya kufiyya (keffiyeh) كوفية the square of cloth draped over the shoulders — the mashreq and levantine variant.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Kūfiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">كوفية</p>
@@ -1098,7 +1104,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The square of cloth draped over the shoulders — the Mashreq and Levantine variant.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-bisht" data-k="bisht bisht بشت the ceremonial mantle of the gulf, open, often gold-bordered.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Bisht</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بشت</p>
@@ -1108,7 +1114,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The ceremonial mantle of the Gulf, open, often gold-bordered.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qaba" data-k="qaba qaba قبا the long persian coat, often open at the front, worn over the pirahan and the shalvar.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qabā</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">قبا</p>
@@ -1118,7 +1124,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The long Persian coat, often open at the front, worn over the <em>pirahan</em> and the <em>shalvār</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/vestiario.html" class="text-[#c8872f] hover:underline">Men's dress</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-salvar-cepken-kusak" data-k="salvar · cepken · kusak salvar · cepken · kusak the ottoman wardrobe: baggy trousers, short jacket with open sleeves, cloth sash. no hooded djellaba in this line. turkish terms, given here for the comparison of vestimentary lines.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Şalvar · Cepken · Kuşak</h3>
 <p class="translit mt-1">şalvar · cepken · kuşak</p>
@@ -1131,12 +1137,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="furusiyya" class="mb-16">
+<section id="furusiyya" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Discipline of the body — Furūsiyya</h2>
 <p class="ar" dir="rtl" lang="ar">الفروسية</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-furusiyya" data-k="furusiyya furusiyya الفروسية the arab-islamic chivalric tradition, uniting body, bow, wrestling and sword under a single system of formation. before specialising, the body first had to be made capable.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Furūsiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الفروسية</p>
@@ -1146,7 +1152,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The Arab-Islamic chivalric tradition, uniting body, bow, wrestling and sword under a single system of formation. Before specialising, the body first had to be made capable.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-faras" data-k="faras faras فرس the horse — the very root of the word furusiyya: in the strictest sense, horsemanship, the first and oldest of the chivalric disciplines, the one that names all the others.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Faras</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">فرس</p>
@@ -1156,7 +1162,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The horse — the very root of the word <em>furūsiyya</em>: in the strictest sense, horsemanship, the first and oldest of the chivalric disciplines, the one that names all the others.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-furusiyya-al-muhammadiyya" data-k="al-furusiyya al-muhammadiyya al-furusiyya al-muhammadiyya الفروسية المحمدية ibn al-qayyims treatise, which made furusiyya a spiritual discipline as much as a physical one.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Furūsiyya al-Muḥammadiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الفروسية المحمدية</p>
@@ -1166,7 +1172,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Ibn al-Qayyim's treatise, which made <em>furūsiyya</em> a spiritual discipline as much as a physical one.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-rimaya" data-k="rimaya rimaya رماية traditional archery: a discipline of posture, breath and presence — the hand settles on the breath before it settles on the target.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Rimāya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">رماية</p>
@@ -1176,7 +1182,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Traditional archery: a discipline of posture, breath and presence — the hand settles on the breath before it settles on the target.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sayf-wa-l-turs" data-k="sayf wa-l-turs sayf wa-l-turs السيف والترس “the sword and the shield”: traditional fencing, where the two hands learn two inseparable tasks.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Sayf wa-l-turs</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">السيف والترس</p>
@@ -1186,7 +1192,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The sword and the shield”: traditional fencing, where the two hands learn two inseparable tasks.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-turs" data-k="turs turs ترس the shield: leather stretched over a wooden core, bearing an eight-pointed star, held by a forearm strap and a central grip.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Turs</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ترس</p>
@@ -1196,7 +1202,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The shield: leather stretched over a wooden core, bearing an eight-pointed star, held by a forearm strap and a central grip.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-musaraa" data-k="musaraa musaraa (musara) مصارعة wrestling. body to body with a brother: a school of restraint as much as of strength — mastery of the gesture that could injure and does not.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Muṣāraʿa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مصارعة</p>
@@ -1206,7 +1212,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Wrestling. Body to body with a brother: a school of restraint as much as of strength — mastery of the gesture that could injure and does not.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-musaraat-al-nuba" data-k="musaraat al-nuba musaraat al-nuba مصارعة النوبة nubian wrestling, attested since ancient egypt and alive today in sudan. on sand, with no submission or ground pinning: only the controlled fall of the opponent counts.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Muṣāraʿat al-nūba</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مصارعة النوبة</p>
@@ -1216,7 +1222,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Nubian wrestling, attested since ancient Egypt and alive today in Sudan. On sand, with no submission or ground pinning: only the controlled fall of the opponent counts.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-yagl-gures" data-k="yaglı gures yaglı gures ottoman oil wrestling, in leather breeches (kispet): a tradition documented for centuries, but distinct from musaraat al-nuba — the one is fought standing, the other works on the ground. a turkish term. the two lineages are not to be conflated.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Yağlı güreş</h3>
 <p class="translit mt-1">yağlı güreş</p>
@@ -1226,7 +1232,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">A Turkish term. The two lineages are not to be conflated.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-zurkhane" data-k="zurkhane zurkhane زورخانه “the house of strength”: the traditional persian gymnasium where javanmardi is practised in the body. recognised by unesco as intangible cultural heritage of humanity.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Zūrkhāne</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">زورخانه</p>
@@ -1236,7 +1242,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The house of strength”: the traditional Persian gymnasium where <em>javānmardī</em> is practised in the body. Recognised by UNESCO as intangible cultural heritage of humanity.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-gowd" data-k="gowd gowd گود the slightly sunken octagonal pit at the centre of the zurkhane, beneath a dome pierced by a single zenithal opening.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Gowd</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">گود</p>
@@ -1246,7 +1252,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The slightly sunken octagonal pit at the centre of the <em>zūrkhāne</em>, beneath a dome pierced by a single zenithal opening.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-morshed" data-k="morshed morshed مرشد the master seated apart who paces the exercise with drum and heroic song: he does not command the bodies, he tunes them.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Morshed</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">مرشد</p>
@@ -1256,7 +1262,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The master seated apart who paces the exercise with drum and heroic song: he does not command the bodies, he tunes them.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-mil-sang-kabbade" data-k="mil · sang · kabbade mil · sang · kabbade میل · سنگ · کباده the instruments of the zurkhane: the wooden clubs, the weighted shields, the chained practice bow.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Mīl · sang · kabbāde</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">میل · سنگ · کباده</p>
@@ -1266,7 +1272,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The instruments of the <em>zūrkhāne</em>: the wooden clubs, the weighted shields, the chained practice bow.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/javanmardi.html" class="text-[#c8872f] hover:underline">Javanmardi</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tahtib" data-k="tahtib tahtib تحطيب the art of the stick, born in ancient egypt and alive in upper egypt. it is not a fight but a dialogue: two men, two sticks, a drum rhythm that governs every gesture. the victor is not the one who strikes hard but the one who touches without losing measure.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Taḥṭīb</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">تحطيب</p>
@@ -1276,7 +1282,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The art of the stick, born in ancient Egypt and alive in Upper Egypt. It is not a fight but a dialogue: two men, two sticks, a drum rhythm that governs every gesture. The victor is not the one who strikes hard but the one who touches without losing measure.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-asa-nabbut" data-k="asa · nabbut asa · nabbut عصا · نبوت the tahtib stick: 1.20 to 1.50 metres — long enough to demand precise management of distance, too light to wound gravely if handled rightly.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">ʿAṣā · Nabbūt</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">عصا · نبوت</p>
@@ -1286,7 +1292,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The <em>taḥṭīb</em> stick: 1.20 to 1.50 metres — long enough to demand precise management of distance, too light to wound gravely if handled rightly.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tabla-baladi" data-k="tabla baladi tabla baladi طبلة بلدي the drum that governs the tahtib duel, quickening in steps: each change of tempo forces both men into a new reading of the space and of the others gesture.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṭabla baladī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طبلة بلدي</p>
@@ -1299,12 +1305,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="son" class="mb-16">
+<section id="son" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Sound, word & listening</h2>
 <p class="ar" dir="rtl" lang="ar">السماع</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-ala" data-k="al-ala al-ala الالة literally “the instrument”: andalusian music. born in the courts of al-andalus, particularly granada under the nasrids, it went into exile after 1492 towards fez, tetouan and rabat.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-Āla</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الآلة</p>
@@ -1314,7 +1320,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Literally “the instrument”: Andalusian music. Born in the courts of al-Andalus, particularly Granada under the Nasrids, it went into exile after 1492 towards Fez, Tetouan and Rabat.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-nuba" data-k="nuba nuba (nouba) نوبة the structuring form of al-ala: a long musical suite in movements of rising tempo, each with its own sung poems. eleven survive today of the twenty-four the oral tradition reports.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Nūba</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">نوبة</p>
@@ -1324,7 +1330,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The structuring form of <em>al-āla</em>: a long musical suite in movements of rising tempo, each with its own sung poems. Eleven survive today of the twenty-four the oral tradition reports.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-munshid" data-k="munshid munshid منشد the lead singer: he carries the poem as much as the melody. the voice is carried, not forced.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Munshid</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">منشد</p>
@@ -1334,7 +1340,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The lead singer: he carries the poem as much as the melody. The voice is carried, not forced.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-malhun" data-k="malhun al-malhun الملحون the art of measured, sung speech, historically bound to the world of the craft guilds of the medinas. recognised by unesco in 2023.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Malḥūn</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">الملحون</p>
@@ -1344,7 +1350,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The art of measured, sung speech, historically bound to the world of the craft guilds of the medinas. Recognised by UNESCO in 2023.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-shaykh-al-malhun" data-k="shaykh al-malhun shaykh al-malhun شيخ الملحون the master who transmits a malhun repertoire to a few disciples, at the same rhythm of learning as zillij or calligraphy.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Shaykh al-malḥūn</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">شيخ الملحون</p>
@@ -1354,7 +1360,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The master who transmits a <em>malḥūn</em> repertoire to a few disciples, at the same rhythm of learning as <em>zillīj</em> or calligraphy.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qasida" data-k="qasida qasida قصيدة the long poem, often of several dozen verses, sung a cappella then taken up by a small ensemble. its themes range from mystical love to the very concrete evocation of the craft world — tools, gestures, materials.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qaṣīda</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">قصيدة</p>
@@ -1364,7 +1370,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The long poem, often of several dozen verses, sung a cappella then taken up by a small ensemble. Its themes range from mystical love to the very concrete evocation of the craft world — tools, gestures, materials.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-gnawa" data-k="gnawa gnawa a music of transmission inherited from the brotherhoods of sub-saharan origin settled in morocco for centuries: an oral repertoire, outside the written canon of classical arabic poetry.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Gnawa</h3>
 <p class="translit mt-1">gnawa</p>
@@ -1373,7 +1379,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">A music of transmission inherited from the brotherhoods of sub-Saharan origin settled in Morocco for centuries: an oral repertoire, outside the written canon of classical Arabic poetry.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-guembri" data-k="guembri guembri the three-stringed lute-drum that carries the gnawa: the struck body serves as percussion as much as resonator.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Guembri</h3>
 <p class="translit mt-1">guembri</p>
@@ -1382,7 +1388,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The three-stringed lute-drum that carries the gnawa: the struck body serves as percussion as much as resonator.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-qraqeb" data-k="qraqeb qraqeb the metal castanets of the gnawa, held in pairs and struck on the offbeat.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Qraqeb</h3>
 <p class="translit mt-1">qraqeb</p>
@@ -1391,7 +1397,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The metal castanets of the gnawa, held in pairs and struck on the offbeat.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-lila" data-k="lila lila ليلة “the night”: the complete gnawa ceremony, which may last a whole night. to each colour of cloth and each rhythm it attaches a precise spiritual entity, which the singing calls up and then quiets.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Lila</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ليلة</p>
@@ -1401,7 +1407,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The night”: the complete gnawa ceremony, which may last a whole night. To each colour of cloth and each rhythm it attaches a precise spiritual entity, which the singing calls up and then quiets.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sama" data-k="sama sama سماع literally “listening”: the recollected hearing of mystical song and poetry, practised to free the heart from the worlds dispersion. some vigils of the house close upon it.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Samāʿ</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سماع</p>
@@ -1411,7 +1417,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Literally “listening”: the recollected hearing of mystical song and poetry, practised to free the heart from the world's dispersion. Some vigils of the house close upon it.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/vie.html" class="text-[#c8872f] hover:underline">Life at the Riad</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hadra" data-k="hadra hadra حضرة in the maghreb, the vigil of collective dhikr, often in a circle, carried by the bendir and sometimes the nay, with a measured swaying of the body. quite distinct from the turning of the mevlevi dervishes, an order born in konya, foreign to the riads tradition.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ḥaḍra</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">حضرة</p>
@@ -1422,7 +1428,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">Quite distinct from the turning of the Mevlevi dervishes, an order born in Konya, foreign to the Riad's tradition.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-dhikr" data-k="dhikr dhikr ذكر the repeated invocation of the divine name — the heart of the hadra.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Dhikr</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ذكر</p>
@@ -1432,7 +1438,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The repeated invocation of the divine name — the heart of the <em>ḥaḍra</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-bendir" data-k="bendir bendir بندير the single-headed frame drum with snare strings: the rhythmic voice of the hadra.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Bendir</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بندير</p>
@@ -1442,7 +1448,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The single-headed frame drum with snare strings: the rhythmic voice of the <em>ḥaḍra</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/discipline-choreutique.html" class="text-[#c8872f] hover:underline">Choreutics</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-nay" data-k="nay nay ناي the oblique reed flute, low and veiled in tone, long associated with spiritual as much as profane expression.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Nāy</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ناي</p>
@@ -1452,7 +1458,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The oblique reed flute, low and veiled in tone, long associated with spiritual as much as profane expression.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/dar-al-hiraf/musique.html" class="text-[#c8872f] hover:underline">Music & song</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-ud" data-k="ud ud عود the short-necked, round-bodied lute: the harmonic heart of the andalusian ensemble.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">ʿŪd</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">عود</p>
@@ -1465,12 +1471,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="architecture" class="mb-16">
+<section id="architecture" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">Architecture, water & garden</h2>
 <p class="ar" dir="rtl" lang="ar">الرياض</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-wast-ad-dar" data-k="wast ad-dar wast ad-dar وسط الدار “the middle of the house”: the patio, the inner courtyard open to the sky around which light, water and common life turn. the word sahn (صحن), sometimes given as an equivalent, rather denotes the courtyard of a mosque.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Wasṭ ad-dār</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">وسط الدار</p>
@@ -1481,7 +1487,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">The word <em>ṣaḥn</em> (صحن), sometimes given as an equivalent, rather denotes the courtyard of a mosque.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/patio.html" class="text-[#c8872f] hover:underline">Patio</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-waha" data-k="waha waha واحة the oasis. it is no gift of chance: it is born of a human groups decision to stay and make scarce water fruitful. the principle that governs the least courtyard of the riad is already there — water ordered, never wasted.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Wāḥa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">واحة</p>
@@ -1491,7 +1497,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The oasis. It is no gift of chance: it is born of a human group's decision to stay and make scarce water fruitful. The principle that governs the least courtyard of the Riad is already there — water ordered, never wasted.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture.html" class="text-[#c8872f] hover:underline">Spaces</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-salsabil" data-k="salsabil salsabil سلسبيل the thin sheet of water running over an inclined stone to maximise evaporation: water as coolant, not as ornament.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Salsabīl</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">سلسبيل</p>
@@ -1501,7 +1507,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The thin sheet of water running over an inclined stone to maximise evaporation: water as coolant, not as ornament.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/eau.html" class="text-[#c8872f] hover:underline">Water</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/architecture/aeration.html" class="text-[#c8872f] hover:underline">Natural coolness</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-fisqiyya" data-k="fisqiyya fisqiyya (fisqiya) فسقية the basin flush with the floor at the centre of the patio: it gives the skys reflection and the murmur that accompanies conversation. it is found in the patio de los leones and the patio de la acequia of the alhambra.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Fisqiyya</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">فسقية</p>
@@ -1511,7 +1517,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The basin flush with the floor at the centre of the patio: it gives the sky's reflection and the murmur that accompanies conversation. It is found in the Patio de los Leones and the Patio de la Acequia of the Alhambra.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/eau.html" class="text-[#c8872f] hover:underline">Water</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/jardin.html" class="text-[#c8872f] hover:underline">Garden & kitchen garden</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-khettara" data-k="khettara khettara, pl. khettarat خطارة an underground drainage gallery, inherited from persian and berber techniques: for centuries it brought water to oases and gardens without mechanical pumping.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Khettara</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">خطارة</p>
@@ -1521,7 +1527,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">An underground drainage gallery, inherited from Persian and Berber techniques: for centuries it brought water to oases and gardens without mechanical pumping.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/eau.html" class="text-[#c8872f] hover:underline">Water</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-malqaf" data-k="malqaf malqaf ملقف “the catcher”: the tower that captures the wind and drives it into the house. its trace appears as early as pharaonic egypt; the islamic period took up and refined the technique.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Malqaf</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">ملقف</p>
@@ -1531,7 +1537,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">“The catcher”: the tower that captures the wind and drives it into the house. Its trace appears as early as pharaonic Egypt; the Islamic period took up and refined the technique.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/aeration.html" class="text-[#c8872f] hover:underline">Natural coolness</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-badgir" data-k="badgir badgir بادگیر in persia and the gulf, the multidirectional wind tower — rather than one turned to a single prevailing wind. a variant of the same architectural gesture, born of the same need.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Bādgīr</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بادگیر</p>
@@ -1541,7 +1547,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">In Persia and the Gulf, the multidirectional wind tower — rather than one turned to a single prevailing wind. A variant of the same architectural gesture, born of the same need.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/aeration.html" class="text-[#c8872f] hover:underline">Natural coolness</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-bustan" data-k="bustan bustan بستان the walled garden, the orchard. at the riad it is the secret garden, distinct from the main garden and the kitchen garden without being separate from them.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Bustān</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بستان</p>
@@ -1551,7 +1557,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The walled garden, the orchard. At the Riad it is the secret garden, distinct from the main garden and the kitchen garden without being separate from them.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/jardin.html" class="text-[#c8872f] hover:underline">Garden & kitchen garden</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-chahar-bagh" data-k="chahar bagh chahar bagh چهار باغ the persian fourfold garden: four channels evoking the four rivers of paradise. direct continuity in isfahan and shiraz, monumentalised in mughal india.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Chahār bāgh</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">چهار باغ</p>
@@ -1561,7 +1567,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The Persian fourfold garden: four channels evoking the four rivers of paradise. Direct continuity in Isfahan and Shiraz, monumentalised in Mughal India.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/jardin.html" class="text-[#c8872f] hover:underline">Garden & kitchen garden</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/architecture/eau.html" class="text-[#c8872f] hover:underline">Water</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-paradeisos-pairi-daeza" data-k="paradeisos · pairi-daeza paradeisos · pairi-daeza παραδεισος the greek word behind our “paradise” comes from old persian pairi-daeza, “circular enclosure.” from the achaemenid period the garden is already the image of the cosmos and of royal power.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Paradeisos · pairi-daēza</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">παράδεισος</p>
@@ -1571,7 +1577,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The Greek word behind our “paradise” comes from Old Persian <em>pairi-daēza</em>, “circular enclosure.” From the Achaemenid period the garden is already the image of the cosmos and of royal power.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/jardin.html" class="text-[#c8872f] hover:underline">Garden & kitchen garden</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-ibriq" data-k="ibriq ibriq ابريق the ewer. to every guest who crosses the threshold the house offers hands washed in rose water, poured from an ibriq into a tisht, before the first word is exchanged.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ibrīq</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">إبريق</p>
@@ -1581,7 +1587,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The ewer. To every guest who crosses the threshold the house offers hands washed in rose water, poured from an <em>ibrīq</em> into a <em>ṭisht</em>, before the first word is exchanged.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/eau.html" class="text-[#c8872f] hover:underline">Water</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tisht" data-k="tisht tisht طشت the copper or tin basin that receives the water poured from the ibriq: purification as much as welcome.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṭisht</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طشت</p>
@@ -1591,7 +1597,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The copper or tin basin that receives the water poured from the <em>ibrīq</em>: purification as much as welcome.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/eau.html" class="text-[#c8872f] hover:underline">Water</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-aule" data-k="aule aule αυλη the courtyard of the greek house. at olynthus, houses already opened onto an inner court oriented to catch the low winter sun and to shade itself in summer.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Aulē</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">αὐλή</p>
@@ -1601,7 +1607,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The courtyard of the Greek house. At Olynthus, houses already opened onto an inner court oriented to catch the low winter sun and to shade itself in summer.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture.html" class="text-[#c8872f] hover:underline">Spaces</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-atrium-domus" data-k="atrium · domus atrium · domus the roman domus is organised around the atrium, an open court gathering rainwater — the same principle that would become, centuries later, the andalusian and then moroccan patio.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Atrium · domus</h3>
 <p class="translit mt-1">atrium · domus</p>
@@ -1610,7 +1616,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The Roman <em>domus</em> is organised around the <em>atrium</em>, an open court gathering rainwater — the same principle that would become, centuries later, the Andalusian and then Moroccan patio.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/patio.html" class="text-[#c8872f] hover:underline">Patio</a> <span class="text-gray-300">·</span> <a href="/al-uns/en/architecture.html" class="text-[#c8872f] hover:underline">Spaces</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-baglio" data-k="baglio baglio the fortified sicilian masseria: closed courtyard, blind outward facades, life turned inward. the same logic as the andalusian and maghrebi patio, reached by distinct paths rather than by direct borrowing. the name most probably comes from norman-french ballium; a minority hypothesis sees a borrowing from arabic bahah, “courtyard.”">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Baglio</h3>
 <p class="translit mt-1">baglio</p>
@@ -1623,12 +1629,12 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
-<section id="hammam" class="mb-16">
+<section id="hammam" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
 <h2 class="heading text-3xl">The hammam</h2>
 <p class="ar" dir="rtl" lang="ar">الحمّام</p>
 </div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hammam" data-k="hammam hammam حمام the steam bath: purification of the body, regeneration and quiet. not a quick stop but a passage through chambers of rising heat. the doubled mim distinguishes hammam, the bath, from hamam (حمام), “pigeons.”">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ḥammām</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">حمّام</p>
@@ -1639,7 +1645,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">The doubled <em>mīm</em> distinguishes <em>ḥammām</em>, the bath, from <em>ḥamām</em> (حمام), “pigeons.”</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-maslakh" data-k="al-maslakh al-maslakh المسلخ the disrobing room: here one undresses before entering the sequence.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-maslakh</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">المسلخ</p>
@@ -1649,7 +1655,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The disrobing room: here one undresses before entering the sequence.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-bayt-al-barid" data-k="al-bayt al-barid al-bayt al-barid البيت البارد the cold room. the body acclimatises there on entering; one returns to rest there at length, over tea, once the bath is done. it continues the roman frigidarium.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-bayt al-bārid</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">البيت البارد</p>
@@ -1659,7 +1665,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The cold room. The body acclimatises there on entering; one returns to rest there at length, over tea, once the bath is done. It continues the Roman <em>frigidarium</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-bayt-al-wastani" data-k="al-bayt al-wastani al-bayt al-wastani البيت الوسطاني the warm room: the largest, where most time is spent, between light steam, massage and scents. the roman tepidarium.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-bayt al-wasṭānī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">البيت الوسطاني</p>
@@ -1669,7 +1675,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The warm room: the largest, where most time is spent, between light steam, massage and scents. The Roman <em>tepidarium</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-al-bayt-al-sukhun" data-k="al-bayt al-sukhun al-bayt al-sukhun البيت السخون the hot room, the most intense: the heat opens the pores and prepares the skin for black soap, then for the kessa glove. the roman caldarium.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Al-bayt al-sukhūn</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">البيت السخون</p>
@@ -1679,7 +1685,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The hot room, the most intense: the heat opens the pores and prepares the skin for black soap, then for the <em>kessa</em> glove. The Roman <em>caldarium</em>.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-bayt-al-nar" data-k="bayt al-nar bayt al-nar بيت النار the furnace room: unseen by the bathers, behind the hot room, it feeds heat to the whole system.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Bayt al-nār</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">بيت النار</p>
@@ -1689,7 +1695,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The furnace room: unseen by the bathers, behind the hot room, it feeds heat to the whole system.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-kessa" data-k="kessa kessa كيسة the coarse glove. it lifts away what the black soap has softened deep down — never the reverse, never on dry skin.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Kessa</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">كيسة</p>
@@ -1699,7 +1705,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The coarse glove. It lifts away what the black soap has softened deep down — never the reverse, never on dry skin.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-sabun-beldi" data-k="sabun beldi sabun beldi صابون بلدي black soap: a dark olive-oil paste, sometimes enriched with crushed olives, historically tied to centres such as essaouira. applied to warm damp skin, it is left to rest several minutes.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṣābūn beldī</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">صابون بلدي</p>
@@ -1709,7 +1715,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">Black soap: a dark olive-oil paste, sometimes enriched with crushed olives, historically tied to centres such as Essaouira. Applied to warm damp skin, it is left to rest several minutes.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tayyeb-tayyaba" data-k="tayyeb · tayyaba tayyeb · tayyaba طيب · طيابة the massage master of the maghrebi hammam — and his female counterpart for womens hammams, the two worlds remaining strictly separate. this is no spa masseur: it is a craft transmitted inside the hammam itself, by repeated practice.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Ṭayyeb · ṭayyāba</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">طيّب · طيّابة</p>
@@ -1719,7 +1725,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-secondary leading-relaxed">The massage master of the Maghrebi hammam — and his female counterpart for women's hammams, the two worlds remaining strictly separate. This is no spa masseur: it is a craft transmitted inside the hammam itself, by repeated practice.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-gobek-tas" data-k="gobek tası gobek tası the “navel stone”: a broad marble platform heated from beneath, at the centre of the hot room, on which the body lies to sweat and be scrubbed. the element belongs first to the ottoman hammam tradition, distinct from the maghrebi and andalusian tradition to which the riad belongs.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Göbek taşı</h3>
 <p class="translit mt-1">göbek taşı</p>
@@ -1729,7 +1735,7 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-sm text-gray-500 italic leading-relaxed mt-2">The element belongs first to the Ottoman hammam tradition, distinct from the Maghrebi and Andalusian tradition to which the Riad belongs.</p>
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
-<div class="py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8">
+<div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-tractatio" data-k="tractatio tractatio the oil massage after the bath, already practised in roman and byzantine thermae — a gesture the hammam inherited and passed on in its own way.">
 <div class="md:w-[34%] mb-2 md:mb-0">
 <h3 class="heading text-lg leading-snug">Tractatio</h3>
 <p class="translit mt-1">tractatio</p>
@@ -1739,6 +1745,254 @@ section[id]{scroll-margin-top:7rem}
 <p class="text-xs tracking-wider mt-2">&rarr; See <a href="/al-uns/en/architecture/hammam.html" class="text-[#c8872f] hover:underline">Hammam</a></p>
 </div></div>
 <p class="text-xs tracking-wider mt-6"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
+</section>
+
+<section id="index-alpha" class="mb-16">
+<div class="border-b-2 border-[#c8872f]/30 pb-4 mb-6 flex items-baseline justify-between gap-6">
+<h2 class="heading text-3xl">Alphabetical index</h2>
+<p class="ar" dir="rtl" lang="ar">الفهرس</p>
+</div>
+<p class="text-sm text-gray-500 italic mb-8">All 151 terms, articles set aside: <em>al-</em>, <em>at-</em>, <em>ash-</em> do not count in the ordering.</p>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">A</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-adab" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Adab</a>
+<a href="#t-al-ala" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Āla</a>
+<a href="#t-aqad" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">ʿAqad</a>
+<a href="#t-asa-nabbut" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">ʿAṣā · Nabbūt</a>
+<a href="#t-asnaf" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Aṣnāf</a>
+<a href="#t-atrium-domus" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Atrium · domus</a>
+<a href="#t-aule" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Aulē</a>
+<a href="#t-awra" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">ʿAwra</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">B</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-badgir" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Bādgīr</a>
+<a href="#t-baglio" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Baglio</a>
+<a href="#t-basmala" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Basmala</a>
+<a href="#t-bayt" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Bayt</a>
+<a href="#t-al-bayt-al-barid" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-bayt al-bārid</a>
+<a href="#t-bayt-al-nar" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Bayt al-nār</a>
+<a href="#t-al-bayt-al-sukhun" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-bayt al-sukhūn</a>
+<a href="#t-al-bayt-al-wastani" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-bayt al-wasṭānī</a>
+<a href="#t-belgha" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Belgha</a>
+<a href="#t-bendir" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Bendir</a>
+<a href="#t-bisht" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Bisht</a>
+<a href="#t-bustan" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Bustān</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">C</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-chahar-bagh" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Chahār bāgh</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">D</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-dar" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Dār</a>
+<a href="#t-dar-al-hiraf" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Dār al-Ḥiraf</a>
+<a href="#t-dar-al-tiraz" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Dār al-tirāz</a>
+<a href="#t-dhikr" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Dhikr</a>
+<a href="#t-djellaba" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Djellaba</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">F</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-faras" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Faras</a>
+<a href="#t-al-farwa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Farwa</a>
+<a href="#t-fata" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Fatā</a>
+<a href="#t-fisqiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Fisqiyya</a>
+<a href="#t-furusiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Furūsiyya</a>
+<a href="#t-al-furusiyya-al-muhammadiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Furūsiyya al-Muḥammadiyya</a>
+<a href="#t-futa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Fūṭa</a>
+<a href="#t-futuwwa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Futuwwa</a>
+<a href="#t-futuwwatname" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Futuwwatnāme</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">G</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-gebs" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Gebs</a>
+<a href="#t-ghandura" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ghandūra</a>
+<a href="#t-ghutra-iqal" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ghutra & ʿiqāl</a>
+<a href="#t-gnawa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Gnawa</a>
+<a href="#t-gobek-tas" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Göbek taşı</a>
+<a href="#t-gowd" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Gowd</a>
+<a href="#t-guembri" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Guembri</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">H</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-hadra" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ḥaḍra</a>
+<a href="#t-hammam" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ḥammām</a>
+<a href="#t-al-hawkama" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Ḥawkama</a>
+<a href="#t-hiba" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Hiba</a>
+<a href="#t-hirafi" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ḥirafī</a>
+<a href="#t-hirfa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ḥirfa</a>
+<a href="#t-hizam-al-itqan" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ḥizām al-Itqān</a>
+<a href="#t-al-hulla" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Ḥulla</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">I</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-ibriq" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ibrīq</a>
+<a href="#t-imama" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">ʿImāma</a>
+<a href="#t-al-inbiq" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-inbīq</a>
+<a href="#t-itqan" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Itqān</a>
+<a href="#t-itr" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">ʿIṭr</a>
+<a href="#t-izar" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Izār</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">J</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-jabadur" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Jabādūr</a>
+<a href="#t-javanmardi" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Javānmardī</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">K</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-kessa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Kessa</a>
+<a href="#t-khatt-maghribi" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Khaṭṭ maghribī</a>
+<a href="#t-khattat" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Khaṭṭāṭ</a>
+<a href="#t-khettara" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Khettara</a>
+<a href="#t-khidma" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Khidma</a>
+<a href="#t-khila" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Khilʿa</a>
+<a href="#t-al-khirqa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Khirqa</a>
+<a href="#t-khiyata" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Khiyāṭa</a>
+<a href="#t-kispet" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Kispet</a>
+<a href="#t-al-kiswa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Kiswa</a>
+<a href="#t-kufiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Kūfiyya</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">L</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-libas" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Libās</a>
+<a href="#t-lila" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Lila</a>
+<a href="#t-lung" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Lung</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">M</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-maallem" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Maʿallem</a>
+<a href="#t-madamma" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Maḍamma</a>
+<a href="#t-madrasa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Madrasa</a>
+<a href="#t-madrasa-al-ula" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Madrasa al-ūlā</a>
+<a href="#t-malhun" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Malḥūn</a>
+<a href="#t-malqaf" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Malqaf</a>
+<a href="#t-mashrabiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Mashrabiyya</a>
+<a href="#t-al-maslakh" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-maslakh</a>
+<a href="#t-mil-sang-kabbade" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Mīl · sang · kabbāde</a>
+<a href="#t-minqash" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Minqāsh</a>
+<a href="#t-morshed" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Morshed</a>
+<a href="#t-mrema-bejebbad" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Mrema bejebbad</a>
+<a href="#t-munshid" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Munshid</a>
+<a href="#t-al-muqaddam" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Muqaddam</a>
+<a href="#t-muqarnas" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Muqarnaṣ</a>
+<a href="#t-musaraa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Muṣāraʿa</a>
+<a href="#t-musaraat-al-nuba" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Muṣāraʿat al-nūba</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">N</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-nafs" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Nafs</a>
+<a href="#t-an-naib" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">An-Nāʾib</a>
+<a href="#t-nay" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Nāy</a>
+<a href="#t-nuba" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Nūba</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">P</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-pahlavan" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Pahlavān</a>
+<a href="#t-paradeisos-pairi-daeza" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Paradeisos · pairi-daēza</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">Q</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-qaba" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qabā</a>
+<a href="#t-qalam" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qalam</a>
+<a href="#t-qamis" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qamīṣ</a>
+<a href="#t-qasida" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qaṣīda</a>
+<a href="#t-qob" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qob</a>
+<a href="#t-qraqeb" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qraqeb</a>
+<a href="#t-qubbaat-al-hirfa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Qubbaʿat al-ḥirfa</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">R</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-rimaya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Rimāya</a>
+<a href="#t-riyad" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Riyāḍ</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">S</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-sabun-beldi" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṣābūn beldī</a>
+<a href="#t-sadaqa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṣadaqa</a>
+<a href="#t-sakha" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Sakhāʾ</a>
+<a href="#t-salsabil" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Salsabīl</a>
+<a href="#t-salvar-cepken-kusak" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Şalvar · Cepken · Kuşak</a>
+<a href="#t-sama" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Samāʿ</a>
+<a href="#t-sani" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṣāniʿ</a>
+<a href="#t-satr-al-awra" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Satr al-ʿawra</a>
+<a href="#t-sayf-wa-l-turs" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Sayf wa-l-turs</a>
+<a href="#t-selham" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Selham</a>
+<a href="#t-sfifa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Sfīfa</a>
+<a href="#t-shadd" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Shadd</a>
+<a href="#t-shajaa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Shajāʿa</a>
+<a href="#t-shashiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Shāshiyya</a>
+<a href="#t-ash-shaykh" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ash-Shaykh</a>
+<a href="#t-shaykh-al-malhun" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Shaykh al-malḥūn</a>
+<a href="#t-sidq" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṣidq</a>
+<a href="#t-sinaa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṣināʿa</a>
+<a href="#t-sirwal" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Sirwāl</a>
+<a href="#t-siyasa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Siyāsa</a>
+<a href="#t-sqalli" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Sqallī</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">T</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-tabla-baladi" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṭabla baladī</a>
+<a href="#t-at-tadbir" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">At-Tadbīr</a>
+<a href="#t-tadbir-al-manzil" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Tadbīr al-manzil</a>
+<a href="#t-tahtib" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Taḥṭīb</a>
+<a href="#t-taqiyya" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṭāqiyya</a>
+<a href="#t-tarbush" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṭarbūsh</a>
+<a href="#t-tatriz" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Taṭrīz</a>
+<a href="#t-tawhid" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Tawḥīd</a>
+<a href="#t-tayyeb-tayyaba" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṭayyeb · ṭayyāba</a>
+<a href="#t-thawb-dishdasha-kandura" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Thawb · Dishdāsha · Kandūra</a>
+<a href="#t-tiraz" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Tirāz</a>
+<a href="#t-tiraz-khassa-amma" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Tirāz khāṣṣa / ʿāmma</a>
+<a href="#t-tisht" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Ṭisht</a>
+<a href="#t-tonban" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Tonbān</a>
+<a href="#t-tractatio" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Tractatio</a>
+<a href="#t-turs" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Turs</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">U</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-ud" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">ʿŪd</a>
+<a href="#t-al-uns" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Al-Uns</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">W</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-wafa" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Wafāʾ</a>
+<a href="#t-waha" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Wāḥa</a>
+<a href="#t-wahsha" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Waḥsha</a>
+<a href="#t-wast-ad-dar" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Wasṭ ad-dār</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">Y</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-yagl-gures" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Yağlı güreş</a>
+</div></div>
+<div class="mb-8 md:flex md:gap-6">
+<div class="heading text-2xl md:w-12 mb-2 md:mb-0">Z</div>
+<div class="md:flex-1 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-1">
+<a href="#t-zillij" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Zillīj</a>
+<a href="#t-zina" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Zīna</a>
+<a href="#t-zurkhane" class="text-secondary hover:text-[#c8872f] transition-colors text-sm">Zūrkhāne</a>
+</div></div>
+<p class="text-xs tracking-wider mt-2"><a href="#" class="text-gray-400 hover:text-[#c8872f]">&uarr; Back to contents</a></p>
 </section>
 
 <div class="max-w-3xl mx-auto text-center border-t border-gray-200 pt-10">
@@ -1758,6 +2012,26 @@ section[id]{scroll-margin-top:7rem}
 document.addEventListener('DOMContentLoaded',function(){
 var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');
 if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');}b.addEventListener('click',t);b.addEventListener('touchstart',t,{passive:false});document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');}});}
+});
+</script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+var q=document.getElementById('gl-q');if(!q)return;
+var c=document.getElementById('gl-count'),toc=document.getElementById('gl-toc'),
+alpha=document.getElementById('index-alpha'),
+sec=Array.prototype.slice.call(document.querySelectorAll('.gl-section')),
+tot=document.querySelectorAll('.gl-entry').length;
+function fold(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+.replace(/[\u02bf\u02be'\u2019]/g,'').toLowerCase();}
+function run(){var v=fold(q.value.trim()),n=0;
+sec.forEach(function(s){var k=0;
+Array.prototype.forEach.call(s.querySelectorAll('.gl-entry'),function(e){
+var m=!v||e.getAttribute('data-k').indexOf(v)>-1;e.style.display=m?'':'none';if(m)k++;});
+s.style.display=k?'':'none';n+=k;});
+if(toc)toc.style.display=v?'none':'';
+if(alpha)alpha.style.display=v?'none':'';
+c.textContent=v?(n?n+' of '+tot+' terms':'No term matches.'):'';}
+q.addEventListener('input',run);q.addEventListener('search',run);run();
 });
 </script>
 </body>
