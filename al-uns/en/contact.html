@@ -125,6 +125,10 @@
 <p class="text-secondary text-lg leading-relaxed">For a stay, a workshop, a residency application or a collaboration: write to us. Every request is read with attention.</p>
 </div>
 
+<div class="rounded-3xl overflow-hidden mb-14 bg-gray-100 aspect-[16/9]">
+<img src="../../assets/contact-1.jpg" alt="Contact — Riad Al-Uns" class="w-full h-full object-cover">
+</div>
+
 <form action="https://formsubmit.co/info@borgoideale.com" method="POST" class="space-y-6">
 <input type="hidden" name="_subject" value="Riad Al-Uns — new message">
 <input type="hidden" name="_captcha" value="false">
@@ -182,6 +186,6 @@
 <div class="text-sm text-secondary">© 2026 - All rights reserved - Riad al-Uns</div>
 </div>
 </footer>
-<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){function t(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');}b.addEventListener('click',t);}});</script>
+<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');b.setAttribute('aria-expanded',(!m.classList.contains('hidden')).toString());});document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');b.setAttribute('aria-expanded','false');}});}});</script>
 </body>
 </html>
