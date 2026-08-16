@@ -165,3 +165,16 @@ Tutti in italiano. La traduzione francese si fa quando il contenuto è fermo.
 - **`radici-storiche.html`** (IT ed EN) — manca `baglio-regole-3.png`, un ritratto
   di Pietro Laureano. Serve una foto sua: le altre `baglio-regole-*` sono scene di
   vita del borgo, non ritratti.
+- **`al-uns/soutenir.html`** — pagina per i mecenati, creata ma **non ancora
+  collegata**: manca dalla navbar (37 pagine FR), manca dalla sitemap, manca la
+  versione inglese, e il form di `contact.html` non ha ancora il motivo
+  «mécénat». Dentro la pagina resta un segnaposto `https://donate.stripe.com/REMPLACER`:
+  serve un link Stripe **distinto da quello del Baglio**, altrimenti i due
+  progetti finiscono nello stesso rendiconto. Da decidere anche se e come
+  compare il nome di Pietro (sezione «chi porta il progetto», non scritta).
+- **Tailwind da CDN** su 124 pagine su 126. Scelta consapevole finché il sito
+  cambia spesso: il CSS si compila nel browser a ogni visita, quindi il sito
+  dipende da `cdn.tailwindcss.com` e senza quello resta senza grafica. Da
+  convertire in un CSS statico in `assets/` **prima di mandare il sito ai
+  mecenati**. Dopo la conversione ogni giro di modifiche richiede di
+  rigenerare il file — non si fa da GitHub Desktop.
