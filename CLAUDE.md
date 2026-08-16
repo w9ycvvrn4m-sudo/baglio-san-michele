@@ -76,6 +76,29 @@ Vercel pubblica da solo in un paio di minuti su
 
 ---
 
+## Profilo di Pietro (per lettere ai partner e materiali simili)
+
+Da usare quando serve presentarlo — lettere a partner privati, materiali per mecenati,
+bio, ecc.
+
+Pietro è uno **Strategic Cultural Architect** e **Heritage & Innovation Strategist**.
+Formazione accademica in storia e filosofia medievale, unita a un background come
+Country Manager in multinazionali tecnologiche e a collaborazioni strategiche con
+fondazioni culturali americane; specializzato in sociologia degli spazi e progettazione
+di comunità intenzionali. Ha curato realizzazione di eventi e mostre di alto profilo.
+
+Preferisce operare **dietro le quinte**: sono gli interlocutori — in particolare i
+partner privati — a ricevere il vantaggio d'immagine e il merito delle idee sviluppate.
+
+Non si occupa di operazioni immobiliari tradizionali: disegna ecosistemi umani e
+produttivi in cui il rigore gestionale si sposa con l'Umanesimo, restituendo al lavoro
+artigiano e al territorio una dignità duratura. Questo approccio è diventato un
+**master-format replicabile**, applicato in due laboratori d'eccellenza: il recupero
+storico del Baglio San Michele in Sicilia e l'Ambasciata Permanente dei Mestieri d'Arte
+Dar al-Hiraf a Marrakech.
+
+---
+
 ## Dossier Dar al-Diyafa — punti fermi già acquisiti
 
 Estensione del progetto Riad Al-Uns: foresteria d'élite + operazione immobiliare
@@ -98,6 +121,38 @@ senza motivo:
 - Documenti sempre **separati**: A = il riad (identità e limiti), B = il veicolo
   (tesi immobiliare), + la convenzione che lega i due.
 - Da verificare di persona: esistenza e mandato di **Vincent Desmarie** (Barnes).
+
+**I mestieri sono sei**, non di più: calligrafia, zellige, gesso e mocárabe,
+tessitura e broccato, legno e intaglio, profumi ed essenze. Le prime cinque sono
+i *métiers de la main* del sito (`al-uns/dar-al-hiraf/disciplines.html`). Musica
+(al-âla, malhun, gnawa, tahtib) e discipline del corpo sono cosa distinta e non si
+contano fra i mestieri. Sei maestri reggono **18-24 apprendisti**, non trenta.
+
+**Cosa scala con il capitale e cosa no.** Sotto una certa soglia la tesi immobiliare
+non esiste (serve il controllo di un isolato, non due case). Ma con più denaro
+crescono l'anello di edifici, la qualità del restauro e il numero di mestieri —
+**non** il numero dei residenti, **non** le quattro chiavi, **non** la velocità.
+Il capitale va chiesto in tre tranche: acquisizione, restauro e **fondo di
+dotazione** che copra in perpetuo il costo ordinario del riad. Quanto più alta è la
+cifra, tanto prima va firmata la convenzione: un investitore grande chiede
+governance, e dopo non si negozia più.
+
+**La cartella `dossier/` è riservata.** È esclusa da Git (`.gitignore`) e dalla
+pubblicazione (`.vercelignore`): i documenti restano sul computer e non finiscono
+mai online. Non tracciarla, non forzarne il commit.
+
+Documenti presenti:
+
+| File | Contenuto |
+|---|---|
+| `schema-due-corpi.svg` | Pianta schematica riad + douiria, soglia, flussi, affacci |
+| `convenzione-a-b.md` | Il testo che lega riad e veicolo — bozza italiana v1 |
+| `scheda-fes-marrakech.md` | Confronto delle due sedi, solo dati verificati |
+| `programma-funzionale.md` | Dimensionamento: ~1.750 m² coperti, sedime 900-1.150 m² |
+| `sospeso-equitazione.md` | **Materiale sospeso — non menzionare l'equitazione** |
+| `dar-al-diyafa-libretto-accoglienza.md` | Testo ricevuto da rifare: registro alberghiero |
+
+Tutti in italiano. La traduzione francese si fa quando il contenuto è fermo.
 
 ---
 
