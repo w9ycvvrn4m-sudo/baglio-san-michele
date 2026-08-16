@@ -15,6 +15,46 @@ Eccezione storica: 4 riferimenti `baglio-*` già presenti in
 `al-uns/architecture/patio.html` e `al-uns/architecture/eau.html` sono stati
 lasciati per scelta esplicita. Non aggiungerne altri.
 
+**Mai diacritici nei titoli.** Il font dei titoli è **Julius Sans One**, che non
+ha i caratteri della traslitterazione scientifica: dove manca il glifo, il
+browser sostituisce un altro font e la riga si sfascia.
+
+Vale per ogni elemento con `class="heading"` — `h1`, `h2`, `h3`, `h4` — su tutti
+e due i siti.
+
+Il discrimine è il blocco Unicode. Il font copre il latino di base e il
+**Latin-1** (fino a `U+00FF`): accenti francesi, italiani e spagnoli normali
+(`é è à â î ô û ë ï ü ç á`) si vedono bene e non sono un problema. Sopra
+`U+00FF` non copre più nulla: vietati i macron `ā ī ū ē ō`, i punti sottoscritti
+`ḥ ḍ ṣ ṭ ẓ`, e `ʿ ʾ`.
+
+Scrivere il titolo in forma piana e mettere la forma vocalizzata altrove:
+
+| | |
+|---|---|
+| Titolo | `Bawwab`, `Riyada`, `Faqih résident`, `Istidhan` |
+| Corsivo nel testo | `<em>bawwāb</em>` — diacritici ammessi |
+| Riga `class="translit"` | `bawwāb` — diacritici ammessi, font diverso |
+| Indice alfabetico del glossario | `Bawwāb` — diacritici ammessi |
+
+È la convenzione che il glossario seguiva già: titolo piano, traslitterazione
+nella riga sotto. Per lo stesso motivo niente arabo dentro un titolo, a meno che
+non stia in un elemento annidato col font Amiri.
+
+Controllo rapido prima di pubblicare:
+
+```
+grep -roE '<h[1-4][^>]*class="[^"]*heading[^"]*"[^>]*>[^<]*' --include=*.html . \
+  | grep -P '[āīūēōḥḍṣṭẓġḫšžʿʾ\x{0600}-\x{06FF}]'
+```
+
+Non deve restituire nulla. Attenzione a non allargare il set con `à á é è`:
+sono legittimi, e includerli riempie il risultato di falsi positivi.
+
+Due titoli violano la regola da prima che esistesse — la sezione
+«Discipline du corps — Fur**ū**siyya» in `al-uns/glossaire.html` e la stessa in
+`al-uns/en/glossaire.html`. Vanno sistemati, non presi a modello.
+
 ---
 
 ## Struttura
