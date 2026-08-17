@@ -1,453 +1,676 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/index.html</loc>
-    <lastmod>2026-08-12T14:04:00Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/projet.html</loc>
-    <lastmod>2026-08-12T17:55:00Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/projet/vision.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/projet/famille.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/projet/hospitalite.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.borgoideale.com/al-uns/architecture.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/architecture/espaces-interieurs.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/architecture/patio.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/jardin.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/architecture/hammam.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/architecture/aeration.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/architecture/eau.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/futuwwa.html</loc>
-    <lastmod>2026-08-13T20:41:53Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/javanmardi.html</loc>
-    <lastmod>2026-08-13T20:41:53Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/fraternite.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/stages.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/discipline-choreutique.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/furusiyya.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/artisanat.html</loc>
-    <lastmod>2026-08-12T19:56:00Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/parfums.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/vie.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/sejour.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/experiences.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/rencontres.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/vestiario.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/contact.html</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/glossaire.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/disciplines.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/dress-code.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/gouvernance.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/musique.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/residence.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/maitres-et-personnel.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/projet/charite.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/projet/rayonnement.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/qui-cherchons-nous.html</loc>
-    <lastmod>2026-08-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.borgoideale.com/al-uns/en/architecture.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/aeration.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/aeration.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/aeration.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.borgoideale.com/al-uns/architecture/eau.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/eau.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/eau.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/eau.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/architecture/espaces-interieurs.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/espaces-interieurs.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/espaces-interieurs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/espaces-interieurs.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/architecture/hammam.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/hammam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/hammam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/hammam.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/architecture/patio.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/patio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/patio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/patio.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/artisanat.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/artisanat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/artisanat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/artisanat.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/contact.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/disciplines.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/disciplines.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/dress-code.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/dress-code.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/dress-code.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/dress-code.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/fraternite.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/fraternite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/fraternite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/fraternite.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/futuwwa.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/futuwwa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/futuwwa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/futuwwa.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/gouvernance.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/gouvernance.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/javanmardi.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/javanmardi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/javanmardi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/javanmardi.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/musique.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/musique.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/residence.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/residence.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/residence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/residence.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/dar-al-hiraf/stages.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/stages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/stages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/stages.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/discipline-choreutique.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/discipline-choreutique.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/en/architecture.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.borgoideale.com/al-uns/en/architecture/aeration.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/aeration.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/aeration.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/aeration.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/architecture/eau.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/eau.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/eau.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/eau.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/architecture/espaces-interieurs.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/espaces-interieurs.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/espaces-interieurs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/espaces-interieurs.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/architecture/hammam.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/hammam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/hammam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/hammam.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/architecture/patio.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/architecture/patio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/architecture/patio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/architecture/patio.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/artisanat.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/artisanat.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/artisanat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/artisanat.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/contact.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/contact.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/disciplines.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/disciplines.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/dress-code.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/dress-code.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/dress-code.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/dress-code.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/fraternite.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/fraternite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/fraternite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/fraternite.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/futuwwa.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/futuwwa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/futuwwa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/futuwwa.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/gouvernance.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/gouvernance.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/javanmardi.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/javanmardi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/javanmardi.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/javanmardi.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/musique.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/musique.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/residence.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/residence.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/residence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/residence.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/stages.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/stages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/dar-al-hiraf/stages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/dar-al-hiraf/stages.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/discipline-choreutique.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/discipline-choreutique.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/experiences.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/experiences.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/furusiyya.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/furusiyya.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/glossaire.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/glossaire.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/glossaire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/glossaire.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/index.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/index.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/jardin.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/jardin.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/maitres-et-personnel.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/maitres-et-personnel.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/parfums.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/parfums.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/projet.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/projet/charite.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/charite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/charite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/charite.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/projet/famille.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/famille.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/famille.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/famille.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/projet/hospitalite.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/hospitalite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/hospitalite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/hospitalite.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/projet/rayonnement.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/rayonnement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/rayonnement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/rayonnement.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/projet/vision.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/vision.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/vision.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/vision.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/qui-cherchons-nous.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/qui-cherchons-nous.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/qui-cherchons-nous.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/qui-cherchons-nous.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/rencontres.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/rencontres.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/sejour.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/sejour.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/sejour.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/sejour.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/vestiario.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/vestiario.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/vestiario.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/vestiario.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/vie.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/vie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/vie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/vie.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/experiences.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/experiences.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/furusiyya.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/furusiyya.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/glossaire.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/glossaire.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/glossaire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/glossaire.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/index.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/jardin.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/jardin.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/maitres-et-personnel.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/maitres-et-personnel.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/parfums.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/parfums.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/projet.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/projet/charite.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/charite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/charite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/charite.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.borgoideale.com/al-uns/projet/famille.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/famille.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/famille.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/famille.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/projet/hospitalite.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/hospitalite.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/hospitalite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/hospitalite.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/projet/rayonnement.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/rayonnement.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/rayonnement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/rayonnement.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/projet/vision.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/projet/vision.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/projet/vision.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/projet/vision.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/qui-cherchons-nous.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/qui-cherchons-nous.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/qui-cherchons-nous.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/qui-cherchons-nous.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/rencontres.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/rencontres.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/sejour.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/sejour.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/sejour.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/sejour.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.borgoideale.com/al-uns/soutenir.html</loc>
-    <lastmod>2026-08-17T09:14:00Z</lastmod>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/vestiario.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/vestiario.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/vestiario.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/vestiario.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/vie.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/vie.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/vie.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/vie.html"/>
+    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
