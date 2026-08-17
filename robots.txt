@@ -9,7 +9,6 @@ Allow: /assets/
 # Cartelle sensibili
 Disallow: /private/
 Disallow: /admin/
-Disallow: /dossier/
 
 # Sitemap
 Sitemap: https://www.borgoideale.com/sitemap.xml
