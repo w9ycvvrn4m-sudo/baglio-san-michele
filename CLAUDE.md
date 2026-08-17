@@ -198,6 +198,24 @@ Tutti in italiano. La traduzione francese si fa quando il contenuto è fermo.
 
 ## In sospeso
 
+- **Migrazione su `al-uns.com`** (dominio da registrare entro fine agosto 2026).
+  Il riad esce da `borgoideale.com` e diventa un sito autonomo. Da fare nello
+  stesso giro: spostare anche gli **asset** (oggi le immagini sono servite dal
+  dominio del Baglio, e il legame resta visibile nel sorgente), riscrivere tutti
+  i `canonical`, gli `og:url` e la sitemap, e **non** mettere redirect 301 — il
+  sito è di agosto 2026, non c'è autorità di dominio da preservare e un 301
+  manterrebbe in piedi proprio la traccia che si vuole togliere. Verificare che
+  nessuna pagina del riad linki il Baglio e viceversa.
+- **Immagini da cancellare alla migrazione** — non più usate da nessuna pagina ma
+  ancora pubblicate: `hammam-2.jpg`, `riad-hammam-1.jpg`, `jinn-dono.jpg`,
+  `IMG_8232.jpeg`, `IMG_8235.jpg`, `arco-3.jpg`, `04_geste_c.jpg`,
+  `06_huiles_b.jpg`, `05_huiles_a_copia.jpg`, `01_tayeb_a.jpg`,
+  `02_tayeb_b_copia.jpg`, `jrdrD.jpg`, `iR4G8.jpg`. Attenzione: `assets/` è
+  condivisa con il Baglio — cancellare solo dopo aver separato le due cartelle.
+- **`al-uns/architecture/hammam.html`** — mancano due nature morte: *savon beldi*
+  e *ghassoul*. Le tre voci del rituale sono per ora solo testo. Prompt pronti in
+  `dossier/` (file dei prompt immagini). Non riusare `IMG_8232`/`IMG_8235`: sono
+  due torsi nudi, non nature morte.
 - **`al-uns/qui-cherchons-nous.html`** — 8 segnaposto `[À CHOISIR].jpeg` da
   sostituire: *Qui cherchons-nous*, *Formation du caractère*, *Stabilité et
   discipline*, *Fraternité*, *Transmission de la futuwwa*, e tre orientamenti
