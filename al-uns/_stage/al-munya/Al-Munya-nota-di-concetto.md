@@ -2,6 +2,8 @@
 
 ## Nota di concetto
 
+*La casa: **Al-Munya**. Il circolo: **An-Nudamāʾ**.*
+
 *Struttura di ospitalità d'eccezione confinante con il Riad al-Uns — documento di lavoro interno, agosto 2026*
 
 ---
@@ -16,7 +18,7 @@ Il termine è storicamente attestato e archeologicamente documentato: non è un 
 
 La distinzione tipologica fa già metà del lavoro: il riad è la casa; la *munya* è il luogo dove ci si ritira. Sono due cose diverse, e in al-Andalus lo erano.
 
-*Alternative se il nome non convince: **Al-Manzil** (la stazione di sosta del viaggiatore), **Al-Bustān** (il giardino chiuso). Al-Munya resta la più precisa.*
+*Alternative valutate e scartate per la casa: **Al-Manzil** (la stazione di sosta), **Al-Bustān** (il giardino chiuso). Per il circolo si è scelto **An-Nudamāʾ** (§9); erano in lizza Aṣ-Ṣafwa, Ahl as-Samar, Al-Khāṣṣa e Al-Maqṣūra.*
 
 ---
 
@@ -88,18 +90,6 @@ E l'inversione, che è tutto il punto:
 
 Chi non riesce a stare a quella condizione — e qualcuno non ci riuscirà — resta nel proprio appartamento, dove è ricevuto con ogni riguardo. Non gliene viene fatta una colpa e non gliene viene fatta parola. Semplicemente la porta, quella volta, non si apre.
 
-### La questione dell'alcol — da decidere
-
-La casa non serve alcol, in nessun luogo e a nessuno. È una delle poche regole che rendono credibile tutto il resto, e filtra le persone prima ancora del prezzo.
-
-Una deroga si può valutare, ma va valutata a occhi aperti, perché è il punto in cui la coerenza della casa è più esposta. **Una regola assoluta che ammette un'eccezione riservata ai potenti non è più una regola: è un privilegio.** Se emergesse in quella forma — la casa che non versa vino ai soci ma lo versa a chi conta — costerebbe assai più di quanto qualunque ospite possa portare, e lo costerebbe al riad prima che alla Munya.
-
-C'è però una distinzione che regge, ed è l'unica su cui costruire se si decide di procedere:
-
-**La casa non fornisce, non serve, non acquista, non conserva.** Ciò che un ospite porta con sé nell'appartamento privato in cui alloggia — locale separato, con ingresso proprio, cucina propria e servizio proprio, distinto fisicamente e giuridicamente dal resto — non è un atto della casa. Nessuna bottiglia entra dalle cucine, nessuna mano del riad la tocca, niente compare in una dispensa o in un conto, e niente di tutto questo esiste fuori da quella porta.
-
-Detto altrimenti: non una deroga concessa, ma **una soglia che la casa non attraversa in nessuna delle due direzioni**. È la sola formulazione che lasci intatta la regola. Va scritta in questi termini, oppure non va scritta affatto.
-
 ### Che cosa vale
 
 Commercialmente, è la credenziale più preziosa che questo progetto possa ottenere, e insieme la sola che non potrà mai essere comunicata. Non comparirà da nessuna parte. Sarà nota esattamente alle persone che devono saperla, ed è quello il pubblico che conta: la base sociale si costruisce per cooptazione, e la cooptazione si muove su questo genere di informazione, non sulla pubblicità.
@@ -117,6 +107,16 @@ Il loro problema non è il comfort: ce l'hanno già, dappertutto, ed è diventat
 Il secondo prodotto, meno dichiarabile ma più forte: **compagnia maschile senza competizione**. Non colleghi, non concorrenti, non subordinati. Uomini della stessa età che non stanno misurando niente.
 
 Il terzo: la prova fisica che esiste ancora un modo di fare le cose che non è il loro. Chi passa una settimana con un muro solo fra sé e venti ragazzi che si alzano prima dell'alba, lavorano il gesso con le mani e non sono per niente impressionati dal suo conto in banca, torna a casa con qualcosa che nessun programma di benessere gli avrebbe dato.
+
+### Perché la difficoltà è il prodotto
+
+Va detto con precisione, perché è controintuitivo e perché è la leva commerciale più forte che il progetto abbia.
+
+Un uomo che può comprare qualunque cosa ha un problema che nessuno gli risolve: **niente gli resiste.** Ogni porta si apre, ogni lista si accorcia, ogni regola ha un'eccezione per lui. Il risultato è che nulla di ciò che ottiene significa più niente, perché non è mai stato in dubbio.
+
+La Munya è costruita per essere la cosa che gli resiste. Il prezzo altissimo, il numero chiuso, l'assenza di un modulo, l'impossibilità di proporsi, la decisione che non viene motivata, la porta senza maniglia: non sono ostacoli da tollerare in cambio del lusso. **Sono ciò che compra.** L'unico bene che a quel livello di ricchezza sia ancora scarso è qualcosa che si possa non ottenere.
+
+E ne discende una conseguenza pratica: un prezzo basso non allargherebbe il bacino, lo peggiorerebbe. Attirerebbe uomini che verranno rifiutati — colloqui sprecati, visite inutili alla soglia del riad, e un uomo ricco umiliato per ogni rifiuto. Il prezzo alto fa la selezione prima che qualcuno debba dire di no in faccia a qualcuno.
 
 ### Quello che la casa chiede al corpo
 
@@ -215,7 +215,7 @@ Per il resto, in tutta la casa non c'è uno schermo, e la sola postazione connes
 Va scritto per esteso, perché è il rifiuto che costruisce il valore. Un club è definito da chi non entra.
 
 - Nessuna ospite donna, nessun evento misto, nessuna coppia, nessun bambino.
-- Nessun alcol: la casa non ne fornisce, non ne serve, non ne acquista e non ne conserva, in nessun luogo (per l'unica soglia distinta, §3).
+- Nessun alcol, in nessun luogo, per nessuno, senza eccezioni scritte né taciute.
 - Nessun matrimonio, nessun seminario aziendale, nessun compleanno, nessun evento privato.
 - Nessuna stampa, nessun *influencer*, nessun servizio fotografico, nessuna "partnership di marca".
 - Nessuna prenotazione online, nessuna OTA, nessun portale di recensioni, nessuna stella, nessuna classifica.
@@ -224,19 +224,104 @@ Va scritto per esteso, perché è il rifiuto che costruisce il valore. Un club �
 
 ---
 
-## 9. Il club
+## 9. Il circolo — *An-Nudamāʾ*
+
+Il nome della casa è Al-Munya. Il nome del circolo che vi si raduna è **An-Nudamāʾ** (الندماء), « i compagni ». Il socio è un ***nadīm***; l'assemblea, **Majlis an-Nudamāʾ**.
+
+Il *nadīm*, dagli Omayyadi in poi, è l'uomo ammesso alla compagnia privata serale del sovrano — non un funzionario, non un servitore: uno il cui compito è esserci. I manuali classici (Niẓām al-Mulk, Kushājim, Abū Nuwās) ne fissano i requisiti, e sono già i nostri: età adulta e buon aspetto, buona nascita, viso lieto, fede salda, **capacità di custodire un segreto**, misura, pazienza, umiltà, **poche parole**. Il nome nomina ciò che il socio deve diventare, non ciò che è già.
+
+E la regola classica della *munādama* è, alla lettera, lo statuto del circolo:
+
+> **Ciò che si dice la notte è dimenticato all'alba.**
+
+*Nota filologica, da tenere presente: la radice n-d-m significa di suo « pentirsi », e il contesto abbaside tipico della munādama è la sessione di vino — associazione secondaria ma reale, in una casa dove l'alcol non entra. Chi conosce l'adab arabo lo noterà.*
 
 **Ammissione per sola cooptazione.** Due soci presentano un candidato. Il candidato viene alla casa una volta, per una conversazione e un pasto, come ospite. La casa decide, senza motivare.
+
+### Il parere della tavola
+
+Il pasto del colloquio non si tiene alla Munya. **Si tiene alla tavola comune del riad**, e il candidato vi siede come vi siederebbe un ospite qualunque: senza titolo, senza precedenza, senza che nessuno sappia chi è né perché sia lì.
+
+Il giorno dopo, la casa chiede alla tavola. Non un voto, non un verbale: un parere. Se la tavola è tiepida, la risposta è no. Se un uomo è contrario e non vuole dire perché, la risposta è no. Non si motiva a nessuno, e meno che mai al candidato.
+
+Nello statuto si scrive una riga sola:
+
+> **L'ammissione richiede il parere favorevole della tavola.**
+
+Che cosa la tavola stia effettivamente pesando non è scritto da nessuna parte, e non lo sarà mai. In sostanza si chiede a venti giovani uomini se sarebbero contenti di riceverne un altro — se quello che si è seduto fra loro avrebbe potuto essere, per età, per aspetto, per modo di stare al mondo, uno di loro o uno dei loro maestri. È esattamente il criterio del §4, e questo è il solo meccanismo che lo esercita senza doverlo enunciare: **non lo applica la casa, lo applicano loro.**
+
+Tre ragioni per cui questo è il cardine di tutto il sistema, e non un ornamento:
+
+- **È l'unico criterio inattaccabile.** Nessuno può contestare che una comunità scelga chi accogliere alla propria tavola. Nessun documento dice che cosa si cerca, perché nessun documento deve dirlo.
+- **Protegge la soglia meglio di qualunque clausola.** Un uomo entrato con il consenso della tavola non tratterà mai quei ragazzi da personale. Chi l'avrebbe fatto, la tavola lo riconosce in due ore.
+- **Rovescia definitivamente il rapporto col denaro, ed è la cosa da dire al candidato.** Venti uomini che non possiedono nulla decidono se lui possa versare centocinquantamila euro. È l'unica cosa, in tutta la sua vita, che non potrà comprare — e va detto proprio così, perché è quello il momento in cui capisce dove è arrivato.
 
 **Numero chiuso: centoventi soci.** Pubblicato, e mantenuto. La rarità dev'essere strutturale, non retorica.
 
 **Una sola classe di soci**, con una sola eccezione: la **tranche fondatrice** di quaranta uomini che entrano prima che la casa esista e ne finanziano il restauro. Il loro nome è iscritto nel registro della Munya — non in quello del riad, che non pubblica nessun nome.
 
-**Diritto di ammissione una tantum + quota annuale**, che dà diritto a un contingente di notti; oltre il contingente, tariffa a notte. Le cifre sono nel dossier economico.
+### Il prezzo
+
+**Il prezzo non è la conseguenza dei costi: è la prima affermazione che la casa fa su sé stessa.**
+
+Un uomo che paga milleseicento euro a notte sa esattamente con che cosa confrontare, perché quella cifra ha decine di termini di paragone in tutto il Mediterraneo. Un uomo che paga il doppio capisce, prima ancora di entrare, che sta comprando qualcosa che non ha un secondo esemplare. Un prezzo troppo basso non è generosità: è la smentita di tutto ciò che il resto del documento afferma. La quiete di una casa vera, la vita di una comunità reale a un muro di distanza, la certezza di non essere osservato né sollecitato da nessuno — non esistono altrove, e ciò che non esiste altrove non ha un prezzo di mercato.
+
+| | Fondatori | Ordinario |
+|---|---|---|
+| Diritto d'ammissione, una tantum | **60.000 €** | **150.000 €** |
+| Quota annuale | 22.000 € | 22.000 € |
+| Notte in suite, tutto compreso | 3.500 € | 3.500 € |
+| Uso esclusivo della casa, a notte | 18.000 € | 18.000 € |
+
+La quota annuale comprende tre notti. Nessun listino è pubblicato: le cifre sono dette al candidato durante il colloquio, e il momento in cui gli vengono dette fa parte della selezione.
+
+**Il diritto ordinario sale per scaglioni pubblicati: diecimila euro in più ogni dieci soci ammessi.** È un meccanismo classico dei club e fa tre cose insieme — dà urgenza alla catena di cooptazione, fa apprezzare il posto del fondatore senza renderlo vendibile, e lascia che sia il mercato a trovare il tetto invece di doverlo indovinare adesso.
+
+### Fin dove alzare
+
+La domanda va posta separatamente per le due cose, perché hanno vincoli opposti.
+
+**Le quote e le tariffe possono salire, e conviene che salgano.** Sono pagate da uomini che hanno già visto la casa e vi appartengono: l'elasticità è bassissima. Portarle da 15.000 e 2.500 € a 22.000 e 3.500 € porta il margine di riferimento da 1,53 a 2,46 M€ e il flusso annuo al riad da 780.000 a 1,05 M€, e regge anche se l'occupazione scende a un quarto dell'anno.
+
+**Il diritto d'ammissione dei fondatori non va alzato**, e questa è la raccomandazione che conta. La risorsa scarsa non è il denaro: sono gli uomini. Quaranta fondatori a 60.000 € e venticinque a 100.000 € raccolgono la stessa cifra, ma trovarne venticinque disposti a versare centomila euro per una casa che non esiste, in una fascia d'età fra i venticinque e i quarantacinque anni, è un problema molto più difficile — e se non si risolve, non si fa niente. Il diritto di fondatore è uno strumento che remunera un rischio: deve restare accessibile abbastanza da allargare il bacino, e sono le voci ricorrenti a recuperare tutto il resto, per sempre.
+
+Il confronto utile, e l'unico: l'Aman Club chiede duecentomila dollari d'ingresso e ventimila l'anno per una rete internazionale di dimore. Qui il fondatore paga meno di un terzo di quell'ingresso per una casa sola — che è la collocazione giusta — e il socio ordinario, a regime, si avvicina.
+
+**La conseguenza finanziaria è decisiva.** Quaranta fondatori a sessantamila euro fanno 2,4 M€: in Ipotesi B (§11) coprono per intero il capitale d'esercizio e ne avanza quasi un milione, che va sui muri. **Con questo prezzo il progetto non ha più bisogno di un investitore.** Non è un dettaglio di finanziamento: è ciò che toglie dal tavolo, per sempre, l'unico soggetto che un giorno avrebbe dovuto uscire.
 
 **La clausola di requisizione.** Il regolamento dice, fin dall'ammissione, che la casa può essere chiusa fino a trenta notti l'anno senza che ne sia data la ragione, con preavviso e con restituzione doppia delle notti spostate. Il socio accetta questa clausola prima di sapere a che cosa serve — ed è meglio così: la clausola stessa dice, senza dirlo, in che genere di casa sta entrando.
 
-**La quota non si eredita e non si vende.** Alla morte o alle dimissioni, il posto torna alla casa. (Deroga possibile per i fondatori: da decidere.)
+**La quota non si vende, mai, in nessun caso.** Il giorno in cui un posto avesse un prezzo di rivendita, il club diventerebbe un attivo negoziabile e la cooptazione una formalità. Chi tentasse di cederlo a titolo oneroso perde il posto e l'importo versato.
+
+**Il posto ordinario non si eredita.** Alla morte o alle dimissioni torna alla casa.
+
+### La trasmissione del posto di fondatore
+
+I quaranta fondatori fanno eccezione, ed è giusto che la facciano: hanno pagato per una casa che non esisteva.
+
+**Ogni fondatore può designare il proprio successore** — un figlio, un fratello minore, un nipote, o un uomo che non è della sua famiglia — in vita, per atto scritto depositato al registro, oppure per disposizione testamentaria.
+
+Tre condizioni, e sono ciò che impedisce alla trasmissione di svuotare il club:
+
+1. **È un diritto di presentazione, non di ammissione.** Il designato passa lo stesso colloquio di chiunque altro e deve avere gli stessi requisiti, età compresa. La casa può rifiutarlo, e non motiva. Se lo rifiuta — o se il designato declina — il posto torna alla casa.
+2. **Non si paga due volte.** Il successore non versa il diritto d'ammissione: è precisamente il valore che il fondatore ha comprato. Versa la quota annuale come tutti.
+3. **Nessun denaro fra le parti.** La designazione è un atto gratuito. Se emerge che è stata pagata, decade.
+
+Non c'è limite al numero di trasmissioni: un posto di fondatore può discendere per tre generazioni, purché ogni volta un uomo si sieda davanti alla casa e la casa dica di sì. È l'unico modo di rendere il posto realmente ereditabile senza renderlo commerciabile — e detto ai candidati fondatori vale più dei venticinquemila euro di sconto, perché non stanno comprando un accesso ma qualcosa da lasciare.
+
+### Il registro è di carta
+
+**I nomi dei soci non esistono in forma digitale.**
+
+Il ruolo dei membri, gli atti di ammissione, le firme, le designazioni di successore e le radiazioni sono tenuti a mano su un registro unico, conservato **nel tesoro del riad** — non nella Munya. Niente sito, niente elenco, niente base dati, niente copia di sicurezza, niente scansione.
+
+Tre conseguenze, di cui una molto più importante delle altre due.
+
+**Sui sistemi.** L'amministrazione corrente lavora per numero, non per nome. Il minimo contabile e bancario che la legge impone vive in un sistema separato, fuori dalla casa, e non contiene niente che la legge non esiga. Il collegamento fra il numero e il nome sta sul registro di carta, e da nessun'altra parte.
+
+**Sulla custodia.** Un registro unico si può bruciare. Va trattato come si tratta un manoscritto: cassaforte, condizioni di conservazione, una seconda copia sempre di carta, tenuta altrove e sotto la stessa regola. Il rifiuto della traccia digitale non autorizza a essere disinvolti con quella di carta.
+
+**Sulla proprietà — ed è il punto che va spiegato a un investitore prima che lo scopra da sé.** La Munya non possiede l'elenco dei propri soci: lo possiede la casa accanto, che non è una società e non si vende. Significa che il capitale della Munya può cambiare mano, ma **i suoi membri non sono trasferibili con esso**: chi comprasse la società comprerebbe un palazzo e non un club. È una scelta deliberata, ed è la garanzia strutturale che questa cosa non finisca un giorno rivenduta a un gruppo alberghiero. Va detta agli investitori all'inizio, non alla fine: chi ci sta a questa condizione è il socio giusto; chi non ci sta lo si è scoperto prima di firmare.
 
 **Si può essere espulsi.** Per violazione della regola di soglia, per indiscrezione, per condotta. Senza rimborso. È scritto nello statuto e va applicato almeno una volta, presto, e in modo che si sappia.
 
@@ -282,12 +367,68 @@ C'è un secondo flusso, meno visibile e altrettanto reale: **il restauro della M
 
 ## 11. Il rapporto giuridico fra le due case
 
-Due entità separate, e la separazione va difesa tanto più che i muri si toccano.
+Il Riad al-Uns resta in ogni caso ciò che è: struttura non commerciale, destinata a essere costituita in bene inalienabile (*ḥubus/waqf*, nelle forme che il diritto marocchino consentirà). L'esercizio della Munya resta in ogni caso una società commerciale distinta, con il proprio bilancio e il proprio rischio: **nessuna responsabilità dell'esercizio può risalire al riad.** Con la contiguità questo va scritto con particolare cura — nessuna parte comune, nessun impianto condiviso, nessuna garanzia incrociata.
 
-- Il Riad al-Uns resta ciò che è: struttura non commerciale, destinata a essere costituita in bene inalienabile (*ḥubus/waqf*, nelle forme che il diritto marocchino consentirà).
-- La Munya è una società commerciale distinta, con i propri soci, il proprio bilancio, il proprio rischio. **Nessuna responsabilità della Munya può risalire al riad.** Con la contiguità questo va scritto con particolare cura: due titoli fondiari distinti, nessuna parte comune, nessun impianto condiviso, nessuna garanzia incrociata.
-- Fra le due, una **convenzione d'accesso** scritta: la Munya versa al riad un corrispettivo per ogni visita ammessa, più un canone annuale fisso. Il riad conserva il diritto assoluto e non motivato di sospendere l'accesso — cioè di far murare la porta — in qualunque momento, senza penale. Questa clausola è la garanzia che la comunità non diventi mai un obbligo contrattuale.
-- L'impegno di dotazione (§10) è iscritto nello statuto della Munya, non lasciato alla buona volontà di chi la dirige domani.
+Resta una domanda, ed è la più importante di tutto il documento dopo la regola di soglia: **di chi sono i muri.**
+
+### Ipotesi A — la società possiede l'immobile
+
+Una società commerciale acquista, restaura e possiede la dimora. Il legame col riad è di governance: clausole statutarie, seggi nel consiglio, diritti di veto su un elenco chiuso di materie (vendita dell'immobile, cambio di destinazione, ammissione di donne, violazione della soglia, cessione dell'elenco dei soci).
+
+- **A favore:** è finanziabile. Una banca iscrive ipoteca su un bene di una società e presta; l'investitore ha in mano un attivo reale e la sua rivalutazione. È la sola forma che consenta di raccogliere rapidamente due milioni e mezzo di capitale di terzi.
+- **Contro:** i legami di governance sono contrattuali, e i contratti si diluiscono. Bastano due aumenti di capitale e un cambio di maggioranza perché un veto diventi una formalità. E un investitore, prima o poi, cerca liquidità — e liquidità, per un immobile, significa venderlo.
+
+### Ipotesi B — i muri sono del riad, l'esercizio è affidato
+
+Il riad possiede la dimora. Una società di fiducia la prende in locazione lunga (venticinque-trent'anni), paga un canone, e vi conduce il club: è lì che stanno i soci, il personale, il rischio e l'investitore.
+
+È la struttura classica del *waqf*, non un'invenzione: storicamente sono state proprio le proprietà da reddito costituite in *ḥubus* a finanziare madrase e fondazioni. Qui la funzione è identica.
+
+**Che cosa cambia nei numeri, ed è molto:**
+
+| | Ipotesi A | Ipotesi B |
+|---|---|---|
+| Capitale che deve raccogliere l'esercizio | 5.291.000 € | 1.452.000 € |
+| Coperto dalla tranche fondatrice (40 × 60.000 €) | 2.400.000 € | 2.400.000 € |
+| **Equity residua dell'investitore** | **2.891.000 €** | **nessuna** |
+| Margine operativo (scenario base) | 2.869.000 € | 2.462.000 € |
+| Flusso annuo al riad | 724.000 € | 1.049.000 € |
+
+I muri — 3,84 M€, cioè il 73% del totale — sono finanziati dai mecenati anziché dall'investitore. **Ed è precisamente ciò che i mecenati vogliono comprare:** una cosa permanente, restaurata secondo l'arte, che entrerà in un bene inalienabile e non potrà mai essere rivenduta. Mentre l'investitore vuole un'azienda che rende. In questa forma ciascuno dei due finanzia esattamente la cosa per cui è venuto, e nessuno dei due finanzia quella dell'altro.
+
+**La conseguenza va vista fino in fondo.** Al prezzo del §9, la sola tranche fondatrice fa 2,4 M€ contro un capitale d'esercizio di 1,45 M€: in Ipotesi B **copre tutto e ne avanza 948.000 €**, che vanno sui muri e riducono di un quarto il fabbisogno mecenatizio. Non c'è più equity da collocare presso nessuno.
+
+Un progetto senza investitore è un progetto senza nessuno che un giorno debba uscire — e quindi senza la sola pressione capace di far vendere una casa che non si vuole vendere. Vale la pena rileggere questa frase due volte prima di accettare capitale di terzi per comodità.
+
+**Il prezzo dell'Ipotesi B è la leva operativa.** Il canone è dovuto che la casa sia piena o vuota: è il primo costo, non l'ultimo. Nello scenario prudente il margine si azzera. Il correttivo è ovvio e va scritto nel contratto di locazione: **canone misto — una parte fissa bassa (120.000 €) più una percentuale sui ricavi (8%)**. Nello scenario base dà lo stesso risultato; nel prudente lascia la società in vita. Il riad divide con la Munya il rischio della propria casa, il che è giusto, perché è la sua.
+
+### Raccomandazione
+
+**Ipotesi B, con canone misto** — a meno che la priorità non sia raccogliere in fretta molto capitale di terzi, nel qual caso solo A funziona.
+
+Un correttivo utile in B: **l'immobile non entra subito nel perimetro inalienabile.** Resta di proprietà del riad ma alienabile finché il debito eventualmente contratto per il restauro non è estinto — altrimenti non è ipotecabile e non è finanziabile. Vi entra dopo, per atto, a debito chiuso. Si arriva dove si voleva arrivare senza rendersi impossibile la strada per arrivarci.
+
+### La società d'esercizio come mecenate del riad
+
+Vale la pena istruirla, ma va capito bene su che cosa incide, perché il beneficio è più stretto di quanto sembri.
+
+Dei tre flussi verso il riad, due sono già costi d'esercizio pienamente deducibili e non hanno bisogno di alcun regime speciale: **il canone di locazione** e **il corrispettivo d'accesso**, che remunerano un bene e un servizio reali. Insieme valgono più della metà del totale.
+
+Il terzo — **la dotazione statutaria del venti per cento del margine** — è l'unico che oggi non ha una qualificazione fiscale: è una destinazione volontaria di utile già tassato. Configurarla come **atto di mecenatismo verso un ente riconosciuto** la renderebbe deducibile nei limiti di legge. Su circa 490.000 € di dotazione nello scenario di riferimento, il beneficio è dell'ordine di cento-centocinquantamila euro l'anno — non trascurabile, ma di gran lunga inferiore al valore delle altre due voci.
+
+**Tre condizioni, e la terza è la più importante.**
+
+1. **Il riad deve avere la forma giuridica giusta.** La deducibilità delle liberalità è di norma riservata agli enti riconosciuti d'utilità pubblica, e il regime cambia ancora se il bene è costituito in *ḥubus*. È un'altra ragione per definire presto lo statuto del riad invece di lasciarlo in sospeso.
+2. **Le operazioni fra parti correlate vanno rese inattaccabili.** Dedurre canone, corrispettivi e liberalità versati a un ente legato è esattamente ciò che un'amministrazione finanziaria guarda per primo. Il canone dev'essere sostenuto da una perizia di congruità, il corrispettivo d'accesso da servizi realmente resi e documentati, e solo il residuo dev'essere trattato come liberalità. Fatto bene, regge; fatto approssimativamente, si perde tutto e si guadagna una verifica.
+3. **Il riad non deve mai dipendere dalla Munya.** È il punto serio, e non è fiscale. Tutta la proposta commerciale si regge sulla frase « il riad esisterebbe identico se la Munya non ci fosse ». Se la Munya diventa formalmente il mecenate del riad, e più ancora se ne diventa il finanziatore principale, quella frase smette di essere vera — e con essa svanisce il solo vantaggio non replicabile del progetto. Va quindi scritto nello statuto un tetto: **le risorse provenienti dalla Munya non possono superare un terzo delle entrate annuali del riad.** Il resto deve venire da altri mecenati, dalla vendita dell'artigianato e dalla dotazione permanente.
+
+Il tetto costa qualcosa in termini fiscali. Costa molto meno di ciò che protegge.
+
+### In entrambe le ipotesi
+
+- Una **convenzione d'accesso** scritta e distinta dal contratto di locazione: corrispettivo per ogni visita ammessa, più un canone annuale fisso. Il riad conserva il diritto assoluto e non motivato di sospendere l'accesso — cioè di far murare la porta — in qualunque momento, senza penale.
+- **Clausola di cambio di controllo:** la cessione delle quote della società d'esercizio è soggetta al consenso preventivo del riad. Questa clausola e il registro cartaceo (§9) sono i due dispositivi che, insieme, rendono la Munya non rivendibile a un gruppo alberghiero: l'uno blocca il passaggio, l'altro fa sì che, anche se passasse, non passerebbero i soci.
+- L'impegno di dotazione (§10) è iscritto nello statuto dell'esercizio, non lasciato alla buona volontà di chi lo dirige domani.
 
 **Punti da sottoporre a un avvocato marocchino prima di qualunque impegno:**
 
@@ -329,15 +470,68 @@ Costo dell'informazione decisiva, in tutto: l'acconto sull'opzione, il parere le
 
 ## 13. Ciò che resta da decidere
 
-- Il nome definitivo (Al-Munya / Al-Manzil / Al-Bustān).
+- La forma esatta del dominio autonomo, e se intestarlo alla casa (al-munya) o al circolo (an-nudama).
 - La superficie e la collocazione dell'appartamento d'onore: ala autonoma dal principio, oppure due suite convertibili — meno costoso, molto meno credibile.
 - Il tetto annuale delle notti di requisizione (trenta è una proposta) e la forma della compensazione ai soci.
-- **La soglia sull'alcol (§3): se metterla per iscritto nella forma proposta — la casa non fornisce e non vede — oppure se non prevederla affatto.** È la decisione più delicata dell'intero documento e non va presa per convenienza.
 - Il cofanetto dei telefoni (§7): se è portato all'ospite che lo chiede, oppure se è l'ospite ad andarlo a chiedere alla porta. La seconda soluzione toglie ogni ambiguità di servizio e rende il gesto più netto; la prima è più ospitale.
-- Se i fondatori possono trasmettere la quota.
 - Se pubblicare o no la quota di dotazione (§10) — la trasparenza è forte, ma vincola.
-- Se la Munya ha un sito proprio o una pagina non collegata al menù del riad. *Raccomandazione: dominio o cartella separata, nessun rimando dalla navigazione del riad. Il riad non fa pubblicità a un'attività commerciale; chi deve trovare la Munya la trova perché qualcuno gliene ha parlato.*
-- Il regolamento dell'ospite, da scrivere sul modello del regolamento interno esistente, con la clausola di requisizione e la clausola di riservatezza.
+- Se l'*espace membres* resti una sola pagina o diventi una sezione con più voci quando i soci saranno più di venti.
+- **Il regolamento dei soci e dell'ospite**, da redigere più avanti sul modello del regolamento interno del riad. Dovrà contenere almeno: la regola di soglia e la sanzione immediata, la clausola di requisizione, la clausola di riservatezza, la designazione del successore per i fondatori, il divieto di cessione a titolo oneroso, i motivi di radiazione. È un documento che non si improvvisa alla vigilia dell'apertura: va scritto quando si scrive lo statuto.
+
+---
+---
+
+## 14. Finanziamento del complesso e interlocutori
+
+### Le due masse e chi le copre
+
+Fabbisogno complessivo **11,88 M€**: riad ~6,59 M€ (dimora 1.400 m², restauro, botteghe, impianti, circolante) + muri della Munya 3,84 M€ + esercizio della Munya 1,45 M€.
+
+| | |
+|---|---|
+| Tranche fondatrice An-Nudamāʾ (40 × 60.000 €) | 2.400.000 € |
+| — copre l'esercizio della Munya | −1.452.000 € |
+| = avanzo sui muri | 948.000 € |
+| Debito servito dal canone della Munya (15 anni al 5%) | 4.845.000 € |
+| **Mecenatismo residuo necessario** | **4.635.000 €** — il 39%, non il 100% |
+
+Il canone più il corrispettivo d'accesso valgono 556.795 €/anno; tolta la manutenzione dell'immobile restano **466.795 € di flusso contrattuale** al servizio del debito. **La dotazione (492.494 €) non entra nel calcolo**: è vincolata alle borse e va lasciata intoccabile.
+
+Serve un **preammortamento di tre o quattro anni**, perché la Munya non paga canone finché non apre. Il ponte sono la tranche fondatrice e il mecenate. Conseguenza sulla sequenza: **il riad va finanziato e cantierato per primo** — i quaranta posti si vendono molto meglio davanti a un cantiere che davanti a un documento.
+
+### Un socio può finanziare il riad?
+
+Sì, **ma mai in quanto socio**: due cappelli, due documenti, nessun rimando fra i due. Se finanziare il riad desse vantaggi nella Munya, la donazione cesserebbe di essere una liberalità (niente deducibilità, e un'amministrazione fiscale lo vede subito) e morirebbe la frase su cui tutto si regge.
+
+**La tentazione da conoscere prima del primo incontro con un donatore**: la frase «un mecenate ha naturalmente più probabilità di essere adottato dalla tavola» non va detta, né suggerita, né lasciata intendere con un silenzio compiacente. L'art. 30 del regolamento la vieta, ma resterà la leva di vendita più forte che esista — ed è quella che marcirebbe il progetto dall'interno in due anni.
+
+Tre legami invece leciti: dire il vero (*il tuo posto finanzia quella casa ogni anno, per contratto*); **prestare invece che donare** (obbligazione verso la struttura del riad, rimborsata dal canone — è ciò che rende bancabile l'operazione); e l'argomento dell'interesse proprio, più forte della carità: *senza quella comunità il suo posto non vale niente.*
+
+### Gli interlocutori, in ordine di approccio
+
+**1. ADER-Fès — con scadenza.** Giugno 2026: programma di valorizzazione della medina (670 MDH) pilotato dall'Agence pour le développement et la réhabilitation de la ville de Fès, con otto mesi di studi sull'« affectation et exploitation des sites restaurés » e **appels à manifestation d'intérêt** previsti verso operatori privati. Fra i siti, i **foundouq Achich e Sagha** — cortile con botteghe intorno, cioè la tipologia esatta di Dar al-Hiraf. Il bando si scrive verso l'inizio del 2027: farsi conoscere **prima** che il capitolato sia redatto vale più di qualunque assegno. Costa zero.
+
+**2. Grandi famiglie fassi.** Assegni minori, valore strategico enorme: proprietà in medina, autorizzazioni, legittimità artigiana, protezione. Si presenta come il restauro del *loro* patrimonio.
+
+**3. Golfo — ufficio privato o casa reale.** Il migliore per il denaro; 4,6 M€ è una cifra ordinaria. Vocabolario del *waqf* nativo, prestigio leggibile in patria, e l'appartamento d'onore è disegnato per questo interlocutore. **Non si nomina mai il club per primo**: l'oggetto è il riad, la Munya compare solo come risposta a « e chi lo mantiene? ».
+
+**4. Fondazioni europee dei mestieri d'arte** (Bettencourt Schueller, `culture@fondationbs.org`; Michelangelo Foundation / Homo Faber). Finanziano la trasmissione del mestiere, mai una comunità residenziale maschile a base religiosa né un club: si presenta **la scuola e nient'altro**. Homo Faber dà borse a persone, non capitale per muri — canale di reputazione, non di finanziamento.
+
+---
+
+## 15. Il regolamento
+
+Redatto in francese, 98 articoli in tre titoli, in `_stage/al-munya/Reglement-An-Nudama.docx`. Struttura: *Le cercle* (1–21, materia in gran parte statutaria, migrerà negli statuts), *La maison* (22–80), *L'ordre intérieur* (81–98).
+
+Punti da non perdere in caso di riscrittura:
+
+- **Sezioni 6, 7 e 8 non modificabili senza l'accordo esplicito del riad** (art. 96).
+- **Sez. 7, Ahl ad-Dār**: designazione riservata alla tavola, non annunciata, revocabile, tetto di dodici, nessun effetto dentro la Munya, obblighi accresciuti, e il segno vero è la **reciprocità** — è chi la casa può *chiedere*. Non conferisce mai vestiario, grado, mestiere, *ijāza* né opera nei muri (art. 38).
+- **Sez. 8, potere di deroga della tavola**: illimitato oltre la porta e sulla durata del soggiorno; per tutto il resto passa dal conseil, così nessuno può lavorarsi i ragazzi per ottenere favori. **Noyau** di nove norme inderogabili (art. 43). Nulla si chiede, nessun precedente, revoca senza motivo.
+- **Sez. 12, la tenue**: écru non tinto — il colore della cintura di primo grado — identica per tutti, fornita dalla casa, mai fuori dalla casa, senza orologio né gioiello. Vietato ogni segno dell'Al-Kiswa (art. 66), ed è *faute grave*.
+- **Art. 67, aucune affaire**: senza questo articolo centoventi uomini ricchi trasformano la casa in una sala affari entro un anno.
+
+Restano da redigere gli **statuts** della società d'esercizio e la **convenzione d'accesso** col riad.
 
 ---
 

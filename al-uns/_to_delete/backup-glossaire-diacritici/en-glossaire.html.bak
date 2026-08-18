@@ -471,7 +471,7 @@ section[id]{scroll-margin-top:7rem}
 </div></div>
 <div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-ijaza" data-k="ijaza ijāza إجازة the authorisation to transmit, granted by a master to his student. one does not teach because one has learned, but because a master attests that one has learned from him.">
 <div class="md:w-[34%] mb-2 md:mb-0">
-<h3 class="heading text-lg leading-snug">Ijaza</h3>
+<h3 class="heading text-lg leading-snug">Ijāza</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">إجازة</p>
 <p class="translit mt-1">ijāza</p>
 </div>
@@ -491,7 +491,7 @@ section[id]{scroll-margin-top:7rem}
 </div></div>
 <div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-hubus" data-k="hubus ḥubus حبس the maghrebi name for the waqf: a property immobilised in perpetuity, which can no longer be sold, given, inherited or mortgaged, and whose fruits are devoted to the purpose for which it was constituted. the madrasas and fountains of fes lived on this instrument for centuries.">
 <div class="md:w-[34%] mb-2 md:mb-0">
-<h3 class="heading text-lg leading-snug">Hubus</h3>
+<h3 class="heading text-lg leading-snug">Ḥubus</h3>
 <p class="ar mt-1" dir="rtl" lang="ar">حبس</p>
 <p class="translit mt-1">ḥubus</p>
 </div>
@@ -1255,7 +1255,7 @@ section[id]{scroll-margin-top:7rem}
 
 <section id="furusiyya" class="gl-section mb-16">
 <div class="border-b-2 border-[#c8872f]/30 pb-4 mb-2 flex items-baseline justify-between gap-6">
-<h2 class="heading text-3xl">Discipline of the body — Furusiyya</h2>
+<h2 class="heading text-3xl">Discipline of the body — Furūsiyya</h2>
 <p class="ar" dir="rtl" lang="ar">الفروسية</p>
 </div>
 <div class="gl-entry py-6 border-b border-gray-100 last:border-0 md:flex md:gap-8" id="t-furusiyya" data-k="furusiyya furusiyya الفروسية the arab-islamic chivalric tradition, uniting body, bow, wrestling and sword under a single system of formation. before specialising, the body first had to be made capable.">
