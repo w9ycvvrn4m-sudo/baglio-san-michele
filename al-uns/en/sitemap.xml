@@ -169,6 +169,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/athar.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.borgoideale.com/al-uns/en/dar-al-hiraf/disciplines.html</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -219,6 +225,18 @@
   <url>
     <loc>https://www.borgoideale.com/al-uns/en/qui-cherchons-nous.html</loc>
     <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/en/faq.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.borgoideale.com/al-uns/en/soutenir.html</loc>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
