@@ -515,6 +515,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.borgoideale.com/al-uns/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/al-uns/faq.html"/>
+    <lastmod>2026-08-18T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.borgoideale.com/al-uns/furusiyya.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.borgoideale.com/al-uns/furusiyya.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/al-uns/en/furusiyya.html"/>
