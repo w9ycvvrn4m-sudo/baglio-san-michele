@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Al-Munya</title>
-<meta name="description" content="Une maison privée à Fès. Six chambres. An-Nudamāʾ — admission par cooptation.">
-<meta name="robots" content="noindex, nofollow">
-<link rel="canonical" href="https://www.borgoideale.com/al-munya/index.html">
+<meta name="description" content="Une maison privée à Fès. Six chambres. An-Nudama — admission par cooptation.">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<!-- canonical + hreflang da aggiungere alla migrazione sul dominio proprio -->
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
@@ -22,56 +22,59 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 
 <header class="border-b border-gray-100">
 <div class="max-w-4xl mx-auto px-6 py-8 flex items-center justify-between">
-<div>
+<a href="index.html" class="block">
 <div class="heading text-2xl leading-none">Al-Munya</div>
 <div class="ar text-[#c8872f]/70 text-lg leading-none mt-1">المنية</div>
+</a>
+<div class="flex items-center gap-3 text-xs tracking-[2px] uppercase">
+<span class="text-secondary hidden sm:inline">Fès</span>
+<span class="text-gray-300 hidden sm:inline">|</span>
+<span class="font-medium text-[#c8872f]">FR</span>
+<a href="en/index.html" class="text-secondary hover:text-[#c8872f]">EN</a>
 </div>
-<div class="text-xs tracking-[2px] text-secondary uppercase">Fès</div>
 </div>
 </header>
-
+<section class="relative overflow-hidden bg-cream border-b border-gray-100">
+<svg class="absolute inset-0 w-full h-full" style="position:absolute;inset:0;width:100%;height:100%" aria-hidden="true" focusable="false">
+<defs>
+<pattern id="khatim" width="72" height="72" patternUnits="userSpaceOnUse">
+<rect x="14" y="14" width="44" height="44" fill="none" stroke="#c8872f" stroke-width="0.7"/>
+<rect x="14" y="14" width="44" height="44" fill="none" stroke="#c8872f" stroke-width="0.7" transform="rotate(45 36 36)"/>
+</pattern>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#fff" stop-opacity="0.15"/>
+<stop offset="100%" stop-color="#fff" stop-opacity="0.92"/>
+</linearGradient>
+</defs>
+<rect width="100%" height="100%" fill="url(#khatim)" opacity="0.30"/>
+<rect width="100%" height="100%" fill="url(#fade)"/>
+</svg>
+<!-- Fotografia futura: sostituire il blocco <svg> con
+     <img src="assets/hero-XXX.jpg" alt="" class="absolute inset-0 w-full h-full object-cover">
+     Brief in brief-photographies.md — sujet allusif uniquement. -->
+<div class="relative max-w-3xl mx-auto px-6 h-40 md:h-56"></div>
+</section>
 <main>
-
-<!-- Ouverture -->
-<section class="max-w-3xl mx-auto px-6 pt-20 pb-16 text-center">
+<section class="max-w-3xl mx-auto px-6 pt-16 pb-16 text-center">
 <h1 class="heading text-4xl md:text-5xl leading-tight mb-8">Une maison, et rien d'autre</h1>
 <div class="rule mx-auto mb-8"></div>
 <p class="text-xl text-secondary leading-relaxed">Six chambres dans un palais de la médina, contre le mur d'une autre maison. Jamais plus de huit hommes à la fois. On n'y entre pas en réservant.</p>
 </section>
-
-<!-- Le nom -->
 <section class="bg-cream">
 <div class="max-w-3xl mx-auto px-6 py-16">
-<h2 class="heading text-2xl mb-6">Le nom</h2>
-<p class="text-secondary leading-relaxed mb-4">Dans l'al-Andalus omeyyade, la <em>munya</em> était le domaine clos où l'aristocratie de Cordoue se retirait de la ville : des jardins irrigués, de l'eau courante, des chevaux, de la poésie, très peu de monde. Munyat al-Ruṣāfa, Munyat al-Rummāniyya. Le mot a donné l'espagnol <em>almunia</em>.</p>
-<p class="text-secondary leading-relaxed">Ce n'est pas un mot d'hôtellerie. C'est le nom d'une chose qui a existé, et qui n'était pas ouverte au public.</p>
+<h2 class="heading text-2xl mb-6">Le nom</h2><p class="text-secondary leading-relaxed mb-4">Dans l'al-Andalus omeyyade, la <em>munya</em> était le domaine clos où l'aristocratie de Cordoue se retirait de la ville : des jardins irrigués, de l'eau courante, des chevaux, de la poésie, très peu de monde. Munyat al-Ruṣāfa, Munyat al-Rummāniyya. Le mot a donné l'espagnol <em>almunia</em>.</p><p class="text-secondary leading-relaxed">Ce n'est pas un mot d'hôtellerie. C'est le nom d'une chose qui a existé, et qui n'était pas ouverte au public.</p>
 </div>
 </section>
-
-<!-- Ce que c'est -->
 <section class="max-w-3xl mx-auto px-6 py-16">
-<h2 class="heading text-2xl mb-6">Ce que c'est</h2>
-<p class="text-secondary leading-relaxed mb-4">Une demeure privée, restaurée selon l'art, mise à la disposition de ses membres. Ni hôtel, ni résidence de villégiature, ni maison de soins, ni retraite spirituelle.</p>
-<p class="text-secondary leading-relaxed mb-4">On y vient pour trois nuits au moins et quinze au plus. La journée a la forme que lui donnent les cinq appels : on ne demande à personne de prier, on demande à chacun de se taire à ces heures-là. Après l'<span class="ar">ʿishāʾ</span>, la maison ne parle plus jusqu'au <span class="ar">fajr</span>.</p>
-<p class="text-secondary leading-relaxed mb-4">Une seule table, un seul menu, la saison. Le hammam, le cheval, l'arc, la marche dans les collines. Aucun écran dans la maison.</p>
-<p class="text-secondary leading-relaxed">Le téléphone n'est pas confisqué : on propose de le déposer, et c'est tout. Ce qui est déposé est enfermé dans un coffret confié à un homme de la maison voisine, et rendu à qui le demande, sans commentaire, autant de fois qu'il le demande. Personne n'y est tenu. Il ne s'agit pas de retirer l'objet — seulement de faire que le reprendre coûte un geste.</p>
+<h2 class="heading text-2xl mb-6">Ce que c'est</h2><p class="text-secondary leading-relaxed mb-4">Une demeure privée, restaurée selon l'art, mise à la disposition de ses membres. Ni hôtel, ni résidence de villégiature, ni maison de soins, ni retraite spirituelle.</p><p class="text-secondary leading-relaxed mb-4">On y vient pour trois nuits au moins et quinze au plus. La journée a la forme que lui donnent les cinq appels : on ne demande à personne de prier, on demande à chacun de se taire à ces heures-là. Après l'<span class="ar">ʿishāʾ</span>, la maison ne parle plus jusqu'au <span class="ar">fajr</span>.</p><p class="text-secondary leading-relaxed mb-4">Une seule table, un seul menu, la saison. Le hammam, le cheval, l'arc, la marche dans les collines. Aucun écran dans la maison.</p><p class="text-secondary leading-relaxed">Le téléphone n'est pas confisqué : on propose de le déposer, et c'est tout. Ce qui est déposé est enfermé dans un coffret confié à un homme de la maison voisine, et rendu à qui le demande, sans commentaire, autant de fois qu'il le demande. Personne n'y est tenu. Il ne s'agit pas de retirer l'objet — seulement de faire que le reprendre coûte un geste.</p>
 </section>
-
-<!-- La maison voisine -->
 <section class="bg-cream">
 <div class="max-w-3xl mx-auto px-6 py-16">
-<h2 class="heading text-2xl mb-6">La maison voisine</h2>
-<p class="text-secondary leading-relaxed mb-4">De l'autre côté du mur vit une communauté de jeunes hommes qui apprennent le zellīj, la calligraphie, le plâtre, la forge, le cheval et l'arc. Elle ne nous appartient pas. Elle existerait exactement de la même façon si cette maison n'existait pas.</p>
-<p class="text-secondary leading-relaxed mb-4">Entre les deux maisons il y a une seule porte. Elle s'ouvre de leur côté ; du nôtre, elle n'a pas de poignée.</p>
-<p class="text-secondary leading-relaxed mb-4">Il arrive qu'un hôte y soit reçu — une heure à l'établi d'un maître, un repas à la table commune, un soir de <span class="ar">malḥūn</span>. Cela ne figure sur aucune liste, n'est compris dans aucun prix, et peut être refusé sans que la raison en soit donnée.</p>
-<p class="text-[#c8872f] leading-relaxed">On n'achète pas l'entrée dans cette maison-là. Tout au plus la reçoit-on.</p>
+<h2 class="heading text-2xl mb-6">La maison voisine</h2><p class="text-secondary leading-relaxed mb-4">De l'autre côté du mur vit une communauté de jeunes hommes qui apprennent le zellij, la calligraphie, le plâtre, la forge, le cheval et l'arc. Elle ne nous appartient pas. Elle existerait exactement de la même façon si cette maison n'existait pas.</p><p class="text-secondary leading-relaxed mb-4">Entre les deux maisons il y a une seule porte. Elle s'ouvre de leur côté ; du nôtre, elle n'a pas de poignée.</p><p class="text-secondary leading-relaxed mb-4">Il arrive qu'un hôte y soit reçu — une heure à l'établi d'un maître, un repas à la table commune, un soir de <span class="ar">malḥūn</span>. Cela ne figure sur aucune liste, n'est compris dans aucun prix, et peut être refusé sans que la raison en soit donnée.</p><p class="text-[#c8872f] leading-relaxed">On n'achète pas l'entrée dans cette maison-là. Tout au plus la reçoit-on.</p>
 </div>
 </section>
-
-<!-- Ce que la maison ne fait pas -->
 <section class="max-w-3xl mx-auto px-6 py-16">
-<h2 class="heading text-2xl mb-8">Ce que la maison ne fait pas</h2>
-<div class="grid sm:grid-cols-2 gap-x-10 gap-y-4 text-secondary leading-relaxed">
+<h2 class="heading text-2xl mb-8">Ce que la maison ne fait pas</h2><div class="grid sm:grid-cols-2 gap-x-10 gap-y-4 text-secondary leading-relaxed">
 <p class="border-t border-gray-200 pt-3">Pas d'alcool.</p>
 <p class="border-t border-gray-200 pt-3">Pas de femmes reçues, pas de couples, pas d'enfants.</p>
 <p class="border-t border-gray-200 pt-3">Pas de mariages, pas de séminaires, pas d'événements privés.</p>
@@ -80,53 +83,33 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 <p class="border-t border-gray-200 pt-3">Aucun nom publié — ni des membres, ni des voisins.</p>
 </div>
 </section>
-
-<!-- L'admission -->
 <section class="bg-cream">
 <div class="max-w-3xl mx-auto px-6 py-16">
-<h2 class="heading text-2xl mb-6">L'admission</h2>
-<p class="text-secondary leading-relaxed mb-4">Le cercle porte un nom : <strong>An-Nudamāʾ</strong> <span class="ar text-[#c8872f]">الندماء</span> — les compagnons. C'était, jadis, le nom des hommes admis à la compagnie privée du souverain le soir : on attendait d'eux de la tenue, peu de paroles, et de garder ce qu'ils avaient entendu.</p>
-<p class="text-secondary leading-relaxed mb-4">Cent vingt, et pas un de plus. Uniquement des hommes.</p>
-<p class="text-secondary leading-relaxed mb-4">On ne se propose pas : on est présenté. Deux membres présentent un candidat ; celui-ci vient une fois, pour une conversation et un repas. La maison décide, et ne motive pas sa décision.</p>
-<p class="text-secondary leading-relaxed mb-4">Le repas de l'entretien se tient à la table commune de la maison voisine. Le lendemain, la maison demande à la table.</p>
-<p class="text-secondary leading-relaxed mb-4">Les noms ne sont inscrits nulle part sinon à la main, sur un registre unique conservé chez les voisins. Il n'en existe aucune trace numérique, et il n'en existera pas.</p>
-<p class="text-secondary leading-relaxed">Il n'y a pas de formulaire sur cette page, et il n'y en aura pas.</p>
+<h2 class="heading text-2xl mb-6">Le cercle</h2><p class="text-secondary leading-relaxed mb-4">Il porte un nom : <strong>An-Nudama</strong> <span class="ar text-[#c8872f]">الندماء</span> — les compagnons. C'était, jadis, le nom des hommes admis à la compagnie privée du souverain le soir : on attendait d'eux de la tenue, peu de paroles, et de garder ce qu'ils avaient entendu.</p><p class="text-secondary leading-relaxed mb-4">Cent vingt, et pas un de plus. Uniquement des hommes.</p><p class="text-secondary leading-relaxed mb-4">On ne se propose pas : on est présenté. Deux membres présentent un candidat ; celui-ci vient une fois, pour une conversation et un repas à la table commune de la maison voisine. Le lendemain, la maison demande à la table. Elle décide, et ne motive pas sa décision.</p><p class="text-secondary leading-relaxed mb-4">Les noms ne sont inscrits nulle part sinon à la main, sur un registre unique conservé chez les voisins. Il n'en existe aucune trace numérique, et il n'en existera pas.</p><p class="text-secondary leading-relaxed">Il n'y a pas de formulaire sur cette page, et il n'y en aura pas.</p>
 </div>
 </section>
-
-<!-- Ce que la cotisation soutient -->
 <section class="max-w-3xl mx-auto px-6 py-16">
-<h2 class="heading text-2xl mb-6">Ce que la cotisation soutient</h2>
-<p class="text-secondary leading-relaxed mb-4">Une part fixe du résultat de la maison est affectée par statut aux bourses de formation de la maison voisine. Elle n'est pas laissée à l'appréciation de qui la dirigera demain.</p>
-<div class="border-l-2 border-[#c8872f] pl-6 my-8">
+<h2 class="heading text-2xl mb-6">Ce que la cotisation soutient</h2><p class="text-secondary leading-relaxed mb-4">Une part fixe du résultat de la maison est affectée par statut aux bourses de formation de la maison voisine. Elle n'est pas laissée à l'appréciation de qui la dirigera demain.</p><div class="border-l-2 border-[#c8872f] pl-6 my-8">
 <p class="text-lg text-secondary leading-relaxed">Deux séjours de sept nuits entretiennent un apprenti pendant une année entière.</p>
-</div>
-<p class="text-secondary leading-relaxed mb-4">Le membre sait quel métier il soutient. Il ne saura jamais le nom de l'apprenti : le registre de la maison voisine n'est pas public et ne le deviendra pas.</p>
-<p class="text-secondary leading-relaxed">Une fois l'an, il reçoit une ligne écrite à la main disant ce qui a été fait — un panneau posé, une porte achevée, un maître retenu.</p>
+</div><p class="text-secondary leading-relaxed mb-4">Le membre sait quel métier il soutient. Il ne saura jamais le nom de l'apprenti : le registre de la maison voisine n'est pas public et ne le deviendra pas.</p><p class="text-secondary leading-relaxed">Une fois l'an, il reçoit une ligne écrite à la main disant ce qui a été fait — un panneau posé, une porte achevée, un maître retenu.</p>
 </section>
-
-<!-- Le mur -->
 <section class="bg-cream">
-<div class="max-w-3xl mx-auto px-6 py-20 text-center">
+<div class="max-w-3xl mx-auto px-6 py-16">
 <div class="rule mx-auto mb-8"></div>
-<p class="heading text-2xl leading-relaxed">Le zellij, le plâtre et le bois de cette maison<br class="hidden sm:block"> ont été faits par les mains d'à côté.</p>
+<p class="heading text-2xl leading-relaxed text-center">Le zellij, le plâtre et le bois de cette maison<br class="hidden sm:block"> ont été faits par les mains d'à côté.</p>
 <div class="rule mx-auto mt-8"></div>
 </div>
 </section>
-
-<!-- Contact -->
 <section class="max-w-3xl mx-auto px-6 py-20 text-center">
-<p class="text-secondary leading-relaxed mb-6">Si quelqu'un vous a parlé de cette maison, il sait où écrire.</p>
-<p class="text-secondary">
-<a href="mailto:munya@borgoideale.com" class="text-[#c8872f] hover:underline">munya@borgoideale.com</a>
-</p>
+<p class="text-secondary leading-relaxed mb-4">Si quelqu'un vous a parlé de cette maison, il sait où écrire.</p><p class="text-secondary"><a href="mailto:munya@borgoideale.com" class="text-[#c8872f] hover:underline">munya@borgoideale.com</a></p>
 </section>
 
 </main>
 
 <footer class="border-t border-gray-200">
-<div class="max-w-4xl mx-auto px-6 py-10">
+<div class="max-w-4xl mx-auto px-6 py-10 flex flex-wrap items-center justify-between gap-4">
 <div class="text-sm text-secondary">© 2026 — Al-Munya — Fès</div>
+<a href="espace-membres.html" class="text-sm text-secondary hover:text-[#c8872f]">Espace des membres →</a>
 </div>
 </footer>
 
