@@ -1,2 +1,9 @@
 .DS_Store
 dossier/
+
+# cartelle di lavoro: mai in repo, mai online
+_stage/
+_to_delete/
+_to_delete_locks/
+*.docx
+*.zip

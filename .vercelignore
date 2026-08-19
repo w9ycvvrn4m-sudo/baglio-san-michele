@@ -1,3 +1,6 @@
 dossier/
 CLAUDE.md
 .DS_Store
+_stage/
+_to_delete/
+_to_delete_locks/
