@@ -1,5 +1,0 @@
-# Nessun percorso privato e' elencato qui: indicarlo lo rivelerebbe.
-# La protezione e' data da noindex, dal nome non indovinabile e dall'assenza
-# di link entranti.
-User-agent: *
-Disallow: /
