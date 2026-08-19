@@ -2,7 +2,7 @@
 
 ## Nota di concetto
 
-*La casa: **Al-Munya**. Il circolo: **An-Nudamāʾ**.*
+*La casa: **Al-Munya**. Il majlis: **An-Nudamāʾ**.*
 
 *Struttura di ospitalità d'eccezione confinante con il Riad al-Uns — documento di lavoro interno, agosto 2026*
 
@@ -18,13 +18,13 @@ Il termine è storicamente attestato e archeologicamente documentato: non è un 
 
 La distinzione tipologica fa già metà del lavoro: il riad è la casa; la *munya* è il luogo dove ci si ritira. Sono due cose diverse, e in al-Andalus lo erano.
 
-*Alternative valutate e scartate per la casa: **Al-Manzil** (la stazione di sosta), **Al-Bustān** (il giardino chiuso). Per il circolo si è scelto **An-Nudamāʾ** (§9); erano in lizza Aṣ-Ṣafwa, Ahl as-Samar, Al-Khāṣṣa e Al-Maqṣūra.*
+*Alternative valutate e scartate per la casa: **Al-Manzil** (la stazione di sosta), **Al-Bustān** (il giardino chiuso). Per il majlis si è scelto **An-Nudamāʾ** (§9); erano in lizza Aṣ-Ṣafwa, Ahl as-Samar, Al-Khāṣṣa e Al-Maqṣūra.*
 
 ---
 
 ## 2. Che cosa è
 
-Una dimora privata, restaurata secondo l'arte, **muro contro muro con il Riad al-Uns**, che riceve un numero minimo di ospiti **per sola cooptazione**, in forma di club a membri.
+Una dimora privata, restaurata secondo l'arte, **muro contro muro con il Riad al-Uns**, che riceve un numero minimo di ospiti **per sola cooptazione**, in forma di majlis a numero chiuso.
 
 Non è un albergo, non è un resort, non è un centro di benessere, non è un ritiro spirituale. È **una casa privata messa a disposizione dei propri membri**.
 
@@ -55,15 +55,15 @@ La contiguità non è una comodità logistica: è ciò che rende possibile l'app
 
 Un ospite d'onore — un membro di una casa reale, un ospite ufficiale, un uomo la cui presenza non può essere né condivisa né annunciata — non può essere alloggiato in nessuno dei due luoghi così come sono.
 
-Non nel riad: è una casa di giovani uomini in formazione, senza protocollo, senza sicurezza, e la sua vita interna non può essere sospesa per ricevere. Non nel club: non si alloggia un uomo simile fra soci paganti che si incrociano a colazione.
+Non nel riad: è una casa di giovani uomini in formazione, senza protocollo, senza sicurezza, e la sua vita interna non può essere sospesa per ricevere. Non nel majlis: non si alloggia un uomo simile fra soci paganti che si incrociano a colazione.
 
 La contiguità risolve il problema con un terzo luogo: **un'ala della Munya, con ingresso proprio sulla strada, patio proprio, cucina propria e servizio proprio, che si isola dal resto della casa in un'ora.**
 
 ### Le regole
 
 - **Non si affitta.** Non è una suite a tariffa maggiorata, non compare in nessun listino, non è accessibile ai soci. È offerta, oppure resta vuota. Il giorno in cui avesse un prezzo, la sua funzione sarebbe distrutta.
-- **Quando è occupata, il club è chiuso.** Nessun socio presente in casa. Lo statuto fissa il tetto — trenta notti l'anno — il preavviso dovuto ai soci e la compensazione: le notti spostate sono restituite in doppio. Il costo è messo a bilancio in anticipo (§11), non subito come sorpresa.
-- **La scorta non attraversa nulla.** L'ala deve poter ricevere un seguito e un dispositivo di sicurezza senza che questi passino per il club né si avvicinino al riad. È un vincolo di progetto: circolazione, parcheggio, accesso di servizio, punto di controllo.
+- **Quando è occupata, il majlis è chiuso.** Nessun socio presente in casa. Lo statuto fissa il tetto — trenta notti l'anno — il preavviso dovuto ai soci e la compensazione: le notti spostate sono restituite in doppio. Il costo è messo a bilancio in anticipo (§11), non subito come sorpresa.
+- **La scorta non attraversa nulla.** L'ala deve poter ricevere un seguito e un dispositivo di sicurezza senza che questi passino per il majlis né si avvicinino al riad. È un vincolo di progetto: circolazione, parcheggio, accesso di servizio, punto di controllo.
 - **Nessuna traccia.** Nessuna fotografia, nessuna menzione, nessun nome, né durante né dopo, né a un socio né a un mecenate.
 
 ### Perché la vicinanza è essa stessa la discrezione
@@ -72,7 +72,7 @@ La contiguità risolve il problema con un terzo luogo: **un'ala della Munya, con
 
 Un ospite di quel rango, in qualunque altro luogo del mondo, è protetto da un dispositivo che lo annuncia: un albergo che sa, un piano svuotato, un corteo, un personale informato, una lista di fornitori. La discrezione si compra — e comprandola la si dichiara.
 
-Qui accade il contrario. Arriva a una porta in un vicolo, in una casa che non tiene registro. Il club, in quei giorni, è chiuso: ai soci si dice soltanto che la casa è chiusa, come il regolamento prevede, senza che ne sia data la ragione. Nel raggio di cento metri non c'è nessun altro che i giovani uomini del riad, tenuti dalla regola della casa, che non hanno né l'interesse né il canale per dirlo a qualcuno.
+Qui accade il contrario. Arriva a una porta in un vicolo, in una casa che non tiene registro. Il majlis, in quei giorni, è chiuso: ai soci si dice soltanto che la casa è chiusa, come il regolamento prevede, senza che ne sia data la ragione. Nel raggio di cento metri non c'è nessun altro che i giovani uomini del riad, tenuti dalla regola della casa, che non hanno né l'interesse né il canale per dirlo a qualcuno.
 
 E soprattutto: **la casa non cambia niente per lui.** Le cinque preghiere, la tavola comune, il silenzio dopo l'ʿishāʾ restano quelli di ogni altro giorno. È ricevuto come ospite privilegiato **a condizione che sia lui ad adattarsi al regime della casa** — e questa condizione, che sembra un'esigenza morale, è la ragione tecnica per cui nessuno si accorge della sua presenza. Una casa che si riorganizza per un ospite è costretta a dirlo: al personale, ai fornitori, ai soci, a chi prepara. Una casa che non si riorganizza non ha niente da dire a nessuno, perché non è successo niente.
 
@@ -108,6 +108,20 @@ Il secondo prodotto, meno dichiarabile ma più forte: **compagnia maschile senza
 
 Il terzo: la prova fisica che esiste ancora un modo di fare le cose che non è il loro. Chi passa una settimana con un muro solo fra sé e venti ragazzi che si alzano prima dell'alba, lavorano il gesso con le mani e non sono per niente impressionati dal suo conto in banca, torna a casa con qualcosa che nessun programma di benessere gli avrebbe dato.
 
+### Il privilegio che non ha prezzo
+
+È il cuore dell'offerta, e va detto ai candidati con queste parole.
+
+**Primo: nessuno è tenuto a rispondere.** Ci sono uomini che da dieci o quindici anni non passano un'ora senza dover essere raggiungibili. Non è il lavoro a logorarli — il lavoro spesso lo amano. È **l'obbligo della risposta**: la certezza, ogni minuto di ogni giorno, che qualcuno stia aspettando qualcosa da loro. In questa casa nessuno aspetta niente. Non perché il telefono sia vietato — non lo è — ma perché fra quelle mura non esiste nessuno che abbia qualcosa da chiedergli. È una condizione che il denaro non procura: si può comprare un'isola e restare comunque raggiungibili, perché a rendere raggiungibili non è il luogo, sono le persone che ci si porta dietro.
+
+**Secondo: là dietro c'è qualcuno che non può usarlo.** Un ragazzo della sua età che non possiede nulla di vendibile e non ha bisogno di nulla che lui possa dare. Non lo riconosce, non sa che mestiere faccia, non gli chiederà mai un favore, e domani non lo cercherà. È probabilmente **il solo uomo, in tutta la sua vita adulta, che lo guardi senza calcolare.**
+
+E quando siedono alla stessa tavola, alla stessa ora, con le stesse mani sporche di gesso, ciò che li accomuna non è un merito né una qualità: è che **in quel momento nessuno dei due può servirsi dell'altro.**
+
+> **Non ha prezzo perché non ha un venditore.**
+
+*Avvertenza di redazione, da rispettare in ogni documento e in ogni conversazione.* Nel descrivere ciò che i soci e i residenti hanno in comune si nominano **l'età e il fatto di condividere una disciplina**, e nient'altro. Non si scrive mai, e non si dice mai a voce, che siano accomunati dall'aspetto fisico — per quanto il criterio esista davvero (§4) ed esista il meccanismo che lo esercita, che è il parere della tavola. Una frase del genere, in un documento su una casa di uomini adulti accanto a una casa di giovani, è materiale che nessuna spiegazione successiva ripara. Allo stesso modo non si descrivono mai i residenti come poveri: sono apprendisti mantenuti dalla casa e padroni di un mestiere. La formula corretta è che **non possiedono nulla di vendibile**, che è vero, e che è precisamente ciò che li rende inavvicinabili con il denaro.
+
 ### Perché la difficoltà è il prodotto
 
 Va detto con precisione, perché è controintuitivo e perché è la leva commerciale più forte che il progetto abbia.
@@ -122,7 +136,7 @@ E ne discende una conseguenza pratica: un prezzo basso non allargherebbe il baci
 
 La Munya non è un luogo dove ci si riposa in poltrona. Le sue giornate hanno il cavallo, l'arco, il cammino sulle colline, il nuoto, l'hammam comune, il levarsi presto. Non sono ornamenti offerti a chi li desidera: sono la giornata, e chi non li vuole si annoierà entro quarantott'ore. Al candidato lo si dice per intero, senza attenuazioni, prima ancora del colloquio. **La maggior parte della selezione avviene lì**, e avviene da sé.
 
-Il limite d'età — quarantacinque anni — è la sola misura fisica che la casa metta per iscritto, ed è legittima e pubblicabile come lo è in qualunque club.
+Il limite d'età — quarantacinque anni — è la sola misura fisica che la casa metta per iscritto, ed è legittima e pubblicabile come lo è in qualunque majlis.
 
 Tutto il resto — la tenuta, il portamento, il modo di stare a tavola, la disinvoltura di un uomo che si spoglia in un hammam comune senza pensarci — **non diventa criterio e non si scrive.** Non per ipocrisia: perché un criterio scritto su queste cose cessa immediatamente di essere ciò che è e diventa un'altra cosa, spiacevole da leggere e indifendibile da chiunque la legga fuori contesto. Si decide in una stanza, in una sera, guardando un uomo mangiare e parlare, e non si motiva.
 
@@ -184,7 +198,7 @@ Corollario pratico: **la Munya deve restare visibilmente il partito minore**. Se
 
 ## 7. Che cosa è un soggiorno
 
-**L'arrivo.** Dalla propria strada, dalla propria porta. Nessuna reception, nessun check-in, nessuna firma, nessuna chiave elettronica. Un uomo apre, prende la borsa, offre da bere. Il conto non si vede mai: è regolato fra il club e il socio, altrove.
+**L'arrivo.** Dalla propria strada, dalla propria porta. Nessuna reception, nessun check-in, nessuna firma, nessuna chiave elettronica. Un uomo apre, prende la borsa, offre da bere. Il conto non si vede mai: è regolato fra il majlis e il socio, altrove.
 
 **Il telefono.** Non si sequestra — trattare degli adulti da bambini è volgare. Gli si offre di consegnarlo, e la scelta è sua.
 
@@ -212,7 +226,7 @@ Per il resto, in tutta la casa non c'è uno schermo, e la sola postazione connes
 
 ## 8. Ciò che si rifiuta
 
-Va scritto per esteso, perché è il rifiuto che costruisce il valore. Un club è definito da chi non entra.
+Va scritto per esteso, perché è il rifiuto che costruisce il valore. Un majlis è definito da chi non entra.
 
 - Nessuna ospite donna, nessun evento misto, nessuna coppia, nessun bambino.
 - Nessun alcol, in nessun luogo, per nessuno, senza eccezioni scritte né taciute.
@@ -224,17 +238,33 @@ Va scritto per esteso, perché è il rifiuto che costruisce il valore. Un club �
 
 ---
 
-## 9. Il circolo — *An-Nudamāʾ*
+## 9. Il majlis — *An-Nudamāʾ*
 
-Il nome della casa è Al-Munya. Il nome del circolo che vi si raduna è **An-Nudamāʾ** (الندماء), « i compagni ». Il socio è un ***nadīm***; l'assemblea, **Majlis an-Nudamāʾ**.
+Il nome della casa è Al-Munya. Il nome del majlis che vi si raduna è **An-Nudamāʾ** (الندماء), « i compagni ». Il socio è un ***nadīm***; l'assemblea, **Majlis an-Nudamāʾ**.
 
 Il *nadīm*, dagli Omayyadi in poi, è l'uomo ammesso alla compagnia privata serale del sovrano — non un funzionario, non un servitore: uno il cui compito è esserci. I manuali classici (Niẓām al-Mulk, Kushājim, Abū Nuwās) ne fissano i requisiti, e sono già i nostri: età adulta e buon aspetto, buona nascita, viso lieto, fede salda, **capacità di custodire un segreto**, misura, pazienza, umiltà, **poche parole**. Il nome nomina ciò che il socio deve diventare, non ciò che è già.
 
-E la regola classica della *munādama* è, alla lettera, lo statuto del circolo:
+E la regola classica della *munādama* è, alla lettera, lo statuto del majlis:
 
 > **Ciò che si dice la notte è dimenticato all'alba.**
 
 *Nota filologica, da tenere presente: la radice n-d-m significa di suo « pentirsi », e il contesto abbaside tipico della munādama è la sessione di vino — associazione secondaria ma reale, in una casa dove l'alcol non entra. Chi conosce l'adab arabo lo noterà.*
+
+### Il lessico, che va tenuto fermo
+
+**Non si dice mai « club », e nemmeno « circolo ».** Sono parole dell'associazionismo occidentale e portano con sé l'immagine sbagliata: la quota sociale, il distintivo, la cena del giovedì. Si dice **majlis**.
+
+La parola è esatta e viva: nel Golfo il *majlis* è insieme la stanza in cui si riceve e l'assemblea di uomini che vi si raduna — cioè precisamente questa cosa. Non è la traduzione araba di un'istituzione europea: è l'istituzione, che in Europa non è mai esistita.
+
+| | |
+|---|---|
+| L'insieme | il **majlis** — formalmente *Majlis an-Nudamāʾ* |
+| Il singolo | un ***nadīm***; al plurale, i *nudamāʾ* |
+| In francese | **le cercle**, che in francese è parola aristocratica e non ha il difetto dell'italiano |
+| In inglese | *the circle* |
+| Da non usare mai | club, circolo, associazione, confraternita, ordine, loggia |
+
+Le ultime tre della lista non sono un vezzo: *confraternita*, *ordine* e *loggia* evocano il registro settario o massonico, che è l'ultimo di cui questa casa abbia bisogno.
 
 **Ammissione per sola cooptazione.** Due soci presentano un candidato. Il candidato viene alla casa una volta, per una conversazione e un pasto, come ospite. La casa decide, senza motivare.
 
@@ -256,7 +286,13 @@ Tre ragioni per cui questo è il cardine di tutto il sistema, e non un ornamento
 - **Protegge la soglia meglio di qualunque clausola.** Un uomo entrato con il consenso della tavola non tratterà mai quei ragazzi da personale. Chi l'avrebbe fatto, la tavola lo riconosce in due ore.
 - **Rovescia definitivamente il rapporto col denaro, ed è la cosa da dire al candidato.** Venti uomini che non possiedono nulla decidono se lui possa versare centocinquantamila euro. È l'unica cosa, in tutta la sua vita, che non potrà comprare — e va detto proprio così, perché è quello il momento in cui capisce dove è arrivato.
 
-**Numero chiuso: centoventi soci.** Pubblicato, e mantenuto. La rarità dev'essere strutturale, non retorica.
+**Numero chiuso: novantanove soci — *cento meno uno*.** Pubblicato, e mantenuto.
+
+Il numero non è arbitrario e la formula non è nostra. Il ḥadīth più noto sui Nomi divini — Bukhārī e Muslim, *ṣaḥīḥ muttafaq ʿalayh* — non dice « novantanove »: dice **إن لله تسعة وتسعين اسماً، مائة إلا واحداً**, *novantanove Nomi: cento meno uno*. Nomina il numero attraverso ciò che gli manca.
+
+La centesima piazza non è di nessuno e non sarà mai attribuita. Dice in tre parole ciò che servirebbe un paragrafo a spiegare: il numero è chiuso, l'incompletezza è voluta, e la casa non pretende di essere al completo.
+
+*Da sottoporre al faqīh prima di pubblicarlo. La distinzione da portargli è netta: non si afferma che i soci siano nomi, si prende in prestito il modo di contare. Se il parere è negativo, si torna a un numero senza formula — e in tal caso la migliore alternativa raccolta è « on n'y entre qu'à la place d'un autre », che dice numero chiuso e successione senza cifre.*
 
 **Una sola classe di soci**, con una sola eccezione: la **tranche fondatrice** di quaranta uomini che entrano prima che la casa esista e ne finanziano il restauro. Il loro nome è iscritto nel registro della Munya — non in quello del riad, che non pubblica nessun nome.
 
@@ -268,30 +304,43 @@ Un uomo che paga milleseicento euro a notte sa esattamente con che cosa confront
 
 | | Fondatori | Ordinario |
 |---|---|---|
-| Diritto d'ammissione, una tantum | **60.000 €** | **150.000 €** |
-| Quota annuale | 22.000 € | 22.000 € |
-| Notte in suite, tutto compreso | 3.500 € | 3.500 € |
-| Uso esclusivo della casa, a notte | 18.000 € | 18.000 € |
+| Diritto d'ammissione, una tantum | **60.000 €** | **180.000 €** |
+| Quota annuale | 26.000 € | 26.000 € |
+| Notte in suite, tutto compreso | 3.900 € | 3.900 € |
+| Uso esclusivo della casa, a notte | 20.000 € | 20.000 € |
 
 La quota annuale comprende tre notti. Nessun listino è pubblicato: le cifre sono dette al candidato durante il colloquio, e il momento in cui gli vengono dette fa parte della selezione.
 
-**Il diritto ordinario sale per scaglioni pubblicati: diecimila euro in più ogni dieci soci ammessi.** È un meccanismo classico dei club e fa tre cose insieme — dà urgenza alla catena di cooptazione, fa apprezzare il posto del fondatore senza renderlo vendibile, e lascia che sia il mercato a trovare il tetto invece di doverlo indovinare adesso.
+**Il diritto ordinario sale per scaglioni pubblicati: diecimila euro in più ogni dieci soci ammessi** — e con novantanove posti la scala si esaurisce in fretta, il che è precisamente l'effetto voluto. È un meccanismo classico dei majlis e fa tre cose insieme — dà urgenza alla catena di cooptazione, fa apprezzare il posto del fondatore senza renderlo vendibile, e lascia che sia il mercato a trovare il tetto invece di doverlo indovinare adesso.
 
 ### Fin dove alzare
 
 La domanda va posta separatamente per le due cose, perché hanno vincoli opposti.
 
-**Le quote e le tariffe possono salire, e conviene che salgano.** Sono pagate da uomini che hanno già visto la casa e vi appartengono: l'elasticità è bassissima. Portarle da 15.000 e 2.500 € a 22.000 e 3.500 € porta il margine di riferimento da 1,53 a 2,46 M€ e il flusso annuo al riad da 780.000 a 1,05 M€, e regge anche se l'occupazione scende a un quarto dell'anno.
+**Le quote e le tariffe possono salire, e conviene che salgano.** Sono pagate da uomini che hanno già visto la casa e vi appartengono: l'elasticità è bassissima. Portarle da 15.000 e 2.500 € a 22.000 e 3.500 € porta il margine di riferimento da 1,53 a 2,80 M€ e il flusso annuo al riad da 780.000 a 1,15 M€, e regge anche se l'occupazione scende a un quarto dell'anno.
 
 **Il diritto d'ammissione dei fondatori non va alzato**, e questa è la raccomandazione che conta. La risorsa scarsa non è il denaro: sono gli uomini. Quaranta fondatori a 60.000 € e venticinque a 100.000 € raccolgono la stessa cifra, ma trovarne venticinque disposti a versare centomila euro per una casa che non esiste, in una fascia d'età fra i venticinque e i quarantacinque anni, è un problema molto più difficile — e se non si risolve, non si fa niente. Il diritto di fondatore è uno strumento che remunera un rischio: deve restare accessibile abbastanza da allargare il bacino, e sono le voci ricorrenti a recuperare tutto il resto, per sempre.
 
 Il confronto utile, e l'unico: l'Aman Club chiede duecentomila dollari d'ingresso e ventimila l'anno per una rete internazionale di dimore. Qui il fondatore paga meno di un terzo di quell'ingresso per una casa sola — che è la collocazione giusta — e il socio ordinario, a regime, si avvicina.
 
+### Che cosa cambia il tetto di novantanove
+
+Novantanove posti meno quaranta fondatori fanno **cinquantanove soci ordinari — per sempre**. Non è un dato di listino: è l'argomento più forte che si possa mettere davanti a un candidato fondatore, perché gli dice che dopo di lui, nella storia intera di questa casa, entreranno cinquantanove uomini e nessuno di più.
+
+Il tetto più basso giustifica da solo l'aumento, perché la rarità è il prodotto. Con quota a 26.000 € e notte a 3.900 €, lo scenario alto a novantanove soci rende **più** di quanto rendesse a centoventi con le tariffe vecchie — 3,66 M€ di margine contro 3,47 M€, e 1,40 M€ l'anno al riad contro 1,34 M€. Si è tolto un quinto dei soci e si è guadagnato.
+
+| a regime | Prudente (70) | Base (90) | Alto (99) |
+|---|---|---|---|
+| Ricavi | 3.515.000 € | 4.858.000 € | 5.871.000 € |
+| Margine operativo | 1.646.000 € | 2.805.000 € | 3.664.000 € |
+| Margine sui ricavi | 47% | 58% | 62% |
+| Flusso annuo al riad | 810.000 € | 1.150.000 € | 1.402.000 € |
+
 **La conseguenza finanziaria è decisiva.** Quaranta fondatori a sessantamila euro fanno 2,4 M€: in Ipotesi B (§11) coprono per intero il capitale d'esercizio e ne avanza quasi un milione, che va sui muri. **Con questo prezzo il progetto non ha più bisogno di un investitore.** Non è un dettaglio di finanziamento: è ciò che toglie dal tavolo, per sempre, l'unico soggetto che un giorno avrebbe dovuto uscire.
 
 **La clausola di requisizione.** Il regolamento dice, fin dall'ammissione, che la casa può essere chiusa fino a trenta notti l'anno senza che ne sia data la ragione, con preavviso e con restituzione doppia delle notti spostate. Il socio accetta questa clausola prima di sapere a che cosa serve — ed è meglio così: la clausola stessa dice, senza dirlo, in che genere di casa sta entrando.
 
-**La quota non si vende, mai, in nessun caso.** Il giorno in cui un posto avesse un prezzo di rivendita, il club diventerebbe un attivo negoziabile e la cooptazione una formalità. Chi tentasse di cederlo a titolo oneroso perde il posto e l'importo versato.
+**La quota non si vende, mai, in nessun caso.** Il giorno in cui un posto avesse un prezzo di rivendita, il majlis diventerebbe un attivo negoziabile e la cooptazione una formalità. Chi tentasse di cederlo a titolo oneroso perde il posto e l'importo versato.
 
 **Il posto ordinario non si eredita.** Alla morte o alle dimissioni torna alla casa.
 
@@ -301,7 +350,7 @@ I quaranta fondatori fanno eccezione, ed è giusto che la facciano: hanno pagato
 
 **Ogni fondatore può designare il proprio successore** — un figlio, un fratello minore, un nipote, o un uomo che non è della sua famiglia — in vita, per atto scritto depositato al registro, oppure per disposizione testamentaria.
 
-Tre condizioni, e sono ciò che impedisce alla trasmissione di svuotare il club:
+Tre condizioni, e sono ciò che impedisce alla trasmissione di svuotare il majlis:
 
 1. **È un diritto di presentazione, non di ammissione.** Il designato passa lo stesso colloquio di chiunque altro e deve avere gli stessi requisiti, età compresa. La casa può rifiutarlo, e non motiva. Se lo rifiuta — o se il designato declina — il posto torna alla casa.
 2. **Non si paga due volte.** Il successore non versa il diritto d'ammissione: è precisamente il valore che il fondatore ha comprato. Versa la quota annuale come tutti.
@@ -321,7 +370,7 @@ Tre conseguenze, di cui una molto più importante delle altre due.
 
 **Sulla custodia.** Un registro unico si può bruciare. Va trattato come si tratta un manoscritto: cassaforte, condizioni di conservazione, una seconda copia sempre di carta, tenuta altrove e sotto la stessa regola. Il rifiuto della traccia digitale non autorizza a essere disinvolti con quella di carta.
 
-**Sulla proprietà — ed è il punto che va spiegato a un investitore prima che lo scopra da sé.** La Munya non possiede l'elenco dei propri soci: lo possiede la casa accanto, che non è una società e non si vende. Significa che il capitale della Munya può cambiare mano, ma **i suoi membri non sono trasferibili con esso**: chi comprasse la società comprerebbe un palazzo e non un club. È una scelta deliberata, ed è la garanzia strutturale che questa cosa non finisca un giorno rivenduta a un gruppo alberghiero. Va detta agli investitori all'inizio, non alla fine: chi ci sta a questa condizione è il socio giusto; chi non ci sta lo si è scoperto prima di firmare.
+**Sulla proprietà — ed è il punto che va spiegato a un investitore prima che lo scopra da sé.** La Munya non possiede l'elenco dei propri soci: lo possiede la casa accanto, che non è una società e non si vende. Significa che il capitale della Munya può cambiare mano, ma **i suoi membri non sono trasferibili con esso**: chi comprasse la società comprerebbe un palazzo e non un majlis. È una scelta deliberata, ed è la garanzia strutturale che questa cosa non finisca un giorno rivenduta a un gruppo alberghiero. Va detta agli investitori all'inizio, non alla fine: chi ci sta a questa condizione è il socio giusto; chi non ci sta lo si è scoperto prima di firmare.
 
 **Si può essere espulsi.** Per violazione della regola di soglia, per indiscrezione, per condotta. Senza rimborso. È scritto nello statuto e va applicato almeno una volta, presto, e in modo che si sappia.
 
@@ -380,7 +429,7 @@ Una società commerciale acquista, restaura e possiede la dimora. Il legame col 
 
 ### Ipotesi B — i muri sono del riad, l'esercizio è affidato
 
-Il riad possiede la dimora. Una società di fiducia la prende in locazione lunga (venticinque-trent'anni), paga un canone, e vi conduce il club: è lì che stanno i soci, il personale, il rischio e l'investitore.
+Il riad possiede la dimora. Una società di fiducia la prende in locazione lunga (venticinque-trent'anni), paga un canone, e vi conduce il majlis: è lì che stanno i soci, il personale, il rischio e l'investitore.
 
 È la struttura classica del *waqf*, non un'invenzione: storicamente sono state proprio le proprietà da reddito costituite in *ḥubus* a finanziare madrase e fondazioni. Qui la funzione è identica.
 
@@ -432,7 +481,7 @@ Il tetto costa qualcosa in termini fiscali. Costa molto meno di ciò che protegg
 
 **Punti da sottoporre a un avvocato marocchino prima di qualunque impegno:**
 
-1. Ammissione riservata agli uomini: sostenibile per un club privato a cooptazione, problematica per una struttura ricettiva con licenza. La struttura giuridica corretta è probabilmente: residenza privata messa a disposizione dei membri di un'associazione, non *maison d'hôtes* classificata. Da verificare, non da presumere.
+1. Ammissione riservata agli uomini: sostenibile per un majlis privato a cooptazione, problematica per una struttura ricettiva con licenza. La struttura giuridica corretta è probabilmente: residenza privata messa a disposizione dei membri di un'associazione, non *maison d'hôtes* classificata. Da verificare, non da presumere.
 2. Regime della proprietà immobiliare in medina, **mitoyenneté del muro comune**, servitù di passaggio e di veduta, apertura di una porta in un muro divisorio, autorizzazioni di restauro in zona UNESCO.
 3. Compatibilità fra la convenzione d'accesso e lo statuto non lucrativo del riad; assenza di confusione patrimoniale fra due immobili contigui appartenenti a entità legate.
 4. Requisiti di sicurezza e obblighi verso le autorità per l'accoglienza di ospiti ufficiali.
@@ -470,7 +519,7 @@ Costo dell'informazione decisiva, in tutto: l'acconto sull'opzione, il parere le
 
 ## 13. Ciò che resta da decidere
 
-- La forma esatta del dominio autonomo, e se intestarlo alla casa (al-munya) o al circolo (an-nudama).
+- La forma esatta del dominio autonomo, e se intestarlo alla casa (al-munya) o al majlis (an-nudama).
 - La superficie e la collocazione dell'appartamento d'onore: ala autonoma dal principio, oppure due suite convertibili — meno costoso, molto meno credibile.
 - Il tetto annuale delle notti di requisizione (trenta è una proposta) e la forma della compensazione ai soci.
 - Il cofanetto dei telefoni (§7): se è portato all'ospite che lo chiede, oppure se è l'ospite ad andarlo a chiedere alla porta. La seconda soluzione toglie ogni ambiguità di servizio e rende il gesto più netto; la prima è più ospitale.
@@ -513,9 +562,9 @@ Tre legami invece leciti: dire il vero (*il tuo posto finanzia quella casa ogni 
 
 **2. Grandi famiglie fassi.** Assegni minori, valore strategico enorme: proprietà in medina, autorizzazioni, legittimità artigiana, protezione. Si presenta come il restauro del *loro* patrimonio.
 
-**3. Golfo — ufficio privato o casa reale.** Il migliore per il denaro; 4,6 M€ è una cifra ordinaria. Vocabolario del *waqf* nativo, prestigio leggibile in patria, e l'appartamento d'onore è disegnato per questo interlocutore. **Non si nomina mai il club per primo**: l'oggetto è il riad, la Munya compare solo come risposta a « e chi lo mantiene? ».
+**3. Golfo — ufficio privato o casa reale.** Il migliore per il denaro; 4,6 M€ è una cifra ordinaria. Vocabolario del *waqf* nativo, prestigio leggibile in patria, e l'appartamento d'onore è disegnato per questo interlocutore. **Non si nomina mai il majlis per primo**: l'oggetto è il riad, la Munya compare solo come risposta a « e chi lo mantiene? ».
 
-**4. Fondazioni europee dei mestieri d'arte** (Bettencourt Schueller, `culture@fondationbs.org`; Michelangelo Foundation / Homo Faber). Finanziano la trasmissione del mestiere, mai una comunità residenziale maschile a base religiosa né un club: si presenta **la scuola e nient'altro**. Homo Faber dà borse a persone, non capitale per muri — canale di reputazione, non di finanziamento.
+**4. Fondazioni europee dei mestieri d'arte** (Bettencourt Schueller, `culture@fondationbs.org`; Michelangelo Foundation / Homo Faber). Finanziano la trasmissione del mestiere, mai una comunità residenziale maschile a base religiosa né un majlis: si presenta **la scuola e nient'altro**. Homo Faber dà borse a persone, non capitale per muri — canale di reputazione, non di finanziamento.
 
 ---
 
