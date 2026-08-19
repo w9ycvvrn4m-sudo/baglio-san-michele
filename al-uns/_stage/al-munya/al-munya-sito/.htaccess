@@ -1,0 +1,12 @@
+# Al-Munya — protezione dell'espace des membres
+# Da attivare quando il sito sara' ospitato su Apache.
+# 1. generare il file delle password FUORI dalla cartella pubblica:
+#      htpasswd -c /percorso/privato/.htpasswd nudama
+# 2. correggere qui sotto AuthUserFile con il percorso reale.
+
+<FilesMatch "^espace-.*\.html$">
+    AuthType Basic
+    AuthName "Al-Munya"
+    AuthUserFile /percorso/privato/.htpasswd
+    Require valid-user
+</FilesMatch>
