@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Le immagini devono restare accessibili: gli scraper di WhatsApp, X,
+# Facebook e LinkedIn leggono robots.txt prima di scaricare l'anteprima
+# indicata in og:image. Bloccare /assets/ significa link senza miniatura.
+Allow: /assets/
+
+# Cartelle sensibili
+Disallow: /private/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://www.borgoideale.com/sitemap.xml
+Sitemap: https://www.borgoideale.com/al-uns/sitemap.xml
