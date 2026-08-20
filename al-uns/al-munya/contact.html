@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Al-Munya</title>
+<meta name="description" content="Contacter Al-Munya — demandes discrètes, majlis à nombre fermé.">
+<link rel="canonical" href="https://al-munya.com/contact">
+<link rel="icon" href="/assets/favicon-munya.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon-munya.png">
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}
+.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}
+.text-secondary{color:#4a4a4a}
+.bg-cream{background-color:#F8F5F0}
+</style>
+</head>
+<body>
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100" role="navigation" aria-label="Menu Al-Munya">
+<div class="max-w-5xl mx-auto px-6">
+<div class="flex items-center justify-between h-20">
+<div><a href="/al-munya/"><img src="/assets/logo-munya-a.png" alt="Al-Munya" class="h-10 w-auto"></a></div>
+<div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
+<a href="/al-munya/" class="hover:text-[#c8872f] transition-colors">Accueil</a>
+<a href="/al-munya/demeure.html" class="hover:text-[#c8872f] transition-colors">La demeure</a>
+<a href="/al-munya/contact.html" class="text-[#c8872f] font-medium">Contact</a>
+</div>
+<button id="menu-btn" class="md:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
+</div>
+</div>
+<div id="mobile-menu" class="hidden md:hidden flex-col bg-white border-t border-gray-100 px-6 py-4 gap-1 text-sm tracking-wider">
+<a href="/al-munya/" class="py-2 hover:text-[#c8872f]">Accueil</a>
+<a href="/al-munya/demeure.html" class="py-2 hover:text-[#c8872f]">La demeure</a>
+<a href="/al-munya/contact.html" class="py-2 text-[#c8872f]">Contact</a>
+</div>
+</nav>
+
+<main class="pt-28 pb-20">
+<div class="max-w-xl mx-auto px-6">
+
+<p class="text-sm tracking-[2px] uppercase text-[#c8872f] mb-4">Al-Munya</p>
+<h1 class="heading text-4xl mb-4">Contact</h1>
+<p class="text-secondary leading-relaxed mb-10">Les demandes sont lues avec attention. Précisez le motif de votre écriture.</p>
+
+<form action="https://formsubmit.co/info@al-munya.com" method="POST" class="space-y-6">
+<input type="hidden" name="_subject" value="Message — Al-Munya">
+<input type="hidden" name="_captcha" value="false">
+<input type="text" name="_honey" style="display:none">
+
+<div>
+<label for="name" class="block text-sm text-secondary mb-2">Nom</label>
+<input type="text" id="name" name="name" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm bg-white focus:outline-none focus:border-[#c8872f] transition">
+</div>
+<div>
+<label for="email" class="block text-sm text-secondary mb-2">Email</label>
+<input type="email" id="email" name="email" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm bg-white focus:outline-none focus:border-[#c8872f] transition" placeholder="vous@exemple.com">
+</div>
+<div>
+<label for="message" class="block text-sm text-secondary mb-2">Message</label>
+<textarea id="message" name="message" rows="6" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm bg-white focus:outline-none focus:border-[#c8872f] transition"></textarea>
+</div>
+<button type="submit" class="w-full md:w-auto px-8 py-4 bg-[#c8872f] text-white font-medium rounded-2xl hover:bg-[#a86f24] transition">Envoyer</button>
+</form>
+
+<p class="text-secondary text-sm mt-10">Ou écrire directement à <a href="mailto:info@al-munya.com" class="text-[#c8872f] hover:underline">info@al-munya.com</a></p>
+
+</div>
+</main>
+
+<footer class="border-t border-gray-200 bg-white">
+<div class="max-w-5xl mx-auto px-6 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+<div class="text-sm text-secondary">© 2026 Al-Munya</div>
+<div class="text-sm text-secondary"><a href="https://al-uns.com/" class="text-[#c8872f] hover:underline">Riad Al-Uns</a> · <a href="mailto:info@al-munya.com" class="hover:underline">info@al-munya.com</a></div>
+</div>
+</footer>
+<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');});}});</script>
+</body>
+</html>
