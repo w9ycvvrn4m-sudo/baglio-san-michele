@@ -49,6 +49,16 @@
       "source": "/demeure.html",
       "has": [{ "type": "host", "value": "www.al-munya.com" }],
       "destination": "/al-munya/demeure.html"
+    },
+    {
+      "source": "/an-nudama",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/al-munya/an-nudama.html"
+    },
+    {
+      "source": "/an-nudama",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/al-munya/an-nudama.html"
     }
   ]
 }
