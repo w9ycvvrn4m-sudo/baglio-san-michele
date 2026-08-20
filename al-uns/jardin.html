@@ -13,82 +13,342 @@
 <style>body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}.text-secondary{color:#4a4a4a}.bg-cream{background-color:#F8F5F0}.ar{font-family:'Amiri',serif}</style>
 </head>
 <body>
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100" role="navigation" aria-label="Menu principal">
 <div class="max-w-6xl mx-auto px-6">
 <div class="flex items-center justify-between h-20">
-<a href="/index.html"><img src="/assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a>
+<div><a href="/index.html"><img src="/assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a></div>
 <div class="hidden lg:flex items-center gap-x-6 text-sm tracking-wider">
-<a href="/index.html" class="hover:text-[#c8872f]">Riad Al-Uns</a>
-<a href="/projet.html" class="hover:text-[#c8872f]">Le projet</a>
-<a href="/architecture.html" class="font-medium text-[#c8872f]">La maison</a>
-<a href="/jardin.html" class="hover:text-[#c8872f]">Jardin</a>
-<a href="/dar-al-hiraf.html" class="hover:text-[#c8872f]">Dar al-Hiraf</a>
-<a href="/sejour.html" class="hover:text-[#c8872f]">Venir</a>
-<a href="/contact.html" class="hover:text-[#c8872f]">Contact</a>
+<a href="/index.html" class="hover:text-[#c8872f] transition-colors">Riad Al-Uns</a>
+<div class="relative group"><a href="/projet.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Le projet<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<a href="/projet.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vue d'ensemble</a>
+<a href="/projet/vision.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vision & mission</a>
+<a href="/projet/famille.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La famille & la communauté</a>
+<a href="/projet/hospitalite.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hospitalité sélective</a>
+<a href="/projet/charite.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Charité & service</a>
+<a href="/projet/rayonnement.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Rayonnement & partenariats</a>
+</div></div>
+<div class="relative group"><a href="/architecture.html" class="font-medium text-[#c8872f] flex items-center gap-x-1">La maison<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-72 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les lieux</div>
+<a href="/architecture.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces</a>
+<a href="/architecture/espaces-interieurs.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Seuil & chambres</a>
+<a href="/architecture/patio.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Patio</a>
+<a href="/jardin.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Jardin</a>
+<a href="/architecture/hammam.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hammam</a>
+<a href="/architecture/aeration.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Fraîcheur naturelle</a>
+<a href="/architecture/eau.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">L'eau</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Maison d'hôtes</div>
+<a href="/projet/munya.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Munya</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Le rythme</div>
+<a href="/vie.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vie au Riad</a>
+<a href="/experiences.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Expériences</a>
+<a href="/rencontres.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Rencontres</a>
+</div></div>
+<div class="relative group"><a href="/dar-al-hiraf.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Dar al-Hiraf<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline morale</div>
+<a href="/dar-al-hiraf/futuwwa.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Futuwwa</a>
+<a href="/dar-al-hiraf/fraternite.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Fraternité & droiture</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline physique</div>
+<a href="/dar-al-hiraf/javanmardi.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Javanmardi</a>
+<a href="/furusiyya.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Furusiyya</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline du travail</div>
+<a href="/dar-al-hiraf/disciplines.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Disciplines</a>
+<a href="/dar-al-hiraf/musique.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Musique & chant</a>
+<a href="/artisanat.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Artisanat du Riad</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les signes</div>
+<a href="/dar-al-hiraf/dress-code.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Kiswa</a>
+<a href="/vestiario.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Le vêtement traditionnel</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">La maison</div>
+<a href="/dar-al-hiraf/gouvernance.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">At-Tadbir — Gouvernance</a>
+</div></div>
+<div class="relative group"><a href="/sejour.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Venir<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<a href="/sejour.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Séjourner</a>
+<a href="/dar-al-hiraf/stages.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Stages de formation</a>
+<a href="/dar-al-hiraf/residence.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La résidence</a>
+<a href="/dar-al-hiraf/athar.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Athar — L'œuvre laissée</a>
+<a href="/qui-cherchons-nous.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Qui cherchons-nous</a>
+<a href="/maitres-et-personnel.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Maîtres & personnel recherchés</a>
+<a href="/faq.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Questions fréquentes</a>
+<a href="/glossaire.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Glossaire</a>
+</div></div>
+<a href="/soutenir.html" class="hover:text-[#c8872f] transition-colors">Soutenir</a>
+<a href="/contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
+<span class="text-gray-300 mx-1">|</span>
+<span class="font-medium text-[#c8872f] text-xs tracking-wider">FR</span>
+<a href="/en/jardin.html" class="hover:text-[#c8872f] transition-colors text-xs tracking-wider">EN</a>
+</div>
+<button id="menu-btn" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
+</div>
+<div id="mobile-menu" aria-label="Menu mobile" class="hidden lg:hidden flex-col pb-6 text-sm tracking-wider bg-white border-t border-gray-100" style="max-height:calc(100vh - 5rem);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch">
+<a href="/index.html" class="block py-3 font-medium text-[#c8872f]">Riad Al-Uns</a>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>Le projet</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<a href="/projet.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vue d'ensemble</a>
+<a href="/projet/vision.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vision & mission</a>
+<a href="/projet/famille.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">La famille & la communauté</a>
+<a href="/projet/hospitalite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Hospitalité sélective</a>
+<a href="/projet/charite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Charité & service</a>
+<a href="/projet/rayonnement.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Rayonnement & partenariats</a>
+</div>
+</details>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>La maison</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les lieux</div>
+<a href="/architecture.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Espaces</a>
+<a href="/architecture/espaces-interieurs.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Seuil & chambres</a>
+<a href="/architecture/patio.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Patio</a>
+<a href="/jardin.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Jardin</a>
+<a href="/architecture/hammam.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Hammam</a>
+<a href="/architecture/aeration.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Fraîcheur naturelle</a>
+<a href="/architecture/eau.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">L'eau</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Maison d'hôtes</div>
+<a href="/projet/munya.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Munya</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Le rythme</div>
+<a href="/vie.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vie au Riad</a>
+<a href="/experiences.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Expériences</a>
+<a href="/rencontres.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Rencontres</a>
+</div>
+</details>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>Dar al-Hiraf</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline morale</div>
+<a href="/dar-al-hiraf/futuwwa.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Futuwwa</a>
+<a href="/dar-al-hiraf/fraternite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Fraternité & droiture</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline physique</div>
+<a href="/dar-al-hiraf/javanmardi.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Javanmardi</a>
+<a href="/furusiyya.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Furusiyya</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline du travail</div>
+<a href="/dar-al-hiraf/disciplines.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Disciplines</a>
+<a href="/dar-al-hiraf/musique.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Musique & chant</a>
+<a href="/artisanat.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Artisanat du Riad</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les signes</div>
+<a href="/dar-al-hiraf/dress-code.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Kiswa</a>
+<a href="/vestiario.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Le vêtement traditionnel</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">La maison</div>
+<a href="/dar-al-hiraf/gouvernance.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">At-Tadbir — Gouvernance</a>
+</div>
+</details>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>Venir</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<a href="/sejour.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Séjourner</a>
+<a href="/dar-al-hiraf/stages.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Stages de formation</a>
+<a href="/dar-al-hiraf/residence.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">La résidence</a>
+<a href="/dar-al-hiraf/athar.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Athar — L'œuvre laissée</a>
+<a href="/qui-cherchons-nous.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Qui cherchons-nous</a>
+<a href="/maitres-et-personnel.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Maîtres & personnel recherchés</a>
+<a href="/faq.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Questions fréquentes</a>
+<a href="/glossaire.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Glossaire</a>
+</div>
+</details>
+<div class="border-t border-gray-50 pt-2">
+<a href="/soutenir.html" class="block py-2.5 text-secondary hover:text-[#c8872f]">Soutenir</a>
+<a href="/contact.html" class="block py-2.5 text-secondary hover:text-[#c8872f]">Contact</a>
+</div>
+<div class="pt-3 mt-2 border-t border-gray-100 flex gap-4 px-1">
+<span class="font-medium text-[#c8872f]">FR</span>
+<a href="/en/jardin.html" class="text-secondary hover:text-[#c8872f]">EN</a>
 </div>
 </div>
 </div>
 </nav>
 <main class="pt-28 pb-20">
-<div class="max-w-3xl mx-auto px-6">
-<p class="mb-8"><a href="/architecture.html" class="text-[#c8872f] text-sm font-medium hover:underline">← Architecture</a></p>
-<div class="text-center mb-12">
-<div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-6">ARCHITECTURE</div>
-<h1 class="heading text-4xl md:text-5xl mb-6">Jardin & Potager</h1>
-<p class="text-xl text-secondary leading-relaxed">Ombre, eau, parcours. Le jardin n'est pas un décor : il éduque le regard et du corps.</p>
-</div>
+    <div class="max-w-5xl mx-auto px-6">
+        <div class="text-center mb-14">
+            <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-6">RIYAD</div>
+            <h1 class="heading text-5xl mb-6">Jardin & Potager</h1>
+            <p class="text-xl text-secondary max-w-2xl mx-auto leading-relaxed">Le jardin n’est pas un décor. C’est un espace vivant, ordonné et productif, fidèle à la tradition du <em>riyad</em> arabe.</p>
+        </div>
 
-<div class="rounded-3xl overflow-hidden mb-12 bg-gray-100 aspect-[16/9]">
-<img src="/assets/IMG_7228.jpeg" alt="Jardin du Riad" class="w-full h-full object-cover">
-</div>
+        <div class="rounded-3xl overflow-hidden mb-12 bg-gray-100 aspect-[16/9]">
+            <img src="/assets/IMG_7228.jpeg" alt="Aranceto du Riad" class="w-full h-full object-cover">
+        </div>
 
-<p class="text-secondary text-lg leading-relaxed mb-6">Dans la tradition du riad et de la munya andalouse, le jardin est partie intégrante de la maison. Fontaines, salsabil, canalettes, ombre des arbres : l'eau est présente, audible, ordonnée.</p>
+        <div class="bg-cream rounded-3xl p-8 md:p-10 mb-16">
+            <p class="text-secondary text-lg leading-relaxed mb-4">Dans la culture arabe, le jardin est un modèle d’ordre : l’eau, l’ombre, le parfum et la nourriture y sont pensés ensemble. Le <em>riyad</em> n’oppose pas le beau et l’utile — il les tient dans un même rythme.</p>
+            <p class="text-secondary leading-relaxed mb-4">Au Riad, trois espaces se distinguent sans se séparer : le jardin principal, le jardin secret (<em>bustan</em>) et le potager. Chacun a sa fonction, sa lumière, son silence.</p>
+            <p class="text-secondary leading-relaxed">Ce n’est pas un parc d’agrément. C’est un système vivant qui forme le regard, nourrit la table et rappelle que la beauté, ici, commence par la terre.</p>
+        </div>
 
-<h2 class="heading text-2xl md:text-3xl mb-4">La structure du Riad</h2>
-<p class="text-secondary leading-relaxed mb-6">Le jardin s'organise autour du patio et prolonge l'ordre de la cour. Il n'est pas un parc ouvert : il est clos, mesuré, orienté. Chaque allée, chaque bassin répond à un usage — la marche, le silence, le travail de la main dans le potager.</p>
+        <section class="mb-16">
+            <h2 class="heading text-3xl mb-6">La structure du Riad</h2>
+            <p class="text-secondary text-lg leading-relaxed mb-6 max-w-3xl">Axes, parterres, bassin, allées d’ombre. L’eau organise le parcours ; les arbres fixent le temps. On ne traverse pas le jardin comme un décor : on y entre, on y marche, on y apprend à voir lentement.</p>
+            <div class="grid md:grid-cols-3 gap-4 mb-8">
+                <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                    <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-2">JARDIN PRINCIPAL</p>
+                    <p class="text-secondary text-sm leading-relaxed">Cour et allées, agrumes, myrte, jasmin. Ombre et parfum pour le quotidien de la maison.</p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                    <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-2">JARDIN SECRET</p>
+                    <p class="text-secondary text-sm leading-relaxed"><em>Bustan</em> plus retiré : roses rares, lys, espèces choisies. Silence plus dense, accès mesuré.</p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl p-6">
+                    <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-2">POTAGER</p>
+                    <p class="text-secondary text-sm leading-relaxed">Légumes, herbes, fruitiers. Le travail de la terre fait partie de la formation.</p>
+                </div>
+            </div>
+        </section>
 
-<div class="rounded-2xl overflow-hidden mb-10 bg-gray-100 aspect-[16/10]">
-<img src="/assets/riad-arance.png" alt="Orangers du jardin" class="w-full h-full object-cover">
-</div>
+        <!-- ========== SECTION CHAHAR BAGH ========== -->
+        <section class="mb-16">
+            <h2 class="heading text-3xl mb-6">Le chahar bagh — un diagramme, pas un ornement</h2>
+            <p class="text-secondary text-lg leading-relaxed mb-8 max-w-3xl">Le jardin islamique n’est pas un décor végétal : c’est une cosmologie mise en terre. Et son origine n’est pas arabe, mais perse.</p>
 
-<h2 class="heading text-2xl md:text-3xl mb-4">Le chahar bagh — un diagramme, pas un ornement</h2>
-<p class="text-secondary leading-relaxed mb-6">Le <em>chahar bagh</em> (jardin en quatre) n'est pas une invention décorative. C'est un schéma ancien : quatre parties, l'eau au centre, les axes qui ordonnent. Il rappelle le jardin paradisiaque de la tradition, et en même temps il organise le climat, l'ombre et le parcours du corps.</p>
-<p class="text-secondary leading-relaxed mb-10">Au Riad, ce diagramme n'est pas copié comme un motif de carte postale : il est habité. On y marche à l'aube, on y travaille, on y prie du regard.</p>
+            <h3 class="heading text-2xl mb-4">Racine et nom</h3>
+            <p class="text-secondary leading-relaxed mb-4">Le mot grec <em>paradeisos</em> (παράδεισος) — à l’origine de notre « paradis » — vient du vieux perse <em>pairi-daēza</em> (« enclos circulaire », un terme avestique dont l’écriture cunéiforme d’origine n’a pas d’équivalent typographique moderne — on le laisse donc en transcription latine). Dès l’époque achéménide (Pasargades, VIe siècle av. J.-C.), puis surtout sassanide, le jardin est déjà l’image du cosmos et du pouvoir royal : eau, arbres, géométrie, fermeture sur l’extérieur.</p>
+            <p class="text-secondary leading-relaxed mb-8">L’Islam n’efface pas ce modèle : il l’absorbe et le théologise. Le Coran évoque les jardins du paradis traversés de fleuves ; l’architecture perse lui donne sa forme concrète.</p>
 
-<h2 class="heading text-2xl md:text-3xl mb-4">Le jardin principal</h2>
-<p class="text-secondary leading-relaxed mb-6">Arbres d'ombre, bassins, canalettes. L'eau circule et se fait entendre. Ce n'est pas un jardin d'apparat pour le visiteur : c'est l'espace quotidien de la maison, celui où l'on passe entre les ateliers, la table et les chambres.</p>
+            <h3 class="heading text-2xl mb-4">La structure classique</h3>
+            <p class="text-secondary leading-relaxed mb-8">Quatre secteurs égaux ; deux axes d’eau qui se croisent — les quatre fleuves ; au centre, un bassin, un pavillon ou une <em>fisqiya</em> (فسقية) ; des murs ou des portiques qui referment le regard vers l’intérieur ; une végétation ordonnée, entre ombre, parfum et utilité. Ce n’est pas un paysage naturel : c’est un diagramme — ordre, mesure, continuité de l’eau, séparation du chaos extérieur.</p>
 
-<div class="grid grid-cols-2 gap-3 mb-10">
-<div class="rounded-xl overflow-hidden bg-gray-100 aspect-square"><img src="/assets/IMG_7102.jpeg" alt="Jardin" class="w-full h-full object-cover"></div>
-<div class="rounded-xl overflow-hidden bg-gray-100 aspect-square"><img src="/assets/IMG_7103.jpeg" alt="Jardin" class="w-full h-full object-cover"></div>
-<div class="rounded-xl overflow-hidden bg-gray-100 aspect-square"><img src="/assets/IMG_7104.jpeg" alt="Jardin" class="w-full h-full object-cover"></div>
-<div class="rounded-xl overflow-hidden bg-gray-100 aspect-square"><img src="/assets/IMG_7105.jpeg" alt="Jardin" class="w-full h-full object-cover"></div>
-</div>
+            <h3 class="heading text-2xl mb-4">Une même forme, plusieurs mondes</h3>
+            <div class="overflow-x-auto mb-8">
+                <table class="w-full text-sm text-left border border-gray-200 rounded-xl overflow-hidden">
+                    <thead class="bg-cream">
+                        <tr>
+                            <th class="px-4 py-3 font-medium text-[#c8872f]">Région</th>
+                            <th class="px-4 py-3 font-medium text-[#c8872f]">Transmission</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-secondary">
+                        <tr class="border-t border-gray-100">
+                            <td class="px-4 py-3 align-top">Asie centrale et Iran</td>
+                            <td class="px-4 py-3">Continuité directe — Ispahan, Chiraz, jardins safavides.</td>
+                        </tr>
+                        <tr class="border-t border-gray-100">
+                            <td class="px-4 py-3 align-top">Inde moghole</td>
+                            <td class="px-4 py-3"><em>Chahār bāgh</em> monumental — Taj Mahal, Shalimar, tombeau de Humāyūn. L’axe d’eau devient mise en scène impériale.</td>
+                        </tr>
+                        <tr class="border-t border-gray-100">
+                            <td class="px-4 py-3 align-top">Empire ottoman</td>
+                            <td class="px-4 py-3">Adaptation plus libre ; l’eau reste centrale, la géométrie se desserre.</td>
+                        </tr>
+                        <tr class="border-t border-gray-100">
+                            <td class="px-4 py-3 align-top">Al-Andalus et Maghreb</td>
+                            <td class="px-4 py-3">L’influence perse arrive surtout par la Syrie et l’Irak omeyyades et abbassides, avant de se fondre avec l’héritage romain et local.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-<h2 class="heading text-2xl md:text-3xl mb-4">Le jardin secret</h2>
-<p class="text-secondary leading-relaxed mb-6">Un jardin plus retiré accueille les roses de Damas et les fleurs rares. Moins de passage, plus de silence. C'est là que la maison se souvient que la beauté n'est pas un surplus, mais une condition de l'attention.</p>
+            <h3 class="heading text-2xl mb-4">La synthèse andalouse et maghrébine</h3>
+            <p class="text-secondary leading-relaxed mb-4">En al-Andalus, le <em>chahār bāgh</em> (چهار باغ) persan n’est pas copié à la lettre : il est réinterprété. Les grands axes d’eau demeurent — Generalife, Patio de la Acequia. La <em>fisqiya</em> au ras du sol et les canalettes basses en deviennent presque la signature — Alcázar de Séville, Alhambra. L’eau entre jusque dans les salles, comme à la Zisa de Palerme : le jardin n’est plus seulement une cour, mais un prolongement de l’architecture. Dans le Maghreb, le patio du riad garde la même logique à l’échelle domestique : un centre d’eau, des secteurs, une clôture, une fraîcheur.</p>
+            <p class="text-secondary leading-relaxed mb-8">Ainsi : la géométrie et le symbolisme des quatre fleuves viennent de Perse ; la <em>fisqiya</em> basse, le canal qui se prolonge dans la salle, et le patio clos du riad sont, eux, le fruit de la rencontre avec le goût andalou et maghrébin.</p>
 
-<div class="rounded-2xl overflow-hidden mb-10 bg-gray-100 aspect-[16/10]">
-<img src="/assets/IMG_7217.jpeg" alt="Jardin secret" class="w-full h-full object-cover">
-</div>
+            <h3 class="heading text-2xl mb-4">Ce qui reste essentiel</h3>
+            <p class="text-secondary leading-relaxed mb-4">La clôture — le jardin est un monde à part. L’eau qui coule — jamais stagnante, jamais spectaculaire en hauteur. La géométrie en croix — les quatre secteurs, les quatre fleuves. L’ombre et la mesure — non la pelouse ouverte à l’occidentale.</p>
+            <p class="text-secondary leading-relaxed mb-6">Pour le Riad, cela signifie que le patio et le jardin ne sont pas un « vert de contour » : ils sont la forme traditionnelle, d’héritage perse et andalou, où l’ordre, l’eau et le silence éduquent le regard et le corps — la même logique qui relie Dar al-Hiraf, les prières et le rythme de la maison.</p>
+            <p class="text-secondary text-sm">
+                <a href="/architecture/eau.html" class="text-[#c8872f] font-medium hover:underline">L'eau →</a>
+                <span class="text-secondary mx-2">·</span>
+                <a href="/architecture/patio.html" class="text-[#c8872f] font-medium hover:underline">Patio →</a>
+            </p>
+        </section>
+        <!-- ========== FIN SECTION CHAHAR BAGH ========== -->
 
-<h2 class="heading text-2xl md:text-3xl mb-4">Le potager</h2>
-<p class="text-secondary leading-relaxed mb-6">L'orto nourrit la table de la maison — herbes, légumes, plantes utiles — et donne aux résidents un travail concret. Ce n'est pas un loisir : c'est une discipline du corps et de la patience, liée au rythme des saisons.</p>
+        <section class="mb-16">
+            <h2 class="heading text-3xl mb-4">Le jardin principal</h2>
+            <p class="text-secondary leading-relaxed mb-8 max-w-3xl">Espace partagé de la maison. Agrumes, arbustes et aromatiques y structurent l’ombre et le parfum. C’est le visage le plus visible du <em>riyad</em>.</p>
+            <h3 class="text-lg font-medium text-[#c8872f] mb-6 tracking-wide">Les plantes</h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <div class="aspect-[4/3] bg-gray-100"><img src="/assets/riad-arance.png" alt="Agrumes" class="w-full h-full object-cover"></div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Agrumes</h3>
+                        <p class="text-secondary text-sm leading-relaxed">Orangers amers, citronniers, parfois bergamote. Ombre, parfum des fleurs, fruit pour la table et l’eau de fleur d’oranger.</p>
+                    </div>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7102.jpeg" alt="Mirto" class="w-full h-full object-cover"></div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Mirto (arrayan)</h3>
+                        <p class="text-secondary text-sm leading-relaxed"><em>Myrtus communis</em>. Emblème des jardins andalous et maghrébins. Feuillage dense, fleur discrète, usage rituel et ornemental.</p>
+                    </div>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7103.jpeg" alt="Jasmin" class="w-full h-full object-cover object-center"></div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Jasmin</h3>
+                        <p class="text-secondary text-sm leading-relaxed">Jasmin blanc et jasmin de nuit. Le parfum du soir, lié à la tradition des cours intérieures.</p>
+                    </div>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7104.jpeg" alt="Grenadier et figuier" class="w-full h-full object-cover"></div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Grenadier & figuier</h3>
+                        <p class="text-secondary text-sm leading-relaxed">Arbres de la mémoire méditerranéenne. Fruit, ombre, présence symbolique dans la culture arabe.</p>
+                    </div>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+                    <div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7105.jpeg" alt="Cyprès" class="w-full h-full object-cover"></div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Cyprès</h3>
+                        <p class="text-secondary text-sm leading-relaxed">Verticalité, silence, limite. Ils marquent les axes et protègent l’intimité des espaces.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<div class="rounded-2xl overflow-hidden mb-10 bg-gray-100 aspect-[16/10]">
-<img src="/assets/IMG_7059.jpeg" alt="Potager" class="w-full h-full object-cover">
-</div>
+        <section class="mb-16">
+            <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden md:flex">
+                <div class="md:w-1/2 aspect-[4/3] md:aspect-auto bg-gray-100">
+                    <img src="/assets/IMG_7217.jpeg" alt="Jardin secret" class="w-full h-full object-cover min-h-[240px]">
+                </div>
+                <div class="md:w-1/2 p-8 md:p-10 flex flex-col justify-center">
+                    <h2 class="heading text-3xl mb-5">Le jardin secret</h2>
+                    <p class="text-secondary leading-relaxed mb-4">Plus retiré que le jardin principal. Roses anciennes, lys, stephanotis, espèces rares du <em>bustan</em>. Parfum plus fort, ombre plus épaisse, accès mesuré.</p>
+                    <p class="text-secondary leading-relaxed mb-4">Dans la tradition arabe, le jardin secret n’est pas un luxe gratuit : c’est un lieu de retenue, de maturité, où l’on apprend que tout n’est pas donné d’un coup.</p>
+                    <p class="text-secondary leading-relaxed">Ceux qui y travaillent — taille des roses, soin des plantes délicates — y apprennent la patience autant que le geste.</p>
+                </div>
+            </div>
+        </section>
 
-<div class="bg-cream rounded-2xl p-8 my-10 text-center">
-<p class="ar text-2xl md:text-3xl text-[#c8872f] mb-3" dir="rtl" lang="ar">وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ</p>
-<p class="text-secondary italic">« Et Nous avons fait de l'eau toute chose vivante. »</p>
-</div>
+        <section class="mb-16">
+            <h2 class="heading text-3xl mb-6">Le potager</h2>
+            <p class="text-secondary text-lg leading-relaxed mb-6 max-w-3xl">Légumes de saison, herbes, quelques fruitiers. Le potager nourrit la table de la maison et forme ceux qui y résident : semer, arroser, récolter, respecter le temps de la terre.</p>
+            <div class="rounded-2xl overflow-hidden mb-6 bg-gray-100 aspect-[16/9]">
+                <img src="/assets/IMG_7059.jpeg" alt="Le potager" class="w-full h-full object-cover">
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white border border-gray-200 rounded-2xl p-7">
+                    <h3 class="font-semibold text-lg mb-3 text-[#c8872f]">Nourriture de la maison</h3>
+                    <p class="text-secondary text-sm leading-relaxed">Ce qui pousse ici n’est pas un exercice esthétique. Il entre dans les repas partagés, dans la cuisine du soir, dans le rythme concret de la journée.</p>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl p-7">
+                    <h3 class="font-semibold text-lg mb-2 text-[#c8872f]">Travail et formation</h3>
+                    <p class="text-secondary text-sm leading-relaxed">Le soin du potager fait partie de la formation des jeunes du Dar al-Hiraf. La main qui taille le bois ou pose le zellige apprend aussi à toucher la terre.</p>
+                </div>
+            </div>
+        </section>
 
-<div class="flex flex-wrap gap-4 mt-10">
-<a href="/architecture/patio.html" class="text-[#c8872f] font-medium hover:underline">Voir le Patio →</a>
-<a href="/architecture/eau.html" class="text-[#c8872f] font-medium hover:underline">Voir L'eau →</a>
-<a href="/architecture/hammam.html" class="text-[#c8872f] font-medium hover:underline">Voir l'Hammam →</a>
-</div>
+        <div class="bg-cream rounded-3xl p-8 md:p-10 text-center mb-10">
+            <p class="text-lg leading-relaxed mb-3" dir="rtl" lang="ar" style="font-family: 'Amiri', 'Traditional Arabic', serif;">الحديقةُ ظلٌّ وماءٌ ورائحةٌ<br>وموضعُ سكينةٍ لمن عرفَ أن يبطئَ</p>
+            <p class="text-xs text-secondary italic leading-relaxed mb-2">« Le jardin est ombre, eau et parfum —<br>et lieu de quietude pour qui sait ralentir. »</p>
+            <p class="text-[10px] tracking-wider text-[#c8872f]">Tradition du riyad — lecture contemporaine</p>
+        </div>
+
+        <div class="text-center">
+            <a href="/architecture.html" class="inline-flex items-center text-[#c8872f] font-medium hover:text-[#a86f24]">Architecture & espaces →</a>
+        </div>
+    <p class="text-center text-sm text-secondary mt-14 pt-8 border-t border-gray-100">Les termes de cette page sont réunis dans le <a href="/glossaire.html#architecture" class="text-[#c8872f] hover:underline">glossaire de la maison</a>.</p>
 </div>
 </main>
 <footer class="border-t border-gray-200 bg-white"><div class="max-w-6xl mx-auto px-6 py-10"><div class="text-sm text-secondary">© 2026 — Riad Al-Uns — Fès</div></div></footer>
