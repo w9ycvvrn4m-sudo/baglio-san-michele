@@ -1,4 +1,4 @@
-import { next } from '@vercel/edge';
+import { rewrite, next } from '@vercel/edge';
 
 export const config = {
   matcher: [
@@ -36,7 +36,6 @@ export default function middleware(request) {
     return next();
   }
 
-  return next({
-    rewrite: new URL(dest, request.url),
-  });
+  // rewrite() runs before filesystem — required so Riad index.html does not win
+  return rewrite(new URL(dest, request.url));
 }
