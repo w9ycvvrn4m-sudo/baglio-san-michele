@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/projet/munya.html"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/projet/munya.html"
+    }
+  ]
+}
