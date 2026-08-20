@@ -1,4 +1,78 @@
 {
+  "redirects": [
+    {
+      "source": "/al-munya",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/index.html",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/index.html",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/contact.html",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/contact.html",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/demeure.html",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/demeure",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/demeure.html",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/demeure",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/an-nudama.html",
+      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "destination": "/an-nudama",
+      "permanent": true
+    },
+    {
+      "source": "/al-munya/an-nudama.html",
+      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "destination": "/an-nudama",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/",
