@@ -3,13 +3,13 @@
     {
       "source": "/",
       "has": [{ "type": "host", "value": "www.al-munya.com" }],
-      "destination": "/projet/munya.html",
+      "destination": "/al-munya/",
       "permanent": false
     },
     {
       "source": "/",
       "has": [{ "type": "host", "value": "al-munya.com" }],
-      "destination": "/projet/munya.html",
+      "destination": "/al-munya/",
       "permanent": false
     }
   ]
