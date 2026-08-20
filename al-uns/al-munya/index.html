@@ -3,125 +3,300 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Al-Munya</title>
-<meta name="description" content="Al-Munya — demeure privée attenante au Riad Al-Uns. Majlis à nombre fermé, retraite et hospitalité discrète.">
-<link rel="canonical" href="https://al-munya.com/">
-<link rel="icon" href="/assets/favicon-munya.ico" sizes="16x16 32x32 48x48">
-<link rel="apple-touch-icon" href="/assets/apple-touch-icon-munya.png">
+<title>Al-Munya — Demeure privée · Majlis à nombre fermé</title>
+<meta name="description" content="Al-Munya est une demeure privée attenante mur à mur au Riad Al-Uns. Majlis à nombre fermé, accessible uniquement par cooptation.">
+<link rel="canonical" href="https://www.al-munya.com/">
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
-body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}
-.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}
-.text-secondary{color:#4a4a4a}
-.bg-cream{background-color:#F8F5F0}
+  body { font-family: "Avenir Next", system-ui, sans-serif; background: #fff; color: #1f1f1f; }
+  .heading { font-family: 'Julius Sans One', Georgia, serif !important; font-weight: 400 !important; letter-spacing: .5px !important; color: #c8872f; }
+  .text-secondary { color: #4a4a4a; }
+  .bg-cream { background-color: #F8F5F0; }
+  .arabic { font-family: 'Amiri', serif; font-size: 1.4rem; line-height: 1.9; direction: rtl; }
+  .section-label { font-size: 0.7rem; letter-spacing: 2.5px; text-transform: uppercase; color: #c8872f; }
+  .img-slot { background: #F8F5F0; display: flex; align-items: center; justify-content: center; color: #9a9a9a; font-size: 0.7rem; letter-spacing: 1.5px; text-transform: uppercase; }
 </style>
 </head>
 <body>
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100" role="navigation" aria-label="Menu Al-Munya">
-<div class="max-w-5xl mx-auto px-6">
-<div class="flex items-center justify-between h-20">
-<div><a href="/"><img src="/assets/logo-munya-a.png" alt="Al-Munya" class="h-10 w-auto"></a></div>
-<div class="hidden md:flex items-center gap-x-8 text-sm tracking-wider">
-<a href="/" class="text-[#c8872f] font-medium">Accueil</a>
-<a href="/demeure" class="hover:text-[#c8872f] transition-colors">La demeure</a>
-<a href="/contact" class="hover:text-[#c8872f] transition-colors">Contact</a>
-</div>
-<button id="menu-btn" class="md:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
-</div>
-</div>
-<div id="mobile-menu" class="hidden md:hidden flex-col bg-white border-t border-gray-100 px-6 py-4 gap-1 text-sm tracking-wider">
-<a href="/" class="py-2 text-[#c8872f]">Accueil</a>
-<a href="/demeure" class="py-2 hover:text-[#c8872f]">La demeure</a>
-<a href="/contact" class="py-2 hover:text-[#c8872f]">Contact</a>
-</div>
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 border-b border-gray-100 backdrop-blur-sm">
+  <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="/" class="heading text-lg tracking-[3px]">AL-MUNYA</a>
+    <div class="hidden sm:flex items-center gap-8 text-sm tracking-wider">
+      <a href="#demeure" class="hover:text-[#c8872f] transition">La demeure</a>
+      <a href="#regle" class="hover:text-[#c8872f] transition">La règle</a>
+      <a href="#ameublement" class="hover:text-[#c8872f] transition">L'ameublement</a>
+      <a href="#contact" class="hover:text-[#c8872f] transition">Contact</a>
+    </div>
+  </div>
 </nav>
 
-<main class="pt-28 pb-20">
-<div class="max-w-4xl mx-auto px-6">
+<main class="pt-16">
 
-<div class="text-center mb-12">
-<p class="text-sm tracking-[2px] uppercase text-[#c8872f] mb-4">Al-Munya</p>
-<h1 class="heading text-4xl md:text-5xl mb-5">Al-Munya</h1>
-<p class="text-secondary text-lg leading-relaxed max-w-2xl mx-auto">Demeure privée attenante au Riad. Destinée à un majlis à nombre fermé — retraite, compagnie mesurée, hospitalité discrète.</p>
-</div>
+  <!-- HERO -->
+  <section class="max-w-5xl mx-auto px-6 pt-20 pb-10 text-center">
+    <p class="section-label mb-5">Demeure privée</p>
+    <h1 class="heading text-4xl md:text-5xl mb-6 tracking-wide">AL-MUNYA</h1>
+    <p class="text-secondary text-lg max-w-2xl mx-auto leading-relaxed">
+      Attenante mur à mur au Riad Al-Uns.<br>
+      Majlis à nombre fermé — retraite, compagnie mesurée, hospitalité discrète.
+    </p>
+  </section>
 
-<section class="mb-14 -mx-6 md:mx-0">
-<div class="overflow-hidden md:rounded-3xl">
-<img src="/assets/munya-fortuny-1.png" alt="Al-Munya" class="w-full h-[42vh] md:h-[52vh] object-cover object-center">
-</div>
-</section>
+  <section class="max-w-5xl mx-auto px-6 mb-24">
+    <div class="rounded-2xl overflow-hidden shadow-sm">
+      <img src="/assets/munya-hero.jpg" alt="Al-Munya — seuil" class="w-full h-[420px] md:h-[520px] object-cover object-center">
+    </div>
+  </section>
 
-<section class="mb-14">
-<div class="bg-cream rounded-3xl p-8 md:p-10">
-<p class="text-secondary leading-relaxed mb-4">Al-Munya n'est pas une annexe touristique. C'est une maison distincte, avec sa propre entrée, sa propre cuisine, ses propres circulations.</p>
-<p class="text-secondary leading-relaxed mb-4">Elle offre un espace de regard, de silence et de réception mesurée — sans confondre sa vocation avec celle du Riad, maison de formation.</p>
-<p class="text-secondary leading-relaxed">Un seul mur commun. Une porte ouvrable exclusivement du côté du Riad.</p>
-</div>
-</section>
+  <!-- OUVERTURE -->
+  <section class="max-w-3xl mx-auto px-6 mb-28">
+    <div class="space-y-7 text-secondary text-lg leading-relaxed">
+      <p>Al-Munya est une demeure privée, attenante mur à mur au Riad Al-Uns.</p>
+      <p>
+        Elle n’est pas une extension de la maison de formation.<br>
+        Elle n’est pas un hôtel.<br>
+        Elle n’est pas un lieu ouvert.
+      </p>
+      <p>
+        C’est le siège d’un majlis à nombre fermé,<br>
+        accessible uniquement par cooptation.
+      </p>
+      <p>
+        Les deux maisons ont des entrées, des cuisines, un personnel et des circulations entièrement séparés.<br>
+        Une seule porte dans le mur commun, ouvrable exclusivement depuis le côté du Riad.
+      </p>
+    </div>
+  </section>
 
-<section class="mb-14">
-<h2 class="heading text-2xl mb-6 text-center">Les espaces</h2>
-<div class="grid md:grid-cols-2 gap-6">
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Sqifa</h3>
-<p class="text-secondary text-sm leading-relaxed">Seuil d'accueil. Transition entre l'extérieur et l'intérieur de la demeure.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Patio et salle</h3>
-<p class="text-secondary text-sm leading-relaxed">Cœur de la maison. Lieu de présence, de conversation et de silence partagé.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Jardin</h3>
-<p class="text-secondary text-sm leading-relaxed">Espace de fraîcheur et de regard. Continu avec l'oratoire.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Oratoire</h3>
-<p class="text-secondary text-sm leading-relaxed">Prospicient patio et jardin. Orientation soignée.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Appartements</h3>
-<p class="text-secondary text-sm leading-relaxed">Chambres d'hôtes pour un nombre fermé. Simplicité et mesure.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Appartement d'honneur</h3>
-<p class="text-secondary text-sm leading-relaxed">Espace réservé, distinct des chambres d'hôtes ordinaires.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Salons</h3>
-<p class="text-secondary text-sm leading-relaxed">Lieux de compagnie et de conversation mesurée.</p>
-</div>
-<div class="bg-white border border-gray-200 rounded-2xl p-6">
-<h3 class="heading text-xl mb-3">Parloir</h3>
-<p class="text-secondary text-sm leading-relaxed">Espace de rencontre discret, séparé des circulations principales.</p>
-</div>
-</div>
-</section>
+  <!-- LA DEMEURE + CARDS -->
+  <section id="demeure" class="bg-cream py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <p class="section-label text-center mb-3">Les espaces</p>
+      <h2 class="heading text-3xl mb-6 text-center">La demeure</h2>
+      
+      <p class="text-secondary leading-relaxed mb-4 max-w-3xl mx-auto text-center">
+        La maison est conçue selon la logique traditionnelle de la munya andalouse et maghrébine : 
+        peu d’espaces, généreux, ordonnés, chacun répondant à un usage précis.
+      </p>
+      <p class="text-secondary leading-relaxed mb-16 max-w-3xl mx-auto text-center">
+        Rien n’est pensé pour l’accumulation ni pour l’exposition.<br>
+        Chaque pièce répond à une règle de mesure.
+      </p>
 
-<div class="text-center my-10">
-<a href="/demeure" class="text-[#c8872f] font-medium hover:underline">La demeure et la règle des deux maisons →</a>
-</div>
+      <!-- CARD 1: Seuil (image left) -->
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div class="rounded-2xl overflow-hidden order-1">
+          <img src="/assets/munya-seuil.jpg" alt="Seuil" class="w-full h-72 object-cover object-center">
+        </div>
+        <div class="order-2">
+          <h3 class="heading text-xl mb-5">Seuil</h3>
+          <ul class="space-y-4 text-secondary">
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Sqifa</span><br>
+              Vestibule d’entrée. Espace de seuil qui protège l’intimité de la maison et empêche la vue directe de l’intérieur.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Parloir</span><br>
+              Espace de premier accueil, distinct de tout espace du Riad.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-<div class="text-center my-14">
-<a href="/an-nudama" class="inline-block hover:opacity-80 transition-opacity">
-<img src="/assets/logo-nudama-sito.png" alt="" class="mx-auto h-16 md:h-20 w-auto">
-</a>
-</div>
+      <!-- CARD 2: Cœur (image right) -->
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div class="order-2 md:order-1">
+          <h3 class="heading text-xl mb-5">Cœur</h3>
+          <ul class="space-y-4 text-secondary">
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Patio avec portiques et salle</span><br>
+              Le centre de la maison. Patio portiqué et salle majeure qui s’ouvre directement sur lui. C’est l’espace qui donne son nom à la Munya.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Jardin</span><br>
+              Eau, ombre, parfums, silence. Partie intégrante de l’ensemble, non un accessoire.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Oratoire</span><br>
+              Espace de prière orienté, donnant sur le patio et le jardin.
+            </li>
+          </ul>
+        </div>
+        <div class="rounded-2xl overflow-hidden order-1 md:order-2">
+          <img src="/assets/munya-coeur.jpg" alt="Cœur" class="w-full h-72 object-cover object-center">
+        </div>
+      </div>
 
-<div class="text-center">
-<p class="text-secondary text-sm italic mb-2">الرِّياضُ لِأَهْلِهِ، لَا أَهْلُهُ لِلرِّياضِ</p>
-<p class="text-secondary text-sm">« Le riad est pour les siens, non les siens pour le riad »</p>
-</div>
+      <!-- CARD 3: Permanence (image left) -->
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+        <div class="rounded-2xl overflow-hidden order-1">
+          <img src="/assets/munya-permanence.jpg" alt="Permanence" class="w-full h-72 object-cover object-center">
+        </div>
+        <div class="order-2">
+          <h3 class="heading text-xl mb-5">Permanence</h3>
+          <ul class="space-y-4 text-secondary">
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Appartements des hôtes</span><br>
+              Chambres privées avec salle de bain propre. Nombre contenu.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Appartement d’honneur</span><br>
+              Unité de plus grand rang et de plus grande générosité d’espace.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Salons</span><br>
+              Espaces clos pour conversation restreinte.
+            </li>
+          </ul>
+        </div>
+      </div>
 
-</div>
+      <!-- CARD 4: Service (image right) -->
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div class="order-2 md:order-1">
+          <h3 class="heading text-xl mb-5">Service</h3>
+          <ul class="space-y-4 text-secondary">
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Salle à manger</span><br>
+              Avec cuisine autonome complète, entièrement séparée de celle du Riad.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Locaux de service</span><br>
+              Accessibles uniquement au personnel de la Munya.
+            </li>
+            <li>
+              <span class="text-[#1f1f1f] font-medium">Magasin discret</span><br>
+              Pour tissus de valeur, pièces en dépôt et objets qui ne doivent pas rester exposés.
+            </li>
+          </ul>
+        </div>
+        <div class="rounded-2xl overflow-hidden order-1 md:order-2">
+          <img src="/assets/munya-service.jpg" alt="Service" class="w-full h-72 object-cover object-center">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LA RÈGLE (image laterale sinistra) -->
+  <section id="regle" class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="grid md:grid-cols-5 gap-12 items-center">
+        <div class="md:col-span-2 rounded-2xl overflow-hidden">
+          <img src="/assets/munya-regle.jpg" alt="La règle" class="w-full h-80 object-cover object-center">
+        </div>
+        <div class="md:col-span-3">
+          <p class="section-label mb-3">Soglia</p>
+          <h2 class="heading text-3xl mb-10">La règle</h2>
+          <div class="space-y-7 text-secondary text-lg leading-relaxed">
+            <p>
+              Le nombre est fermé.<br>
+              L’accès se fait par cooptation seule.<br>
+              Ce qui se dit ici reste ici.
+            </p>
+            <p>
+              L’hôte est reçu.<br>
+              Il n’acquiert aucun droit sur la vie de la maison voisine.<br>
+              L’accès éventuel au Riad reste un geste discrétionnaire de ceux qui y vivent, jamais une prérogative de l’invité.
+            </p>
+            <p class="text-[#1f1f1f] text-xl font-medium pt-2">
+              L’argent permet d’être considéré.<br>
+              Il ne permet pas d’entrer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- L'AMEUBLEMENT (orizzontale) -->
+  <section id="ameublement" class="bg-cream py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <p class="section-label text-center mb-3">Travail</p>
+      <h2 class="heading text-3xl mb-12 text-center">L’ameublement</h2>
+
+      <div class="rounded-2xl overflow-hidden mb-14">
+        <img src="/assets/munya-ameublement.jpg" alt="L’ameublement" class="w-full h-72 md:h-96 object-cover object-center">
+      </div>
+      
+      <div class="max-w-3xl mx-auto space-y-7 text-secondary leading-relaxed">
+        <p>
+          La Munya n’est pas meublée une fois pour toutes par un décorateur.<br>
+          Elle est vêtue, dans le temps, par le travail de la maison voisine.
+        </p>
+        <p>
+          Les ateliers de Dar al-Hiraf et les corporations qui gravitent autour du Riad fourniront progressivement ce que la demeure requiert :
+        </p>
+        <ul class="space-y-3 my-8">
+          <li class="flex gap-3"><span class="text-[#c8872f]">—</span> <span><strong class="text-[#1f1f1f]">tissus</strong> — tentures, couvertures, pièces de représentation</span></li>
+          <li class="flex gap-3"><span class="text-[#c8872f]">—</span> <span><strong class="text-[#1f1f1f]">stucs et plâtre sculpté</strong> — corniches, niches, surfaces</span></li>
+          <li class="flex gap-3"><span class="text-[#c8872f]">—</span> <span><strong class="text-[#1f1f1f]">céramiques et zellige</strong> — sols, revêtements, pièces d’eau</span></li>
+          <li class="flex gap-3"><span class="text-[#c8872f]">—</span> <span><strong class="text-[#1f1f1f]">bois sculpté</strong> — portes, plafonds, mobilier fixe et mobile</span></li>
+          <li class="flex gap-3"><span class="text-[#c8872f]">—</span> <span><strong class="text-[#1f1f1f]">métal et fer forgé</strong> — là où la mesure importe plus que l’ostentation</span></li>
+          <li class="flex gap-3"><span class="text-[#c8872f]">—</span> <span><strong class="text-[#1f1f1f]">lumière</strong> — lampes et dispositifs qui respectent la logique de la source cachée</span></li>
+        </ul>
+        <p>
+          Une partie de ces pièces sera tissée, sculptée ou cuite comme <strong class="text-[#1f1f1f]">commande réelle</strong> payée au prix du travail.<br>
+          L’atelier a un client certain : la maison attenante.
+        </p>
+        <p>
+          On demandera également à la Direction du patrimoine de Fès de concéder en dépôt certains mobiliers et objets muséaux aujourd’hui conservés en magasin et non exposés au public.<br>
+          Ils ne deviendront ni collection ni mise en scène : ils resteront à l’intérieur de la règle de la maison, peu nombreux, à leur place, sans cartels.
+        </p>
+        <div class="pt-6 border-t border-[#e5e0d8]">
+          <p class="text-[#1f1f1f] font-medium mb-3">Règle pratique</p>
+          <p>
+            Peu de pièces, non beaucoup.<br>
+            Peu de couleurs.<br>
+            Aucune mise en scène.<br>
+            Rien qui n’ait déjà accompli le voyage d’aller — ou qui ne naisse maintenant, dans la même ville, de la même main.
+          </p>
+        </div>
+        <p class="text-[#1f1f1f] font-medium text-lg pt-4">
+          Ce qui traverse la porte entre les deux maisons, ce ne sont pas les hommes.<br>
+          C’est le travail.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FERMETURE -->
+  <section class="py-24 text-center">
+    <div class="max-w-2xl mx-auto px-6">
+      <p class="arabic mb-5">الرِّياضُ لِأَهْلِهِ، لَا أَهْلُهُ لِلرِّياضِ</p>
+      <p class="text-secondary text-sm tracking-wide">
+        « Le riad est pour les siens, non les siens pour le riad. »
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="border-t border-gray-100 py-20">
+    <div class="max-w-xl mx-auto px-6 text-center">
+      <p class="section-label mb-6">Correspondance</p>
+      <p class="text-secondary text-sm mb-8 max-w-sm mx-auto">
+        Toute demande est examinée avec discrétion.<br>
+        Aucune réponse n’est due.
+      </p>
+      <a href="mailto:info@al-munya.com" class="heading text-xl hover:opacity-70 transition tracking-wide">
+        info@al-munya.com
+      </a>
+    </div>
+  </section>
+
 </main>
 
-<footer class="border-t border-gray-200 bg-white">
-<div class="max-w-5xl mx-auto px-6 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-<div class="text-sm text-secondary">© 2026 Al-Munya</div>
-<div class="text-sm text-secondary"><a href="https://al-uns.com/" class="text-[#c8872f] hover:underline">Riad Al-Uns</a> · <a href="mailto:info@al-munya.com" class="hover:underline">info@al-munya.com</a></div>
-</div>
+<footer class="border-t border-gray-100 py-10">
+  <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-secondary tracking-wider">
+    <span>© 2026 Al-Munya</span>
+    <div class="flex gap-6">
+      <a href="/reserve/" class="hover:text-[#c8872f] transition">Espace réservé</a>
+      <a href="https://www.al-uns.com" class="hover:text-[#c8872f] transition opacity-60">Riad Al-Uns</a>
+    </div>
+  </div>
 </footer>
-<script>document.addEventListener('DOMContentLoaded',function(){var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');if(b&&m){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');});}});</script>
+
 </body>
 </html>
