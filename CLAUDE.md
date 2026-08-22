@@ -22,11 +22,15 @@ browser sostituisce un altro font e la riga si sfascia.
 Vale per ogni elemento con `class="heading"` — `h1`, `h2`, `h3`, `h4` — su tutti
 e due i siti.
 
-Il discrimine è il blocco Unicode. Il font copre il latino di base e il
-**Latin-1** (fino a `U+00FF`): accenti francesi, italiani e spagnoli normali
-(`é è à â î ô û ë ï ü ç á`) si vedono bene e non sono un problema. Sopra
-`U+00FF` non copre più nulla: vietati i macron `ā ī ū ē ō`, i punti sottoscritti
-`ḥ ḍ ṣ ṭ ẓ`, e `ʿ ʾ`.
+Il discrimine non è il blocco Unicode preso alla lettera. Il font copre il latino
+di base e il **Latin-1** (fino a `U+00FF`) — accenti francesi, italiani e spagnoli
+normali (`é è à â î ô û ë ï ü ç á`) — e copre anche la punteggiatura tipografica
+che i titoli del sito già usano in un centinaio di casi: trattino lungo `—`,
+freccia `→`, apostrofo `’`, legatura `œ`. Nessuno di questi è un problema.
+
+Quello che il font non ha è la **traslitterazione scientifica**: vietati i macron
+`ā ī ū ē ō`, i punti sottoscritti `ḥ ḍ ṣ ṭ ẓ`, la `ʿ` e la `ʾ`. Vietato anche
+l'arabo, se non dentro un elemento annidato col font Amiri.
 
 Scrivere il titolo in forma piana e mettere la forma vocalizzata altrove:
 
