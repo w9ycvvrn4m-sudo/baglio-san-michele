@@ -113,6 +113,21 @@ Vercel pubblica da solo in un paio di minuti su
 - Procedere senza chiedere conferma quando la strada è chiara; chiedere solo ciò
   che cambia davvero il risultato.
 - Risposte sobrie e diritte. Nessun linguaggio da hotel, resort o marketing.
+- **Prompt per immagini (Firefly e simili): sempre la clausola sui personaggi.**
+  Ogni volta che Pietro chiede un prompt in cui compare una persona, il prompt deve
+  contenere l'istruzione esplicita che il personaggio ha l'aspetto, le fattezze, la
+  corporatura e l'età di quello dell'immagine di riferimento che Pietro allega su
+  Firefly. Non va chiesto: si mette sempre. Formula già usata e approvata:
+
+  > The groom must be the same young Moroccan man as in the uploaded reference image:
+  > same face and facial features, same skin tone, same hair and beard, same build and
+  > height, same apparent age. Do not invent a different person and do not idealise or
+  > slim the face — keep the likeness of the reference.
+
+  Va messa subito dopo la descrizione del soggetto, non in fondo: Firefly pesa di più
+  le prime righe. Quando i personaggi sono più d'uno, la clausola li nomina tutti.
+  Nel resto del prompt non si descrivono tratti del viso che potrebbero contraddire
+  il riferimento: l'identità la porta l'immagine, non il testo.
 
 ---
 
