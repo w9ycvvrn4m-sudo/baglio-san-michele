@@ -461,6 +461,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://al-uns.com/en/projet/munya.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/projet/munya.html"/>
+    <lastmod>2026-08-22T05:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://al-uns.com/en/projet/rayonnement.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/projet/rayonnement.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/projet/rayonnement.html"/>
@@ -572,7 +581,7 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/index.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/index.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/index.html"/>
-    <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <lastmod>2026-08-22T05:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -636,6 +645,15 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/projet/hospitalite.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/projet/hospitalite.html"/>
     <lastmod>2026-08-17T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/projet/munya.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/projet/munya.html"/>
+    <lastmod>2026-08-22T05:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
