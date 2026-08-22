@@ -11,33 +11,173 @@
 <link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/tahkim.html">
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
-<style>body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}.text-secondary{color:#4a4a4a}.bg-cream{background-color:#F8F5F0}</style>
+<style>
+body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}
+.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}
+.text-secondary{color:#4a4a4a}
+.bg-cream{background-color:#F8F5F0}
+.ar-name{font-family:'Amiri',serif;font-size:1.25rem;text-align:right;direction:rtl;color:#1f1f1f}
+.ar-verse{font-family:'Amiri',serif;font-size:1.15rem;text-align:right;direction:rtl;color:#1f1f1f}
+.tr-verse{text-align:right;color:#4a4a4a;font-size:0.95rem;font-style:normal;font-family:inherit}
+</style>
 </head>
 <body>
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100" rôle="navigation" aria-label="Menu principal">
 <div class="max-w-6xl mx-auto px-6">
 <div class="flex items-center justify-between h-20">
 <div><a href="/index.html"><img src="/assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-11 w-auto"></a></div>
 <div class="hidden lg:flex items-center gap-x-6 text-sm tracking-wider">
-<a href="/index.html" class="hover:text-[#c8872f]">Riad Al-Uns</a>
-<a href="/projet.html" class="hover:text-[#c8872f]">Le projet</a>
-<a href="/architecture.html" class="hover:text-[#c8872f]">La maison</a>
-<a href="/dar-al-hiraf.html" class="font-medium text-[#c8872f]">Dar al-Hiraf</a>
-<a href="/sejour.html" class="hover:text-[#c8872f]">Venir</a>
-<a href="/soutenir.html" class="hover:text-[#c8872f]">Soutenir</a>
-<a href="/contact.html" class="hover:text-[#c8872f]">Contact</a>
-<span class="text-gray-300">|</span>
-<span class="font-medium text-[#c8872f] text-xs">FR</span>
-<a href="/en/dar-al-hiraf/tahkim.html" class="text-xs hover:text-[#c8872f]">EN</a>
+<a href="/index.html" class="hover:text-[#c8872f] transition-colors">Riad Al-Uns</a>
+<div class="relative group"><a href="/projet.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Le projet<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<a href="/projet.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vue d'ensemble</a>
+<a href="/projet/vision.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vision & mission</a>
+<a href="/projet/famille.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La famille & la communauté</a>
+<a href="/projet/hospitalite.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hospitalité sélective</a>
+<a href="/projet/charite.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Charité & service</a>
+<a href="/projet/rayonnement.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Rayonnement & partenariats</a>
+</div></div>
+<div class="relative group"><a href="/architecture.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">La maison<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-72 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les lieux</div>
+<a href="/architecture.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces</a>
+<a href="/architecture/espaces-interieurs.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Seuil & chambres</a>
+<a href="/architecture/patio.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Patio</a>
+<a href="/jardin.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Jardin</a>
+<a href="/architecture/hammam.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hammam</a>
+<a href="/architecture/aeration.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Fraîcheur naturelle</a>
+<a href="/architecture/eau.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">L'eau</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Maison d'hôtes</div>
+<a href="/projet/munya.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Munya</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Le rythme</div>
+<a href="/vie.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Vie au Riad</a>
+<a href="/experiences.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Expériences</a>
+<a href="/rencontres.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Rencontres</a>
+</div></div>
+<div class="relative group"><a href="/dar-al-hiraf.html" class="font-medium text-[#c8872f] transition-colors flex items-center gap-x-1">Dar al-Hiraf<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline morale</div>
+<a href="/dar-al-hiraf/futuwwa.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Futuwwa</a>
+<a href="/dar-al-hiraf/fraternite.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Fraternité & droiture</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline physique</div>
+<a href="/dar-al-hiraf/javanmardi.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Javanmardi</a>
+<a href="/furusiyya.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Furusiyya</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline du travail</div>
+<a href="/dar-al-hiraf/disciplines.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Disciplines</a>
+<a href="/dar-al-hiraf/musique.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Musique & chant</a>
+<a href="/artisanat.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Artisanat du Riad</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les signes</div>
+<a href="/dar-al-hiraf/dress-code.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Kiswa</a>
+<a href="/vestiario.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Le vêtement traditionnel</a>
+<div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">La maison</div>
+<a href="/dar-al-hiraf/gouvernance.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">At-Tadbir — Gouvernance</a>
+<a href="/dar-al-hiraf/tahkim.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">At-Tahkim — Arbitrage</a>
+</div></div>
+<div class="relative group"><a href="/sejour.html" class="hover:text-[#c8872f] transition-colors flex items-center gap-x-1">Venir<svg xmlns="http://www.w3.org/2000/svg" class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg></a>
+<div class="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-100 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 py-1">
+<a href="/sejour.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Séjourner</a>
+<a href="/dar-al-hiraf/stages.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Stages de formation</a>
+<a href="/dar-al-hiraf/résidence.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">La résidence</a>
+<a href="/dar-al-hiraf/athar.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Athar — L'œuvre laissée</a>
+<a href="/qui-cherchons-nous.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Qui cherchons-nous</a>
+<a href="/maitres-et-personnel.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Maîtres & personnel recherchés</a>
+<a href="/faq.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Questions fréquentes</a>
+<a href="/glossaire.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Glossaire</a>
+</div></div>
+<a href="/soutenir.html" class="hover:text-[#c8872f] transition-colors">Soutenir</a>
+<a href="/contact.html" class="hover:text-[#c8872f] transition-colors">Contact</a>
+<span class="text-gray-300 mx-1">|</span>
+<span class="font-medium text-[#c8872f] text-xs tracking-wider">FR</span>
+<a href="/en/dar-al-hiraf/tahkim.html" class="hover:text-[#c8872f] transition-colors text-xs tracking-wider">EN</a>
 </div>
-<button id="menu-btn" class="lg:hidden text-3xl text-[#c8872f]">☰</button>
+<button id="menu-btn" aria-expanded="false" aria-controls="mobile-menu" class="lg:hidden text-3xl text-[#c8872f]" aria-label="Menu">☰</button>
 </div>
-<div id="mobile-menu" class="hidden lg:hidden pb-6 text-sm">
-<a href="/index.html" class="block py-3 text-[#c8872f]">Riad Al-Uns</a>
-<a href="/dar-al-hiraf.html" class="block py-2">Dar al-Hiraf</a>
-<a href="/dar-al-hiraf/gouvernance.html" class="block py-2">At-Tadbir — Gouvernance</a>
-<a href="/dar-al-hiraf/tahkim.html" class="block py-2 text-[#c8872f]">At-Tahkim — Arbitrage</a>
-<a href="/furusiyya.html" class="block py-2">Furusiyya</a>
+<div id="mobile-menu" aria-label="Menu mobile" class="hidden lg:hidden flex-col pb-6 text-sm tracking-wider bg-white border-t border-gray-100" style="max-height:calc(100vh - 5rem);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch">
+<a href="/index.html" class="block py-3 font-medium text-[#c8872f]">Riad Al-Uns</a>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>Le projet</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<a href="/projet.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vue d'ensemble</a>
+<a href="/projet/vision.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vision & mission</a>
+<a href="/projet/famille.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">La famille & la communauté</a>
+<a href="/projet/hospitalite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Hospitalité sélective</a>
+<a href="/projet/charite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Charité & service</a>
+<a href="/projet/rayonnement.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Rayonnement & partenariats</a>
+</div>
+</details>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>La maison</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les lieux</div>
+<a href="/architecture.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Espaces</a>
+<a href="/architecture/espaces-interieurs.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Seuil & chambres</a>
+<a href="/architecture/patio.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Patio</a>
+<a href="/jardin.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Jardin</a>
+<a href="/architecture/hammam.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Hammam</a>
+<a href="/architecture/aeration.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Fraîcheur naturelle</a>
+<a href="/architecture/eau.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">L'eau</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Maison d'hôtes</div>
+<a href="/projet/munya.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Munya</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Le rythme</div>
+<a href="/vie.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Vie au Riad</a>
+<a href="/experiences.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Expériences</a>
+<a href="/rencontres.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Rencontres</a>
+</div>
+</details>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>Dar al-Hiraf</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline morale</div>
+<a href="/dar-al-hiraf/futuwwa.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Futuwwa</a>
+<a href="/dar-al-hiraf/fraternite.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Fraternité & droiture</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline physique</div>
+<a href="/dar-al-hiraf/javanmardi.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Javanmardi</a>
+<a href="/furusiyya.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Furusiyya</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Discipline du travail</div>
+<a href="/dar-al-hiraf/disciplines.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Disciplines</a>
+<a href="/dar-al-hiraf/musique.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Musique & chant</a>
+<a href="/artisanat.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Artisanat du Riad</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les signes</div>
+<a href="/dar-al-hiraf/dress-code.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Kiswa</a>
+<a href="/vestiario.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Le vêtement traditionnel</a>
+<div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">La maison</div>
+<a href="/dar-al-hiraf/gouvernance.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">At-Tadbir — Gouvernance</a>
+<a href="/dar-al-hiraf/tahkim.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">At-Tahkim — Arbitrage</a>
+</div>
+</details>
+<details class="group border-t border-gray-50">
+<summary class="cursor-pointer list-none py-3 flex items-center justify-between text-secondary">
+<span>Venir</span>
+<svg class="w-4 h-4 text-[#c8872f] transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+</summary>
+<div class="pb-2">
+<a href="/sejour.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Séjourner</a>
+<a href="/dar-al-hiraf/stages.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Stages de formation</a>
+<a href="/dar-al-hiraf/résidence.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">La résidence</a>
+<a href="/dar-al-hiraf/athar.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Athar — L'œuvre laissée</a>
+<a href="/qui-cherchons-nous.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Qui cherchons-nous</a>
+<a href="/maitres-et-personnel.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Maîtres & personnel recherchés</a>
+<a href="/faq.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Questions fréquentes</a>
+<a href="/glossaire.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Glossaire</a>
+</div>
+</details>
+<div class="border-t border-gray-50 pt-2">
+<a href="/soutenir.html" class="block py-2.5 text-secondary hover:text-[#c8872f]">Soutenir</a>
+<a href="/contact.html" class="block py-2.5 text-secondary hover:text-[#c8872f]">Contact</a>
+</div>
+<div class="pt-3 mt-2 border-t border-gray-100 flex gap-4 px-1">
+<span class="font-medium text-[#c8872f]">FR</span>
+<a href="/en/dar-al-hiraf/tahkim.html" class="text-secondary hover:text-[#c8872f]">EN</a>
+</div>
 </div>
 </div>
 </nav>
@@ -47,17 +187,17 @@
 <div class="text-center mb-14">
 <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-6">DAR AL-HIRAF</div>
 <h1 class="heading text-5xl mb-3">At-Tahkim</h1>
-<p class="text-2xl mb-4" style="font-family:'Amiri',serif">التحكيم</p>
+<p class="text-2xl mb-4 ar-name text-center" style="text-align:center;direction:rtl">التحكيم</p>
 <p class="text-xl text-secondary max-w-2xl mx-auto">L'arbitrage des tensions d'honneur — puis, si besoin, l'épreuve sous règle.</p>
 </div>
 
 <div class="rounded-3xl overflow-hidden mb-14 bg-gray-100 aspect-[16/9]">
-<img src="/assets/tahkim-sibaq-1.jpg" alt="At-Tahkim — course à cheval" class="w-full h-full object-cover object-center">
+<img src="/assets/tahkim-sibaq-1.jpg" alt="At-Tahkim — course a cheval" class="w-full h-full object-cover object-center">
 </div>
 
 <div class="max-w-3xl mx-auto mb-16 text-center">
-<p class="text-secondary leading-relaxed mb-4"><em>At-taḥkīm</em> désigne, dans la langue classique, le recours à un tiers pour trancher. À Riad Al-Uns, il ordonne d'abord la parole, ensuite — seulement si la parole ne suffit pas — une épreuve tirée des disciplines de la maison.</p>
-<p class="text-secondary leading-relaxed">Il ne remplace pas l'autorité de l'Ash-Shaykh. Il donne aux pairs un chemin pour clore ce qui, laissé au rancœur, empoisonnerait la table et l'atelier. Voir aussi <a href="/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir</a> et la <a href="/furusiyya.html" class="text-[#c8872f] hover:underline">furūsiyya</a>.</p>
+<p class="text-secondary leading-relaxed mb-4"><em>At-tahkim</em> désigne, dans la langue classique, le recours à un tiers pour trancher. À Riad Al-Uns, il ordonne d'abord la parole, ensuite — seulement si la parole ne suffit pas — une épreuve tirée des disciplines de la maison.</p>
+<p class="text-secondary leading-relaxed">Il ne remplace pas l'autorité de l'Ash-Shaykh. Il donne aux pairs un chemin pour clore ce qui, laisse au rancœur, empoisonnerait la table et l'atelier. Voir aussi <a href="/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] hover:underline">At-Tadbir</a> et la <a href="/furusiyya.html" class="text-[#c8872f] hover:underline">furusiyya</a>.</p>
 </div>
 
 <section class="mb-20">
@@ -69,7 +209,7 @@
 <div class="bg-white border border-gray-200 rounded-2xl p-8">
 <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">I</p>
 <h3 class="heading text-xl mb-4">Le muqaddam tiers</h3>
-<p class="text-secondary leading-relaxed">Pour une tension légère entre ṣāniʿ — orgueil, parole trop vive, rivalité d'atelier — un muqaddam qui n'est partie au conflit entend les deux, à tour de rôle, sans interruption. Il propose une clôture.</p>
+<p class="text-secondary leading-relaxed">Pour une tension légère entre ṣāniʿ — orgueil, parole trop vive, rivalité d'atelier — un muqaddam qui n'est partie au conflit entend les deux, a tour de rôle, sans interruption. Il propose une clôture.</p>
 </div>
 <div class="bg-white border border-gray-200 rounded-2xl p-8">
 <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">II</p>
@@ -84,132 +224,144 @@
 </div>
 <div class="bg-cream border border-[#c8872f]/20 rounded-2xl p-8 max-w-3xl mx-auto">
 <p class="text-secondary leading-relaxed mb-3">L'arbitre propose une issue : parole tenue, geste de réparation, office commun, silence sur un point. Si les deux acceptent, l'affaire est close. Qui refuse de comparaître sans motif grave passe au supérieur, non à l'épreuve.</p>
-<p class="text-secondary leading-relaxed mb-4">Grades concernés : ṣāniʿ et ṣāniʿ ; ṣāniʿ et nāʾib. Un conflit avec un maalem ou le shaykh n'est pas matière à épreuve : il relève de l'autorité.</p>
-<blockquote class="border-r-2 border-[#c8872f]/40 pr-4" style="font-family:'Amiri',serif">
-<p class="text-lg text-[#1f1f1f] mb-1" dir="rtl">وَإِن طَائِفَتَانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُمَا</p>
-<p class="text-sm text-secondary italic">« Si deux groupes de croyants s'affrontent, rétablissez la paix entre eux. » — Coran 49:9</p>
-</blockquote>
+<p class="text-secondary leading-relaxed mb-6">Grades concernés : ṣāniʿ et ṣāniʿ ; sani et nāʾib. Un conflit avec un maalem ou le shaykh n'est pas matière a épreuve : il relève de l'autorité.</p>
+<p class="ar-verse mb-2">وَإِن طَائِفَتَانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُمَا</p>
+<p class="tr-verse">« Si deux groupes de croyants s'affrontent, retablissez la paix entre eux. » — Coran 49:9</p>
 </div>
 </section>
 
 <section class="mb-20">
 <div class="text-center mb-10">
 <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-2">SECOND TEMPS</p>
-<h2 class="heading text-3xl">L'epreuve</h2>
+<h2 class="heading text-3xl">L'épreuve</h2>
 </div>
 <div class="max-w-3xl mx-auto mb-10 text-center">
 <p class="text-secondary leading-relaxed">Si l'arbitrage n'a pas clos et que les deux consentent, le tiers ordonne une épreuve tirée des disciplines déjà pratiquées. La forme n'est pas choisie par ceux qui sont en colère. Des témoins de la maison assistent. Le tiers déclare le début et la fin.</p>
 </div>
 <div class="space-y-5">
+
 <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
 <div class="md:flex">
-<div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/lotta-piedi-sarouel.jpg" alt="Musāraʿa" class="w-full h-full object-cover min-h-[160px]"></div>
+<div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/lotta-piedi-sarouel.jpg" alt="Musaraa" class="w-full h-full object-cover min-h-[160px]"></div>
 <div class="md:w-2/3 p-7 md:p-8">
-<p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-1">الْمُصَارَعَة</p>
-<h3 class="heading text-xl mb-3">Musaraa</h3>
-<p class="text-secondary leading-relaxed mb-3">La lutte réglée. Elle mesure le contrôle de la colère et le respect de la limite. Forme la plus naturelle lorsque l'orgueil a été blessé au corps à corps de la vie commune.</p>
-<p class="text-secondary leading-relaxed mb-3">On ne cherche pas à briser l'autre : on tient, on cède quand la règle le dit, on se relève. Le tiers arrête le combat. Après, silence.</p>
-<blockquote class="border-r-2 border-[#c8872f]/40 pr-4 mt-2" style="font-family:'Amiri',serif">
-<p class="text-lg text-[#1f1f1f] mb-1" dir="rtl">لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ</p>
-<p class="text-sm text-secondary italic">« Le fort n'est pas celui qui terrasse à la lutte ; le fort est celui qui se possède dans la colère. » — ḥadīth (Bukhārī, Muslim)</p>
-</blockquote>
+<p class="ar-name">المصارعة</p>
+<p class="ar-translit">Musaraa</p>
+<div class="mt-5"></div>
+<p class="text-secondary leading-relaxed mb-3 text-left">La lutte réglée. Elle mesure le contrôle de la colère et le respect de la limite. Forme la plus naturelle lorsque l'orgueil a été blessé au corps à corps de la vie commune.</p>
+<p class="text-secondary leading-relaxed text-left">On ne cherche pas à briser l'autre : on tient, on cède quand la règle le dit, on se relève. Le tiers arrête le combat. Après, silence.</p>
+<div class="mt-8"></div>
+<p class="ar-verse mb-2">لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ</p>
+<p class="tr-verse">« Le fort n'est pas celui qui terrasse à la lutte ; le fort est celui qui se possède dans la colère. » — hadith (Bukhari, Muslim)</p>
 </div>
 </div>
 </div>
+
 <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
 <div class="md:flex md:flex-row-reverse">
 <div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/arco-1.jpg" alt="Ramy" class="w-full h-full object-cover min-h-[160px]"></div>
 <div class="md:w-2/3 p-7 md:p-8">
-<p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-1">الرَّمْي</p>
-<h3 class="heading text-xl mb-3">Ramy</h3>
-<p class="text-secondary leading-relaxed mb-3">Le tir à l'arc. Calme sous le regard. On y recourt lorsque le contact physique serait excessif pour la matière, et que la précision sous pression dit mieux que la force.</p>
-<p class="text-secondary leading-relaxed mb-3">Même arc, même distance, même nombre de flèches. Qui tremble perd avant de lâcher. L'épreuve forme l'œil et le souffle autant qu'elle clôt le différend.</p>
-<blockquote class="border-r-2 border-[#c8872f]/40 pr-4 mt-2" style="font-family:'Amiri',serif">
-<p class="text-lg text-[#1f1f1f] mb-1" dir="rtl">وَأَعِدُّوا لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ</p>
-<p class="text-sm text-secondary italic">« Préparez contre eux tout ce que vous pouvez de force » — Coran 8:60. La Tradition lit ici, entre autres, le tir.</p>
-</blockquote>
+<p class="ar-name">الرمي</p>
+<p class="ar-translit">Ramy</p>
+<div class="mt-5"></div>
+<p class="text-secondary leading-relaxed mb-3 text-left">Le tir à l'arc. Calme sous le regard. On y recourt lorsque le contact physique serait excessif pour la matière, et que la précision sous pression dit mieux que la force.</p>
+<p class="text-secondary leading-relaxed mb-6 text-left">Même arc, même distance, même nombre de flèches. Qui tremble perd avant de lâcher. L'épreuve forme l'œil et le souffle autant qu'elle clôt le différend.</p>
+<div class="mt-8"></div>
+<p class="ar-verse mb-2">وَأَعِدُّوا لَهُم مَّا اسْتَطَعْتُم مِّن قُوَّةٍ</p>
+<p class="tr-verse">« Préparez contre eux tout ce que vous pouvez de force. » — Coran 8:60. La Tradition lit ici, entre autres, le tir.</p>
 </div>
 </div>
 </div>
+
 <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
 <div class="md:flex">
-<div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/turbante-equitazione.jpg" alt="Furūsiyya" class="w-full h-full object-cover min-h-[160px]"></div>
+<div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/turbante-equitazione.jpg" alt="Furusiyya" class="w-full h-full object-cover min-h-[160px]"></div>
 <div class="md:w-2/3 p-7 md:p-8">
-<p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-1">الْفُرُوسِيَّة</p>
-<h3 class="heading text-xl mb-3">Epreuve de furusiyya</h3>
-<p class="text-secondary leading-relaxed mb-3">Course ou tenue sous règle, seulement si les deux sont formés. Rare. Elle mesure le domaine de soi plus que la défaite de l'autre — la même leçon que le poulain et le mors.</p>
-<p class="text-secondary leading-relaxed mb-3">Le cheval n'est pas un instrument de vanité. Qui le lance pour humilier a déjà perdu l'épreuve aux yeux de la maison. Voir <a href="/furusiyya.html" class="text-[#c8872f] hover:underline">Furūsiyya</a> et <a href="/furusiyya/harnachement.html" class="text-[#c8872f] hover:underline">l'harnachement</a>.</p>
-<blockquote class="border-r-2 border-[#c8872f]/40 pr-4 mt-2" style="font-family:'Amiri',serif">
-<p class="text-lg text-[#1f1f1f] mb-1" dir="rtl">الْخَيْلُ مَعْقُودٌ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ</p>
-<p class="text-sm text-secondary italic">« Le bien est noué au toupet des chevaux jusqu'au Jour du Jugement. » — ḥadīth (Bukhārī)</p>
-</blockquote>
+<p class="ar-name">الفروسية</p>
+<p class="ar-translit">Furusiyya</p>
+<div class="mt-5"></div>
+<p class="text-secondary leading-relaxed mb-3 text-left">Course ou tenue sous règle, seulement si les deux sont formés. Rare. Elle mesure le domaine de soi plus que la défaite de l'autre — la même leçon que le poulain et le mors.</p>
+<p class="text-secondary leading-relaxed text-left">Le cheval n'est pas un instrument de vanité. Qui le lance pour humilier a déjà perdu l'épreuve aux yeux de la maison.</p>
+<div class="mt-8"></div>
+<p class="ar-verse mb-2">الْخَيْلُ مَعْقُودٌ فِي نَوَاصِيهَا الْخَيْرُ إِلَى يَوْمِ الْقِيَامَةِ</p>
+<p class="tr-verse">« Le bien est noué au toupet des chevaux jusqu'au Jour du Jugement. » — hadith (Bukhari)</p>
+<p class="card-refs text-xs tracking-wider">&rarr; Voir <a href="/furusiyya.html" class="text-[#c8872f] hover:underline">Furusiyya</a> <span class="text-gray-300">·</span> <a href="/furusiyya/harnachement.html" class="text-[#c8872f] hover:underline">L'harnachement</a></p>
 </div>
 </div>
 </div>
+
 <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden">
 <div class="md:flex md:flex-row-reverse">
-<div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/riad-hospitalite-1.jpg" alt="Métier" class="w-full h-full object-cover min-h-[160px]"></div>
+<div class="md:w-1/3 min-h-[160px] bg-gray-100"><img src="/assets/riad-hospitalite-1.jpg" alt="Hirfa" class="w-full h-full object-cover min-h-[160px]"></div>
 <div class="md:w-2/3 p-7 md:p-8">
-<p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-1">الْحِرْفَة</p>
-<h3 class="heading text-xl mb-3">Epreuve de metier</h3>
-<p class="text-secondary leading-relaxed mb-3">Même geste, même temps, sous l'œil du maalem. Lorsque la tension est née à l'atelier. Ce qui l'emporte n'est pas la vanité, c'est la patience et la tenue de la main.</p>
-<p class="text-secondary leading-relaxed mb-3">Un panneau de zellige, une ligne de calligraphie, un joint de bois : l'ouvrage tranche. Le maalem déclare la fin. L'orgueil qui voulait « gagner » découvre qu'il devait seulement bien faire.</p>
-<blockquote class="border-r-2 border-[#c8872f]/40 pr-4 mt-2">
-<p class="text-sm text-secondary italic">« L'ouvrage est le témoin ; la main, l'accusé. » — adage de métier, dans l'esprit de la futuwwa des corporations.</p>
-</blockquote>
+<p class="ar-name">الحرفة</p>
+<p class="ar-translit">Hirfa</p>
+<div class="mt-5"></div>
+<p class="text-secondary leading-relaxed mb-3 text-left">Même geste, même temps, sous l'œil du maalem. Lorsque la tension est née à l'atelier. Ce qui l'emporte n'est pas la vanité, c'est la patience et la tenue de la main.</p>
+<p class="text-secondary leading-relaxed mb-6 text-left">Un panneau de zellige, une ligne de calligraphie, un joint de bois : l'ouvrage tranche. Le maalem déclare la fin. L'orgueil qui voulait « gagner » decouvre qu'il devait seulement bien faire.</p>
+<div class="mt-8"></div>
+<p class="tr-verse">« L'ouvrage est le témoin ; la main, l'accusé. » — adage de métier, dans l'esprit de la futuwwa des corporations.</p>
 </div>
 </div>
 </div>
+
 </div>
 </section>
 
 <section class="mb-20">
 <div class="text-center mb-10">
 <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-2">REGLE</p>
-<h2 class="heading text-3xl">Ce qui tient l'epreuve</h2>
+<h2 class="heading text-3xl">Ce qui tient l'épreuve</h2>
 </div>
 <div class="grid md:grid-cols-2 gap-6">
 <div class="bg-white border border-gray-200 rounded-2xl p-8">
 <h3 class="heading text-xl mb-4">Admises</h3>
-<ul class="text-secondary leading-relaxed space-y-2 list-disc pl-5">
+<ul class="text-secondary leading-relaxed space-y-2 list-disc pl-5 text-left">
 <li>Consentement des deux</li>
 <li>Forme choisie par le tiers</li>
-<li>Témoins de la maison</li>
-<li>Début et fin déclarés</li>
+<li>Temoins de la maison</li>
+<li>Debut et fin déclarés</li>
 <li>Victoire de qui a tenu la règle de l'épreuve</li>
-<li>Silence après : l'affaire ne se rouvre pas</li>
+<li>Silence apres : l'affaire ne se rouvre pas</li>
 </ul>
 </div>
 <div class="bg-white border border-gray-200 rounded-2xl p-8">
 <h3 class="heading text-xl mb-4">Exclues</h3>
-<ul class="text-secondary leading-relaxed space-y-2 list-disc pl-5">
+<ul class="text-secondary leading-relaxed space-y-2 list-disc pl-5 text-left">
 <li>Armes réelles, sang, rixe</li>
 <li>Humiliation publique ou public extérieur</li>
-<li>Matières de foi, de règle, d'hôtes</li>
-<li>Écart de grade trop large</li>
+<li>Matieres de foi, de règle, d'hôtes</li>
+<li>Ecart de grade trop large</li>
 <li>Châtiment déguisé en épreuve</li>
 <li>Revanche sur la même matière</li>
 </ul>
 </div>
 </div>
 <div class="bg-cream border border-[#c8872f]/20 rounded-2xl p-8 mt-8 max-w-3xl mx-auto">
-<p class="text-secondary leading-relaxed mb-4">L'épreuve réglée n'est pas une exception à l'interdiction de la violence. Hors de cette procédure, sous ce tiers et sous ces formes, lever la main reste cause d'éloignement. Le règlement interne (art. 1 et art. 11) fixe ce cadre.</p>
-<p class="text-secondary leading-relaxed">Qui gagne ne raconte pas. Qui perd ne se défait pas en paroles. La maison a vu ; cela suffit. C'est la même tête que forme la <a href="/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">futuwwa</a> : tenir, puis laisser.</p>
+<p class="text-secondary leading-relaxed mb-4 text-left">L'épreuve réglée n'est pas une exception a l'interdiction de la violence. Hors de cette procedure, sous ce tiers et sous ces formés, lever la main reste cause d'éloignement. Le règlement interne (art. 1 et art. 11) fixe ce cadre.</p>
+<p class="text-secondary leading-relaxed text-left">Qui gagne ne raconte pas. Qui perd ne se défait pas en paroles. La maison a vu ; cela suffit. C'est la même tete que forme la <a href="/dar-al-hiraf/futuwwa.html" class="text-[#c8872f] hover:underline">futuwwa</a> : tenir, puis laisser.</p>
 </div>
 </section>
 
 <section class="mb-16">
 <div class="bg-cream rounded-3xl p-8 md:p-10 max-w-3xl mx-auto text-center">
-<p class="text-secondary leading-relaxed mb-4">Le détail figure dans le règlement remis à chaque résident.</p>
+<p class="text-secondary leading-relaxed mb-4">Le détail figure dans le règlement remis a chaque résident.</p>
 <a href="/dar-al-hiraf/gouvernance.html" class="text-[#c8872f] font-medium hover:underline">At-Tadbir — Gouvernance →</a>
 <span class="text-gray-300 mx-2">·</span>
-<a href="/dar-al-hiraf/residence.html" class="text-[#c8872f] font-medium hover:underline">La résidence →</a>
+<a href="/dar-al-hiraf/résidence.html" class="text-[#c8872f] font-medium hover:underline">La résidence →</a>
 </div>
 </section>
 
-<p class="text-center text-sm text-secondary"><a href="/dar-al-hiraf.html" class="hover:text-[#c8872f]">← Dar al-Hiraf</a> · <a href="/glossaire.html" class="text-[#c8872f] hover:underline">Glossaire</a></p>
+<p class="text-center text-sm text-secondary"><a href="/dar-al-hiraf.html" class="hover:text-[#c8872f]">← Dar al-Hiraf</a> · <a href="/glossaire.html#t-at-tahkim" class="text-[#c8872f] hover:underline">Glossaire</a></p>
 </div></main>
 <footer class="border-t border-gray-200"><div class="max-w-6xl mx-auto px-6 py-10 text-sm text-secondary">© 2026 — Riad Al-Uns — Fès</div></footer>
-<script>document.getElementById('menu-btn')?.addEventListener('click',function(){document.getElementById('mobile-menu').classList.toggle('hidden');});</script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+var b=document.getElementById('menu-btn'),m=document.getElementById('mobile-menu');
+if(b&&m){
+b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();m.classList.toggle('hidden');m.classList.toggle('flex');});
+document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)&&!m.classList.contains('hidden')){m.classList.add('hidden');m.classList.remove('flex');}});
+}
+});
+</script>
 </body>
 </html>
