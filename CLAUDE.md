@@ -51,9 +51,12 @@ grep -roE '<h[1-4][^>]*class="[^"]*heading[^"]*"[^>]*>[^<]*' --include=*.html . 
 Non deve restituire nulla. Attenzione a non allargare il set con `à á é è`:
 sono legittimi, e includerli riempie il risultato di falsi positivi.
 
-Due titoli violano la regola da prima che esistesse — la sezione
-«Discipline du corps — Fur**ū**siyya» in `al-uns/glossaire.html` e la stessa in
-`al-uns/en/glossaire.html`. Vanno sistemati, non presi a modello.
+Le violazioni note sono state sistemate il 22 agosto 2026: la sezione
+«Discipline du corps — Fur**ū**siyya» dei due glossari, e le tre voci
+`Al-ʿudda`, `Al-ʿinan` e `Al-ʿaql as-salim fi l-jism as-salim`, che portavano la
+ʿayn nel titolo. In tutti i casi la forma vocalizzata è rimasta nella riga
+`translit` sotto. Il `grep` qui sopra non restituisce più nulla su nessuna delle
+due lingue: se un giorno restituisce qualcosa, è roba nuova.
 
 ---
 
