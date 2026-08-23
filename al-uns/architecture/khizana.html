@@ -10,13 +10,17 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon-riad.png">
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
-<style>body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}.text-secondary{color:#4a4a4a}.bg-cream{background-color:#F8F5F0}</style>
+<style>body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1f}.heading{font-family:'Julius Sans One',Georgia,serif!important;font-weight:400!important;letter-spacing:.5px!important;color:#c8872f}.text-secondary{color:#4a4a4a}.bg-cream{background-color:#F8F5F0}
+.verse-block{margin-top:1.75rem;margin-bottom:1.75rem;padding-top:0.25rem}.verse-ar{font-family:'Amiri',serif;font-size:1.15rem;line-height:1.9;text-align:right;direction:rtl;color:#1f1f1f;margin:0 0 0.5rem 0}.verse-tr{text-align:right;color:#4a4a4a;font-size:0.9rem;font-style:italic;margin:0;line-height:1.5}</style>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Riad Al-Uns">
 <meta property="og:title" content="Al-Khizana | Riad Al-Uns">
 <meta property="og:description" content="Le dépôt des volumes. Al-Khazin porte le livre là où l'on lit.">
 <meta property="og:url" content="https://www.al-uns.com/architecture/khizana.html">
 <meta property="og:image" content="https://www.al-uns.com/assets/khizana-hero.jpg">
+<meta property="og:image:width" content="1376">
+<meta property="og:image:height" content="768">
+<meta property="og:image:alt" content="Lecture dans le salon de la maison">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://www.al-uns.com/assets/khizana-hero.jpg">
 <link rel="alternate" hreflang="fr" href="https://www.al-uns.com/architecture/khizana.html">
@@ -44,6 +48,7 @@
 <a href="/architecture.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Espaces</a>
 <a href="/architecture/organisation.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Organisation des espaces</a>
 <a href="/architecture/khizana.html" class="block px-4 py-1.5 text-sm font-medium text-[#c8872f]">Al-Khizana</a>
+<a href="/architecture/chantier.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Le chantier</a>
 <a href="/architecture/espaces-interieurs.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Seuil & chambres</a>
 <a href="/architecture/patio.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Patio</a>
 <a href="/jardin.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Jardin</a>
@@ -72,6 +77,7 @@
 <a href="/artisanat.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Artisanat du Riad</a>
 <div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les signes</div>
 <a href="/dar-al-hiraf/dress-code.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Al-Kiswa</a>
+<a href="/dar-al-hiraf/hizam.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Hizam al-Itqan</a>
 <a href="/vestiario.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">Le vêtement traditionnel</a>
 <div class="px-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">La maison</div>
 <a href="/dar-al-hiraf/gouvernance.html" class="block px-4 py-1.5 text-sm hover:bg-gray-50 hover:text-[#c8872f]">At-Tadbir — Gouvernance</a>
@@ -124,6 +130,7 @@
 <a href="/architecture.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Espaces</a>
 <a href="/architecture/organisation.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Organisation des espaces</a>
 <a href="/architecture/khizana.html" class="block py-1.5 pl-4 font-medium text-[#c8872f]">Al-Khizana</a>
+<a href="/architecture/chantier.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Le chantier</a>
 <a href="/architecture/espaces-interieurs.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Seuil & chambres</a>
 <a href="/architecture/patio.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Patio</a>
 <a href="/jardin.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Jardin</a>
@@ -157,6 +164,7 @@
 <a href="/artisanat.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Artisanat du Riad</a>
 <div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">Les signes</div>
 <a href="/dar-al-hiraf/dress-code.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Al-Kiswa</a>
+<a href="/dar-al-hiraf/hizam.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Hizam al-Itqan</a>
 <a href="/vestiario.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">Le vêtement traditionnel</a>
 <div class="pl-4 pt-2 pb-1 text-[10px] tracking-[1.5px] uppercase text-[#c8872f]/70">La maison</div>
 <a href="/dar-al-hiraf/gouvernance.html" class="block py-1.5 pl-4 text-secondary hover:text-[#c8872f]">At-Tadbir — Gouvernance</a>
@@ -226,8 +234,8 @@
 </section>
 
 <section class="mb-8 bg-white border border-gray-200 rounded-2xl overflow-hidden">
-<div class="md:flex">
-<div class="md:w-1/3 min-h-[220px] bg-gray-100 md:order-2">
+<div class="md:flex md:flex-row-reverse">
+<div class="md:w-1/3 min-h-[220px] bg-gray-100">
 <img src="/assets/khizana-demande.jpg" alt="On demande un livre — Al-Khazin l'apporte" class="w-full h-full object-cover min-h-[220px]">
 </div>
 <div class="md:w-2/3 p-8 md:p-10">
@@ -256,8 +264,8 @@
 </section>
 
 <section class="mb-8 bg-white border border-gray-200 rounded-2xl overflow-hidden">
-<div class="md:flex">
-<div class="md:w-1/3 min-h-[220px] bg-gray-100 md:order-2">
+<div class="md:flex md:flex-row-reverse">
+<div class="md:w-1/3 min-h-[220px] bg-gray-100">
 <img src="/assets/khizana-volume.jpg" alt="Le volume ouvert — ce qui mérite d'être conservé" class="w-full h-full object-cover min-h-[220px]">
 </div>
 <div class="md:w-2/3 p-8 md:p-10">
@@ -276,9 +284,11 @@
 <p class="text-sm"><a href="/architecture/organisation.html" class="text-[#c8872f] hover:underline">Organisation des espaces →</a><span class="text-gray-300 mx-2">·</span><a href="/glossaire.html#t-khazin" class="text-[#c8872f] hover:underline">Al-Khazin →</a><span class="text-gray-300 mx-2">·</span><a href="/vie.html" class="text-[#c8872f] hover:underline">Vie au Riad →</a></p>
 </section>
 
-<div class="text-center mb-4">
-<p class="text-2xl mb-3" dir="rtl" lang="ar" style="font-family:'Amiri',serif">الرِّياضُ لِأَهْلِهِ، لَا أَهْلُهُ لِلرِّياضِ</p>
-<p class="text-secondary italic">« Le riad est pour les siens, non les siens pour le riad. »</p>
+<div class="max-w-3xl mx-auto mb-4">
+<div class="verse-block">
+<p class="verse-ar" dir="rtl" lang="ar">الرِّياضُ لِأَهْلِهِ، لَا أَهْلُهُ لِلرِّياضِ</p>
+<p class="verse-tr">« Le riad est pour les siens, non les siens pour le riad. »</p>
+</div>
 </div>
 
 </div>

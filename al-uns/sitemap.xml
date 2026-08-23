@@ -174,24 +174,27 @@
   <url>
     <loc>https://al-uns.com/architecture/organisation.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/organisation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/organisation.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/organisation.html"/>
-    <lastmod>2026-08-23T16:00:00Z</lastmod>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://al-uns.com/architecture/khizana.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/khizana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/khizana.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/khizana.html"/>
-    <lastmod>2026-08-23T16:00:00Z</lastmod>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://al-uns.com/architecture/chantier.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/chantier.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/chantier.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/chantier.html"/>
-    <lastmod>2026-08-23T16:00:00Z</lastmod>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -351,8 +354,9 @@
   <url>
     <loc>https://al-uns.com/dar-al-hiraf/hizam.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/dar-al-hiraf/hizam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/dar-al-hiraf/hizam.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/dar-al-hiraf/hizam.html"/>
-    <lastmod>2026-08-23T16:00:00Z</lastmod>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -435,6 +439,42 @@
     <lastmod>2026-08-23T16:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/en/architecture/organisation.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/organisation.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/organisation.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/organisation.html"/>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/en/architecture/khizana.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/khizana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/khizana.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/khizana.html"/>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/en/architecture/chantier.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/chantier.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/chantier.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/chantier.html"/>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/en/dar-al-hiraf/hizam.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/dar-al-hiraf/hizam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/dar-al-hiraf/hizam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/dar-al-hiraf/hizam.html"/>
+    <lastmod>2026-08-23T15:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://al-uns.com/en/index.html</loc>

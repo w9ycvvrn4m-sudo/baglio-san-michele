@@ -153,6 +153,28 @@ def prepare_fr_gold(nav: str) -> str:
         '<a href="/architecture.html" class="' + MOB_INACT + '">Espaces</a>\n',
         '<a href="/architecture/organisation.html" class="' + MOB_INACT + '">Organisation des espaces</a>\n',
     )
+    nav = insert_after(
+        nav,
+        '<a href="/architecture/organisation.html" class="' + ITEM_INACT + '">Organisation des espaces</a>\n',
+        '<a href="/architecture/khizana.html" class="' + ITEM_INACT + '">Al-Khizana</a>\n'
+        '<a href="/architecture/chantier.html" class="' + ITEM_INACT + '">Le chantier</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/architecture/organisation.html" class="' + MOB_INACT + '">Organisation des espaces</a>\n',
+        '<a href="/architecture/khizana.html" class="' + MOB_INACT + '">Al-Khizana</a>\n'
+        '<a href="/architecture/chantier.html" class="' + MOB_INACT + '">Le chantier</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/dar-al-hiraf/dress-code.html" class="' + ITEM_INACT + '">Al-Kiswa</a>\n',
+        '<a href="/dar-al-hiraf/hizam.html" class="' + ITEM_INACT + '">Hizam al-Itqan</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/dar-al-hiraf/dress-code.html" class="' + MOB_INACT + '">Al-Kiswa</a>\n',
+        '<a href="/dar-al-hiraf/hizam.html" class="' + MOB_INACT + '">Hizam al-Itqan</a>\n',
+    )
     return nav
 
 
@@ -178,6 +200,28 @@ def prepare_en_gold(nav: str) -> str:
         nav,
         '<a href="/en/architecture.html" class="' + MOB_INACT + '">Spaces</a>\n',
         '<a href="/en/architecture/organisation.html" class="' + MOB_INACT + '">Organisation of the spaces</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/en/architecture/organisation.html" class="' + ITEM_INACT + '">Organisation of the spaces</a>\n',
+        '<a href="/en/architecture/khizana.html" class="' + ITEM_INACT + '">Al-Khizana</a>\n'
+        '<a href="/en/architecture/chantier.html" class="' + ITEM_INACT + '">The building site</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/en/architecture/organisation.html" class="' + MOB_INACT + '">Organisation of the spaces</a>\n',
+        '<a href="/en/architecture/khizana.html" class="' + MOB_INACT + '">Al-Khizana</a>\n'
+        '<a href="/en/architecture/chantier.html" class="' + MOB_INACT + '">The building site</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/en/dar-al-hiraf/dress-code.html" class="' + ITEM_INACT + '">Al-Kiswa</a>\n',
+        '<a href="/en/dar-al-hiraf/hizam.html" class="' + ITEM_INACT + '">Hizam al-Itqan</a>\n',
+    )
+    nav = insert_after(
+        nav,
+        '<a href="/en/dar-al-hiraf/dress-code.html" class="' + MOB_INACT + '">Al-Kiswa</a>\n',
+        '<a href="/en/dar-al-hiraf/hizam.html" class="' + MOB_INACT + '">Hizam al-Itqan</a>\n',
     )
     if "How one enters" not in nav:
         nav = insert_after(
@@ -467,10 +511,10 @@ def main() -> None:
     print("ROOT", ROOT)
     fr_gold = prepare_fr_gold(extract_nav((ROOT / "comment-on-entre.html").read_text(encoding="utf-8")))
     en_gold = prepare_en_gold(extract_nav((ROOT / "en/index.html").read_text(encoding="utf-8")))
-    for label in ("Comment on entre", "Après la résidence", "Organisation des espaces"):
+    for label in ("Comment on entre", "Après la résidence", "Organisation des espaces", "Al-Khizana", "Le chantier", "Hizam al-Itqan"):
         if label not in fr_gold:
             raise SystemExit("FR gold missing " + label)
-    for label in ("How one enters", "After the residency", "Organisation of the spaces", "Adjoining house"):
+    for label in ("How one enters", "After the residency", "Organisation of the spaces", "Adjoining house", "Al-Khizana", "The building site", "Hizam al-Itqan"):
         if label not in en_gold:
             raise SystemExit("EN gold missing " + label)
 
