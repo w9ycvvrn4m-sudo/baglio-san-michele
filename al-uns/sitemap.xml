@@ -40,6 +40,7 @@
   <url>
     <loc>https://al-uns.com/comment-on-entre.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/comment-on-entre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/comment-on-entre.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/comment-on-entre.html"/>
     <lastmod>2026-08-23T16:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -399,6 +400,7 @@
   <url>
     <loc>https://al-uns.com/dar-al-hiraf/apres.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/dar-al-hiraf/apres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/dar-al-hiraf/apres.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/dar-al-hiraf/apres.html"/>
     <lastmod>2026-08-23T16:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -824,6 +826,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/dar-al-hiraf/athar.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/dar-al-hiraf/athar.html"/>
     <lastmod>2026-08-18T09:18:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/en/comment-on-entre.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/comment-on-entre.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/comment-on-entre.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/comment-on-entre.html"/>
+    <lastmod>2026-08-23T18:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/en/dar-al-hiraf/apres.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/dar-al-hiraf/apres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/dar-al-hiraf/apres.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/dar-al-hiraf/apres.html"/>
+    <lastmod>2026-08-23T18:00:00Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
