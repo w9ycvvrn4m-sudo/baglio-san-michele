@@ -66,16 +66,21 @@ due lingue: se un giorno restituisce qualcosa, è roba nuova.
 
 ## Struttura
 
-Un solo repository ospita **due siti distinti**:
+Sul desktop il clone locale è **`baglio-git`**. Un solo repository ospita
+**tre siti distinti**:
 
-| Percorso | Sito | Lingua |
-|---|---|---|
-| radice (`index.html`, `il-progetto.html`…) | Baglio San Michele | italiano |
-| `en/` | Baglio San Michele | inglese |
-| `al-uns/` | Riad — Dar al-Hiraf | francese |
-| `al-uns/en/` | Riad — Dar al-Hiraf | inglese |
+| Percorso | Sito | Dominio | Lingua |
+|---|---|---|---|
+| radice (`index.html`, `il-progetto.html`…) | Baglio San Michele | borgoideale.com | italiano |
+| `en/` | Baglio San Michele | borgoideale.com/en | inglese |
+| `al-uns/` | Riad — Dar al-Hiraf | al-uns.com | francese |
+| `al-uns/en/` | Riad — Dar al-Hiraf | al-uns.com/en | inglese |
+| `al-uns/al-munya/` | Al-Munya | al-munya.com | francese |
+| `al-uns/al-munya/en/` | Al-Munya | al-munya.com/en | inglese |
 
-Tutte le immagini stanno in **`assets/`**, senza sottocartelle.
+Le immagini del **Baglio** stanno in **`/assets`** (radice di `baglio-git`),
+senza sottocartelle. È la directory condivisa da cui le pagine del Baglio
+prendono foto, loghi e card Open Graph (`og-index.jpg`, `og-*.jpg`, ecc.).
 
 ---
 
@@ -99,7 +104,7 @@ maiuscole: su macOS non contano, sul server di Vercel sì.
 
 ## Pubblicare
 
-1. Modificare i file in `Desktop/borgoideale.com`
+1. Modificare i file in `Desktop/baglio-git` (immagini del Baglio: `Desktop/baglio-git/assets`)
 2. Aprire **GitHub Desktop** → controllare la lista in `Changes`
 3. Scrivere il `Summary` (obbligatorio) → `Commit to main`
 4. `Push origin`

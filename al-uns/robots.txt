@@ -11,5 +11,4 @@ Disallow: /private/
 Disallow: /admin/
 
 # Sitemap
-Sitemap: https://www.borgoideale.com/sitemap.xml
-Sitemap: https://www.borgoideale.com/al-uns/sitemap.xml
+Sitemap: https://www.al-uns.com/sitemap.xml
