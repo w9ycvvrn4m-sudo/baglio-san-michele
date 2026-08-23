@@ -767,6 +767,15 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://al-uns.com/architecture/khizana.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/khizana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/khizana.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/khizana.html"/>
+    <lastmod>2026-08-23T10:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://al-uns.com/en/comment-on-entre.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/comment-on-entre.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/comment-on-entre.html"/>
