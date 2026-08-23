@@ -776,6 +776,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://al-uns.com/dar-al-hiraf/hizam.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/dar-al-hiraf/hizam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/dar-al-hiraf/hizam.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/dar-al-hiraf/hizam.html"/>
+    <lastmod>2026-08-23T10:30:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://al-uns.com/architecture/chantier.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/architecture/chantier.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/architecture/chantier.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://al-uns.com/architecture/chantier.html"/>
+    <lastmod>2026-08-23T10:30:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://al-uns.com/en/comment-on-entre.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://al-uns.com/comment-on-entre.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://al-uns.com/en/comment-on-entre.html"/>
