@@ -10,6 +10,7 @@
       "destination": "/en/dar-al-hiraf/apres.html",
       "permanent": true
     },
+    {
       "source": "/al-munya",
       "has": [{ "type": "host", "value": "al-munya.com" }],
       "destination": "/",
