@@ -205,7 +205,7 @@
 <div class="text-center mb-12">
 <div class="inline-block px-4 py-1 rounded-full bg-[#c8872f]/10 text-[#c8872f] text-xs tracking-[2px] font-medium mb-6">CONTACT</div>
 <h1 class="heading text-5xl mb-6">Contact</h1>
-<p class="text-secondary text-lg leading-relaxed">Pour un séjour, un stage, une candidature à la résidence, un mécénat ou une collaboration : écrivez-nous.</p>
+<p class="text-secondary text-lg leading-relaxed">Pour un séjour, un stage de formation, une candidature à la résidence, un mécénat ou une collaboration : écrivez-nous. Chaque demande est lue avec attention.</p>
 </div>
 
 <div class="rounded-3xl overflow-hidden mb-12 bg-gray-100 aspect-[16/9]">
@@ -215,35 +215,54 @@
 <form action="https://formsubmit.co/info@al-uns.com" method="POST" class="space-y-6">
 <input type="hidden" name="_subject" value="Riad Al-Uns — nouveau message">
 <input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
 <input type="text" name="_honey" style="display:none">
+
 <div>
 <label for="name" class="block text-sm tracking-wider text-secondary mb-2">Nom</label>
-<input type="text" id="name" name="name" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f]" placeholder="Votre nom">
+<input type="text" id="name" name="name" required
+  class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f] transition"
+  placeholder="Votre nom">
 </div>
+
 <div>
 <label for="email" class="block text-sm tracking-wider text-secondary mb-2">Adresse e-mail</label>
-<input type="email" id="email" name="email" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f]" placeholder="vous@exemple.com">
+<input type="email" id="email" name="email" required
+  class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f] transition"
+  placeholder="vous@exemple.com">
 </div>
+
 <div>
-<label for="motif" class="block text-sm tracking-wider text-secondary mb-2">Motif</label>
-<select id="motif" name="motif" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f] bg-white">
-<option value="" disabled selected>Choisir un motif</option>
-<option value="Informations générales">Informations générales</option>
-<option value="Séjour">Séjour</option>
-<option value="Stage de formation">Stage de formation</option>
-<option value="Admission à la résidence">Admission à la résidence</option>
-<option value="Mécénat & soutien">Mécénat & soutien</option>
-<option value="Collaboration">Collaboration</option>
-<option value="Autre">Autre</option>
+<label for="motif" class="block text-sm tracking-wider text-secondary mb-2">Motif de votre message</label>
+<select id="motif" name="motif" required
+  class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f] transition bg-white">
+  <option value="" disabled selected>Choisir un motif</option>
+  <option value="Informations générales">Informations générales</option>
+  <option value="Séjour">Séjour (hospitalité sélective)</option>
+  <option value="Stage de formation">Stage de formation</option>
+  <option value="Admission à la résidence">Admission à la résidence</option>
+  <option value="Mécénat & soutien">Mécénat &amp; soutien</option>
+  <option value="Collaboration">Collaboration / partenariat</option>
+  <option value="Autre">Autre</option>
 </select>
 </div>
+
 <div>
 <label for="message" class="block text-sm tracking-wider text-secondary mb-2">Message</label>
-<textarea id="message" name="message" rows="6" required class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f]" placeholder="Votre message…"></textarea>
+<textarea id="message" name="message" rows="6" required
+  class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-[#c8872f] transition resize-y"
+  placeholder="Votre message…"></textarea>
 </div>
-<button type="submit" class="w-full md:w-auto border border-[#c8872f] text-[#c8872f] px-10 py-3.5 rounded-full text-sm tracking-wider hover:bg-[#c8872f] hover:text-white transition">Envoyer</button>
+
+<div class="pt-2">
+<button type="submit"
+  class="w-full md:w-auto border border-[#c8872f] text-[#c8872f] px-10 py-3.5 rounded-full text-sm tracking-wider hover:bg-[#c8872f] hover:text-white transition">
+  Envoyer
+</button>
+</div>
 </form>
-<p class="text-secondary text-sm text-center mt-10">Nous répondons dans les meilleurs délais.</p>
+
+<p class="text-secondary text-sm text-center mt-10 leading-relaxed">Nous répondons dans les meilleurs délais. Merci de l'intérêt que vous portez à Riad Al-Uns.</p>
 <p class="text-secondary text-sm text-center mt-4">Ou écrivez directement à <a href="mailto:info@al-uns.com" class="text-[#c8872f] hover:underline">info@al-uns.com</a></p>
 </div>
 </main>
