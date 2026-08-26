@@ -1,6 +1,26 @@
 {
   "redirects": [
     {
+      "source": "/dar-al-hiraf/productions.html",
+      "destination": "/artisanat.html",
+      "permanent": true
+    },
+    {
+      "source": "/dar-al-hiraf/productions",
+      "destination": "/artisanat.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/dar-al-hiraf/productions.html",
+      "destination": "/en/artisanat.html",
+      "permanent": true
+    },
+    {
+      "source": "/en/dar-al-hiraf/productions",
+      "destination": "/en/artisanat.html",
+      "permanent": true
+    },
+    {
       "source": "/apres.html",
       "destination": "/dar-al-hiraf/apres.html",
       "permanent": true
@@ -22,73 +42,133 @@
     },
     {
       "source": "/al-munya",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/al-munya/",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/al-munya",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/al-munya/",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/al-munya/index.html",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/al-munya/index.html",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/al-munya/contact.html",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/contact",
       "permanent": true
     },
     {
       "source": "/al-munya/contact.html",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/contact",
       "permanent": true
     },
     {
       "source": "/al-munya/demeure.html",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/demeure",
       "permanent": true
     },
     {
       "source": "/al-munya/demeure.html",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/demeure",
       "permanent": true
     },
     {
       "source": "/al-munya/an-nudama.html",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/an-nudama",
       "permanent": true
     },
     {
       "source": "/al-munya/an-nudama.html",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/an-nudama",
       "permanent": true
     }
@@ -96,62 +176,122 @@
   "rewrites": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/al-munya/index.html"
     },
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/al-munya/index.html"
     },
     {
       "source": "/contact",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/al-munya/contact.html"
     },
     {
       "source": "/contact",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/al-munya/contact.html"
     },
     {
       "source": "/contact.html",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/al-munya/contact.html"
     },
     {
       "source": "/contact.html",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/al-munya/contact.html"
     },
     {
       "source": "/demeure",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/al-munya/demeure.html"
     },
     {
       "source": "/demeure",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/al-munya/demeure.html"
     },
     {
       "source": "/demeure.html",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/al-munya/demeure.html"
     },
     {
       "source": "/demeure.html",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/al-munya/demeure.html"
     },
     {
       "source": "/an-nudama",
-      "has": [{ "type": "host", "value": "al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
       "destination": "/al-munya/an-nudama.html"
     },
     {
       "source": "/an-nudama",
-      "has": [{ "type": "host", "value": "www.al-munya.com" }],
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
       "destination": "/al-munya/an-nudama.html"
     }
   ]
