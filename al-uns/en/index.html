@@ -8,6 +8,9 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon-riad.png">
 <meta name="description" content="Riad Al-Uns — intentional community, formation of young men, Maghrebi crafts, selective hospitality.">
 <link rel="canonical" href="https://www.al-uns.com/en/index.html">
+<link rel="alternate" hreflang="fr" href="https://www.al-uns.com/index.html">
+<link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/index.html">
+<link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/index.html">
 <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
@@ -32,9 +35,37 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 <meta name="twitter:description" content="Riad Al-Uns — intentional community, formation of young men, Maghrebi crafts, selective hospitality.">
 <meta name="twitter:image" content="https://www.al-uns.com/assets/welcome-c.jpg">
 <meta name="twitter:image:alt" content="Threshold of Riad Al-Uns">
-<link rel="alternate" hreflang="fr" href="https://www.al-uns.com/index.html">
-<link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/index.html">
-<link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/index.html">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://www.al-uns.com/#organization",
+   "name": "Riad Al-Uns",
+   "alternateName": "رياض الأنس",
+   "url": "https://www.al-uns.com/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.al-uns.com/assets/logo-RIAD-sito.png"
+   },
+   "email": "info@al-uns.com",
+   "description": "Demeure traditionnelle et communauté de vie à Fès, avec Dar al-Hiraf, maison des métiers. Un projet en formation : ni hôtel, ni école du soir."
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.al-uns.com/en/#website",
+   "url": "https://www.al-uns.com/en/",
+   "name": "Riad Al-Uns",
+   "inLanguage": "en",
+   "description": "Riad Al-Uns — a traditional dwelling and an intentional community in Fez.",
+   "publisher": {
+    "@id": "https://www.al-uns.com/#organization"
+   }
+  }
+ ]
+}
+</script>
 </head>
 <body>
 <nav class="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100" role="navigation" aria-label="Main menu">
@@ -218,7 +249,7 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/30"></div>
 </div>
 <div class="relative max-w-4xl mx-auto px-6 text-center text-white">
-<img src="/assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-24 md:h-32 mx-auto mb-6 drop-shadow-lg">
+<img loading="lazy" src="/assets/logo-RIAD-sito.png" alt="Riad Al-Uns" class="h-24 md:h-32 mx-auto mb-6 drop-shadow-lg">
 <p class="tracking-[3px] text-sm mb-4 text-white/85">رياض الأنس</p>
 <h1 class="heading text-5xl md:text-7xl mb-5 text-white drop-shadow-lg" style="color:white">Riad Al-Uns</h1>
 <p class="text-lg md:text-xl mb-10 text-white/90 leading-relaxed max-w-2xl mx-auto">Traditional dwelling & intentional community<br>at the rhythm of beauty and tradition</p>
@@ -235,7 +266,7 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 <!-- THE NAME OF THE RIAD -->
 <div class="bg-cream rounded-3xl overflow-hidden mb-16">
 <div class="aspect-[16/9] bg-gray-100">
-<img src="/assets/gruppo-artigiani-1.jpg" alt="Companions in the patio of Riad Al-Uns" class="w-full h-full object-cover">
+<img loading="lazy" src="/assets/gruppo-artigiani-1.jpg" alt="Companions in the patio of Riad Al-Uns" class="w-full h-full object-cover">
 </div>
 <div class="p-8 md:p-12">
 <p class="text-xs tracking-[2px] text-[#c8872f] font-medium mb-3">THE NAME</p>
@@ -286,28 +317,28 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 
 <div class="grid md:grid-cols-2 gap-6 mb-16">
 <a href="/en/architecture.html" class="bg-white border border-gray-200 rounded-3xl overflow-hidden hover:border-[#c8872f] transition group">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7093.jpeg" alt="Beauty and order" class="img-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_7093.jpeg" alt="Beauty and order" class="img-cover"></div>
 <div class="p-7">
 <div class="font-semibold text-xl mb-2 group-hover:text-[#c8872f]">Beauty & order</div>
 <p class="text-secondary text-sm leading-relaxed">Architecture, garden and daily life as an expression of balance and dignity.</p>
 </div>
 </a>
 <a href="/en/vie.html" class="bg-white border border-gray-200 rounded-3xl overflow-hidden hover:border-[#c8872f] transition group">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_6983.jpeg" alt="Traditional rhythm" class="img-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_6983.jpeg" alt="Traditional rhythm" class="img-cover"></div>
 <div class="p-7">
 <div class="font-semibold text-xl mb-2 group-hover:text-[#c8872f]">Traditional rhythm</div>
 <p class="text-secondary text-sm leading-relaxed">Five prayers, manual craft, shared meals, silence. An ordered and embodied day.</p>
 </div>
 </a>
 <a href="/en/projet/hospitalite.html" class="bg-white border border-gray-200 rounded-3xl overflow-hidden hover:border-[#c8872f] transition group">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7119.jpeg" alt="Selective hospitality" class="img-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_7119.jpeg" alt="Selective hospitality" class="img-cover"></div>
 <div class="p-7">
 <div class="font-semibold text-xl mb-2 group-hover:text-[#c8872f]">Selective hospitality</div>
 <p class="text-secondary text-sm leading-relaxed">Very few guests, and nothing that does not serve a purpose.</p>
 </div>
 </a>
 <a href="/en/architecture.html" class="bg-white border border-gray-200 rounded-3xl overflow-hidden hover:border-[#c8872f] transition group">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7116.jpeg" alt="Architecture" class="img-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_7116.jpeg" alt="Architecture" class="img-cover"></div>
 <div class="p-7">
 <div class="font-semibold text-xl mb-2 group-hover:text-[#c8872f]">Architecture</div>
 <p class="text-secondary text-sm leading-relaxed">The garden, water, natural coolness — space as an expression of balance.</p>
@@ -324,7 +355,7 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 </div>
 <div class="bg-cream rounded-3xl overflow-hidden mb-8">
 <div class="aspect-[16/9] bg-gray-100">
-<img src="/assets/IMG_7197.jpeg" alt="Weaving — Dar al-Hiraf" class="w-full h-full object-cover">
+<img loading="lazy" src="/assets/IMG_7197.jpeg" alt="Weaving — Dar al-Hiraf" class="w-full h-full object-cover">
 </div>
 <div class="p-8 md:p-10">
 <p class="text-secondary text-lg leading-relaxed mb-4">House of crafts and residency for adult unmarried men. Leather, iron, wood — the one workshop the house begins with — and the formation of the gesture, of character and of faith, which also prepares, tomorrow, to found a worthy home and a family.</p>
@@ -342,7 +373,7 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 </div>
 <div class="grid md:grid-cols-3 gap-6">
 <a href="/en/sejour.html" class="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-[#c8872f]/40 transition block">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7138.jpeg" alt="Staying" class="w-full h-full object-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_7138.jpeg" alt="Staying" class="w-full h-full object-cover"></div>
 <div class="p-6">
 <h3 class="heading text-xl mb-2">Staying</h3>
 <p class="text-secondary text-sm leading-relaxed mb-3">A limited time, in the rhythm of the house — without commitment.</p>
@@ -350,7 +381,7 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 </div>
 </a>
 <a href="/en/dar-al-hiraf/stages.html" class="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-[#c8872f]/40 transition block">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7267.jpeg" alt="Formation workshops" class="w-full h-full object-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_7267.jpeg" alt="Formation workshops" class="w-full h-full object-cover"></div>
 <div class="p-6">
 <h3 class="heading text-xl mb-2">Formation workshops</h3>
 <p class="text-secondary text-sm leading-relaxed mb-3">A few weeks to touch a craft — before committing further.</p>
@@ -358,7 +389,7 @@ body{font-family:"Avenir Next",system-ui,sans-serif;background:#fff;color:#1f1f1
 </div>
 </a>
 <a href="/en/dar-al-hiraf/residence.html" class="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:border-[#c8872f]/40 transition block">
-<div class="aspect-[4/3] bg-gray-100"><img src="/assets/IMG_7184.jpeg" alt="The residency" class="w-full h-full object-cover"></div>
+<div class="aspect-[4/3] bg-gray-100"><img loading="lazy" src="/assets/IMG_7184.jpeg" alt="The residency" class="w-full h-full object-cover"></div>
 <div class="p-6">
 <h3 class="heading text-xl mb-2">The residency</h3>
 <p class="text-secondary text-sm leading-relaxed mb-3">The long commitment: the craft, the body, the faith, common life.</p>
