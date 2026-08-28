@@ -282,6 +282,7 @@
     <loc>https://www.al-uns.com/furusiyya.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/furusiyya.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/furusiyya.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/furusiyya.html"/>
     <lastmod>2026-08-27T07:43:46Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -300,6 +301,7 @@
     <loc>https://www.al-uns.com/dar-al-hiraf/disciplines.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/disciplines.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/disciplines.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/disciplines.html"/>
     <lastmod>2026-08-27T07:44:27Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -309,6 +311,7 @@
     <loc>https://www.al-uns.com/dar-al-hiraf/musique.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/musique.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/musique.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/musique.html"/>
     <lastmod>2026-08-27T07:44:27Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -327,6 +330,7 @@
     <loc>https://www.al-uns.com/parfums.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/parfums.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/parfums.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/parfums.html"/>
     <lastmod>2026-08-27T07:43:46Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -749,6 +753,7 @@
     <loc>https://www.al-uns.com/en/furusiyya.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/furusiyya.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/furusiyya.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/furusiyya.html"/>
     <lastmod>2026-08-27T07:43:46Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -767,6 +772,7 @@
     <loc>https://www.al-uns.com/en/dar-al-hiraf/disciplines.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/disciplines.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/disciplines.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/disciplines.html"/>
     <lastmod>2026-08-27T07:44:27Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -776,6 +782,7 @@
     <loc>https://www.al-uns.com/en/dar-al-hiraf/musique.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/musique.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/musique.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/musique.html"/>
     <lastmod>2026-08-27T07:44:27Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -794,6 +801,7 @@
     <loc>https://www.al-uns.com/en/parfums.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/parfums.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/parfums.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/parfums.html"/>
     <lastmod>2026-08-27T07:43:46Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -1201,6 +1209,46 @@
     <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/athar.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/athar.html"/>
     <lastmod>2026-08-28T07:33:31Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/furusiyya.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/furusiyya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/furusiyya.html"/>
+    <lastmod>2026-08-28T07:45:57Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/dar-al-hiraf/disciplines.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/disciplines.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/disciplines.html"/>
+    <lastmod>2026-08-28T07:45:58Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/dar-al-hiraf/musique.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/musique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/musique.html"/>
+    <lastmod>2026-08-28T07:45:58Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/parfums.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/parfums.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/parfums.html"/>
+    <lastmod>2026-08-28T07:45:58Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
