@@ -364,6 +364,7 @@
     <loc>https://www.al-uns.com/dar-al-hiraf/gouvernance.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/gouvernance.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/gouvernance.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/gouvernance.html"/>
     <lastmod>2026-08-27T07:44:27Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -826,6 +827,7 @@
     <loc>https://www.al-uns.com/en/dar-al-hiraf/gouvernance.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/gouvernance.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/gouvernance.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/gouvernance.html"/>
     <lastmod>2026-08-27T07:44:27Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -1155,5 +1157,15 @@
     <lastmod>2026-08-28T05:05:59Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/dar-al-hiraf/gouvernance.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/gouvernance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/gouvernance.html"/>
+    <lastmod>2026-08-28T07:09:14Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
