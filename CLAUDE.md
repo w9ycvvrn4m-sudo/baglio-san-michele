@@ -7,6 +7,27 @@ le convenzioni.
 
 ## Regole da non violare
 
+**La prosa del sito è francese colto, non pubblicità.** Le pagine devono meritare di
+essere lette per intero e citate da un architetto o da un conservatore. Il che
+significa, in concreto:
+
+- **Periodi ampi e subordinati.** Una media di venti parole a frase è troppo poco:
+  la prosa francese saggistica sta fra le venticinque e le trentacinque. La chiarezza
+  si ottiene con la sintassi, non spezzando.
+- **Non più di tre o quattro trattini lunghi per pagina.** Quattordici sono un tic.
+- **Bandita la formula «X n'est pas Y : c'est Z».** È il costrutto che più di ogni
+  altro fa suonare artificiale un testo, e nelle pagine se ne era accumulato uno o due
+  per pagina.
+- **Niente frase a effetto in chiusura di paragrafo**, niente aforisma finale, niente
+  domande retoriche, niente paragrafi di una riga sola messi lì per far colpo.
+- **Niente calchi dal francese quando si parla in italiano**: *métier de la main* sul
+  sito va benissimo, «mestiere di mano» in italiano no — si dice **mestiere manuale**.
+  Stessa regola per «lavori d'acqua», «lavori di legno» e simili invenzioni.
+- **Lessico tecnico esatto** — architettonico, artigianale, giuridico — al posto di
+  perifrasi suggestive. È la precisione a rendere un testo citabile.
+
+Vale per il francese e per l'inglese del sito, e per i documenti del dossier.
+
 **Mai usare immagini `baglio-*` nelle pagine di `al-uns/`.**
 Appartengono all'altro sito. Se una pagina francese ha bisogno di un'immagine,
 usare `riad-*` o le altre presenti in `assets/`.
