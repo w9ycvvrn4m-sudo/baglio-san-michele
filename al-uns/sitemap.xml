@@ -1485,4 +1485,101 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/projet/munya.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/projet/munya.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/projet/munya.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/dar-al-hiraf/warsha.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/warsha.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/warsha.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/warsha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/warsha.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/dar-al-hiraf/sanduq.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/dar-al-hiraf/sanduq.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/dar-al-hiraf/sanduq.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/dar-al-hiraf/sanduq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/dar-al-hiraf/sanduq.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/experiences.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/experiences.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/experiences.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/rencontres.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/rencontres.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/rencontres.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/merci.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/merci.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/merci.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/merci.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/continuite.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/continuite.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/continuite.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/continuite.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/discipline-choreutique.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/discipline-choreutique.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/discipline-choreutique.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/maitres-et-personnel.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/maitres-et-personnel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/maitres-et-personnel.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/partenaire.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/partenaire.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/partenaire.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/partenaire.html"/>
+    <lastmod>2026-08-29T00:00:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
