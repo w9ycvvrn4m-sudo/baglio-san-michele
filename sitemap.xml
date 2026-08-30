@@ -22,6 +22,26 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/"/>
     </url>
 
+
+    <!-- ========== IL LUOGO ========== -->
+    <url>
+        <loc>https://www.borgoideale.com/il-luogo.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/il-luogo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/il-luogo.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/il-luogo.html"/>
+    </url>
+    <url>
+        <loc>https://www.borgoideale.com/en/il-luogo.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.95</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.borgoideale.com/il-luogo.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.borgoideale.com/en/il-luogo.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.borgoideale.com/il-luogo.html"/>
+    </url>
     <!-- ========== BORGO IDEALE ========== -->
     <url>
         <loc>https://www.borgoideale.com/il-concept.html</loc>
