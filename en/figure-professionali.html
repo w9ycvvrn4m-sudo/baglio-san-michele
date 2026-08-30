@@ -376,6 +376,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     <label class="block text-sm font-medium mb-2">Message / Motivation</label>
                     <textarea name="messaggio_motivazione" class="w-full border border-gray-300 rounded-2xl px-4 py-3 h-32" placeholder="Why would you like to be part of Baglio San Michele?" required></textarea>
                 </div>
+                <label class="flex items-start gap-3 text-sm text-secondary">
+                    <input type="checkbox" name="privacy" value="accepted" class="mt-1 w-4 h-4" required>
+                    <span>I have read the <a href="privacy.html" class="text-[#c8872f] hover:text-[#a86f24]">privacy notice</a> and I consent to the processing of my data in order to handle this application.</span>
+                </label>
                 <button type="submit" class="w-full gold-button py-4 rounded-2xl font-medium text-lg tracking-wider">Submit application</button>
             </form>
         </div>
