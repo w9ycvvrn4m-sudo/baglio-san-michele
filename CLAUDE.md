@@ -244,6 +244,42 @@ Tutti in italiano. La traduzione francese si fa quando il contenuto è fermo.
 
 ---
 
+## Il CSS di al-uns si rigenera a mano
+
+Dal 30 agosto 2026 il sito del riad **non usa più il CDN di Tailwind**: carica
+`/assets/tailwind.css`, un file statico che contiene soltanto le utility
+effettivamente usate dalle pagine.
+
+**Conseguenza da non dimenticare:** se aggiungi in una pagina una classe Tailwind
+che prima non c'era — `mt-9`, `md:grid-cols-6`, `text-[#333]`, qualunque cosa —
+quella classe **non ha alcuno stile** finché non rigeneri il file. L'errore si
+manifesta come un elemento fuori posto, non come un errore visibile.
+
+Dalla cartella `baglio-git`:
+
+```
+python3 al-uns/scripts/build-tailwind.py al-uns al-uns/assets/tailwind.css
+```
+
+Lo script legge tutte le pagine di `al-uns/`, raccoglie le classi e riscrive il
+CSS. Alla fine stampa **`NON RICONOSCIUTE: n`**: se quel numero non è zero,
+significa che hai usato una classe che lo script non sa tradurre, e va aggiunta
+alla sua tabella. **Non pubblicare con quel numero diverso da zero.**
+
+Due regole che il file rispetta e che vanno mantenute:
+
+- il `<link>` sta **in fondo al `<head>`**, dopo lo `<style>` interno della
+  pagina, perché è così che si comportava il CDN: le utility di Tailwind vincono
+  sulle classi personalizzate. Spostarlo prima cambierebbe il colore di un
+  centinaio di titoli;
+- il CSS contiene il **preflight** di Tailwind, cioè l'azzeramento di margini,
+  liste e dimensioni dei titoli. Senza quello le pagine si sfasciano.
+
+Il sito del Baglio (radice e `en/`) usa **ancora il CDN** su 55 pagine: se un
+giorno lo si converte, lo stesso script funziona puntandolo su quelle cartelle.
+
+---
+
 ## In sospeso
 
 - **Migrazione su `al-uns.com`** (dominio da registrare entro fine agosto 2026).
@@ -278,9 +314,6 @@ Tutti in italiano. La traduzione francese si fa quando il contenuto è fermo.
   serve un link Stripe **distinto da quello del Baglio**, altrimenti i due
   progetti finiscono nello stesso rendiconto. Da decidere anche se e come
   compare il nome di Pietro (sezione «chi porta il progetto», non scritta).
-- **Tailwind da CDN** su 124 pagine su 126. Scelta consapevole finché il sito
-  cambia spesso: il CSS si compila nel browser a ogni visita, quindi il sito
-  dipende da `cdn.tailwindcss.com` e senza quello resta senza grafica. Da
-  convertire in un CSS statico in `assets/` **prima di mandare il sito ai
-  mecenati**. Dopo la conversione ogni giro di modifiche richiede di
-  rigenerare il file — non si fa da GitHub Desktop.
+- ~~Tailwind da CDN~~ — **fatto il 30 agosto 2026.** Il sito non dipende più da
+  `cdn.tailwindcss.com`: tutte le 174 pagine di `al-uns/` caricano
+  `/assets/tailwind.css`, un file statico di 18 KB. Vedi la sezione qui sotto.
