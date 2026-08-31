@@ -201,6 +201,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.al-uns.com/architecture/demeure.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/architecture/demeure.html"/>
+    <lastmod>2026-08-31T15:06:51Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.al-uns.com/architecture/organisation.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/architecture/organisation.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/architecture/organisation.html"/>
@@ -510,6 +520,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/glossaire.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/glossaire.html"/>
     <lastmod>2026-08-27T07:41:55Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/en/architecture/demeure.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/architecture/demeure.html"/>
+    <lastmod>2026-08-31T15:06:51Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1336,6 +1356,16 @@
     <lastmod>2026-08-28T11:37:05Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.al-uns.com/ar/architecture/demeure.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.al-uns.com/ar/architecture/demeure.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/architecture/demeure.html"/>
+    <lastmod>2026-08-31T15:06:51Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.al-uns.com/ar/architecture/organisation.html</loc>
