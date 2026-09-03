@@ -25,6 +25,17 @@ significa, in concreto:
   Stessa regola per «lavori d'acqua», «lavori di legno» e simili invenzioni.
 - **Lessico tecnico esatto** — architettonico, artigianale, giuridico — al posto di
   perifrasi suggestive. È la precisione a rendere un testo citabile.
+- **Niente registro simbolico.** Le cose si nominano per quello che sono. Non si usano
+  *soglia*, *muro*, *porta*, *anello*, *catena*, *acqua*, *legno*, *cuoio*, *gesto*
+  come figure che portino un significato allusivo — né in francese, né in inglese, né
+  in arabo, né nei documenti di lavoro. Quelle parole si scrivono soltanto quando
+  designano la cosa reale: il legno è il mestiere del legno, la porta fra le due case
+  è una porta con una specifica costruttiva, la regola di soglia è l'articolo del
+  regolamento che disciplina il passaggio. Vale a maggior ragione nei testi per
+  mecenati, prestatori e istituzioni, dove un'immagine al posto di un dato fa
+  sospettare che il dato non ci sia. Se una frase perde forza quando le si toglie
+  l'immagine, la frase era debole: si sostituisce con il fatto che l'immagine
+  decorava.
 
 Vale per il francese e per l'inglese del sito, e per i documenti del dossier.
 
