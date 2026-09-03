@@ -293,6 +293,46 @@
         }
       ],
       "destination": "/al-munya/an-nudama.html"
+    },
+    {
+      "source": "/reserve",
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
+      "destination": "/al-munya/reserve/index.html"
+    },
+    {
+      "source": "/reserve",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
+      "destination": "/al-munya/reserve/index.html"
+    },
+    {
+      "source": "/reserve/",
+      "has": [
+        {
+          "type": "host",
+          "value": "al-munya.com"
+        }
+      ],
+      "destination": "/al-munya/reserve/index.html"
+    },
+    {
+      "source": "/reserve/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.al-munya.com"
+        }
+      ],
+      "destination": "/al-munya/reserve/index.html"
     }
   ]
 }
