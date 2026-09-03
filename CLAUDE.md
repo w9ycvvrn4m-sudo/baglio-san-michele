@@ -103,6 +103,31 @@ Le immagini del **Baglio** stanno in **`/assets`** (radice di `baglio-git`),
 senza sottocartelle. È la directory condivisa da cui le pagine del Baglio
 prendono foto, loghi e card Open Graph (`og-index.jpg`, `og-*.jpg`, ecc.).
 
+### Parità linguistica di al-uns — deciso il 3 settembre 2026
+
+Il sito del riad vive in **tre** lingue: `al-uns/` francese, `al-uns/en/` inglese,
+`al-uns/ar/` arabo, con lo stesso nome di file in tutte e tre (i nomi restano
+francesi anche in inglese e in arabo).
+
+Le eccezioni qui sotto sono **volute e definitive**. Non vanno colmate, e non
+vanno segnalate come lacune a ogni riletura:
+
+- **`partenaire.html`, `continuite.html`, `merci.html`** — le pagine dei mecenati
+  e degli investitori. Esistono in francese e in arabo, **non in inglese**, e
+  vanno bene così. Sono `noindex` e fuori sitemap: il vuoto non si vede da fuori.
+- **`glossaire.html`** — esiste in francese e in inglese, **non in arabo**. Finché
+  la pagina araba non esiste, `/ar/glossaire.html` non va inserito in sitemap né
+  dichiarato negli `hreflang`.
+
+Per il resto la parità è piena: 59 pagine francesi, 56 inglesi, 58 arabe, e ogni
+altra pagina ha le sue due gemelle. Le pagine arabe sono tradotte davvero, non
+gusci con dentro il francese (verificato sulla quota di caratteri arabi).
+
+Attenzione a un falso allarme ricorrente: dopo una passata di stile sulla prosa
+francese e inglese — la purga del costrutto vietato, per esempio — le pagine
+arabe risultano più vecchie nella cronologia git. Non sono rimaste indietro: in
+arabo quelle correzioni non si pongono.
+
 ---
 
 ## Percorsi delle immagini
