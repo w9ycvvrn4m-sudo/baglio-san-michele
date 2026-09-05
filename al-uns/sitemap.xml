@@ -538,6 +538,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.al-uns.com/soutenir/ce-qui-peut-echouer.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/soutenir/ce-qui-peut-echouer.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.al-uns.com/soutenir/ce-qui-peut-echouer.html"/>
+    <lastmod>2026-09-04T00:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.al-uns.com/vestiario.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://www.al-uns.com/vestiario.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.al-uns.com/en/vestiario.html"/>
